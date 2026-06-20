@@ -10,10 +10,10 @@
                     "Description": "{{i18n:{{ModID}}_SeaTurtle.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 70,
+                    "Price": 100,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 0,
-                    "Edibility": 17,
+                    "Edibility": -20,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
                     "ExcludeFromShippingCollection": true,
@@ -58,7 +58,7 @@
                     "Description": "{{i18n:{{ModID}}_Marlin.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 900,
+                    "Price": 1000,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 2,
                     "Edibility": 65,
@@ -224,7 +224,7 @@
                     "Description": "{{i18n:{{ModID}}_AlaskanKingSalmon.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 250,
+                    "Price": 350,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 9,
                     "Edibility": 52,
@@ -235,7 +235,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "color_silver",
-                        "fish_asf_kingsalmon",
+                        "fish_asf_alaskankingsalmon",
                         "season_fall",
                         "fish_has_roe",
                         "fish_talk_stiff"
@@ -343,7 +343,7 @@
                     "Description": "{{i18n:{{ModID}}_BrownEel.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 90,
+                    "Price": 110,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 14,
                     "Edibility": 12,
@@ -357,7 +357,6 @@
                         "fish_has_roe",
                         "fish_asf_browneel",
                         "season_summer",
-                        "season_fall",
                         "weather_rainy",
                         "fish_talk_stiff"
                     ]
@@ -378,6 +377,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_tropical",
                         "color_green",
                         "fish_asf_mahimahi",
                         "season_summer",
@@ -391,7 +391,7 @@
                     "Description": "{{i18n:{{ModID}}_LeopardStingray.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 120,
+                    "Price": 180,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 16,
                     "Edibility": 28,
@@ -401,6 +401,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_tropical",
                         "color_yellow",
                         "fish_asf_leopardstingray",
                         "season_summer",
@@ -423,6 +424,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_tropical",
                         "color_blue",
                         "fish_has_roe",
                         "fish_asf_ribboneel",
@@ -446,6 +448,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_tropical",
                         "color_green",
                         "fish_has_roe",
                         "fish_asf_greeneel",
@@ -469,6 +472,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_tropical",
                         "color_orange",
                         "fish_has_roe",
                         "fish_asf_orangeeel",
@@ -482,7 +486,7 @@
                     "Description": "{{i18n:{{ModID}}_Hookfin.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 120,
+                    "Price": 140,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 20,
                     "Edibility": -50,
@@ -492,6 +496,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_piratecove",
+                        "fish_tropical",
                         "color_red",
                         "fish_has_roe",
                         "fish_asf_hookfin",
@@ -520,6 +525,7 @@
                         "fish_has_roe",
                         "fish_asf_pacificjellyfish",
                         "season_summer",
+                        "time_night",
                         "fish_talk_demanding"
                     ]
                 },
@@ -544,6 +550,7 @@
                         "fish_has_roe",
                         "fish_asf_flamejellyfish",
                         "season_summer",
+                        "time_night",
                         "fish_talk_demanding"
                     ]
                 },
@@ -736,7 +743,7 @@
                     "Description": "{{i18n:{{ModID}}_AppleSnail.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 70,
+                    "Price": 80,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 31,
                     "Edibility": 5,
@@ -750,6 +757,7 @@
                         "color_yellow",
                         "fish_asf_applesnail",
                         "season_summer",
+                        "time_night",
                         "fish_talk_stiff"
                     ]
                 },
@@ -773,6 +781,7 @@
                         "color_red",
                         "fish_asf_treespidercrab",
                         "season_summer",
+                        "time_night",
                         "fish_talk_stiff"
                     ]
                 },
@@ -782,7 +791,7 @@
                     "Description": "{{i18n:{{ModID}}_Yellowtail.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 80,
+                    "Price": 90,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 33,
                     "Edibility": 35,
@@ -805,7 +814,7 @@
                     "Description": "{{i18n:{{ModID}}_MossyEel.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 150,
+                    "Price": 200,
                     "Texture": "Mods/{{ModID}}/FishSprite",
                     "SpriteIndex": 34,
                     "Edibility": -100,
@@ -845,6 +854,96 @@
                         "fish_talk_demanding",
                         "fish_upright",
                         "fish_legendary"
+                    ]
+                },
+                "ASF_Luckyfin": {
+                    "Name": "{{ModID}}_Luckyfin",
+                    "DisplayName": "{{i18n:{{ModID}}_Luckyfin.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_Luckyfin.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/FishSprite",
+                    "SpriteIndex": 36,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "color_green",
+                        "fish_asf_luckyfin",
+                        "season_spring",
+                        "fish_talk_stiff"
+                    ]
+                },
+                "ASF_WhaleShark": {
+                    "Name": "{{ModID}}_WhaleShark",
+                    "DisplayName": "{{i18n:{{ModID}}_WhaleShark.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_WhaleShark.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 900,
+                    "Texture": "Mods/{{ModID}}/FishSprite",
+                    "SpriteIndex": 37,
+                    "Edibility": 60,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fish_tropical",
+                        "color_blue",
+                        "fish_asf_whaleshark",
+                        "season_summer",
+                        "fish_talk_stiff"
+                    ]
+                },
+                "ASF_Santafish": {
+                    "Name": "{{ModID}}_Santafish",
+                    "DisplayName": "{{i18n:{{ModID}}_Santafish.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_Santafish.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 550,
+                    "Texture": "Mods/{{ModID}}/FishSprite",
+                    "SpriteIndex": 38,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "color_red",
+                        "fish_asf_santafish",
+                        "season_winter",
+                        "fish_talk_stiff"
+                    ]
+                },
+                "ASF_LemonShark": {
+                    "Name": "{{ModID}}_LemonShark",
+                    "DisplayName": "{{i18n:{{ModID}}_LemonShark.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_LemonShark.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 700,
+                    "Texture": "Mods/{{ModID}}/FishSprite",
+                    "SpriteIndex": 39,
+                    "Edibility": 55,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fish_tropical",
+                        "color_yellow",
+                        "fish_asf_lemonshark",
+                        "season_summer",
+                        "fish_talk_stiff"
                     ]
                 }
             }

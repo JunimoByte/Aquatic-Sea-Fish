@@ -1,6 +1,6 @@
 # Aquatic Sea Fish - Developer Guide
 
-Welcome to the development documentation for Aquatic Sea Fish (ASF). This guide is intended for modders who want to understand the project structure, contribute, or add compatibility.
+Welcome to the development documentation for Aquatic Sea Fish (ASF). This guide is intended for modders who want to understand the project structure, contribute, add compatibility, or maintain my mod if I left one day.
 
 ## Project Structure
 
@@ -12,6 +12,7 @@ The mod is organized into the following directories:
     -   `NPCs`: Dialogue and gift taste changes.
     -   `Events`: Quests, mail, and event triggers.
     -   `Sets`: Grouped content like location specific fish or object sets.
+    -   `Other`: Miscellaneous items like artifacts, forage tables, and tailoring recipes.
     -   `Compat`: Compatibility patches for other mods.
 -   **docs**: Documentation files (you are here).
 -   **i18n**: Translation files for localization.

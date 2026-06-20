@@ -56,7 +56,7 @@
                 "{{ModID}}_BrownEel": {
                     "Id": "{{ModID}}_BrownEel",
                     "ItemId": "(O){{ModID}}_BrownEel",
-                    "Condition": "LOCATION_Season Here Summer Fall"
+                    "Condition": "LOCATION_Season Here Summer"
                 },
                 "{{ModID}}_MossyEel": {
                     "Id": "{{ModID}}_MossyEel",
@@ -96,6 +96,16 @@
                 "{{ModID}}_Gingerfin": {
                     "Id": "{{ModID}}_Gingerfin",
                     "ItemId": "(O){{ModID}}_Gingerfin",
+                    "Condition": "LOCATION_Season Here Winter, WEATHER Here Snow"
+                },
+                "{{ModID}}_Luckyfin": {
+                    "Id": "{{ModID}}_Luckyfin",
+                    "ItemId": "(O){{ModID}}_Luckyfin",
+                    "Condition": "LOCATION_Season Here Spring, DAY_OF_MONTH 17, YEAR 2"
+                },
+                "{{ModID}}_Santafish": {
+                    "Id": "{{ModID}}_Santafish",
+                    "ItemId": "(O){{ModID}}_Santafish",
                     "Condition": "LOCATION_Season Here Winter, WEATHER Here Snow"
                 }
             }
@@ -163,6 +173,12 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModID}}_Gingerfin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_Luckyfin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_Santafish": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

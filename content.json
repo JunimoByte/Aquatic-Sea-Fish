@@ -31,6 +31,10 @@
         {
             "Action": "Include",
             "FromFile": "code/Compat/index.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Other/artifacts.json, code/Other/tailoring.json, code/Other/forage.json"
         }
     ]
 }

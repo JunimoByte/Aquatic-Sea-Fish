@@ -4,12 +4,12 @@
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [
-                "Sivarior.SunriseApartments_NewBeach",
+                "Custom_Walk_To_Ginger_Island",
                 "Fish"
             ],
             "Entries": {
-                "{{ModId}}_SunriseApartments_Fish": {
-                    "Id": "{{ModId}}_SunriseApartments_Fish",
+                "{{ModId}}_WalkToGingerIsland_Fish": {
+                    "Id": "{{ModId}}_WalkToGingerIsland_Fish",
                     "ItemId": "LOCATION_FISH IslandSouth BOBBER_X BOBBER_Y WATER_DEPTH"
                 }
             }

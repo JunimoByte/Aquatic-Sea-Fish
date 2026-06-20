@@ -132,6 +132,14 @@
             }
         },
         {
+            "Priority": "Late",
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/WalkToGingerIsland/compat.json",
+            "When": {
+                "HasMod": "HC.WalkToGingerIsland"
+            }
+        },
+        {
             "Action": "Include",
             "FromFile": "code/Compat/Mods/TillyTea/Data/prune.json"
         },

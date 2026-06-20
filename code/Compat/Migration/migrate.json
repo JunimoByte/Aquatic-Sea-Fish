@@ -425,7 +425,7 @@
                     "MarkActionApplied": false,
                     "Actions": [
                         "RemoveMail Current ASF_QuestWillyTreasureUnderTheWavesLetter received",
-                        "AddMail Current {{ModID}}_QuestWillyPirateCovePredatorLetter received"
+                        "AddMail Current {{ModID}}_QuestWillyTreasureChestLetter received"
                     ]
                 }
             }
@@ -444,7 +444,7 @@
                     "MarkActionApplied": false,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTreasureUnderTheWaves",
-                        "AddQuest {{ModID}}_QuestWillyPirateCovePredator"
+                        "AddQuest {{ModID}}_QuestWillyTreasureChest"
                     ]
                 }
             }
@@ -461,7 +461,7 @@
                     "MarkActionApplied": false,
                     "Actions": [
                         "RemoveMail Current ASF_QuestWillyTreasureUnderTheWavesThankYouLetter received",
-                        "AddMail Current {{ModID}}_QuestWillyPirateCovePredatorThankYouLetter received"
+                        "AddMail Current {{ModID}}_QuestWillyTreasureChestThankYouLetter received"
                     ]
                 }
             }
@@ -515,6 +515,59 @@
                     "Actions": [
                         "RemoveMail Current ASF_QuestWillyStrangeColorsThankYouLetter received",
                         "AddMail Current {{ModID}}_QuestWillyDeepSeaCucumberThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyPirateCovePredatorLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_Migrate_ASF_QuestWillyPirateCovePredatorLetter": {
+                    "Id": "{{ModID}}_Migrate_ASF_QuestWillyPirateCovePredatorLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyPirateCovePredatorLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyPirateCovePredatorLetter received",
+                        "AddMail Current {{ModID}}_QuestWillyTreasureChestLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyPirateCovePredator",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyPirateCovePredator": "true"
+            },
+            "Entries": {
+                "{{ModID}}_Migrate_ASF_QuestWillyPirateCovePredator": {
+                    "Id": "{{ModID}}_Migrate_ASF_QuestWillyPirateCovePredator",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyPirateCovePredator",
+                        "AddQuest {{ModID}}_QuestWillyTreasureChest"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyPirateCovePredatorThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_Migrate_ASF_QuestWillyPirateCovePredatorThankYouLetter": {
+                    "Id": "{{ModID}}_Migrate_ASF_QuestWillyPirateCovePredatorThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyPirateCovePredatorThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyPirateCovePredatorThankYouLetter received",
+                        "AddMail Current {{ModID}}_QuestWillyTreasureChestThankYouLetter received"
                     ]
                 }
             }

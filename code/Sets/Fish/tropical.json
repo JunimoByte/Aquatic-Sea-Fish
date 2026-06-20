@@ -74,6 +74,16 @@
                     "Condition": "LOCATION_Season Here Summer",
                     "CatchLimit": 1,
                     "IsBossFish": true
+                },
+                "{{ModID}}_WhaleShark": {
+                    "Id": "{{ModID}}_WhaleShark",
+                    "ItemId": "(O){{ModID}}_WhaleShark",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_LemonShark": {
+                    "Id": "{{ModID}}_LemonShark",
+                    "ItemId": "(O){{ModID}}_LemonShark",
+                    "Condition": "LOCATION_Season Here Summer"
                 }
             }
         },
@@ -125,6 +135,12 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModID}}_HumpheadWrasse": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_WhaleShark": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_LemonShark": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

@@ -1,11 +1,17 @@
 {
     "Changes": [
         {
-            "Action": "Include",
-            "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
-            "LocalTokens": {
-                "TargetName": "Rexstrife20.MineralTownCP_MineralBeach",
-                "AreaId": "<null>"
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Rexstrife20.MineralTownCP_MineralBeach",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_RTMT_Fish": {
+                    "Id": "{{ModId}}_RTMT_Fish",
+                    "ItemId": "LOCATION_FISH IslandSouth BOBBER_X BOBBER_Y WATER_DEPTH"
+                }
             }
         }
     ]

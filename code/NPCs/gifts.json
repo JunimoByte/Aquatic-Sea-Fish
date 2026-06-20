@@ -38,14 +38,19 @@
                 "AcceptGift_(O){{ModId}}_AppleSnail": "{{i18n: {{ModId}}_GiftWillyAppleSnail}}",
                 "AcceptGift_(O){{ModId}}_TreeSpiderCrab": "{{i18n: {{ModId}}_GiftWillyTreeSpiderCrab}}",
                 "AcceptGift_(O){{ModId}}_Yellowtail": "{{i18n: {{ModId}}_GiftWillyYellowtail}}",
+                "AcceptGift_(O){{ModId}}_MossyEel": "{{i18n: {{ModId}}_GiftWillyMossyEel}}",
+                "AcceptGift_(O){{ModId}}_HumpheadWrasse": "{{i18n: {{ModId}}_GiftWillyHumpheadWrasse}}",
+                "AcceptGift_(O){{ModId}}_Luckyfin": "{{i18n: {{ModId}}_GiftWillyLuckyfin}}",
+                "AcceptGift_(O){{ModId}}_WhaleShark": "{{i18n: {{ModId}}_GiftWillyWhaleShark}}",
+                "AcceptGift_(O){{ModId}}_Santafish": "{{i18n: {{ModId}}_GiftWillySantafish}}",
+                "AcceptGift_(O){{ModId}}_LemonShark": "{{i18n: {{ModId}}_GiftWillyLemonShark}}",
                 "AcceptGift_(O){{ModId}}_MermaidPearl": "{{i18n: {{ModId}}_GiftWillyMermaidPearl}}",
                 "AcceptGift_(O){{ModId}}_MermaidTear": "{{i18n: {{ModId}}_GiftWillyMermaidTear}}",
                 "AcceptGift_(O){{ModId}}_RedCoral": "{{i18n: {{ModId}}_GiftWillyRedCoral}}",
                 "AcceptGift_(O){{ModId}}_AncientShell": "{{i18n: {{ModId}}_GiftWillyAncientShell}}",
                 "AcceptGift_(O){{ModId}}_PiratesDoubloon": "{{i18n: {{ModId}}_GiftWillyPiratesDoubloon}}",
                 "AcceptGift_(O){{ModId}}_LunarPearl": "{{i18n: {{ModId}}_GiftWillyLunarPearl}}",
-                "AcceptGift_(O){{ModId}}_MossyEel": "{{i18n: {{ModId}}_GiftWillyMossyEel}}",
-                "AcceptGift_(O){{ModId}}_HumpheadWrasse": "{{i18n: {{ModId}}_GiftWillyHumpheadWrasse}}"
+                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n: {{ModId}}_GiftWillyRubberDuck}}"
             }
         },
         {
@@ -59,7 +64,7 @@
                         "Willy",
                         1
                     ],
-                    "Value": "{{ModId}}_Pufferjelly {{ModId}}_Gingerfin {{ModId}}_JackOFish {{ModId}}_Broombell {{ModId}}_SeaTurtle {{ModId}}_Marlin {{ModId}}_MahiMahi {{ModId}}_HammerheadShark {{ModId}}_AlaskanKingSalmon {{ModId}}_MermaidPearl {{ModId}}_MermaidTear {{ModId}}_LunarPearl {{ModId}}_PiratesDoubloon {{ModId}}_Hookfin {{ModId}}_HumpheadWrasse",
+                    "Value": "(O){{ModId}}_LemonShark (O){{ModId}}_Santafish (O){{ModId}}_WhaleShark (O){{ModId}}_Luckyfin (O){{ModId}}_WhaleShark (O){{ModId}}_Pufferjelly (O){{ModId}}_Gingerfin (O){{ModId}}_JackOFish (O){{ModId}}_Broombell (O){{ModId}}_SeaTurtle {{ModId}}_Marlin (O){{ModId}}_MahiMahi (O){{ModId}}_HammerheadShark (O){{ModId}}_AlaskanKingSalmon (O){{ModId}}_MermaidPearl (O){{ModId}}_MermaidTear (O){{ModId}}_LunarPearl (O){{ModId}}_PiratesDoubloon (O){{ModId}}_Hookfin (O){{ModId}}_HumpheadWrasse (O){{ModId}}_RubberDuck",
                     "Delimiter": " "
                 },
                 {
@@ -69,7 +74,7 @@
                         "Willy",
                         3
                     ],
-                    "Value": "{{ModId}}_Yellowtail {{ModId}}_TreeSpiderCrab {{ModId}}_AppleSnail {{ModId}}_Redpuff {{ModId}}_Jollyfin {{ModId}}_Sprucefin {{ModId}}_Ghoulgill {{ModId}}_GardenSnail {{ModId}}_RedRockCrab {{ModId}}_HermitCrab {{ModId}}_PinkHermitCrab {{ModId}}_OrangeStarfish {{ModId}}_Scallop {{ModId}}_LeopardStingray {{ModId}}_AncientShell {{ModId}}_MossyEel",
+                    "Value": "(O){{ModId}}_Yellowtail (O){{ModId}}_TreeSpiderCrab (O){{ModId}}_AppleSnail (O){{ModId}}_Redpuff (O){{ModId}}_Jollyfin (O){{ModId}}_Sprucefin (O){{ModId}}_Ghoulgill (O){{ModId}}_GardenSnail (O){{ModId}}_RedRockCrab (O){{ModId}}_HermitCrab (O){{ModId}}_PinkHermitCrab (O){{ModId}}_OrangeStarfish (O){{ModId}}_Scallop (O){{ModId}}_LeopardStingray (O){{ModId}}_AncientShell (O){{ModId}}_MossyEel",
                     "Delimiter": " "
                 },
                 {
@@ -79,7 +84,7 @@
                         "Willy",
                         5
                     ],
-                    "Value": "{{ModId}}_PacificJellyfish {{ModId}}_PinkJellyfish {{ModId}}_BlueJellyfish {{ModId}}_FlameJellyfish",
+                    "Value": "(O){{ModId}}_PacificJellyfish (O){{ModId}}_PinkJellyfish (O){{ModId}}_BlueJellyfish (O){{ModId}}_FlameJellyfish",
                     "Delimiter": " "
                 },
                 {
@@ -89,7 +94,7 @@
                         "Willy",
                         7
                     ],
-                    "Value": "{{ModId}}_BlueSpottedOctopus {{ModId}}_Spooktopus {{ModId}}_RibbonEel {{ModId}}_GreenEel {{ModId}}_OrangeEel",
+                    "Value": "(O){{ModId}}_BlueSpottedOctopus (O){{ModId}}_Spooktopus (O){{ModId}}_RibbonEel (O){{ModId}}_GreenEel (O){{ModId}}_OrangeEel",
                     "Delimiter": " "
                 },
                 {
@@ -99,7 +104,7 @@
                         "Willy",
                         9
                     ],
-                    "Value": "{{ModId}}_RedCoral",
+                    "Value": "(O){{ModId}}_RedCoral",
                     "Delimiter": " "
                 },
                 {
@@ -109,7 +114,7 @@
                         "Wizard",
                         1
                     ],
-                    "Value": "{{ModId}}_Pufferjelly {{ModId}}_BlueSpottedOctopus {{ModId}}_Spooktopus",
+                    "Value": "(O){{ModId}}_Pufferjelly (O){{ModId}}_BlueSpottedOctopus (O){{ModId}}_Spooktopus",
                     "Delimiter": " "
                 },
                 {
@@ -119,7 +124,7 @@
                         "Sandy",
                         1
                     ],
-                    "Value": "{{ModId}}_Pufferjelly {{ModId}}_BlueSpottedOctopus {{ModId}}_Spooktopus {{ModId}}_PiratesDoubloon",
+                    "Value": "(O){{ModId}}_Pufferjelly (O){{ModId}}_BlueSpottedOctopus (O){{ModId}}_Spooktopus (O){{ModId}}_PiratesDoubloon",
                     "Delimiter": " "
                 },
                 {
@@ -129,7 +134,7 @@
                         "Krobus",
                         1
                     ],
-                    "Value": "{{ModId}}_Pufferjelly {{ModId}}_BlueSpottedOctopus {{ModId}}_Spooktopus {{ModId}}_PinkJellyfish {{ModId}}_BlueJellyfish {{ModId}}_PacificJellyfish {{ModId}}_FlameJellyfish",
+                    "Value": "(O){{ModId}}_Pufferjelly (O){{ModId}}_BlueSpottedOctopus (O){{ModId}}_PinkJellyfish (O){{ModId}}_BlueJellyfish (O){{ModId}}_PacificJellyfish (O){{ModId}}_FlameJellyfish",
                     "Delimiter": " "
                 },
                 {
@@ -139,7 +144,7 @@
                         "Abigail",
                         7
                     ],
-                    "Value": "{{ModId}}_AncientShell",
+                    "Value": "(O){{ModId}}_AncientShell",
                     "Delimiter": " "
                 },
                 {
@@ -149,7 +154,7 @@
                         "Emily",
                         7
                     ],
-                    "Value": "{{ModId}}_AncientShell",
+                    "Value": "(O){{ModId}}_AncientShell",
                     "Delimiter": " "
                 },
                 {
@@ -159,7 +164,7 @@
                         "Haley",
                         7
                     ],
-                    "Value": "{{ModId}}_AncientShell",
+                    "Value": "(O){{ModId}}_AncientShell",
                     "Delimiter": " "
                 },
                 {
@@ -169,7 +174,7 @@
                         "Maru",
                         7
                     ],
-                    "Value": "{{ModId}}_AncientShell",
+                    "Value": "(O){{ModId}}_AncientShell",
                     "Delimiter": " "
                 },
                 {
@@ -179,7 +184,7 @@
                         "Penny",
                         7
                     ],
-                    "Value": "{{ModId}}_AncientShell",
+                    "Value": "(O){{ModId}}_AncientShell",
                     "Delimiter": " "
                 },
                 {
@@ -189,7 +194,7 @@
                         "Sandy",
                         7
                     ],
-                    "Value": "{{ModId}}_AncientShell",
+                    "Value": "(O){{ModId}}_WhaleShark (O){{ModId}}_AncientShell",
                     "Delimiter": " "
                 },
                 {
@@ -199,7 +204,7 @@
                         "Leah",
                         7
                     ],
-                    "Value": "{{ModId}}_AncientShell",
+                    "Value": "(O){{ModId}}_AncientShell",
                     "Delimiter": " "
                 },
                 {
@@ -208,7 +213,7 @@
                         "Entries",
                         "Universal_Love"
                     ],
-                    "Value": "{{ModId}}_MermaidPearl {{ModId}}_MermaidTear {{ModId}}_LunarPearl",
+                    "Value": "(O){{ModId}}_MermaidPearl (O){{ModId}}_MermaidTear (O){{ModId}}_LunarPearl",
                     "Delimiter": " "
                 },
                 {
@@ -217,7 +222,7 @@
                         "Entries",
                         "Universal_Like"
                     ],
-                    "Value": "{{ModId}}_Gingerfin",
+                    "Value": "(O){{ModId}}_Gingerfin",
                     "Delimiter": " "
                 },
                 {
@@ -226,7 +231,7 @@
                         "Entries",
                         "Universal_Hate"
                     ],
-                    "Value": "{{ModId}}_Spooktopus",
+                    "Value": "(O){{ModId}}_Spooktopus",
                     "Delimiter": " "
                 }
             ]

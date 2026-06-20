@@ -14,35 +14,35 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.35,
-                            "ItemID": "372", // Clam
+                            "ItemID": "(O)372", // Clam
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "397", // Sea Urchin
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "394", // Rainbow Shell
+                            "ItemID": "(O)394", // Rainbow Shell
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 8,
                             "Chance": 0.02,
-                            "ItemID": "797", // Pearl
+                            "ItemID": "(O)797", // Pearl
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -69,35 +69,35 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.35,
-                            "ItemID": "397", // Sea Urchin
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 5
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.30,
-                            "ItemID": "62", // Aquamarine
+                            "ItemID": "(O)62", // Aquamarine
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.20,
-                            "ItemID": "797", // Pearl
+                            "ItemID": "(O)797", // Pearl
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.1,
-                            "ItemID": "72", // Diamond
+                            "ItemID": "(O)72", // Diamond
                             "MinQuantity": 2,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "166", // Treasure Chest
+                            "ItemID": "(O)166", // Treasure Chest
                             "MinQuantity": 2,
                             "MaxQuantity": 3
                         }
@@ -115,7 +115,13 @@
                         "7": [
                             "(O)265 1" // Seafoam Pudding ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Marlin_WaterColor",
+                            "Color": "#003080"
+                        }
+                    ]
                 },
                 "{{ModID}}_BlueSpottedOctopus": {
                     "Id": "id_(O){{ModID}}_BlueSpottedOctopus",
@@ -127,28 +133,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.6,
-                            "ItemID": "157", // White Algae
+                            "ItemID": "(O)157", // White Algae
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "392", // Nautilus Shell
+                            "ItemID": "(O)392", // Nautilus Shell
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "257", // Dried Starfish
+                            "ItemID": "(O)257", // Dried Starfish
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 8,
                             "Chance": 0.1,
-                            "ItemID": "265", // Seafoam Pudding
+                            "ItemID": "(O)265", // Seafoam Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -163,7 +169,13 @@
                         "9": [
                             "(O)797 1" // Pearl ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_BlueSpottedOctopus_WaterColor",
+                            "Color": "#1464C8"
+                        }
+                    ]
                 },
                 "{{ModID}}_GardenSnail": {
                     "Id": "id_(O){{ModID}}_GardenSnail",
@@ -175,21 +187,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.45,
-                            "ItemID": "152", // Seaweed
+                            "ItemID": "(O)152", // Seaweed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "397", // Sea Urchin
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -213,21 +225,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.6,
-                            "ItemID": "152", // Seaweed
+                            "ItemID": "(O)152", // Seaweed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.20,
-                            "ItemID": "286", // Cherry Bomb
+                            "ItemID": "(O)286", // Cherry Bomb
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.10,
-                            "ItemID": "394", // Rainbow Shell
+                            "ItemID": "(O)394", // Rainbow Shell
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -251,14 +263,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "152", // Seaweed
+                            "ItemID": "(O)152", // Seaweed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.5,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -282,14 +294,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "152", // Seaweed
+                            "ItemID": "(O)152", // Seaweed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.5,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -313,21 +325,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "157", // White Algae
+                            "ItemID": "(O)157", // White Algae
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "372", // Clam
+                            "ItemID": "(O)372", // Clam
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -351,14 +363,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.7,
-                            "ItemID": "152", // Seaweed
+                            "ItemID": "(O)152", // Seaweed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.3,
-                            "ItemID": "372", // Clam
+                            "ItemID": "(O)372", // Clam
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -382,14 +394,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.9,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 8,
                             "Chance": 0.05,
-                            "ItemID": "62", // Aquamarine
+                            "ItemID": "(O)62", // Aquamarine
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -416,28 +428,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.35,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 5
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.30,
-                            "ItemID": "397", // Sea Urchin
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.10,
-                            "ItemID": "66", // Amethyst
+                            "ItemID": "(O)66", // Amethyst
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.09,
-                            "ItemID": "72", // Diamond
+                            "ItemID": "(O)72", // Diamond
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -452,7 +464,13 @@
                         "5": [
                             "(O)72 2" // Diamond ×2
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Spooktopus_WaterColor",
+                            "Color": "#1A1A1A"
+                        }
+                    ]
                 },
                 "{{ModID}}_PinkJellyfish": {
                     "Id": "id_(O){{ModID}}_PinkJellyfish",
@@ -464,21 +482,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.8,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.15,
-                            "ItemID": "768", // Solar Essence
+                            "ItemID": "(O)768", // Solar Essence
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "221", // Pink Cake
+                            "ItemID": "(O)221", // Pink Cake
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -490,7 +508,13 @@
                         "7": [
                             "(O)768 1" // Solar Essence ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_PinkJellyfish_WaterColor",
+                            "Color": "#FF69B4"
+                        }
+                    ]
                 },
                 "{{ModID}}_BlueJellyfish": {
                     "Id": "id_(O){{ModID}}_BlueJellyfish",
@@ -502,14 +526,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.8,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.2,
-                            "ItemID": "769", // Void Essence
+                            "ItemID": "(O)769", // Void Essence
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -521,7 +545,13 @@
                         "7": [
                             "(O)769 1" // Void Essence ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_BlueJellyfish_WaterColor",
+                            "Color": "#0022CC"
+                        }
+                    ]
                 },
                 "{{ModID}}_BrownEel": {
                     "Id": "id_(O){{ModID}}_BrownEel",
@@ -533,14 +563,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.7,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.3,
-                            "ItemID": "225", // Fried Eel
+                            "ItemID": "(O)225", // Fried Eel
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -564,35 +594,35 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.6,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 5
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.15,
-                            "ItemID": "242", // Dish O' The Sea
+                            "ItemID": "(O)242", // Dish O' The Sea
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.10,
-                            "ItemID": "612", // Cranberry Candy
+                            "ItemID": "(O)612", // Cranberry Candy
                             "MinQuantity": 2,
                             "MaxQuantity": 5
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.10,
-                            "ItemID": "797", // Pearl
+                            "ItemID": "(O)797", // Pearl
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "279", // Magic Rock Candy
+                            "ItemID": "(O)279", // Magic Rock Candy
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -607,7 +637,13 @@
                         "5": [
                             "(O)74 1" // Prismatic Shard ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_HammerheadShark_WaterColor",
+                            "Color": "#005858"
+                        }
+                    ]
                 },
                 "{{ModID}}_MahiMahi": {
                     "Id": "id_(O){{ModID}}_MahiMahi",
@@ -619,42 +655,42 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.45,
-                            "ItemID": "372", // Clam
+                            "ItemID": "(O)372", // Clam
                             "MinQuantity": 1,
                             "MaxQuantity": 5
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.15,
-                            "ItemID": "797", // Pearl
+                            "ItemID": "(O)797", // Pearl
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.10,
-                            "ItemID": "904", // Banana Pudding
+                            "ItemID": "(O)904", // Banana Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.10,
-                            "ItemID": "733", // Shrimp Cocktail
+                            "ItemID": "(O)733", // Shrimp Cocktail
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.10,
-                            "ItemID": "873", // Pina Colada
+                            "ItemID": "(O)873", // Pina Colada
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.10,
-                            "ItemID": "69", // Banana Sapling
+                            "ItemID": "(O)69", // Banana Sapling
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -669,7 +705,13 @@
                         "9": [
                             "(O)74 1" // Prismatic Shard ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_MahiMahi_WaterColor",
+                            "Color": "#00A86B"
+                        }
+                    ]
                 },
                 "{{ModID}}_LeopardStingray": {
                     "Id": "id_(O){{ModID}}_LeopardStingray",
@@ -681,14 +723,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.5,
-                            "ItemID": "372", // Clam
+                            "ItemID": "(O)372", // Clam
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         }
@@ -712,14 +754,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.85,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.15,
-                            "ItemID": "60", // Emerald
+                            "ItemID": "(O)60", // Emerald
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -731,7 +773,13 @@
                         "7": [
                             "(O)60 1" // Emerald ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_RibbonEel_WaterColor",
+                            "Color": "#00B4D8"
+                        }
+                    ]
                 },
                 "{{ModID}}_GreenEel": {
                     "Id": "id_(O){{ModID}}_GreenEel",
@@ -743,21 +791,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.85,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.1,
-                            "ItemID": "769", // Void Essence
+                            "ItemID": "(O)769", // Void Essence
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "62", // Aquamarine
+                            "ItemID": "(O)62", // Aquamarine
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -781,21 +829,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.85,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.1,
-                            "ItemID": "768", // Solar Essence
+                            "ItemID": "(O)768", // Solar Essence
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "66", // Amethyst
+                            "ItemID": "(O)66", // Amethyst
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -819,21 +867,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.95,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.025,
-                            "ItemID": "166", // Treasure Chest
+                            "ItemID": "(O)166", // Treasure Chest
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.025,
-                            "ItemID": "797", // Pearl
+                            "ItemID": "(O)797", // Pearl
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -845,7 +893,13 @@
                         "5": [
                             "(O)372 1" // Clam ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Hookfin_WaterColor",
+                            "Color": "#3D2B1F"
+                        }
+                    ]
                 },
                 "{{ModID}}_PacificJellyfish": {
                     "Id": "id_(O){{ModID}}_PacificJellyfish",
@@ -857,14 +911,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.9,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 7,
                             "Chance": 0.1,
-                            "ItemID": "64", // Ruby
+                            "ItemID": "(O)64", // Ruby
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -876,7 +930,13 @@
                         "7": [
                             "(O)64 1" // Ruby ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_PacificJellyfish_WaterColor",
+                            "Color": "#B20020"
+                        }
+                    ]
                 },
                 "{{ModID}}_FlameJellyfish": {
                     "Id": "id_(O){{ModID}}_FlameJellyfish",
@@ -888,14 +948,14 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.9,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 7,
                             "Chance": 0.1,
-                            "ItemID": "68", // Topaz
+                            "ItemID": "(O)68", // Topaz
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -907,7 +967,13 @@
                         "7": [
                             "(O)68 1" // Topaz ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_FlameJellyfish_WaterColor",
+                            "Color": "#FF4500"
+                        }
+                    ]
                 },
                 "{{ModID}}_Ghoulgill": {
                     "Id": "id_(O){{ModID}}_Ghoulgill",
@@ -919,28 +985,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.65,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.15,
-                            "ItemID": "Moss", // Moss
+                            "ItemID": "(O)Moss", // Moss
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.10,
-                            "ItemID": "60", // Emerald
+                            "ItemID": "(O)60", // Emerald
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "MossySeed", // Mossy Seed
+                            "ItemID": "(O)MossySeed", // Mossy Seed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -955,7 +1021,13 @@
                         "8": [
                             "(O)60 1" // Emerald ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Ghoulgill_WaterColor",
+                            "Color": "#C0C0D0"
+                        }
+                    ]
                 },
                 "{{ModID}}_Broombell": {
                     "Id": "id_(O){{ModID}}_Broombell",
@@ -967,35 +1039,35 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "397", // Sea Urchin
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 4,
                             "Chance": 0.1,
-                            "ItemID": "609", // Radish Salad
+                            "ItemID": "(O)609", // Radish Salad
                             "MinQuantity": 2,
                             "MaxQuantity": 4
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.1,
-                            "ItemID": "604", // Plum Pudding
+                            "ItemID": "(O)604", // Plum Pudding
                             "MinQuantity": 2,
                             "MaxQuantity": 4
                         },
                         {
                             "RequiredPopulation": 8,
                             "Chance": 0.1,
-                            "ItemID": "611", // Blackberry Cobbler
+                            "ItemID": "(O)611", // Blackberry Cobbler
                             "MinQuantity": 2,
                             "MaxQuantity": 4
                         }
@@ -1010,7 +1082,13 @@
                         "8": [
                             "(O)611 1" // Blackberry Cobbler ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Broombell_WaterColor",
+                            "Color": "#6A0DAD"
+                        }
+                    ]
                 },
                 "{{ModID}}_JackOFish": {
                     "Id": "id_(O){{ModID}}_JackOFish",
@@ -1022,49 +1100,49 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.3,
-                            "ItemID": "236", // Pumpkin Soup
+                            "ItemID": "(O)236", // Pumpkin Soup
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "235", // Autumn's Bounty
+                            "ItemID": "(O)235", // Autumn's Bounty
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "608", // Pumpkin Pie
+                            "ItemID": "(O)608", // Pumpkin Pie
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.1,
-                            "ItemID": "604", // Plum Pudding
+                            "ItemID": "(O)604", // Plum Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.1,
-                            "ItemID": "237", // Super Meal
+                            "ItemID": "(O)237", // Super Meal
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 8,
                             "Chance": 0.08,
-                            "ItemID": "611", // Blackberry Cobbler
+                            "ItemID": "(O)611", // Blackberry Cobbler
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 8,
                             "Chance": 0.02,
-                            "ItemID": "373", // Golden Pumpkin
+                            "ItemID": "(O)373", // Golden Pumpkin
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -1079,7 +1157,13 @@
                         "8": [
                             "(O)608 1" // Pumpkin Pie ×1
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_JackOFish_WaterColor",
+                            "Color": "#C84B00"
+                        }
+                    ]
                 },
                 "{{ModID}}_Sprucefin": {
                     "Id": "id_(O){{ModID}}_Sprucefin",
@@ -1091,28 +1175,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "397", // Sea Urchin
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.3,
-                            "ItemID": "412", // Winter Root
+                            "ItemID": "(O)412", // Winter Root
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 4,
                             "Chance": 0.1,
-                            "ItemID": "414", // Crystal Fruit
+                            "ItemID": "(O)414", // Crystal Fruit
                             "MinQuantity": 2,
                             "MaxQuantity": 4
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.1,
-                            "ItemID": "416", // Snow Yam
+                            "ItemID": "(O)416", // Snow Yam
                             "MinQuantity": 2,
                             "MaxQuantity": 4
                         }
@@ -1139,28 +1223,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "397", // Sea Urchin
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.3,
-                            "ItemID": "412", // Winter Root
+                            "ItemID": "(O)412", // Winter Root
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 4,
                             "Chance": 0.1,
-                            "ItemID": "418", // Crocus
+                            "ItemID": "(O)418", // Crocus
                             "MinQuantity": 2,
                             "MaxQuantity": 4
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.1,
-                            "ItemID": "416", // Snow Yam
+                            "ItemID": "(O)416", // Snow Yam
                             "MinQuantity": 2,
                             "MaxQuantity": 4
                         }
@@ -1187,21 +1271,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "414", // Crystal Fruit
+                            "ItemID": "(O)414", // Crystal Fruit
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.45,
-                            "ItemID": "418", // Crocus
+                            "ItemID": "(O)418", // Crocus
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.05,
-                            "ItemID": "417", // Sweet Gem Berry
+                            "ItemID": "(O)417", // Sweet Gem Berry
                             "MinQuantity": 3,
                             "MaxQuantity": 5
                         }
@@ -1228,21 +1312,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.5,
-                            "ItemID": "223", // Cookies
+                            "ItemID": "(O)223", // Cookies
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.4,
-                            "ItemID": "220", // Chocolate Cake
+                            "ItemID": "(O)220", // Chocolate Cake
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.1,
-                            "ItemID": "279", // Magic Rock Candy
+                            "ItemID": "(O)279", // Magic Rock Candy
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -1269,35 +1353,35 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.6,
-                            "ItemID": "253", // Triple Shot Espresso
+                            "ItemID": "(O)253", // Triple Shot Espresso
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.1,
-                            "ItemID": "209", // Carp Surprise
+                            "ItemID": "(O)209", // Carp Surprise
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.1,
-                            "ItemID": "907", // Tropical Curry
+                            "ItemID": "(O)907", // Tropical Curry
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 4,
                             "Chance": 0.1,
-                            "ItemID": "730", // Lobster Bisque
+                            "ItemID": "(O)730", // Lobster Bisque
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 6,
                             "Chance": 0.1,
-                            "ItemID": "265", // Seafoam Pudding
+                            "ItemID": "(O)265", // Seafoam Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -1312,7 +1396,13 @@
                         "7": [
                             "(O)907 3" // Tropical Curry ×3
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Pufferjelly_WaterColor",
+                            "Color": "#FFD700"
+                        }
+                    ]
                 },
                 "{{ModID}}_AppleSnail": {
                     "Id": "id_(O){{ModID}}_AppleSnail",
@@ -1324,28 +1414,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.65,
-                            "ItemID": "152", // Seaweed
+                            "ItemID": "(O)152", // Seaweed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "648", // Coleslaw
+                            "ItemID": "(O)648", // Coleslaw
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "610", // Fruit Salad
+                            "ItemID": "(O)610", // Fruit Salad
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "613", // Apple
+                            "ItemID": "(O)613", // Apple
                             "MinQuantity": 2,
                             "MaxQuantity": 3
                         }
@@ -1369,28 +1459,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.65,
-                            "ItemID": "152", // Seaweed
+                            "ItemID": "(O)152", // Seaweed
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "648", // Coleslaw
+                            "ItemID": "(O)648", // Coleslaw
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "728", // Fish Stew
+                            "ItemID": "(O)728", // Fish Stew
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "732", // Crab Cakes
+                            "ItemID": "(O)732", // Crab Cakes
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -1414,28 +1504,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.65,
-                            "ItemID": "259", // Fiddlehead Fern
+                            "ItemID": "(O)259", // Fiddlehead Fern
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "296", // Salmonberry
+                            "ItemID": "(O)296", // Salmonberry
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "303", // Pale Ale
+                            "ItemID": "(O)303", // Pale Ale
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "275", // Artifact Trove
+                            "ItemID": "(O)275", // Artifact Trove
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -1459,21 +1549,21 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.7,
-                            "ItemID": "153", // Green Algae
+                            "ItemID": "(O)153", // Green Algae
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.25,
-                            "ItemID": "Moss", // Moss
+                            "ItemID": "(O)Moss", // Moss
                             "MinQuantity": 3,
                             "MaxQuantity": 7
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "812", // Roe
+                            "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         }
@@ -1485,7 +1575,13 @@
                         "7": [
                             "(O)Moss 3" // Moss ×3
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_MossyEel_WaterColor",
+                            "Color": "#2D5016"
+                        }
+                    ]
                 },
                 "{{ModID}}_HumpheadWrasse": {
                     "Id": "id_(O){{ModID}}_HumpheadWrasse",
@@ -1497,28 +1593,28 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.45,
-                            "ItemID": "393", // Coral
+                            "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.2,
-                            "ItemID": "242", // Dish O' The Sea
+                            "ItemID": "(O)242", // Dish O' The Sea
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.1,
-                            "ItemID": "213", // Fish Taco
+                            "ItemID": "(O)213", // Fish Taco
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "74", // Prismatic Shard
+                            "ItemID": "(O)74", // Prismatic Shard
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -1533,7 +1629,271 @@
                         "9": [
                             "(O)233 2" // Ice Cream ×2
                         ]
-                    }
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_HumpheadWrasse_WaterColor",
+                            "Color": "#007B8A"
+                        }
+                    ]
+                },
+                "{{ModID}}_Luckyfin": {
+                    "Id": "id_(O){{ModID}}_Luckyfin",
+                    "RequiredTags": [
+                        "id_(O){{ModID}}_Luckyfin"
+                    ],
+                    "SpawnTime": 4,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.3,
+                            "ItemID": "(O)152", // Seaweed
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.25,
+                            "ItemID": "(O)903", // Ginger Ale
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.2,
+                            "ItemID": "(O)243", // Miner's Treat
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.2,
+                            "ItemID": "(O)815", // Tea Leaves
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.05,
+                            "ItemID": "(O)279", // Magic Rock Candy
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)152 1" // Seaweed ×1
+                        ],
+                        "6": [
+                            "(O)60 1" // Emerald ×1
+                        ],
+                        "8": [
+                            "(O)243 1" // Miner's Treat ×1
+                        ]
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Luckyfin_WaterColor",
+                            "Color": "#228B22"
+                        }
+                    ]
+                },
+                "{{ModID}}_WhaleShark": {
+                    "Id": "id_(O){{ModID}}_WhaleShark",
+                    "RequiredTags": [
+                        "id_(O){{ModID}}_WhaleShark"
+                    ],
+                    "SpawnTime": 7,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.35,
+                            "ItemID": "(O)237", // Super Meal
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.2,
+                            "ItemID": "(O)212", // Salmon Dinner
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.1,
+                            "ItemID": "(O)904", // Banana Pudding
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.1,
+                            "ItemID": "(O)733", // Shrimp Cocktail
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.1,
+                            "ItemID": "(O)873", // Pina Colada
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.05,
+                            "ItemID": "(O)417", // Sweet Gem Berry
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.05,
+                            "ItemID": "(O)797", // Pearl
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.05,
+                            "ItemID": "(O)856", // Curiosity Lure
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)88 3" // Coconut ×3
+                        ],
+                        "6": [
+                            "(O)91 5" // Banana ×5
+                        ],
+                        "8": [
+                            "(O)834 5" // Mango ×5
+                        ]
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_WhaleShark_WaterColor",
+                            "Color": "#00558A"
+                        }
+                    ]
+                },
+                "{{ModID}}_Santafish": {
+                    "Id": "id_(O){{ModID}}_Santafish",
+                    "RequiredTags": [
+                        "id_(O){{ModID}}_Santafish"
+                    ],
+                    "SpawnTime": 7,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.35,
+                            "ItemID": "(O)283", // Holly
+                            "MinQuantity": 2,
+                            "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.3,
+                            "ItemID": "(O)612", // Cranberry Candy
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.2,
+                            "ItemID": "(O)238", // Cranberry Sauce
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.1,
+                            "ItemID": "(O)611", // Blackberry Cobbler
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.05,
+                            "ItemID": "(F)1440", // Tree of the Winter Star
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)283 3" // Holly ×3
+                        ],
+                        "6": [
+                            "(O)412 5" // Winter Root ×5
+                        ],
+                        "8": [
+                            "(O)414 5" // Crystal Fruit ×5
+                        ]
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_Santafish_WaterColor",
+                            "Color": "#D21404"
+                        }
+                    ]
+                },
+                "{{ModID}}_LemonShark": {
+                    "Id": "id_(O){{ModID}}_LemonShark",
+                    "RequiredTags": [
+                        "id_(O){{ModID}}_LemonShark"
+                    ],
+                    "SpawnTime": 6,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.35,
+                            "ItemID": "(O)635", // Orange
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.35,
+                            "ItemID": "(O)832", // Pineapple
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.2,
+                            "ItemID": "(O)904", // Banana Pudding
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.1,
+                            "ItemID": "(O)876", // Prismatic Jelly
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)635 3" // Orange ×3
+                        ],
+                        "6": [
+                            "(O)832 3" // Pineapple ×3
+                        ],
+                        "8": [
+                            "(O)268 1" // Starfruit ×1
+                        ]
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModID}}_LemonShark_WaterColor",
+                            "Color": "#FFD700"
+                        }
+                    ]
                 }
             }
         }

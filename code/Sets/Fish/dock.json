@@ -32,11 +32,6 @@
                     "Id": "{{ModID}}_Scallop",
                     "ItemId": "(O){{ModID}}_Scallop",
                     "Condition": "LOCATION_Season Here Spring Summer Fall"
-                },
-                "{{ModID}}_RedCoral": {
-                    "Id": "{{ModID}}_RedCoral",
-                    "ItemId": "(O){{ModID}}_RedCoral",
-                    "Condition": "LOCATION_Season Here Summer Fall"
                 }
             }
         },
@@ -64,9 +59,6 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModID}}_Scallop": {
-                    "FishAreaId": "{{AreaId}}"
-                },
-                "{{ModID}}_RedCoral": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

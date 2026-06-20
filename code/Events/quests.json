@@ -26,7 +26,7 @@
                 "{{ModID}}_QuestWillyWhisperOfTheRain": "{{i18n:{{ModID}}_QuestWillyWhisperOfTheRain}}",
                 "{{ModID}}_QuestWillyFlashOfGold": "{{i18n:{{ModID}}_QuestWillyFlashOfGold}}",
                 "{{ModID}}_QuestWillyStormyHunt": "{{i18n:{{ModID}}_QuestWillyStormyHunt}}",
-                "{{ModID}}_QuestWillyPirateCovePredator": "{{i18n:{{ModID}}_QuestWillyPirateCovePredator}}",
+                "{{ModID}}_QuestWillyTreasureChest": "{{i18n:{{ModID}}_QuestWillyTreasureChest}}",
                 "{{ModID}}_QuestWillyDeepSeaCucumber": "{{i18n:{{ModID}}_QuestWillyDeepSeaCucumber}}",
                 "{{ModID}}_QuestEvelynGeorgeFavorite": "{{i18n:{{ModID}}_QuestEvelynGeorgeFavorite}}",
                 "{{ModID}}_QuestEvelynMahiMahi": "{{i18n:{{ModID}}_QuestEvelynMahiMahi}}",
@@ -56,7 +56,10 @@
                 "{{ModID}}_QuestSandyDesertTide": "{{i18n:{{ModID}}_QuestSandyDesertTide}}",
                 "{{ModID}}_QuestMaruBioticCircuit": "{{i18n:{{ModID}}_QuestMaruBioticCircuit}}",
                 "{{ModID}}_QuestSebastianReferenceMaterial": "{{i18n:{{ModID}}_QuestSebastianReferenceMaterial}}",
-                "{{ModID}}_QuestGusChefSpecial": "{{i18n:{{ModID}}_QuestGusChefSpecial}}"
+                "{{ModID}}_QuestGusChefSpecial": "{{i18n:{{ModID}}_QuestGusChefSpecial}}",
+                "{{ModID}}_QuestKrobusGhostShip": "{{i18n:{{ModID}}_QuestKrobusGhostShip}}",
+                "{{ModID}}_QuestKrobusGhostShipII": "{{i18n:{{ModID}}_QuestKrobusGhostShipII}}",
+                "{{ModID}}_QuestKrobusGhostShipIII": "{{i18n:{{ModID}}_QuestKrobusGhostShipIII}}"
             }
         }
     ]

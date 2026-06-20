@@ -1,11 +1,17 @@
 {
     "Changes": [
         {
-            "Action": "Include",
-            "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
-            "LocalTokens": {
-                "TargetName": "8BitAlien.Lilybrook_LilybrookBeach",
-                "AreaId": "<null>"
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "8BitAlien.Lilybrook_LilybrookBeach",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_Lilybrook_Fish": {
+                    "Id": "{{ModId}}_Lilybrook_Fish",
+                    "ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH"
+                }
             }
         }
     ]

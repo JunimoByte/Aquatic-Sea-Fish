@@ -1,0 +1,60 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Beach",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModID}}_RedCoral": {
+                    "Id": "{{ModID}}_RedCoral",
+                    "ItemId": "(O){{ModID}}_RedCoral",
+                    "Condition": "LOCATION_Season Here Summer",
+                    "Chance": 0.1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandWest",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModID}}_AncientShell": {
+                    "Id": "{{ModID}}_AncientShell",
+                    "ItemId": "(O){{ModID}}_AncientShell",
+                    "Chance": 0.02
+                },
+                "{{ModID}}_PiratesDoubloon": {
+                    "Id": "{{ModID}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                    "Chance": 0.01
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouthEast",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModID}}_AncientShell": {
+                    "Id": "{{ModID}}_AncientShell",
+                    "ItemId": "(O){{ModID}}_AncientShell",
+                    "Chance": 0.02
+                },
+                "{{ModID}}_PiratesDoubloon": {
+                    "Id": "{{ModID}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                    "Chance": 0.01
+                }
+            }
+        }
+    ]
+}

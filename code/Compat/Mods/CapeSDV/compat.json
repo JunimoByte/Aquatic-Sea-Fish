@@ -1,19 +1,31 @@
 {
     "Changes": [
         {
-            "Action": "Include",
-            "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
-            "LocalTokens": {
-                "TargetName": "Custom_CapeStardew",
-                "AreaId": "<null>"
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Custom_CapeStardew",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_CapeSDV_Cape_Fish": {
+                    "Id": "{{ModId}}_CapeSDV_Cape_Fish",
+                    "ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH"
+                }
             }
         },
         {
-            "Action": "Include",
-            "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
-            "LocalTokens": {
-                "TargetName": "Custom_SeaCape",
-                "AreaId": "<null>"
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Custom_SeaCape",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_CapeSDV_SeaCape_Fish": {
+                    "Id": "{{ModId}}_CapeSDV_SeaCape_Fish",
+                    "ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH"
+                }
             }
         }
     ]

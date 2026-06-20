@@ -1,0 +1,192 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TailoringRecipes",
+            "Entries": {
+                "{{ModID}}_PiratesDoubloon_PirateHat": {
+                    "Id": "{{ModID}}_PiratesDoubloon_PirateHat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_PiratesDoubloon"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)76"
+                },
+                "{{ModID}}_AncientShell_Shirt": {
+                    "Id": "{{ModID}}_AncientShell_Shirt",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_AncientShell"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(S)1243"
+                },
+                "{{ModID}}_JackOFish_Hat": {
+                    "Id": "{{ModID}}_JackOFish_Hat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_JackOFish"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)48"
+                },
+                "{{ModID}}_LunarPearl_SquidHat": {
+                    "Id": "{{ModID}}_LunarPearl_SquidHat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_LunarPearl"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)SquidHat"
+                },
+                "{{ModID}}_Hookfin_Hat": {
+                    "Id": "{{ModID}}_Hookfin_Hat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_Hookfin"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)62"
+                },
+                "{{ModID}}_MermaidTear_JunimoHat": {
+                    "Id": "{{ModID}}_MermaidTear_JunimoHat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_MermaidTear"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)JunimoHat"
+                },
+                "{{ModID}}_MermaidPearl_Boots": {
+                    "Id": "{{ModID}}_MermaidPearl_Boots",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_MermaidPearl"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(B)854"
+                },
+                "{{ModID}}_Marlin_Hat": {
+                    "Id": "{{ModID}}_Marlin_Hat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_Marlin"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)78"
+                },
+                "{{ModID}}_MahiMahi_Hat": {
+                    "Id": "{{ModID}}_MahiMahi_Hat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_MahiMahi"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)59"
+                },
+                "{{ModID}}_Jollyfin_Hat": {
+                    "Id": "{{ModID}}_Jollyfin_Hat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_Jollyfin"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)25"
+                },
+                "{{ModID}}_Luckyfin_Hat": {
+                    "Id": "{{ModID}}_Luckyfin_Hat",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_Luckyfin"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(H)LeprechaunHat"
+                },
+                "{{ModID}}_WhaleShark_Shirt": {
+                    "Id": "{{ModID}}_WhaleShark_Shirt",
+                    "FirstItemTags": [
+                        "item_cloth"
+                    ],
+                    "SecondItemTags": [
+                        "id_o_{{ModID}}_WhaleShark"
+                    ],
+                    "SpendRightItem": true,
+                    "CraftedItemId": "(S)1185"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "{{ModID}}_JackOFish_Hat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_Hookfin_Hat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_Marlin_Hat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_MahiMahi_Hat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_Jollyfin_Hat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_PiratesDoubloon_PirateHat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_AncientShell_Shirt",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_LunarPearl_SquidHat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_MermaidTear_JunimoHat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_MermaidPearl_Boots",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_Luckyfin_Hat",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "{{ModID}}_WhaleShark_Shirt",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

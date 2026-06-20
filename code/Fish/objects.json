@@ -20,9 +20,10 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white",
-                        "fish_nonfish",
                         "season_spring",
-                        "season_summer"
+                        "season_summer",
+                        "fish_nonfish",
+                        "fish_skip_minigame"
                     ]
                 },
                 "ASF_MermaidTear": {
@@ -41,9 +42,10 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_blue",
-                        "fish_nonfish",
                         "season_spring",
-                        "season_summer"
+                        "season_summer",
+                        "fish_nonfish",
+                        "fish_skip_minigame"
                     ]
                 },
                 "ASF_RedCoral": {
@@ -62,9 +64,9 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_red",
-                        "fish_nonfish",
                         "season_summer",
-                        "season_fall"
+                        "fish_nonfish",
+                        "fish_skip_minigame"
                     ]
                 },
                 "ASF_AncientShell": {
@@ -83,9 +85,10 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white",
-                        "fish_nonfish",
                         "season_spring",
-                        "season_summer"
+                        "season_summer",
+                        "fish_nonfish",
+                        "fish_skip_minigame"
                     ]
                 },
                 "ASF_PiratesDoubloon": {
@@ -104,8 +107,9 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_gold",
+                        "season_summer",
                         "fish_nonfish",
-                        "season_summer"
+                        "fish_skip_minigame"
                     ]
                 },
                 "ASF_LunarPearl": {
@@ -124,9 +128,31 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_pink",
-                        "fish_nonfish",
                         "season_spring",
-                        "season_summer"
+                        "season_summer",
+                        "fish_nonfish",
+                        "fish_skip_minigame"
+                    ]
+                },
+                "ASF_RubberDuck": {
+                    "Name": "{{ModID}}_RubberDuck",
+                    "DisplayName": "{{i18n:{{ModID}}_RubberDuck.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_RubberDuck.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/ObjectSprite",
+                    "SpriteIndex": 6,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_yellow",
+                        "season_spring",
+                        "fish_nonfish",
+                        "fish_skip_minigame"
                     ]
                 }
             }

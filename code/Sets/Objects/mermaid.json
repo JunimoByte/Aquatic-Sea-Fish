@@ -13,14 +13,27 @@
                     "ItemId": "(O){{ModID}}_MermaidPearl",
                     "Condition": "LOCATION_Season Here Spring Summer, TIME 600 1700",
                     "MinFishingLevel": 6,
-                    "Chance": 0.14
+                    "Chance": 0.05
                 },
                 "{{ModID}}_MermaidTear": {
                     "Id": "{{ModID}}_MermaidTear",
                     "ItemId": "(O){{ModID}}_MermaidTear",
                     "Condition": "LOCATION_Season Here Spring Summer, WEATHER Here GreenRain Rain Storm, TIME 1700 2600",
                     "MinFishingLevel": 7,
-                    "Chance": 0.18
+                    "Chance": 0.12
+                },
+                "{{ModID}}_RedCoral": {
+                    "Id": "{{ModID}}_RedCoral",
+                    "ItemId": "(O){{ModID}}_RedCoral",
+                    "Condition": "LOCATION_Season Here Summer, TIME 600 1700",
+                    "MinFishingLevel": 4,
+                    "Chance": 0.12
+                },
+                "{{ModID}}_RubberDuck": {
+                    "Id": "{{ModID}}_RubberDuck",
+                    "ItemId": "(O){{ModID}}_RubberDuck",
+                    "Condition": "LOCATION_Season Here Spring, WEATHER Here Rain Storm, TIME 600 1800",
+                    "Chance": 0.3
                 }
             }
         },
@@ -39,6 +52,12 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModID}}_MermaidTear": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_RedCoral": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_RubberDuck": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

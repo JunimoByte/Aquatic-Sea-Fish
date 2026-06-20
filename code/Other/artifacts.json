@@ -1,0 +1,144 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouth",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModID}}_PiratesDoubloon": {
+                    "Id": "{{ModID}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                    "Condition": "DAYS_PLAYED 112",
+                    "Chance": 0.0325
+                },
+                "{{ModID}}_AncientShell": {
+                    "Id": "{{ModID}}_AncientShell",
+                    "ItemId": "(O){{ModID}}_AncientShell",
+                    "Condition": "WEATHER Here Rain Storm, DAYS_PLAYED 112",
+                    "Chance": 0.0625
+                },
+                "{{ModID}}_MermaidPearl": {
+                    "Id": "{{ModID}}_MermaidPearl",
+                    "ItemId": "(O){{ModID}}_MermaidPearl",
+                    "Condition": "DAYS_PLAYED 168",
+                    "Chance": 0.0125
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouthEast",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModID}}_PiratesDoubloon": {
+                    "Id": "{{ModID}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                    "Condition": "DAYS_PLAYED 112",
+                    "Chance": 0.0325
+                },
+                "{{ModID}}_AncientShell": {
+                    "Id": "{{ModID}}_AncientShell",
+                    "ItemId": "(O){{ModID}}_AncientShell",
+                    "Condition": "WEATHER Here Rain Storm, DAYS_PLAYED 112",
+                    "Chance": 0.0625
+                },
+                "{{ModID}}_MermaidPearl": {
+                    "Id": "{{ModID}}_MermaidPearl",
+                    "ItemId": "(O){{ModID}}_MermaidPearl",
+                    "Condition": "DAYS_PLAYED 168",
+                    "Chance": 0.0125
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandEast",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModID}}_PiratesDoubloon": {
+                    "Id": "{{ModID}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                    "Condition": "DAYS_PLAYED 112",
+                    "Chance": 0.0325
+                },
+                "{{ModID}}_AncientShell": {
+                    "Id": "{{ModID}}_AncientShell",
+                    "ItemId": "(O){{ModID}}_AncientShell",
+                    "Condition": "WEATHER Here Rain Storm, DAYS_PLAYED 112",
+                    "Chance": 0.0625
+                },
+                "{{ModID}}_MermaidPearl": {
+                    "Id": "{{ModID}}_MermaidPearl",
+                    "ItemId": "(O){{ModID}}_MermaidPearl",
+                    "Condition": "DAYS_PLAYED 168",
+                    "Chance": 0.0125
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandWest",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModID}}_PiratesDoubloon": {
+                    "Id": "{{ModID}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                    "Condition": "DAYS_PLAYED 112",
+                    "Chance": 0.0325
+                },
+                "{{ModID}}_AncientShell": {
+                    "Id": "{{ModID}}_AncientShell",
+                    "ItemId": "(O){{ModID}}_AncientShell",
+                    "Condition": "WEATHER Here Rain Storm, DAYS_PLAYED 112",
+                    "Chance": 0.0625
+                },
+                "{{ModID}}_MermaidPearl": {
+                    "Id": "{{ModID}}_MermaidPearl",
+                    "ItemId": "(O){{ModID}}_MermaidPearl",
+                    "Condition": "DAYS_PLAYED 168",
+                    "Chance": 0.0125
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandNorth",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModID}}_PiratesDoubloon": {
+                    "Id": "{{ModID}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                    "Condition": "DAYS_PLAYED 112",
+                    "Chance": 0.0325
+                },
+                "{{ModID}}_AncientShell": {
+                    "Id": "{{ModID}}_AncientShell",
+                    "ItemId": "(O){{ModID}}_AncientShell",
+                    "Condition": "WEATHER Here Rain Storm, DAYS_PLAYED 112",
+                    "Chance": 0.0625
+                },
+                "{{ModID}}_MermaidPearl": {
+                    "Id": "{{ModID}}_MermaidPearl",
+                    "ItemId": "(O){{ModID}}_MermaidPearl",
+                    "Condition": "DAYS_PLAYED 168",
+                    "Chance": 0.0125
+                }
+            }
+        }
+    ]
+}

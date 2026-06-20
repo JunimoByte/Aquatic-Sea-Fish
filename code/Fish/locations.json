@@ -39,6 +39,14 @@
                 "TargetName": "IslandSouthEastCave",
                 "AreaId": "<null>"
             }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Sets/Fish/submarine.json",
+            "LocalTokens": {
+                "TargetName": "Submarine",
+                "AreaId": "<null>"
+            }
         }
     ]
 }

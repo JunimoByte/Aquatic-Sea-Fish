@@ -43,7 +43,11 @@
                 "{{ModID}}_Yellowtail": "39/fish/////Mods\\{{ModID}}\\AquariumSprite",
                 "{{ModID}}_HumpheadWrasse": "40/fish/////Mods\\{{ModID}}\\AquariumSprite",
                 "{{ModID}}_MossyEel": "41/eel/////Mods\\{{ModID}}\\AquariumSprite",
-                "{{ModID}}_LunarPearl": "42/static/////Mods\\{{ModID}}\\AquariumSprite"
+                "{{ModID}}_LunarPearl": "42/static/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Luckyfin": "43/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_WhaleShark": "44/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Santafish": "45/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_LemonShark": "46/fish/////Mods\\{{ModID}}\\AquariumSprite"
             }
         }
     ]
