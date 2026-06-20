@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "Custom_CapeStardew",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "Custom_SeaCape",
+                "AreaId": "<null>"
+            }
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModID}}_SeaTurtle": {
+                    "Id": "{{ModID}}_SeaTurtle",
+                    "ItemId": "(O){{ModID}}_SeaTurtle",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_MahiMahi": {
+                    "Id": "{{ModID}}_MahiMahi",
+                    "ItemId": "(O){{ModID}}_MahiMahi",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_LeopardStingray": {
+                    "Id": "{{ModID}}_LeopardStingray",
+                    "ItemId": "(O){{ModID}}_LeopardStingray",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_RibbonEel": {
+                    "Id": "{{ModID}}_RibbonEel",
+                    "ItemId": "(O){{ModID}}_RibbonEel",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_GreenEel": {
+                    "Id": "{{ModID}}_GreenEel",
+                    "ItemId": "(O){{ModID}}_GreenEel",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_OrangeEel": {
+                    "Id": "{{ModID}}_OrangeEel",
+                    "ItemId": "(O){{ModID}}_OrangeEel",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_PacificJellyfish": {
+                    "Id": "{{ModID}}_PacificJellyfish",
+                    "ItemId": "(O){{ModID}}_PacificJellyfish",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_FlameJellyfish": {
+                    "Id": "{{ModID}}_FlameJellyfish",
+                    "ItemId": "(O){{ModID}}_FlameJellyfish",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_Pufferjelly": {
+                    "Id": "{{ModID}}_Pufferjelly",
+                    "ItemId": "(O){{ModID}}_Pufferjelly",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_AppleSnail": {
+                    "Id": "{{ModID}}_AppleSnail",
+                    "ItemId": "(O){{ModID}}_AppleSnail",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_TreeSpiderCrab": {
+                    "Id": "{{ModID}}_TreeSpiderCrab",
+                    "ItemId": "(O){{ModID}}_TreeSpiderCrab",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_Yellowtail": {
+                    "Id": "{{ModID}}_Yellowtail",
+                    "ItemId": "(O){{ModID}}_Yellowtail",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModID}}_HumpheadWrasse": {
+                    "Id": "{{ModID}}_HumpheadWrasse",
+                    "ItemId": "(O){{ModID}}_HumpheadWrasse",
+                    "Condition": "LOCATION_Season Here Summer",
+                    "CatchLimit": 1,
+                    "IsBossFish": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModID}}_SeaTurtle": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_MahiMahi": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_LeopardStingray": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_RibbonEel": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_GreenEel": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_OrangeEel": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_PacificJellyfish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_FlameJellyfish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_Pufferjelly": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_AppleSnail": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_TreeSpiderCrab": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_Yellowtail": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_HumpheadWrasse": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_Cleanup_SVE_QuestSophiaCosplayInspiration": {
+                    "Id": "{{ModID}}_Cleanup_SVE_QuestSophiaCosplayInspiration",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_SVE_QuestSophiaCosplayInspiration}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_SVE_QuestSophiaCosplayInspiration",
+                        "RemoveMail Current {{ModID}}_Compat_SVE_QuestSophiaCosplayInspirationLetter"
+                    ]
+                },
+                "{{ModID}}_Cleanup_SVE_QuestMorganAssignment": {
+                    "Id": "{{ModID}}_Cleanup_SVE_QuestMorganAssignment",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_SVE_QuestMorganAssignment}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_SVE_QuestMorganAssignment",
+                        "RemoveMail Current {{ModID}}_Compat_SVE_QuestMorganAssignmentLetter"
+                    ]
+                },
+                "{{ModID}}_Cleanup_SVE_QuestOliviaPartyPreparations": {
+                    "Id": "{{ModID}}_Cleanup_SVE_QuestOliviaPartyPreparations",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_SVE_QuestOliviaPartyPreparations}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_SVE_QuestOliviaPartyPreparations",
+                        "RemoveMail Current {{ModID}}_Compat_SVE_QuestOliviaPartyPreparationsLetter"
+                    ]
+                },
+                "{{ModID}}_Cleanup_SVE_QuestLanceArmorPlating": {
+                    "Id": "{{ModID}}_Cleanup_SVE_QuestLanceArmorPlating",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_SVE_QuestLanceArmorPlating}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_SVE_QuestLanceArmorPlating",
+                        "RemoveMail Current {{ModID}}_Compat_SVE_QuestLanceArmorPlatingLetter"
+                    ]
+                },
+                "{{ModID}}_Cleanup_SVE_QuestClaireFestiveFish": {
+                    "Id": "{{ModID}}_Cleanup_SVE_QuestClaireFestiveFish",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_SVE_QuestClaireFestiveFish}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_SVE_QuestClaireFestiveFish",
+                        "RemoveMail Current {{ModID}}_Compat_SVE_QuestClaireFestiveFishLetter"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        }
+    ]
+}

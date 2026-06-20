@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_Cleanup_RSV_QuestJericHeadTurner": {
+                    "Id": "{{ModID}}_Cleanup_RSV_QuestJericHeadTurner",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestJericHeadTurner}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_RSV_QuestJericHeadTurner",
+                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestJericHeadTurnerLetter"
+                    ]
+                },
+                "{{ModID}}_Cleanup_RSV_QuestBlairSalmonLegend": {
+                    "Id": "{{ModID}}_Cleanup_RSV_QuestBlairSalmonLegend",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestBlairSalmonLegend}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_RSV_QuestBlairSalmonLegend",
+                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestBlairSalmonLegendLetter"
+                    ]
+                },
+                "{{ModID}}_Cleanup_RSV_QuestYsabelleShellDesign": {
+                    "Id": "{{ModID}}_Cleanup_RSV_QuestYsabelleShellDesign",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestYsabelleShellDesign}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_RSV_QuestYsabelleShellDesign",
+                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestYsabelleShellDesignLetter"
+                    ]
+                },
+                "{{ModID}}_Cleanup_RSV_QuestPikaIslandDelicacy": {
+                    "Id": "{{ModID}}_Cleanup_RSV_QuestPikaIslandDelicacy",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestPikaIslandDelicacy}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModID}}_Compat_RSV_QuestPikaIslandDelicacy",
+                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestPikaIslandDelicacyLetter"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=Rafseazz.RidgesideVillage": false
+            }
+        }
+    ]
+}

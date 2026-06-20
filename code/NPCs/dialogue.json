@@ -1,0 +1,66 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                "Mon2": "{{i18n: {{ModId}}_WillyDialogue_Mon2}}",
+                "Tue4": "{{i18n: {{ModId}}_WillyDialogue_Tue4}}",
+                "Wed2": "{{i18n: {{ModId}}_WillyDialogue_Wed2}}",
+                "Thu6": "{{i18n: {{ModId}}_WillyDialogue_Thu6}}",
+                "Fri2": "{{i18n: {{ModId}}_WillyDialogue_Fri2}}",
+                "Fri6": "{{i18n: {{ModId}}_WillyDialogue_Fri6}}",
+                "Sat4": "{{i18n: {{ModId}}_WillyDialogue_Sat4}}",
+                "Sat7": "{{i18n: {{ModId}}_WillyDialogue_Sat7}}",
+                "Sun4": "{{i18n: {{ModId}}_WillyDialogue_Sun4}}",
+                "Sun8": "{{i18n: {{ModId}}_WillyDialogue_Sun8}}",
+                "spring_Mon": "{{i18n: {{ModId}}_WillyDialogue_Spring_Monday}}",
+                "spring_Wed": "{{i18n: {{ModId}}_WillyDialogue_Spring_Wednesday}}",
+                "spring_Fri": "{{i18n: {{ModId}}_WillyDialogue_Spring_Friday}}",
+                "summer_Mon": "{{i18n: {{ModId}}_WillyDialogue_Summer_Monday}}",
+                "summer_Wed": "{{i18n: {{ModId}}_WillyDialogue_Summer_Wednesday}}",
+                "summer_Fri": "{{i18n: {{ModId}}_WillyDialogue_Summer_Friday}}",
+                "fall_Mon": "{{i18n: {{ModId}}_WillyDialogue_Fall_Monday}}",
+                "fall_Wed": "{{i18n: {{ModId}}_WillyDialogue_Fall_Wednesday}}",
+                "fall_Fri": "{{i18n: {{ModId}}_WillyDialogue_Fall_Friday}}",
+                "winter_Mon": "{{i18n: {{ModId}}_WillyDialogue_Winter_Monday}}",
+                "winter_Wed": "{{i18n: {{ModId}}_WillyDialogue_Winter_Wednesday}}",
+                "winter_Fri": "{{i18n: {{ModId}}_WillyDialogue_Winter_Friday}}",
+                "spring12": "{{i18n: {{ModId}}_WillyDialogue_Spring12}}",
+                "spring15": "{{i18n: {{ModId}}_WillyDialogue_Spring15}}",
+                "spring16": "{{i18n: {{ModId}}_WillyDialogue_Spring16}}",
+                "spring17": "{{i18n: {{ModId}}_WillyDialogue_Spring17}}",
+                "spring23": "{{i18n: {{ModId}}_WillyDialogue_Spring23}}",
+                "summer27": "{{i18n: {{ModId}}_WillyDialogue_Summer27}}",
+                "fall15": "{{i18n: {{ModId}}_WillyDialogue_Fall15}}",
+                "fall26": "{{i18n: {{ModId}}_WillyDialogue_Fall26}}",
+                "winter7": "{{i18n: {{ModId}}_WillyDialogue_Winter7}}",
+                "winter14": "{{i18n: {{ModId}}_WillyDialogue_Winter14}}",
+                "winter24": "{{i18n: {{ModId}}_WillyDialogue_Winter24}}",
+                "fishCaught_{{ModId}}_MahiMahi": "{{i18n: {{ModId}}_WillyFishCaught_MahiMahi}}",
+                "fishCaught_{{ModId}}_Marlin": "{{i18n: {{ModId}}_WillyFishCaught_Marlin}}",
+                "fishCaught_{{ModId}}_SeaTurtle": "{{i18n: {{ModId}}_WillyFishCaught_SeaTurtle}}",
+                "fishCaught_{{ModId}}_JackOFish": "{{i18n: {{ModId}}_WillyFishCaught_JackOFish}}",
+                "fishCaught_{{ModId}}_Gingerfin": "{{i18n: {{ModId}}_WillyFishCaught_Gingerfin}}",
+                "fishCaught_{{ModId}}_MossyEel": "{{i18n: {{ModId}}_WillyFishCaught_MossyEel}}",
+                "fishCaught_{{ModId}}_HumpheadWrasse": "{{i18n: {{ModId}}_WillyFishCaught_HumpheadWrasse}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                "Mon": "{{i18n: {{ModId}}_WillyDialogue_Generic_Monday}}",
+                "Tue": "{{i18n: {{ModId}}_WillyDialogue_Generic_Tuesday}}",
+                "Wed": "{{i18n: {{ModId}}_WillyDialogue_Generic_Wednesday}}",
+                "Thu": "{{i18n: {{ModId}}_WillyDialogue_Generic_Thursday}}",
+                "Fri": "{{i18n: {{ModId}}_WillyDialogue_Generic_Friday}}",
+                "Sat": "{{i18n: {{ModId}}_WillyDialogue_Generic_Saturday}}",
+                "Sun": "{{i18n: {{ModId}}_WillyDialogue_Generic_Sunday}}"
+            },
+            "When": {
+                "Random: 1, 2": "2"
+            }
+        }
+    ]
+}

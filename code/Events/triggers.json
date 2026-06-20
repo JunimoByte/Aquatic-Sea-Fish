@@ -1,0 +1,658 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_GrandpaToWillyLetter_Trigger": {
+                    "Id": "{{ModID}}_GrandpaToWillyLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 5, YEAR 2 2, !PLAYER_HAS_MAIL Current {{ModID}}_GrandpaToWillyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_GrandpaToWillyLetter now"
+                    ]
+                },
+                "{{ModID}}_SpringWillyLetter_Trigger": {
+                    "Id": "{{ModID}}_SpringWillyLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 14, !PLAYER_HAS_MAIL Current {{ModID}}_SpringWillyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_SpringWillyLetter now"
+                    ]
+                },
+                "{{ModID}}_SummerWillyLetter_Trigger": {
+                    "Id": "{{ModID}}_SummerWillyLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Summer, !PLAYER_HAS_MAIL Current {{ModID}}_SummerWillyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_SummerWillyLetter now"
+                    ]
+                },
+                "{{ModID}}_SummerWillyRainLetter_Trigger": {
+                    "Id": "{{ModID}}_SummerWillyRainLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Summer, WEATHER Here GreenRain Storm Rain, !PLAYER_HAS_MAIL Current {{ModID}}_SummerWillyRainLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_SummerWillyRainLetter now"
+                    ]
+                },
+                "{{ModID}}_FallWillyLetter_Trigger": {
+                    "Id": "{{ModID}}_FallWillyLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Fall, !PLAYER_HAS_MAIL Current {{ModID}}_FallWillyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_FallWillyLetter now"
+                    ]
+                },
+                "{{ModID}}_WinterWillyLetter_Trigger": {
+                    "Id": "{{ModID}}_WinterWillyLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, !PLAYER_HAS_MAIL Current {{ModID}}_WinterWillyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WinterWillyLetter now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear1_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear1_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 1 1, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear1",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear1 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear2_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear2_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 2 2, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear2",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear2 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear3_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear3_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 3 3, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear3",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear3 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear4_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear4_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 24, YEAR 4 4, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear4",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear4 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear7_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear7_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 7 7, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear7",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear7 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear10_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear10_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 27, YEAR 10 10, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear10",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear10 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear15_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear15_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 15 15, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear15",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear15 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear20_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear20_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 20 20, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear20",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear20 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear25_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear25_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 25 25, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear25",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear25 now"
+                    ]
+                },
+                "{{ModID}}_WillyBelatedGiftYear30_Trigger": {
+                    "Id": "{{ModID}}_WillyBelatedGiftYear30_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 26, YEAR 30 30, !PLAYER_HAS_MAIL Current {{ModID}}_WillyBelatedGiftYear30",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyBelatedGiftYear30 now"
+                    ]
+                },
+                "{{ModID}}_WillyRandomGift1_Trigger": {
+                    "Id": "{{ModID}}_WillyRandomGift1_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Fall, DAY_OF_MONTH 8, YEAR 1 1, !PLAYER_HAS_MAIL Current {{ModID}}_WillyRandomGift1",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyRandomGift1 now"
+                    ]
+                },
+                "{{ModID}}_WillyRandomGift2_Trigger": {
+                    "Id": "{{ModID}}_WillyRandomGift2_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Fall, DAY_OF_MONTH 6, YEAR 2 2, !PLAYER_HAS_MAIL Current {{ModID}}_WillyRandomGift2",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyRandomGift2 now"
+                    ]
+                },
+                "{{ModID}}_WillyMarlinCatchLetter_Trigger": {
+                    "Id": "{{ModID}}_WillyMarlinCatchLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_Marlin, !PLAYER_HAS_MAIL Current {{ModID}}_WillyMarlinCatchLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyMarlinCatchLetter now"
+                    ]
+                },
+                "{{ModID}}_WillyMahiMahiCatchLetter_Trigger": {
+                    "Id": "{{ModID}}_WillyMahiMahiCatchLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_MahiMahi, !PLAYER_HAS_MAIL Current {{ModID}}_WillyMahiMahiCatchLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyMahiMahiCatchLetter now"
+                    ]
+                },
+                "{{ModID}}_WillyHammerheadSharkCatchLetter_Trigger": {
+                    "Id": "{{ModID}}_WillyHammerheadSharkCatchLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_HammerheadShark, !PLAYER_HAS_MAIL Current {{ModID}}_WillyHammerheadSharkCatchLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyHammerheadSharkCatchLetter now"
+                    ]
+                },
+                "{{ModID}}_PirateCaptainLetter_Trigger": {
+                    "Id": "{{ModID}}_PirateCaptainLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_PiratesDoubloon, RANDOM 0.1, !PLAYER_HAS_MAIL Current {{ModID}}_PirateCaptainLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_PirateCaptainLetter now"
+                    ]
+                },
+                "{{ModID}}_WillySpringRainFirstLetter_Trigger": {
+                    "Id": "{{ModID}}_WillySpringRainFirstLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Spring, WEATHER Here GreenRain Storm Rain, !PLAYER_HAS_MAIL Current {{ModID}}_WillySpringRainFirstLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillySpringRainFirstLetter now"
+                    ]
+                },
+                "{{ModID}}_WillySpooktopusCatchLetter_Trigger": {
+                    "Id": "{{ModID}}_WillySpooktopusCatchLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_Spooktopus, !PLAYER_HAS_MAIL Current {{ModID}}_WillySpooktopusCatchLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillySpooktopusCatchLetter now"
+                    ]
+                },
+                "{{ModID}}_WillyNightMarketTipsLetter_Trigger": {
+                    "Id": "{{ModID}}_WillyNightMarketTipsLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 15, YEAR 1, !PLAYER_HAS_MAIL Current {{ModID}}_WillyNightMarketTipsLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyNightMarketTipsLetter now"
+                    ]
+                },
+                "{{ModID}}_SantaChristmasLetterYear3_Trigger": {
+                    "Id": "{{ModID}}_SantaChristmasLetterYear3_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 24, YEAR 3, !PLAYER_HAS_MAIL Current {{ModID}}_SantaChristmasLetterYear3",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_SantaChristmasLetterYear3 now"
+                    ]
+                },
+                "{{ModID}}_WillyFlowerDanceYear3Letter_Trigger": {
+                    "Id": "{{ModID}}_WillyFlowerDanceYear3Letter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22, YEAR 3, !PLAYER_HAS_MAIL Current {{ModID}}_WillyFlowerDanceYear3Letter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_WillyFlowerDanceYear3Letter now"
+                    ]
+                },
+                "{{ModID}}_QuestWillyGoldenMahiMahiLetter_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyGoldenMahiMahiLetter_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, PLAYER_BASE_FISHING_LEVEL Current 7, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyGoldenMahiMahiLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyGoldenMahiMahiLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillySnowyGingerfinLetter_Trigger": {
+                    "Id": "{{ModID}}_QuestWillySnowyGingerfinLetter_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "SEASON Winter, LOCATION_NAME Here Beach BeachNightMarket, PLAYER_BASE_FISHING_LEVEL Current 4, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillySnowyGingerfinLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillySnowyGingerfinLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyCoastalRockCrab_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyCoastalRockCrab_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "SEASON Spring Summer Fall, LOCATION_NAME Here Beach, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_RedRockCrab, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyCoastalRockCrabLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyCoastalRockCrabLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyJackOFish_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyJackOFish_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "SEASON Fall, LOCATION_NAME Here Beach, PLAYER_BASE_FISHING_LEVEL Current 7, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyJackOFishLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyJackOFishLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyMarlin_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyMarlin_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here FishShop, SEASON Spring Summer, PLAYER_BASE_FISHING_LEVEL Current 5, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyMarlinLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyMarlinLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyTearsOfTheSea_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyTearsOfTheSea_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "SEASON Spring Summer, LOCATION_NAME Here Beach, PLAYER_BASE_FISHING_LEVEL Current 6",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyTearsOfTheSea"
+                    ]
+                },
+                "{{ModID}}_QuestWillyTearsOfTheSeaII_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyTearsOfTheSeaII_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_MermaidPearl, PLAYER_BASE_FISHING_LEVEL Current 8",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyTearsOfTheSeaII"
+                    ]
+                },
+                "{{ModID}}_QuestWizardSpectralGhoulgill_Trigger": {
+                    "Id": "{{ModID}}_QuestWizardSpectralGhoulgill_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "SEASON Fall, LOCATION_NAME Here WizardHouse, PLAYER_BASE_FISHING_LEVEL Current 3",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWizardSpectralGhoulgill"
+                    ]
+                },
+                "{{ModID}}_QuestWillyRadiantDeep_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyRadiantDeep_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here FishShop, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_PinkJellyfish",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyRadiantDeep"
+                    ]
+                },
+                "{{ModID}}_QuestWillyRadiantDeepII_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyRadiantDeepII_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here FishShop, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_PinkJellyfish, PLAYER_HEARTS Current Willy 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_BlueJellyfish",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyRadiantDeepII"
+                    ]
+                },
+                "{{ModID}}_QuestWillyRadiantDeepIII_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyRadiantDeepIII_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, PLAYER_HEARTS Current Willy 4, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_PacificJellyfish",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyRadiantDeepIII"
+                    ]
+                },
+                "{{ModID}}_QuestWillyRadiantDeepIV_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyRadiantDeepIV_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, PLAYER_HEARTS Current Willy 5, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_PacificJellyfish, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_FlameJellyfish",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyRadiantDeepIV"
+                    ]
+                },
+                "{{ModID}}_QuestWillyHunterOfTheTides_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyHunterOfTheTides_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Spring Summer, PLAYER_HEARTS Current Willy 6, WEATHER Here Sun, TIME 600 800, PLAYER_BASE_FISHING_LEVEL Current 8",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyHunterOfTheTides"
+                    ]
+                },
+                "{{ModID}}_QuestWillyTheGreenShadow_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyTheGreenShadow_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, TIME 1200 1600, PLAYER_BASE_FISHING_LEVEL Current 4",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyTheGreenShadow"
+                    ]
+                },
+                "{{ModID}}_QuestWillySearchOfTheKing_Trigger": {
+                    "Id": "{{ModID}}_QuestWillySearchOfTheKing_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, PLAYER_HEARTS Current Willy 4, SEASON Fall, WEATHER Here Sun, PLAYER_BASE_FISHING_LEVEL Current 5",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillySearchOfTheKing"
+                    ]
+                },
+                "{{ModID}}_QuestWillyTheHookfinTale_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyTheHookfinTale_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouthEastCave, PLAYER_BASE_FISHING_LEVEL Current 4",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestWillyTheHookfinTale"
+                    ]
+                },
+                "{{ModID}}_QuestWillyCuriousPufferfish_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyCuriousPufferfish_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Spring Summer, WEATHER Here Sun, TIME 1000 1200, PLAYER_HAS_CAUGHT_FISH Current (O)128, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyCuriousPufferfishLetter, RANDOM 0.2 @addDailyLuck",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyCuriousPufferfishLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyFestivalTentacles_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyFestivalTentacles_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, PLAYER_BASE_FISHING_LEVEL Current 6, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyFestivalTentaclesLetter, RANDOM 0.25 @addDailyLuck",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyFestivalTentaclesLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyTropicalDiscus_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyTropicalDiscus_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here FishShop, PLAYER_VISITED_LOCATION Current IslandSouth, PLAYER_BASE_FISHING_LEVEL Current 3, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyTropicalDiscusLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyTropicalDiscusLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyWhisperOfTheRain_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyWhisperOfTheRain_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here GreenRain Storm Rain, PLAYER_BASE_FISHING_LEVEL Current 10, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyWhisperOfTheRainLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyWhisperOfTheRainLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyFlashOfGold_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyFlashOfGold_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here Sun, PLAYER_BASE_FISHING_LEVEL Current 4, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_Yellowtail, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyFlashOfGoldLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyFlashOfGoldLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyStormyHunt_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyStormyHunt_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, WEATHER Here GreenRain Storm Rain, TIME 600 800, PLAYER_HEARTS Current Willy 4, PLAYER_BASE_FISHING_LEVEL Current 10, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyStormyHuntLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyStormyHuntLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWillyPirateCovePredator_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyPirateCovePredator_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here IslandSouthEastCave, PLAYER_HEARTS Current Willy 4, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyPirateCovePredatorLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyPirateCovePredatorLetter now"
+                    ]
+                },
+                "{{ModID}}_QuestWillyDeepSeaCucumber_Trigger": {
+                    "Id": "{{ModID}}_QuestWillyDeepSeaCucumber_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here FishShop, PLAYER_HEARTS Current Willy 4, SEASON Spring Fall, RANDOM 0.15, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWillyDeepSeaCucumberLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWillyDeepSeaCucumberLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestEvelynGeorgeFavorite_Trigger": {
+                    "Id": "{{ModID}}_QuestEvelynGeorgeFavorite_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here JoshHouse Town, SEASON Fall, DAY_OF_MONTH 17, !PLAYER_HAS_MAIL Current {{ModID}}_QuestEvelynGeorgeFavoriteLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestEvelynGeorgeFavoriteLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestEvelynMahiMahi_Trigger": {
+                    "Id": "{{ModID}}_QuestEvelynMahiMahi_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here JoshHouse Town, SEASON Summer, YEAR 3, DAY_OF_MONTH 15, !PLAYER_HAS_MAIL Current {{ModID}}_QuestEvelynMahiMahiLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestEvelynMahiMahiLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestEvelynHoney_Trigger": {
+                    "Id": "{{ModID}}_QuestEvelynHoney_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here JoshHouse Town, SEASON Spring, YEAR 2, DAY_OF_MONTH 10, !PLAYER_HAS_MAIL Current {{ModID}}_QuestEvelynHoneyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestEvelynHoneyLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_EvelynChristmasYear2Letter_Trigger": {
+                    "Id": "{{ModID}}_EvelynChristmasYear2Letter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 25, YEAR 2 2, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_VISITED_LOCATION Current IslandSouth, !PLAYER_HAS_MAIL Current {{ModID}}_EvelynChristmasYear2Letter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_EvelynChristmasYear2Letter now"
+                    ]
+                },
+                "{{ModID}}_QuestLinusSalmon_Trigger": {
+                    "Id": "{{ModID}}_QuestLinusSalmon_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Mountain, SEASON Fall, DAY_OF_MONTH 17, RANDOM 0.5, !PLAYER_HAS_MAIL Current {{ModID}}_QuestLinusSalmonLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestLinusSalmonLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestGeorgeEvelynOrders_Trigger": {
+                    "Id": "{{ModID}}_QuestGeorgeEvelynOrders_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here JoshHouse, SEASON Spring Summer, PLAYER_HEARTS Current George 1, RANDOM 0.25, !PLAYER_HAS_MAIL Current {{ModID}}_QuestGeorgeEvelynOrdersLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestGeorgeEvelynOrdersLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestWizardMidnightSpecter_Trigger": {
+                    "Id": "{{ModID}}_QuestWizardMidnightSpecter_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here WizardHouse, SEASON Fall, PLAYER_BASE_FISHING_LEVEL Current 7, !PLAYER_HAS_MAIL Current {{ModID}}_QuestWizardMidnightSpecterLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestWizardMidnightSpecterLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestLinusShorelineVisitor_Trigger": {
+                    "Id": "{{ModID}}_QuestLinusShorelineVisitor_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Fall, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_OrangeStarfish, !PLAYER_HAS_MAIL Current {{ModID}}_QuestLinusShorelineVisitorLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestLinusShorelineVisitorLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestGeorgeWinterRemedy_Trigger": {
+                    "Id": "{{ModID}}_QuestGeorgeWinterRemedy_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here JoshHouse, SEASON Winter, PLAYER_BASE_FISHING_LEVEL Current 2, !PLAYER_HAS_MAIL Current {{ModID}}_QuestGeorgeWinterRemedyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestGeorgeWinterRemedyLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestPennySeaTurtle_Trigger": {
+                    "Id": "{{ModID}}_QuestPennySeaTurtle_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Trailer Trailer_Big, SEASON Spring Summer, WEATHER Here GreenRain Storm Rain, PLAYER_HEARTS Current Penny 4, !PLAYER_HAS_MAIL Current {{ModID}}_QuestPennySeaTurtleLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestPennySeaTurtleLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestDemetriusGapInTheData_Trigger": {
+                    "Id": "{{ModID}}_QuestDemetriusGapInTheData_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Mountain, RANDOM 0.3, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_RibbonEel, PLAYER_BASE_FISHING_LEVEL Current 6, !PLAYER_HAS_MAIL Current {{ModID}}_QuestDemetriusGapInTheDataLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestDemetriusGapInTheDataLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestSamHookfinDare_Trigger": {
+                    "Id": "{{ModID}}_QuestSamHookfinDare_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Summer, TIME 1800 2600, PLAYER_HEARTS Current Sam 2, !PLAYER_HAS_MAIL Current {{ModID}}_QuestSamHookfinDareLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestSamHookfinDareLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestHaleyPinkJellyfish_Trigger": {
+                    "Id": "{{ModID}}_QuestHaleyPinkJellyfish_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Summer, TIME 2000 2400, PLAYER_HEARTS Current Haley 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_PinkJellyfish",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestHaleyPinkJellyfish"
+                    ]
+                },
+                "{{ModID}}_QuestElliottMermaidPearl_Trigger": {
+                    "Id": "{{ModID}}_QuestElliottMermaidPearl_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here ElliottHouse, SEASON Fall Winter, TIME 1800 2200, PLAYER_HEARTS Current Elliott 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_MermaidPearl",
+                    "Actions": [
+                        "AddQuest {{ModID}}_QuestElliottMermaidPearl"
+                    ]
+                },
+                "{{ModID}}_QuestEmilyJollyfin_Trigger": {
+                    "Id": "{{ModID}}_QuestEmilyJollyfin_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here HaleyHouse, SEASON Winter, TIME 900 1800, PLAYER_HEARTS Current Emily 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_Jollyfin, !PLAYER_HAS_MAIL Current {{ModID}}_QuestEmilyJollyfinLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestEmilyJollyfinLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestRobinAncientShell_Trigger": {
+                    "Id": "{{ModID}}_QuestRobinAncientShell_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here ScienceHouse, SEASON Spring Summer, PLAYER_HEARTS Current Robin 1, RANDOM 0.1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_AncientShell, !PLAYER_HAS_MAIL Current {{ModID}}_QuestRobinAncientShellLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestRobinAncientShellLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestHarveyRainySeason_Trigger": {
+                    "Id": "{{ModID}}_QuestHarveyRainySeason_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Hospital, WEATHER Here GreenRain Storm Rain, PLAYER_HEARTS Current Harvey 1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_BrownEel, !PLAYER_HAS_MAIL Current {{ModID}}_QuestHarveyRainySeasonLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestHarveyRainySeasonLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestJasPinkFairyCrab_Trigger": {
+                    "Id": "{{ModID}}_QuestJasPinkFairyCrab_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here AnimalShop Forest, PLAYER_HEARTS Current Jas 2, SEASON Spring, WEATHER Here Sun, !PLAYER_HAS_MAIL Current {{ModID}}_QuestJasPinkFairyCrabLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestJasPinkFairyCrabLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestJodiSprucefin_Trigger": {
+                    "Id": "{{ModID}}_QuestJodiSprucefin_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 1 1, SEASON Winter, DAY_OF_MONTH 22, !PLAYER_HAS_MAIL Current {{ModID}}_QuestJodiSprucefinLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestJodiSprucefinLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestShaneJustThisOnce_Trigger": {
+                    "Id": "{{ModID}}_QuestShaneJustThisOnce_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Saloon, SEASON Spring, PLAYER_HEARTS Current Shane 6, !PLAYER_HAS_MAIL Current {{ModID}}_QuestShaneJustThisOnceLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestShaneJustThisOnceLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestKrobusBlueJellyfish_Trigger": {
+                    "Id": "{{ModID}}_QuestKrobusBlueJellyfish_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Sewer, PLAYER_HEARTS Current Krobus 2, RANDOM 0.25, !PLAYER_HAS_MAIL Current {{ModID}}_QuestKrobusBlueJellyfishLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestKrobusBlueJellyfishLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestLeahOrangeEel_Trigger": {
+                    "Id": "{{ModID}}_QuestLeahOrangeEel_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here LeahHouse, SEASON Fall, TIME 1800 2400, PLAYER_HEARTS Current Leah 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_OrangeEel, !PLAYER_HAS_MAIL Current {{ModID}}_QuestLeahOrangeEelLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestLeahOrangeEelLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestPamGardenSnail_Trigger": {
+                    "Id": "{{ModID}}_QuestPamGardenSnail_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Trailer Trailer_Big, SEASON Summer, WEATHER Here GreenRain Storm Rain, PLAYER_HEARTS Current Pam 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_GardenSnail, !PLAYER_HAS_MAIL Current {{ModID}}_QuestPamGardenSnailLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestPamGardenSnailLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestClintPiratesDoubloon_Trigger": {
+                    "Id": "{{ModID}}_QuestClintPiratesDoubloon_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Blacksmith, PLAYER_HEARTS Current Clint 2, RANDOM 0.2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_PiratesDoubloon, !PLAYER_HAS_MAIL Current {{ModID}}_QuestClintPiratesDoubloonLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestClintPiratesDoubloonLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestAlexChampionsDiet_Trigger": {
+                    "Id": "{{ModID}}_QuestAlexChampionsDiet_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Summer, TIME 900 1600, PLAYER_HEARTS Current Alex 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_HammerheadShark, !PLAYER_HAS_MAIL Current {{ModID}}_QuestAlexChampionsDietLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestAlexChampionsDietLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestCarolineADashOfTheSea_Trigger": {
+                    "Id": "{{ModID}}_QuestCarolineADashOfTheSea_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here SeedShop Town, SEASON Spring Summer, WEATHER Here Sun, RANDOM 0.25, PLAYER_HEARTS Current Caroline 2, !PLAYER_HAS_MAIL Current {{ModID}}_QuestCarolineADashOfTheSeaLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestCarolineADashOfTheSeaLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestSandyDesertTide_Trigger": {
+                    "Id": "{{ModID}}_QuestSandyDesertTide_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here SandyHouse Desert, SEASON Summer, PLAYER_HEARTS Current Sandy 1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_FlameJellyfish, !PLAYER_HAS_MAIL Current {{ModID}}_QuestSandyDesertTideLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestSandyDesertTideLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestMaruBioticCircuit_Trigger": {
+                    "Id": "{{ModID}}_QuestMaruBioticCircuit_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here ScienceHouse Hospital, SEASON Spring Summer Fall, PLAYER_HEARTS Current Maru 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_Spooktopus, !PLAYER_HAS_MAIL Current {{ModID}}_QuestMaruBioticCircuitLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestMaruBioticCircuitLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestSebastianReferenceMaterial_Trigger": {
+                    "Id": "{{ModID}}_QuestSebastianReferenceMaterial_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here ScienceHouse Mountain, PLAYER_HEARTS Current Sebastian 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_BlueSpottedOctopus, !PLAYER_HAS_MAIL Current {{ModID}}_QuestSebastianReferenceMaterialLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestSebastianReferenceMaterialLetter tomorrow"
+                    ]
+                },
+                "{{ModID}}_QuestGusChefSpecial_Trigger": {
+                    "Id": "{{ModID}}_QuestGusChefSpecial_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Saloon, SEASON Fall Winter, PLAYER_HEARTS Current Gus 1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModID}}_Pufferjelly, !PLAYER_HAS_MAIL Current {{ModID}}_QuestGusChefSpecialLetter",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_QuestGusChefSpecialLetter tomorrow"
+                    ]
+                }
+            }
+        }
+    ]
+}

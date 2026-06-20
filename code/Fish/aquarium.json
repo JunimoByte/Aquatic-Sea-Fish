@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "{{ModID}}_SeaTurtle": "0/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_BlueSpottedOctopus": "1/cephalopod/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Marlin": "2/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_GardenSnail": "3/crawl/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_RedRockCrab": "4/crawl/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_HermitCrab": "5/crawl/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_PinkHermitCrab": "6/crawl/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_OrangeStarfish": "7/ground/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Scallop": "8/static/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_AlaskanKingSalmon": "9/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Spooktopus": "10/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_PinkJellyfish": "11/cephalopod/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_BlueJellyfish": "12/cephalopod/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_HammerheadShark": "13/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_BrownEel": "14/eel/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_MahiMahi": "15/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_LeopardStingray": "16/fish/16/16/17 18 19 19 18 17/16/Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_RibbonEel": "20/eel/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_GreenEel": "21/eel/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_OrangeEel": "22/eel/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Hookfin": "23/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_PacificJellyfish": "24/cephalopod/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_FlameJellyfish": "25/cephalopod/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_MermaidPearl": "26/static/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_RedCoral": "27/static/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_AncientShell": "28/static/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Ghoulgill": "29/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Broombell": "30/cephalopod/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_JackOFish": "31/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Sprucefin": "32/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Jollyfin": "33/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Redpuff": "34/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Gingerfin": "35/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Pufferjelly": "36/cephalopod/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_AppleSnail": "37/crawl/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_TreeSpiderCrab": "38/crawl/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_Yellowtail": "39/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_HumpheadWrasse": "40/fish/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_MossyEel": "41/eel/////Mods\\{{ModID}}\\AquariumSprite",
+                "{{ModID}}_LunarPearl": "42/static/////Mods\\{{ModID}}\\AquariumSprite"
+            }
+        }
+    ]
+}

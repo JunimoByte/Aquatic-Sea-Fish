@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModID}}_Compat_ES_QuestJulietGhostFishThingLetter": "{{i18n:ASF_Compat_ES_QuestJulietGhostFishThingLetter}}",
+                "{{ModID}}_Compat_ES_QuestJasperCrystallineRecordLetter": "{{i18n:ASF_Compat_ES_QuestJasperCrystallineRecordLetter}}",
+                "{{ModID}}_Compat_ES_QuestVictoriaHappyInWinterLetter": "{{i18n:ASF_Compat_ES_QuestVictoriaHappyInWinterLetter}}",
+                "{{ModID}}_Compat_ES_QuestKeanuSomethingFromHomeLetter": "{{i18n:ASF_Compat_ES_QuestKeanuSomethingFromHomeLetter}}"
+            }
+        }
+    ]
+}

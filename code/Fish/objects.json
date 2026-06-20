@@ -1,0 +1,135 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "ASF_MermaidPearl": {
+                    "Name": "{{ModID}}_MermaidPearl",
+                    "DisplayName": "{{i18n:{{ModID}}_MermaidPearl.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_MermaidPearl.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1000,
+                    "Texture": "Mods/{{ModID}}/ObjectSprite",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_white",
+                        "fish_nonfish",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                },
+                "ASF_MermaidTear": {
+                    "Name": "{{ModID}}_MermaidTear",
+                    "DisplayName": "{{i18n:{{ModID}}_MermaidTear.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_MermaidTear.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1500,
+                    "Texture": "Mods/{{ModID}}/ObjectSprite",
+                    "SpriteIndex": 1,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_blue",
+                        "fish_nonfish",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                },
+                "ASF_RedCoral": {
+                    "Name": "{{ModID}}_RedCoral",
+                    "DisplayName": "{{i18n:{{ModID}}_RedCoral.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_RedCoral.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 50,
+                    "Texture": "Mods/{{ModID}}/ObjectSprite",
+                    "SpriteIndex": 2,
+                    "Edibility": 15,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_red",
+                        "fish_nonfish",
+                        "season_summer",
+                        "season_fall"
+                    ]
+                },
+                "ASF_AncientShell": {
+                    "Name": "{{ModID}}_AncientShell",
+                    "DisplayName": "{{i18n:{{ModID}}_AncientShell.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_AncientShell.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 400,
+                    "Texture": "Mods/{{ModID}}/ObjectSprite",
+                    "SpriteIndex": 3,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_white",
+                        "fish_nonfish",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                },
+                "ASF_PiratesDoubloon": {
+                    "Name": "{{ModID}}_PiratesDoubloon",
+                    "DisplayName": "{{i18n:{{ModID}}_PiratesDoubloon.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_PiratesDoubloon.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/ObjectSprite",
+                    "SpriteIndex": 4,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_gold",
+                        "fish_nonfish",
+                        "season_summer"
+                    ]
+                },
+                "ASF_LunarPearl": {
+                    "Name": "{{ModID}}_LunarPearl",
+                    "DisplayName": "{{i18n:{{ModID}}_LunarPearl.displayname}}",
+                    "Description": "{{i18n:{{ModID}}_LunarPearl.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1500,
+                    "Texture": "Mods/{{ModID}}/ObjectSprite",
+                    "SpriteIndex": 5,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "fish_nonfish",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                }
+            }
+        }
+    ]
+}

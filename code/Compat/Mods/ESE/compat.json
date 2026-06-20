@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/Sets/Fish/dock.json",
+            "LocalTokens": {
+                "TargetName": "Koda_Cove",
+                "AreaId": "<null>"
+            }
+        }
+    ]
+}

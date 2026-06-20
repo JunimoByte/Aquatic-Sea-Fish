@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModID}}_MermaidPearl": {
+                    "Id": "{{ModID}}_MermaidPearl",
+                    "ItemId": "(O){{ModID}}_MermaidPearl",
+                    "Condition": "LOCATION_Season Here Spring Summer, TIME 600 1700",
+                    "MinFishingLevel": 6,
+                    "Chance": 0.14
+                },
+                "{{ModID}}_MermaidTear": {
+                    "Id": "{{ModID}}_MermaidTear",
+                    "ItemId": "(O){{ModID}}_MermaidTear",
+                    "Condition": "LOCATION_Season Here Spring Summer, WEATHER Here GreenRain Rain Storm, TIME 1700 2600",
+                    "MinFishingLevel": 7,
+                    "Chance": 0.18
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModID}}_MermaidPearl": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModID}}_MermaidTear": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}

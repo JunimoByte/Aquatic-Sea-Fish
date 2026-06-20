@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "Custom_FableReef",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Sets/Fish/dock.json",
+            "LocalTokens": {
+                "TargetName": "Custom_BlueMoonVineyard",
+                "AreaId": "Ocean"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/SVE/Data/mail.json, code/Compat/Mods/SVE/Data/quests.json, code/Compat/Mods/SVE/Data/triggers.json"
+        }
+    ]
+}

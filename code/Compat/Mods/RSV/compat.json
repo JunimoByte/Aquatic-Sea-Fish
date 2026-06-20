@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/RSV/Data/quests.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/RSV/Data/mail.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/RSV/Data/triggers.json"
+        }
+    ]
+}
