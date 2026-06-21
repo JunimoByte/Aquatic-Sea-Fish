@@ -1,5 +1,15 @@
 {
     "Format": "2.8.0",
+    "ConfigSchema": {
+        "Fish Difficulty": {
+            "AllowValues": "Default, Relaxed",
+            "Default": "Default"
+        },
+        "Protected Edibility": {
+            "AllowValues": "Default, Enabled",
+            "Default": "Default"
+        }
+    },
     "Changes": [
         {
             "Action": "Load",
@@ -27,6 +37,10 @@
         {
             "Action": "Include",
             "FromFile": "code/NPCs/dialogue.json, code/NPCs/gifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Other/config.json"
         },
         {
             "Action": "Include",
