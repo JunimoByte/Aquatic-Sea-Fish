@@ -68,38 +68,73 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.35,
-                            "ItemID": "(O)397", // Sea Urchin
-                            "MinQuantity": 1,
-                            "MaxQuantity": 5
-                        },
-                        {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.30,
-                            "ItemID": "(O)62", // Aquamarine
+                            "Chance": 0.2,
+                            "ItemID": "(O)242", // Dish O' The Sea
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.20,
-                            "ItemID": "(O)797", // Pearl
+                            "RequiredPopulation": 0,
+                            "Chance": 0.1,
+                            "ItemID": "(O)728", // Fish Stew
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
                             "Chance": 0.1,
-                            "ItemID": "(O)72", // Diamond
-                            "MinQuantity": 2,
-                            "MaxQuantity": 3
+                            "ItemID": "(O)730", // Lobster Bisque
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.1,
+                            "ItemID": "(O)733", // Shrimp Cocktail
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
-                            "Chance": 0.05,
+                            "Chance": 0.1,
+                            "ItemID": "(O)265", // Seafoam Pudding
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.04,
+                            "ItemID": "(O)856", // Curiosity Lure
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.1,
+                            "ItemID": "(O)797", // Pearl
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.1,
+                            "ItemID": "(O)SeaJelly", // Sea Jelly
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.04,
                             "ItemID": "(O)166", // Treasure Chest
-                            "MinQuantity": 2,
-                            "MaxQuantity": 3
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.02,
+                            "ItemID": "(O)GoldenAnimalCracker", // Golden Animal Cracker
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         }
                     ],
                     "PopulationGates": {
@@ -107,13 +142,22 @@
                             "(O)394 3" // Rainbow Shell ×3
                         ],
                         "4": [
-                            "(O)797 1" // Pearl ×1
+                            "(O)SeaJelly 1" // Sea Jelly ×1
                         ],
                         "5": [
-                            "(O)166 1" // Treasure Chest ×1
+                            "(O)730 1" // Lobster Bisque ×1
+                        ],
+                        "6": [
+                            "(O)733 1" // Shrimp Cocktail ×1
                         ],
                         "7": [
-                            "(O)265 1" // Seafoam Pudding ×1
+                            "(O)728 1" // Fish Stew ×1
+                        ],
+                        "8": [
+                            "(O)791 1" // Golden Coconut ×1
+                        ],
+                        "9": [
+                            "(O)797 1" // Pearl ×1
                         ]
                     },
                     "WaterColor": [
@@ -231,14 +275,14 @@
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.20,
+                            "Chance": 0.2,
                             "ItemID": "(O)286", // Cherry Bomb
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
-                            "Chance": 0.10,
+                            "Chance": 0.1,
                             "ItemID": "(O)394", // Rainbow Shell
                             "MinQuantity": 1,
                             "MaxQuantity": 2
@@ -389,32 +433,60 @@
                     "RequiredTags": [
                         "id_(O){{ModID}}_AlaskanKingSalmon"
                     ],
-                    "SpawnTime": 4,
+                    "SpawnTime": 5,
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.9,
+                            "Chance": 0.45,
                             "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.2,
+                            "ItemID": "(O)212", // Salmon Dinner
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.1,
+                            "ItemID": "(O)730", // Lobster Bisque
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.1,
+                            "ItemID": "(O)242", // Dish O' The Sea
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
                             "RequiredPopulation": 8,
+                            "Chance": 0.1,
+                            "ItemID": "(O)728", // Fish Stew
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 10,
                             "Chance": 0.05,
-                            "ItemID": "(O)62", // Aquamarine
+                            "ItemID": "(O)265", // Seafoam Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
                     ],
                     "PopulationGates": {
                         "3": [
-                            "(O)340 1" // Honey x1
+                            "(O)392 1" // Nautilus Shell x1
                         ],
                         "5": [
-                            "(O)403 1" // Field Snack x1
+                            "(O)728 1" // Fish Stew x1
                         ],
                         "8": [
-                            "(O)62 1" // Aquamarine ×1
+                            "(O)212 1" // Salmon Dinner ×1
                         ]
                     }
                 },
@@ -434,14 +506,14 @@
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.30,
+                            "Chance": 0.3,
                             "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.10,
+                            "Chance": 0.1,
                             "ItemID": "(O)66", // Amethyst
                             "MinQuantity": 1,
                             "MaxQuantity": 2
@@ -593,49 +665,63 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.6,
+                            "Chance": 0.35,
                             "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 5
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.15,
-                            "ItemID": "(O)242", // Dish O' The Sea
+                            "Chance": 0.2,
+                            "ItemID": "(O)687", // Dressed Spinner
                             "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "MaxQuantity": 3
                         },
                         {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.10,
-                            "ItemID": "(O)612", // Cranberry Candy
-                            "MinQuantity": 2,
-                            "MaxQuantity": 5
-                        },
-                        {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.10,
-                            "ItemID": "(O)797", // Pearl
+                            "RequiredPopulation": 4,
+                            "Chance": 0.17,
+                            "ItemID": "(O)695", // Cork Bobber
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 5,
+                            "Chance": 0.1,
+                            "ItemID": "(O)394", // Rainbow Shell
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.1,
+                            "ItemID": "(O)275", // Artifact Trove
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.03,
+                            "ItemID": "(O)74", // Prismatic Shard
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
                             "Chance": 0.05,
-                            "ItemID": "(O)279", // Magic Rock Candy
+                            "ItemID": "(O)166", // Treasure Chest
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
                     ],
                     "PopulationGates": {
                         "3": [
-                            "(O)62 5" // Aquamarine ×5
+                            "(O)715 3" // Lobster ×3
                         ],
-                        "4": [
-                            "(O)797 1" // Pearl ×1
+                        "6": [
+                            "(O)151 2" // Squid ×2
                         ],
-                        "5": [
-                            "(O)74 1" // Prismatic Shard ×1
+                        "8": [
+                            "(O)166 1" // Treasure Chest ×1
                         ]
                     },
                     "WaterColor": [
@@ -654,56 +740,70 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.45,
-                            "ItemID": "(O)372", // Clam
+                            "Chance": 0.25,
+                            "ItemID": "(O)88", // Coconut
                             "MinQuantity": 1,
-                            "MaxQuantity": 5
+                            "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.15,
-                            "ItemID": "(O)797", // Pearl
-                            "MinQuantity": 1,
-                            "MaxQuantity": 1
-                        },
-                        {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.10,
+                            "Chance": 0.17,
                             "ItemID": "(O)904", // Banana Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.10,
+                            "Chance": 0.1,
                             "ItemID": "(O)733", // Shrimp Cocktail
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.10,
+                            "Chance": 0.1,
                             "ItemID": "(O)873", // Pina Colada
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
-                            "Chance": 0.10,
+                            "Chance": 0.1,
                             "ItemID": "(O)69", // Banana Sapling
                             "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.1,
+                            "ItemID": "(O)905", // Mango Sticky Rice
+                            "MinQuantity": 1,
                             "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.1,
+                            "ItemID": "(O)907", // Tropical Curry
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.08,
+                            "ItemID": "(O)797", // Pearl
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
                         }
                     ],
                     "PopulationGates": {
                         "3": [
-                            "(O)60 2" // Emerald ×2
+                            "(O)88 3" // Coconut ×3
                         ],
                         "6": [
-                            "(O)797 1" // Pearl ×1
+                            "(O)907 1" // Tropical Curry ×1
                         ],
                         "9": [
-                            "(O)74 1" // Prismatic Shard ×1
+                            "(O)791 1" // Golden Coconut  ×1
                         ]
                     },
                     "WaterColor": [
@@ -998,7 +1098,7 @@
                         },
                         {
                             "RequiredPopulation": 5,
-                            "Chance": 0.10,
+                            "Chance": 0.1,
                             "ItemID": "(O)60", // Emerald
                             "MinQuantity": 1,
                             "MaxQuantity": 1
@@ -1286,8 +1386,8 @@
                             "RequiredPopulation": 6,
                             "Chance": 0.05,
                             "ItemID": "(O)417", // Sweet Gem Berry
-                            "MinQuantity": 3,
-                            "MaxQuantity": 5
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         }
                     ],
                     "PopulationGates": {
@@ -1318,14 +1418,14 @@
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.4,
+                            "Chance": 0.48,
                             "ItemID": "(O)220", // Chocolate Cake
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 6,
-                            "Chance": 0.1,
+                            "Chance": 0.02,
                             "ItemID": "(O)279", // Magic Rock Candy
                             "MinQuantity": 1,
                             "MaxQuantity": 1
@@ -1673,9 +1773,16 @@
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 10,
-                            "Chance": 0.05,
+                            "RequiredPopulation": 9,
+                            "Chance": 0.03,
                             "ItemID": "(O)279", // Magic Rock Candy
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.02,
+                            "ItemID": "(O)MysticTreeSeed", // MysticT ree Seed
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }

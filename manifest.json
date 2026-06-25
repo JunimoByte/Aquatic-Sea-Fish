@@ -16,10 +16,6 @@
       "IsRequired": true
     },
     {
-      "UniqueId": "MoreFish",
-      "IsRequired": false
-    },
-    {
       "UniqueId": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false
     },
