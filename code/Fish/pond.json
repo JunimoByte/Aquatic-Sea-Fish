@@ -701,9 +701,9 @@
                         {
                             "RequiredPopulation": 8,
                             "Chance": 0.03,
-                            "ItemID": "(O)74", // Prismatic Shard
-                            "MinQuantity": 1,
-                            "MaxQuantity": 1
+                            "ItemID": "(O)877", // Quality Bobber
+                            "MinQuantity": 2,
+                            "MaxQuantity": 4
                         },
                         {
                             "RequiredPopulation": 9,
@@ -1383,7 +1383,7 @@
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 6,
+                            "RequiredPopulation": 9,
                             "Chance": 0.05,
                             "ItemID": "(O)417", // Sweet Gem Berry
                             "MinQuantity": 1,
@@ -1433,13 +1433,13 @@
                     ],
                     "PopulationGates": {
                         "4": [
-                            "(O)223 3" // Cookies ×3
+                            "(O)223 2" // Cookies ×2
                         ],
                         "6": [
                             "(O)418 3" // Crocus ×3
                         ],
                         "8": [
-                            "(O)279 1" // Magic Rock Candy ×1
+                            "(O)220 1" // Chocolate Cake ×1
                         ]
                     }
                 },
@@ -1448,59 +1448,97 @@
                     "RequiredTags": [
                         "id_(O){{ModID}}_Pufferjelly"
                     ],
-                    "SpawnTime": 10,
+                    "SpawnTime": 6,
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.6,
-                            "ItemID": "(O)253", // Triple Shot Espresso
-                            "MinQuantity": 1,
-                            "MaxQuantity": 1
+                            "Chance": 0.23,
+                            "ItemID": "(O)393", // Coral
+                            "MinQuantity": 2,
+                            "MaxQuantity": 4
                         },
                         {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.1,
-                            "ItemID": "(O)209", // Carp Surprise
+                            "RequiredPopulation": 0,
+                            "Chance": 0.2,
+                            "ItemID": "(O)397", // Sea Urchin
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.1,
-                            "ItemID": "(O)907", // Tropical Curry
-                            "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "RequiredPopulation": 2,
+                            "Chance": 0.15,
+                            "ItemID": "(O)787", // Battery Pack
+                            "MinQuantity": 2,
+                            "MaxQuantity": 4
                         },
                         {
                             "RequiredPopulation": 4,
                             "Chance": 0.1,
-                            "ItemID": "(O)730", // Lobster Bisque
+                            "ItemID": "(O)338", // Refined Quartz
+                            "MinQuantity": 2,
+                            "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.1,
+                            "ItemID": "(O)814", // Squid Ink
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 6,
-                            "Chance": 0.1,
-                            "ItemID": "(O)265", // Seafoam Pudding
+                            "RequiredPopulation": 7,
+                            "Chance": 0.06,
+                            "ItemID": "(O)791", // Golden Coconut
                             "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.04,
+                            "ItemID": "(O)852", // Dragon Tooth
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                         {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.05,
+                            "ItemID": "(O)797", // Pearl
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.03,
+                            "ItemID": "(O)166", // Treasure Chest
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.04,
+                            "ItemID": "(O)857", // Tiger Slime Egg
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
                         }
                     ],
                     "PopulationGates": {
-                        "2": [
-                            "(O)730 1" // Lobster Bisque ×1
+                        "3": [
+                            "(O)787 2" // Battery Pack ×2
                         ],
-                        "4": [
-                            "(O)265 1" // Seafoam Pudding ×1
+                        "5": [
+                            "(O)338 2" // Refined Quartz ×2
                         ],
                         "7": [
-                            "(O)907 3" // Tropical Curry ×3
+                            "(O)797 1" // Pearl ×1
+                        ],
+                        "9": [
+                            "(O)791 1" // Golden Coconut ×1
                         ]
                     },
                     "WaterColor": [
                         {
                             "Id": "{{ModID}}_Pufferjelly_WaterColor",
-                            "Color": "#FFD700"
+                            "Color": "#D86CFF"
                         }
                     ]
                 },
@@ -1545,7 +1583,7 @@
                             "(O)613 3" // Apple ×3
                         ],
                         "7": [
-                            "(O)907 3" // Tropical Curry ×3
+                            "(O)907 1" // Tropical Curry ×1
                         ]
                     }
                 },
@@ -1782,7 +1820,7 @@
                         {
                             "RequiredPopulation": 10,
                             "Chance": 0.02,
-                            "ItemID": "(O)MysticTreeSeed", // MysticT ree Seed
+                            "ItemID": "(O)MysticTreeSeed", // Mystic Tree Seed
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -1814,76 +1852,83 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.35,
-                            "ItemID": "(O)237", // Super Meal
+                            "Chance": 0.3,
+                            "ItemID": "(O)732", // Crab Cakes
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.2,
-                            "ItemID": "(O)212", // Salmon Dinner
+                            "Chance": 0.25,
+                            "ItemID": "(O)727", // Chowder
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 3,
+                            "RequiredPopulation": 2,
+                            "Chance": 0.15,
+                            "ItemID": "(O)829", // Ginger
+                            "MinQuantity": 2,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 2,
                             "Chance": 0.1,
-                            "ItemID": "(O)904", // Banana Pudding
-                            "MinQuantity": 1,
-                            "MaxQuantity": 2
-                        },
-                        {
-                            "RequiredPopulation": 6,
-                            "Chance": 0.1,
-                            "ItemID": "(O)733", // Shrimp Cocktail
-                            "MinQuantity": 1,
-                            "MaxQuantity": 2
-                        },
-                        {
-                            "RequiredPopulation": 8,
-                            "Chance": 0.1,
-                            "ItemID": "(O)873", // Pina Colada
-                            "MinQuantity": 1,
-                            "MaxQuantity": 2
-                        },
-                        {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.05,
-                            "ItemID": "(O)417", // Sweet Gem Berry
+                            "ItemID": "(O)905", // Mango Sticky Rice
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
-                            "RequiredPopulation": 3,
-                            "Chance": 0.05,
+                            "RequiredPopulation": 4,
+                            "Chance": 0.1,
+                            "ItemID": "(O)851", // Magma Cap
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.08,
                             "ItemID": "(O)797", // Pearl
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
-                            "RequiredPopulation": 10,
-                            "Chance": 0.05,
-                            "ItemID": "(O)856", // Curiosity Lure
+                            "RequiredPopulation": 6,
+                            "Chance": 0.07,
+                            "ItemID": "(O)873", // Pina Colada
                             "MinQuantity": 1,
                             "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.05,
+                            "ItemID": "(O)74", // Prismatic Shard
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.03,
+                            "ItemID": "(O)336", // Gold Bar
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         }
                     ],
                     "PopulationGates": {
-                        "4": [
+                        "3": [
                             "(O)88 3" // Coconut ×3
                         ],
                         "6": [
-                            "(O)91 5" // Banana ×5
+                            "(O)905 1" // Mango Sticky Rice ×1
                         ],
                         "8": [
-                            "(O)834 5" // Mango ×5
+                            "(O)91 5" // Banana ×5
                         ]
                     },
                     "WaterColor": [
                         {
                             "Id": "{{ModID}}_WhaleShark_WaterColor",
-                            "Color": "#00558A"
+                            "Color": "#309ac9"
                         }
                     ]
                 },
@@ -1932,13 +1977,13 @@
                     ],
                     "PopulationGates": {
                         "4": [
-                            "(O)283 3" // Holly ×3
+                            "(O)283 1" // Holly ×1
                         ],
                         "6": [
-                            "(O)412 5" // Winter Root ×5
+                            "(O)412 2" // Winter Root ×2
                         ],
                         "8": [
-                            "(O)414 5" // Crystal Fruit ×5
+                            "(O)414 3" // Crystal Fruit ×3
                         ]
                     },
                     "WaterColor": [
@@ -1957,48 +2002,93 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.35,
+                            "Chance": 0.20,
                             "ItemID": "(O)635", // Orange
-                            "MinQuantity": 1,
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.15,
+                            "ItemID": "(O)613", // Apple
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 2,
+                            "Chance": 0.15,
+                            "ItemID": "(O)833", // Pineapple Seeds
+                            "MinQuantity": 2,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.35,
-                            "ItemID": "(O)832", // Pineapple
-                            "MinQuantity": 1,
+                            "Chance": 0.12,
+                            "ItemID": "(O)834", // Mango
+                            "MinQuantity": 2,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 5,
-                            "Chance": 0.2,
-                            "ItemID": "(O)904", // Banana Pudding
+                            "Chance": 0.10,
+                            "ItemID": "(O)636", // Peach
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 8,
-                            "Chance": 0.1,
-                            "ItemID": "(O)876", // Prismatic Jelly
+                            "RequiredPopulation": 6,
+                            "Chance": 0.08,
+                            "ItemID": "(O)638", // Cherry
                             "MinQuantity": 1,
                             "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.07,
+                            "ItemID": "(O)791", // Golden Coconut
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.06,
+                            "ItemID": "(O)835", // Mango Sapling
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.04,
+                            "ItemID": "(O)69", // Banana Sapling
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.03,
+                            "ItemID": "(O)797", // Pearl
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
                         }
                     ],
                     "PopulationGates": {
-                        "4": [
-                            "(O)635 3" // Orange ×3
+                        "3": [
+                            "(O)635 2" // Orange x3
                         ],
-                        "6": [
-                            "(O)832 3" // Pineapple ×3
+                        "5": [
+                            "(O)832 2" // Pineapple x2
                         ],
-                        "8": [
-                            "(O)268 1" // Starfruit ×1
+                        "7": [
+                            "(O)638 3" // Cherry x3
+                        ],
+                        "9": [
+                            "(O)613 5" // Apple x5
                         ]
                     },
                     "WaterColor": [
                         {
                             "Id": "{{ModID}}_LemonShark_WaterColor",
-                            "Color": "#FFD700"
+                            "Color": "#FFD84D"
                         }
                     ]
                 }
