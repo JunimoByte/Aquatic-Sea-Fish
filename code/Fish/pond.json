@@ -183,7 +183,7 @@
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.2,
+                            "Chance": 0.15,
                             "ItemID": "(O)392", // Nautilus Shell
                             "MinQuantity": 1,
                             "MaxQuantity": 2
@@ -191,7 +191,7 @@
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "(O)257", // Dried Starfish
+                            "ItemID": "(O)921", // Squid Ink Ravioli
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
@@ -201,6 +201,13 @@
                             "ItemID": "(O)265", // Seafoam Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.05,
+                            "ItemID": "(O)428", // Cloth
+                            "MinQuantity": 3,
+                            "MaxQuantity": 5
                         }
                     ],
                     "PopulationGates": {
@@ -211,7 +218,7 @@
                             "(O)372 3" // Clam ×3
                         ],
                         "9": [
-                            "(O)797 1" // Pearl ×1
+                            "(O)392 5" // Nautilus Shell ×1
                         ]
                     },
                     "WaterColor": [
@@ -513,28 +520,42 @@
                         },
                         {
                             "RequiredPopulation": 3,
-                            "Chance": 0.1,
+                            "Chance": 0.15,
                             "ItemID": "(O)66", // Amethyst
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
-                            "Chance": 0.09,
+                            "Chance": 0.1,
+                            "ItemID": "(O)749", // Omni Geode
+                            "MinQuantity": 2,
+                            "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.08,
                             "ItemID": "(O)72", // Diamond
                             "MinQuantity": 1,
                             "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.02,
+                            "ItemID": "(O)337", // Iridium Bar
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         }
                     ],
                     "PopulationGates": {
                         "3": [
-                            "(O)66 3" // Amethyst ×3
+                            "(O)397 5" // Sea Urchin ×5
                         ],
                         "4": [
-                            "(O)797 2" // Pearl ×2
+                            "(O)66 2" // Amethyst ×2
                         ],
                         "5": [
-                            "(O)72 2" // Diamond ×2
+                            "(O)72 1" // Diamond ×1
                         ]
                     },
                     "WaterColor": [
