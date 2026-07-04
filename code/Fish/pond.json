@@ -139,7 +139,7 @@
                     ],
                     "PopulationGates": {
                         "3": [
-                            "(O)394 3" // Rainbow Shell ×3
+                            "(O)394 1" // Rainbow Shell ×1
                         ],
                         "4": [
                             "(O)SeaJelly 1" // Sea Jelly ×1
@@ -218,7 +218,7 @@
                             "(O)372 3" // Clam ×3
                         ],
                         "9": [
-                            "(O)392 5" // Nautilus Shell ×1
+                            "(O)392 2" // Nautilus Shell ×2
                         ]
                     },
                     "WaterColor": [
@@ -884,7 +884,7 @@
                             "Chance": 0.15,
                             "ItemID": "(O)60", // Emerald
                             "MinQuantity": 1,
-                            "MaxQuantity": 1
+                            "MaxQuantity": 2
                         }
                     ],
                     "PopulationGates": {
@@ -1520,7 +1520,7 @@
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
-                         {
+                        {
                             "RequiredPopulation": 8,
                             "Chance": 0.05,
                             "ItemID": "(O)797", // Pearl
@@ -1783,7 +1783,7 @@
                             "(O)213 3" // Fish Taco ×3
                         ],
                         "6": [
-                            "(O)240 1" // Farmers Lunch ×1
+                            "(O)240 1" // Farmer's Lunch ×1
                         ],
                         "9": [
                             "(O)233 2" // Ice Cream ×2
@@ -2094,7 +2094,7 @@
                     ],
                     "PopulationGates": {
                         "3": [
-                            "(O)635 2" // Orange x3
+                            "(O)635 2" // Orange x2
                         ],
                         "5": [
                             "(O)832 2" // Pineapple x2
