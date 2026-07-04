@@ -839,29 +839,78 @@
                     "RequiredTags": [
                         "id_(O){{ModID}}_LeopardStingray"
                     ],
-                    "SpawnTime": 3,
+                    "SpawnTime": 5,
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.5,
+                            "Chance": 0.33,
                             "ItemID": "(O)393", // Coral
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         },
                         {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.25,
+                            "ItemID": "(O)907", // Tropical Curry
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 2,
+                            "Chance": 0.02,
+                            "ItemID": "(O)688", // Warp Totem: Farm
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.13,
+                            "ItemID": "(O)830", // Taro Root
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.1,
+                            "ItemID": "(O)829", // Ginger
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
+                        },
+                        {
                             "RequiredPopulation": 5,
-                            "Chance": 0.5,
-                            "ItemID": "(O)372", // Clam
+                            "Chance": 0.02,
+                            "ItemID": "(O)681", // Rain Totem
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.1,
+                            "ItemID": "(O)834", // Mango
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.04,
+                            "ItemID": "(O)791", // Golden Coconut
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.01,
+                            "ItemID": "(O)797", // Pearl
                             "MinQuantity": 1,
                             "MaxQuantity": 3
                         }
                     ],
                     "PopulationGates": {
                         "4": [
-                            "(O)393 3" // Coral ×3
+                            "(O)88 3" // Coconut ×3
                         ],
                         "7": [
-                            "(O)372 2" // Clam ×2
+                            "(O)90 5" // Cactus Fruit ×5
                         ]
                     }
                 },
@@ -880,11 +929,18 @@
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 5,
-                            "Chance": 0.15,
-                            "ItemID": "(O)60", // Emerald
+                            "RequiredPopulation": 3,
+                            "Chance": 0.1,
+                            "ItemID": "(O)62", // Aquamarine
                             "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.05,
+                            "ItemID": "(O)428", // Cloth
+                            "MinQuantity": 2,
+                            "MaxQuantity": 3
                         }
                     ],
                     "PopulationGates": {
@@ -892,7 +948,7 @@
                             "(O)152 2" // Seaweed ×2
                         ],
                         "7": [
-                            "(O)60 1" // Emerald ×1
+                            "(O)62 1" // Aquamarine ×1
                         ]
                     },
                     "WaterColor": [
@@ -926,7 +982,7 @@
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "(O)62", // Aquamarine
+                            "ItemID": "(O)60", // Emerald
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         }
@@ -936,7 +992,7 @@
                             "(O)152 2" // Seaweed ×2
                         ],
                         "5": [
-                            "(O)62 1" // Aquamarine ×1
+                            "(O)60 1" // Emerald ×1
                         ]
                     }
                 },
@@ -964,9 +1020,9 @@
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.05,
-                            "ItemID": "(O)66", // Amethyst
-                            "MinQuantity": 1,
-                            "MaxQuantity": 1
+                            "ItemID": "(O)635", // Orange
+                            "MinQuantity": 3,
+                            "MaxQuantity": 5
                         }
                     ],
                     "PopulationGates": {
@@ -974,7 +1030,7 @@
                             "(O)152 2" // Seaweed ×2
                         ],
                         "5": [
-                            "(O)66 1" // Amethyst ×1
+                            "(O)635 1" // Orange ×1
                         ]
                     }
                 },
@@ -987,10 +1043,24 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.95,
+                            "Chance": 0.65,
                             "ItemID": "(O)812", // Roe
                             "MinQuantity": 1,
                             "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.2,
+                            "ItemID": "(O)691", // Barbed Hook
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 2,
+                            "Chance": 0.1,
+                            "ItemID": "(O)693", // Treasure Hunter
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 3,
@@ -1012,7 +1082,7 @@
                             "(O)152 1" // Seaweed ×1
                         ],
                         "5": [
-                            "(O)372 1" // Clam ×1
+                            "(O)372 3" // Clam ×3
                         ]
                     },
                     "WaterColor": [
@@ -1316,10 +1386,17 @@
                         },
                         {
                             "RequiredPopulation": 6,
-                            "Chance": 0.1,
+                            "Chance": 0.08,
                             "ItemID": "(O)416", // Snow Yam
                             "MinQuantity": 2,
                             "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.02,
+                            "ItemID": "(O)74", // Prismatic Shard
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         }
                     ],
                     "PopulationGates": {
