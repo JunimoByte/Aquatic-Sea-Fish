@@ -292,7 +292,7 @@
                             "Chance": 0.1,
                             "ItemID": "(O)394", // Rainbow Shell
                             "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "MaxQuantity": 1
                         }
                     ],
                     "PopulationGates": {
