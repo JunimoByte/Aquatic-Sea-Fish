@@ -1291,47 +1291,47 @@
                         {
                             "RequiredPopulation": 0,
                             "Chance": 0.3,
-                            "ItemID": "(O)236", // Pumpkin Soup
+                            "ItemID": "(O)237", // Super Meal
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 3,
+                            "RequiredPopulation": 0,
                             "Chance": 0.2,
                             "ItemID": "(O)235", // Autumn's Bounty
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 3,
+                            "RequiredPopulation": 2,
                             "Chance": 0.2,
                             "ItemID": "(O)608", // Pumpkin Pie
                             "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "MaxQuantity": 1
                         },
                         {
-                            "RequiredPopulation": 6,
+                            "RequiredPopulation": 3,
                             "Chance": 0.1,
                             "ItemID": "(O)604", // Plum Pudding
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 6,
+                            "RequiredPopulation": 5,
                             "Chance": 0.1,
-                            "ItemID": "(O)237", // Super Meal
+                            "ItemID": "(O)236", // Pumpkin Soup
                             "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "MaxQuantity": 1
                         },
                         {
-                            "RequiredPopulation": 8,
+                            "RequiredPopulation": 7,
                             "Chance": 0.08,
                             "ItemID": "(O)611", // Blackberry Cobbler
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
-                            "RequiredPopulation": 8,
+                            "RequiredPopulation": 9,
                             "Chance": 0.02,
                             "ItemID": "(O)373", // Golden Pumpkin
                             "MinQuantity": 1,
@@ -1343,7 +1343,7 @@
                             "(O)276 3" // Pumpkin ×3
                         ],
                         "6": [
-                            "(O)236 1" // Pumpkin Soup ×1
+                            "(O)611 1" // Blackberry Cobbler ×1
                         ],
                         "8": [
                             "(O)608 1" // Pumpkin Pie ×1
