@@ -4,12 +4,12 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModID}}_Compat_Arumi_QuestArumiPufferjelly_Trigger": {
-                    "Id": "{{ModID}}_Compat_Arumi_QuestArumiPufferjelly_Trigger",
+                "{{ModId}}_Compat_Arumi_QuestArumiPufferjelly_Trigger": {
+                    "Id": "{{ModId}}_Compat_Arumi_QuestArumiPufferjelly_Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current Arumi 2, SEASON Summer, !PLAYER_HAS_MAIL Current {{ModID}}_Compat_Arumi_QuestArumiPufferjellyLetter",
+                    "Condition": "PLAYER_HEARTS Current Arumi 2, SEASON Summer, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_Arumi_QuestArumiPufferjellyLetter",
                     "Actions": [
-                        "AddMail Current {{ModID}}_Compat_Arumi_QuestArumiPufferjellyLetter now"
+                        "AddMail Current {{ModId}}_Compat_Arumi_QuestArumiPufferjellyLetter now"
                     ]
                 }
             }

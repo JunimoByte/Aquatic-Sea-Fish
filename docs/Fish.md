@@ -10,7 +10,7 @@ Fish are defined in `code/Fish/fish.json` using the standard Stardew Valley obje
 When defining custom fish difficulty and behavior, uses the following pipe-separated format:
 `"FishID/Difficulty/Type/MinSize/MaxSize/MinAndMaxTime/Season/Weather/Null/MaxDepth/Chance/DepthMulti/FishingLevel/FirstCatchAllowed"`
 
--   **FishID**: The unique ID of the fish (e.g., `{{ModID}}_SeaTurtle`).
+-   **FishID**: The unique ID of the fish (e.g., `{{ModId}}_SeaTurtle`).
 -   **Difficulty**: Integer (e.g., `85`). Higher is harder.
 -   **Type**: Movement pattern (`mixed`, `smooth`, `floater`, `sinker`, `dart`).
     -   `floater`: Tends to move up.
@@ -25,7 +25,7 @@ When defining custom fish difficulty and behavior, uses the following pipe-separ
 To add fish to the aquarium, you need to add them to `code/Fish/aquarium.json`. This file maps modded fish to their aquarium animations.
 
 ### Data Format
--   **FishID**: The unique ID of the fish (e.g., `{{ModID}}_SeaTurtle`).
+-   **FishID**: The unique ID of the fish (e.g., `{{ModId}}_SeaTurtle`).
 -   **Type**: The animation behavior:
     -   `fish`: Standard swimming.
     -   `cephalopod`: Pulsing movement (octopus/jellyfish).
@@ -33,10 +33,10 @@ To add fish to the aquarium, you need to add them to `code/Fish/aquarium.json`. 
     -   `ground`: Stationary on ground (starfish).
     -   `static`: No animation (shells).
     -   `eel`: Serpentine movement.
--   **SpritePath**: Path to the texture (e.g., `Mods\\{{ModID}}\\AquariumSprite`).
+-   **SpritePath**: Path to the texture (e.g., `Mods\\{{ModId}}\\AquariumSprite`).
 
 ### Example
 ```json
-"{{ModID}}_BlueSpottedOctopus": "1/cephalopod/////Mods\\{{ModID}}\\AquariumSprite"
+"{{ModId}}_BlueSpottedOctopus": "1/cephalopod/////Mods\\{{ModId}}\\AquariumSprite"
 ```
 This defines the Blue Spotted Octopus using frame 1, behaving like a cephalopod, using the mod's aquarium sprite sheet.

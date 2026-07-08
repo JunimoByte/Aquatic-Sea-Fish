@@ -4,10 +4,10 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModID}}_Compat_ES_QuestJulietGhostFishThing": "{{i18n:ASF_Compat_ES_QuestJulietGhostFishThing}}",
-                "{{ModID}}_Compat_ES_QuestJasperCrystallineRecord": "{{i18n:ASF_Compat_ES_QuestJasperCrystallineRecord}}",
-                "{{ModID}}_Compat_ES_QuestVictoriaHappyInWinter": "{{i18n:ASF_Compat_ES_QuestVictoriaHappyInWinter}}",
-                "{{ModID}}_Compat_ES_QuestKeanuSomethingFromHome": "{{i18n:ASF_Compat_ES_QuestKeanuSomethingFromHome}}"
+                "{{ModId}}_Compat_ES_QuestJulietGhostFishThing": "{{i18n:ASF_Compat_ES_QuestJulietGhostFishThing}}",
+                "{{ModId}}_Compat_ES_QuestJasperCrystallineRecord": "{{i18n:ASF_Compat_ES_QuestJasperCrystallineRecord}}",
+                "{{ModId}}_Compat_ES_QuestVictoriaHappyInWinter": "{{i18n:ASF_Compat_ES_QuestVictoriaHappyInWinter}}",
+                "{{ModId}}_Compat_ES_QuestKeanuSomethingFromHome": "{{i18n:ASF_Compat_ES_QuestKeanuSomethingFromHome}}"
             }
         }
     ]

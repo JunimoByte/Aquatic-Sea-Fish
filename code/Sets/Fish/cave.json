@@ -8,9 +8,9 @@
                 "Fish"
             ],
             "Entries": {
-                "{{ModID}}_Hookfin": {
-                    "Id": "{{ModID}}_Hookfin",
-                    "ItemId": "(O){{ModID}}_Hookfin",
+                "{{ModId}}_Hookfin": {
+                    "Id": "{{ModId}}_Hookfin",
+                    "ItemId": "(O){{ModId}}_Hookfin",
                     "Condition": "LOCATION_Season Here Summer"
                 }
             }
@@ -26,7 +26,7 @@
                 "AreaId |contains=<null>": "false"
             },
             "Fields": {
-                "{{ModID}}_Hookfin": {
+                "{{ModId}}_Hookfin": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

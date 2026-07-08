@@ -8,9 +8,9 @@
                 "Forage"
             ],
             "Entries": {
-                "{{ModID}}_RedCoral": {
-                    "Id": "{{ModID}}_RedCoral",
-                    "ItemId": "(O){{ModID}}_RedCoral",
+                "{{ModId}}_RedCoral": {
+                    "Id": "{{ModId}}_RedCoral",
+                    "ItemId": "(O){{ModId}}_RedCoral",
                     "Condition": "LOCATION_Season Here Summer",
                     "Chance": 0.1
                 }
@@ -24,14 +24,14 @@
                 "Forage"
             ],
             "Entries": {
-                "{{ModID}}_AncientShell": {
-                    "Id": "{{ModID}}_AncientShell",
-                    "ItemId": "(O){{ModID}}_AncientShell",
+                "{{ModId}}_AncientShell": {
+                    "Id": "{{ModId}}_AncientShell",
+                    "ItemId": "(O){{ModId}}_AncientShell",
                     "Chance": 0.02
                 },
-                "{{ModID}}_PiratesDoubloon": {
-                    "Id": "{{ModID}}_PiratesDoubloon",
-                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                "{{ModId}}_PiratesDoubloon": {
+                    "Id": "{{ModId}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModId}}_PiratesDoubloon",
                     "Chance": 0.01
                 }
             }
@@ -44,14 +44,14 @@
                 "Forage"
             ],
             "Entries": {
-                "{{ModID}}_AncientShell": {
-                    "Id": "{{ModID}}_AncientShell",
-                    "ItemId": "(O){{ModID}}_AncientShell",
+                "{{ModId}}_AncientShell": {
+                    "Id": "{{ModId}}_AncientShell",
+                    "ItemId": "(O){{ModId}}_AncientShell",
                     "Chance": 0.02
                 },
-                "{{ModID}}_PiratesDoubloon": {
-                    "Id": "{{ModID}}_PiratesDoubloon",
-                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                "{{ModId}}_PiratesDoubloon": {
+                    "Id": "{{ModId}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModId}}_PiratesDoubloon",
                     "Chance": 0.01
                 }
             }

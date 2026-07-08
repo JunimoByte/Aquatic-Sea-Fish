@@ -1,0 +1,161 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_MermaidPearl": {
+                    "Name": "{{ModId}}_MermaidPearl",
+                    "DisplayName": "{{i18n:{{ModId}}_MermaidPearl.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_MermaidPearl.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1000,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_nonfish",
+                        "fish_skip_minigame",
+                        "season_spring",
+                        "season_summer",
+                        "color_white"
+                    ]
+                },
+                "{{ModId}}_MermaidTear": {
+                    "Name": "{{ModId}}_MermaidTear",
+                    "DisplayName": "{{i18n:{{ModId}}_MermaidTear.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_MermaidTear.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1500,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 1,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_nonfish",
+                        "fish_skip_minigame",
+                        "season_spring",
+                        "season_summer",
+                        "color_blue"
+                    ]
+                },
+                "{{ModId}}_RedCoral": {
+                    "Name": "{{ModId}}_RedCoral",
+                    "DisplayName": "{{i18n:{{ModId}}_RedCoral.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_RedCoral.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 50,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 2,
+                    "Edibility": 15,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_nonfish",
+                        "fish_skip_minigame",
+                        "season_summer",
+                        "color_red"
+                    ]
+                },
+                "{{ModId}}_AncientShell": {
+                    "Name": "{{ModId}}_AncientShell",
+                    "DisplayName": "{{i18n:{{ModId}}_AncientShell.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_AncientShell.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 400,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 3,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_nonfish",
+                        "fish_skip_minigame",
+                        "season_spring",
+                        "season_summer",
+                        "color_white"
+                    ]
+                },
+                "{{ModId}}_PiratesDoubloon": {
+                    "Name": "{{ModId}}_PiratesDoubloon",
+                    "DisplayName": "{{i18n:{{ModId}}_PiratesDoubloon.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_PiratesDoubloon.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 4,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_nonfish",
+                        "fish_skip_minigame",
+                        "season_summer",
+                        "color_gold"
+                    ]
+                },
+                "{{ModId}}_LunarPearl": {
+                    "Name": "{{ModId}}_LunarPearl",
+                    "DisplayName": "{{i18n:{{ModId}}_LunarPearl.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_LunarPearl.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1500,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 5,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_nonfish",
+                        "fish_skip_minigame",
+                        "season_spring",
+                        "season_summer",
+                        "color_pink"
+                    ]
+                },
+                "{{ModId}}_RubberDuck": {
+                    "Name": "{{ModId}}_RubberDuck",
+                    "DisplayName": "{{i18n:{{ModId}}_RubberDuck.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_RubberDuck.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 6,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_nonfish",
+                        "fish_skip_minigame",
+                        "season_spring",
+                        "color_yellow"
+                    ]
+                }
+            }
+        }
+    ]
+}

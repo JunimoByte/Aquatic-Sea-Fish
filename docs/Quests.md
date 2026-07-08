@@ -4,7 +4,7 @@ This guide details how to add new quests to ASF, covering the Quest string forma
 
 ## Quest Data Format
 
-Quests are defined in `Data/Quests` (see `code/Events/quests.json`). To support multiple languages, the values in `quests.json` point to translation keys (e.g., `"{{i18n:{{ModID}}_QuestWillyGoldenMahiMahi}}"`).
+Quests are defined in `Data/Quests` (see `code/Events/quests.json`). To support multiple languages, the values in `quests.json` point to translation keys (e.g., `"{{i18n:{{ModId}}_QuestWillyGoldenMahiMahi}}"`).
 
 The actual quest logic is defined in `i18n/default.json` as a slash-separated string:
 
@@ -30,7 +30,7 @@ The actual quest logic is defined in `i18n/default.json` as a slash-separated st
 
 ### Example (in `i18n/default.json`)
 ```json
-"{{ModID}}_QuestWillyGoldenMahiMahi": "ItemDelivery/Catch More Mahi Mahi/Description.../Bring Willy 5 Mahi Mahis./Willy (O)ASF_MahiMahi 5/-1/15000/-1/true/Thanks!#$action AddMail..."
+"{{ModId}}_QuestWillyGoldenMahiMahi": "ItemDelivery/Catch More Mahi Mahi/Description.../Bring Willy 5 Mahi Mahis./Willy (O)ASF_MahiMahi 5/-1/15000/-1/true/Thanks!#$action AddMail..."
 ```
 
 ## Starting Quests via Triggers
@@ -39,12 +39,12 @@ Quests usually start via letters or interactions. In ASF, we use `Data/TriggerAc
 
 ### Trigger Structure
 ```json
-"{{ModID}}_TriggerName": {
-    "Id": "{{ModID}}_TriggerName",
+"{{ModId}}_TriggerName": {
+    "Id": "{{ModId}}_TriggerName",
     "Trigger": "LocationChanged",
     "Condition": "PLAYER_LOCATION_NAME Current IslandSouth..., PLAYER_BASE_FISHING_LEVEL Current 7",
     "Actions": [
-        "AddMail Current {{ModID}}_QuestWillyGoldenMahiMahiLetter tomorrow"
+        "AddMail Current {{ModId}}_QuestWillyGoldenMahiMahiLetter tomorrow"
     ]
 }
 ```

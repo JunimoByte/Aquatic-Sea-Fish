@@ -4,9 +4,9 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModID}}_Compat_Tilly_QuestTillyPinchOfCuriosity": "{{i18n:ASF_Compat_Tilly_QuestTillyPinchOfCuriosity}}",
-                "{{ModID}}_Compat_Tilly_QuestTillyMurkyWaters": "{{i18n:ASF_Compat_Tilly_QuestTillyMurkyWaters}}",
-                "{{ModID}}_Compat_Tilly_QuestTillyByTheBooks": "{{i18n:ASF_Compat_Tilly_QuestTillyByTheBooks}}"
+                "{{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosity": "{{i18n:ASF_Compat_Tilly_QuestTillyPinchOfCuriosity}}",
+                "{{ModId}}_Compat_Tilly_QuestTillyMurkyWaters": "{{i18n:ASF_Compat_Tilly_QuestTillyMurkyWaters}}",
+                "{{ModId}}_Compat_Tilly_QuestTillyByTheBooks": "{{i18n:ASF_Compat_Tilly_QuestTillyByTheBooks}}"
             }
         }
     ]

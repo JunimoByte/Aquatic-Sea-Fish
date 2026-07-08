@@ -8,23 +8,23 @@
                 "Fish"
             ],
             "Entries": {
-                "{{ModID}}_AncientShell": {
-                    "Id": "{{ModID}}_AncientShell",
-                    "ItemId": "(O){{ModID}}_AncientShell",
+                "{{ModId}}_AncientShell": {
+                    "Id": "{{ModId}}_AncientShell",
+                    "ItemId": "(O){{ModId}}_AncientShell",
                     "Condition": "LOCATION_Season Here Summer, WEATHER Here Rain Storm, TIME 600 1600",
                     "MinFishingLevel": 4,
                     "Chance": 0.14
                 },
-                "{{ModID}}_PiratesDoubloon": {
-                    "Id": "{{ModID}}_PiratesDoubloon",
-                    "ItemId": "(O){{ModID}}_PiratesDoubloon",
+                "{{ModId}}_PiratesDoubloon": {
+                    "Id": "{{ModId}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModId}}_PiratesDoubloon",
                     "Condition": "LOCATION_Season Here Summer, TIME 600 2400",
                     "MinFishingLevel": 4,
                     "Chance": 0.05
                 },
-                "{{ModID}}_LunarPearl": {
-                    "Id": "{{ModID}}_LunarPearl",
-                    "ItemId": "(O){{ModID}}_LunarPearl",
+                "{{ModId}}_LunarPearl": {
+                    "Id": "{{ModId}}_LunarPearl",
+                    "ItemId": "(O){{ModId}}_LunarPearl",
                     "Condition": "LOCATION_Season Here Summer, TIME 1800 2600",
                     "MinFishingLevel": 7,
                     "Chance": 0.08
@@ -42,13 +42,13 @@
                 "AreaId |contains=<null>": "false"
             },
             "Fields": {
-                "{{ModID}}_AncientShell": {
+                "{{ModId}}_AncientShell": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_PiratesDoubloon": {
+                "{{ModId}}_PiratesDoubloon": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_LunarPearl": {
+                "{{ModId}}_LunarPearl": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

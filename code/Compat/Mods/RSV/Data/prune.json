@@ -4,40 +4,40 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModID}}_Cleanup_RSV_QuestJericHeadTurner": {
-                    "Id": "{{ModID}}_Cleanup_RSV_QuestJericHeadTurner",
+                "{{ModId}}_Cleanup_RSV_QuestJericHeadTurner": {
+                    "Id": "{{ModId}}_Cleanup_RSV_QuestJericHeadTurner",
                     "Trigger": "DayStarted",
-                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestJericHeadTurner}}\"",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_RSV_QuestJericHeadTurner}}\"",
                     "Actions": [
-                        "RemoveQuest {{ModID}}_Compat_RSV_QuestJericHeadTurner",
-                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestJericHeadTurnerLetter"
+                        "RemoveQuest {{ModId}}_Compat_RSV_QuestJericHeadTurner",
+                        "RemoveMail Current {{ModId}}_Compat_RSV_QuestJericHeadTurnerLetter"
                     ]
                 },
-                "{{ModID}}_Cleanup_RSV_QuestBlairSalmonLegend": {
-                    "Id": "{{ModID}}_Cleanup_RSV_QuestBlairSalmonLegend",
+                "{{ModId}}_Cleanup_RSV_QuestBlairSalmonLegend": {
+                    "Id": "{{ModId}}_Cleanup_RSV_QuestBlairSalmonLegend",
                     "Trigger": "DayStarted",
-                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestBlairSalmonLegend}}\"",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_RSV_QuestBlairSalmonLegend}}\"",
                     "Actions": [
-                        "RemoveQuest {{ModID}}_Compat_RSV_QuestBlairSalmonLegend",
-                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestBlairSalmonLegendLetter"
+                        "RemoveQuest {{ModId}}_Compat_RSV_QuestBlairSalmonLegend",
+                        "RemoveMail Current {{ModId}}_Compat_RSV_QuestBlairSalmonLegendLetter"
                     ]
                 },
-                "{{ModID}}_Cleanup_RSV_QuestYsabelleShellDesign": {
-                    "Id": "{{ModID}}_Cleanup_RSV_QuestYsabelleShellDesign",
+                "{{ModId}}_Cleanup_RSV_QuestYsabelleShellDesign": {
+                    "Id": "{{ModId}}_Cleanup_RSV_QuestYsabelleShellDesign",
                     "Trigger": "DayStarted",
-                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestYsabelleShellDesign}}\"",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_RSV_QuestYsabelleShellDesign}}\"",
                     "Actions": [
-                        "RemoveQuest {{ModID}}_Compat_RSV_QuestYsabelleShellDesign",
-                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestYsabelleShellDesignLetter"
+                        "RemoveQuest {{ModId}}_Compat_RSV_QuestYsabelleShellDesign",
+                        "RemoveMail Current {{ModId}}_Compat_RSV_QuestYsabelleShellDesignLetter"
                     ]
                 },
-                "{{ModID}}_Cleanup_RSV_QuestPikaIslandDelicacy": {
-                    "Id": "{{ModID}}_Cleanup_RSV_QuestPikaIslandDelicacy",
+                "{{ModId}}_Cleanup_RSV_QuestPikaIslandDelicacy": {
+                    "Id": "{{ModId}}_Cleanup_RSV_QuestPikaIslandDelicacy",
                     "Trigger": "DayStarted",
-                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_RSV_QuestPikaIslandDelicacy}}\"",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_RSV_QuestPikaIslandDelicacy}}\"",
                     "Actions": [
-                        "RemoveQuest {{ModID}}_Compat_RSV_QuestPikaIslandDelicacy",
-                        "RemoveMail Current {{ModID}}_Compat_RSV_QuestPikaIslandDelicacyLetter"
+                        "RemoveQuest {{ModId}}_Compat_RSV_QuestPikaIslandDelicacy",
+                        "RemoveMail Current {{ModId}}_Compat_RSV_QuestPikaIslandDelicacyLetter"
                     ]
                 }
             },

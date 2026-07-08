@@ -4,13 +4,13 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModID}}_Cleanup_Arumi_QuestArumiPufferjelly": {
-                    "Id": "{{ModID}}_Cleanup_Arumi_QuestArumiPufferjelly",
+                "{{ModId}}_Cleanup_Arumi_QuestArumiPufferjelly": {
+                    "Id": "{{ModId}}_Cleanup_Arumi_QuestArumiPufferjelly",
                     "Trigger": "DayStarted",
-                    "Condition": "\"{{HasActiveQuest |contains={{ModID}}_Compat_Arumi_QuestArumiPufferjelly}}\"",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_Arumi_QuestArumiPufferjelly}}\"",
                     "Actions": [
-                        "RemoveQuest {{ModID}}_Compat_Arumi_QuestArumiPufferjelly",
-                        "RemoveMail Current {{ModID}}_Compat_Arumi_QuestArumiPufferjellyLetter"
+                        "RemoveQuest {{ModId}}_Compat_Arumi_QuestArumiPufferjelly",
+                        "RemoveMail Current {{ModId}}_Compat_Arumi_QuestArumiPufferjellyLetter"
                     ]
                 }
             },

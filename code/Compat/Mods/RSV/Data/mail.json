@@ -4,10 +4,10 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "{{ModID}}_Compat_RSV_QuestJericHeadTurnerLetter": "{{i18n:ASF_Compat_RSV_QuestJericHeadTurnerLetter}}",
-                "{{ModID}}_Compat_RSV_QuestBlairSalmonLegendLetter": "{{i18n:ASF_Compat_RSV_QuestBlairSalmonLegendLetter}}",
-                "{{ModID}}_Compat_RSV_QuestYsabelleShellDesignLetter": "{{i18n:ASF_Compat_RSV_QuestYsabelleShellDesignLetter}}",
-                "{{ModID}}_Compat_RSV_QuestPikaIslandDelicacyLetter": "{{i18n:ASF_Compat_RSV_QuestPikaIslandDelicacyLetter}}"
+                "{{ModId}}_Compat_RSV_QuestJericHeadTurnerLetter": "{{i18n:ASF_Compat_RSV_QuestJericHeadTurnerLetter}}",
+                "{{ModId}}_Compat_RSV_QuestBlairSalmonLegendLetter": "{{i18n:ASF_Compat_RSV_QuestBlairSalmonLegendLetter}}",
+                "{{ModId}}_Compat_RSV_QuestYsabelleShellDesignLetter": "{{i18n:ASF_Compat_RSV_QuestYsabelleShellDesignLetter}}",
+                "{{ModId}}_Compat_RSV_QuestPikaIslandDelicacyLetter": "{{i18n:ASF_Compat_RSV_QuestPikaIslandDelicacyLetter}}"
             }
         }
     ]

@@ -8,104 +8,104 @@
                 "Fish"
             ],
             "Entries": {
-                "{{ModID}}_SeaTurtle": {
-                    "Id": "{{ModID}}_SeaTurtle",
-                    "ItemId": "(O){{ModID}}_SeaTurtle",
+                "{{ModId}}_SeaTurtle": {
+                    "Id": "{{ModId}}_SeaTurtle",
+                    "ItemId": "(O){{ModId}}_SeaTurtle",
                     "Condition": "LOCATION_Season Here Spring Summer"
                 },
-                "{{ModID}}_BlueSpottedOctopus": {
-                    "Id": "{{ModID}}_BlueSpottedOctopus",
-                    "ItemId": "(O){{ModID}}_BlueSpottedOctopus",
+                "{{ModId}}_BlueSpottedOctopus": {
+                    "Id": "{{ModId}}_BlueSpottedOctopus",
+                    "ItemId": "(O){{ModId}}_BlueSpottedOctopus",
                     "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
                 },
-                "{{ModID}}_Marlin": {
-                    "Id": "{{ModID}}_Marlin",
-                    "ItemId": "(O){{ModID}}_Marlin",
+                "{{ModId}}_Marlin": {
+                    "Id": "{{ModId}}_Marlin",
+                    "ItemId": "(O){{ModId}}_Marlin",
                     "Condition": "LOCATION_Season Here Spring Summer"
                 },
-                "{{ModID}}_RedRockCrab": {
-                    "Id": "{{ModID}}_RedRockCrab",
-                    "ItemId": "(O){{ModID}}_RedRockCrab",
+                "{{ModId}}_RedRockCrab": {
+                    "Id": "{{ModId}}_RedRockCrab",
+                    "ItemId": "(O){{ModId}}_RedRockCrab",
                     "Condition": "LOCATION_Season Here Spring Summer Fall"
                 },
-                "{{ModID}}_AlaskanKingSalmon": {
-                    "Id": "{{ModID}}_AlaskanKingSalmon",
-                    "ItemId": "(O){{ModID}}_AlaskanKingSalmon",
+                "{{ModId}}_AlaskanKingSalmon": {
+                    "Id": "{{ModId}}_AlaskanKingSalmon",
+                    "ItemId": "(O){{ModId}}_AlaskanKingSalmon",
                     "Condition": "LOCATION_Season Here Fall"
                 },
-                "{{ModID}}_Spooktopus": {
-                    "Id": "{{ModID}}_Spooktopus",
-                    "ItemId": "(O){{ModID}}_Spooktopus",
+                "{{ModId}}_Spooktopus": {
+                    "Id": "{{ModId}}_Spooktopus",
+                    "ItemId": "(O){{ModId}}_Spooktopus",
                     "Condition": "LOCATION_Season Here Fall"
                 },
-                "{{ModID}}_PinkJellyfish": {
-                    "Id": "{{ModID}}_PinkJellyfish",
-                    "ItemId": "(O){{ModID}}_PinkJellyfish",
+                "{{ModId}}_PinkJellyfish": {
+                    "Id": "{{ModId}}_PinkJellyfish",
+                    "ItemId": "(O){{ModId}}_PinkJellyfish",
                     "Condition": "LOCATION_Season Here Spring Summer"
                 },
-                "{{ModID}}_BlueJellyfish": {
-                    "Id": "{{ModID}}_BlueJellyfish",
-                    "ItemId": "(O){{ModID}}_BlueJellyfish",
+                "{{ModId}}_BlueJellyfish": {
+                    "Id": "{{ModId}}_BlueJellyfish",
+                    "ItemId": "(O){{ModId}}_BlueJellyfish",
                     "Condition": "LOCATION_Season Here Spring Summer"
                 },
-                "{{ModID}}_HammerheadShark": {
-                    "Id": "{{ModID}}_HammerheadShark",
-                    "ItemId": "(O){{ModID}}_HammerheadShark",
+                "{{ModId}}_HammerheadShark": {
+                    "Id": "{{ModId}}_HammerheadShark",
+                    "ItemId": "(O){{ModId}}_HammerheadShark",
                     "Condition": "LOCATION_Season Here Spring Summer"
                 },
-                "{{ModID}}_BrownEel": {
-                    "Id": "{{ModID}}_BrownEel",
-                    "ItemId": "(O){{ModID}}_BrownEel",
+                "{{ModId}}_BrownEel": {
+                    "Id": "{{ModId}}_BrownEel",
+                    "ItemId": "(O){{ModId}}_BrownEel",
                     "Condition": "LOCATION_Season Here Summer"
                 },
-                "{{ModID}}_MossyEel": {
-                    "Id": "{{ModID}}_MossyEel",
-                    "ItemId": "(O){{ModID}}_MossyEel",
+                "{{ModId}}_MossyEel": {
+                    "Id": "{{ModId}}_MossyEel",
+                    "ItemId": "(O){{ModId}}_MossyEel",
                     "Condition": "LOCATION_Season Here Summer, WEATHER Here GreenRain"
                 },
-                "{{ModID}}_Ghoulgill": {
-                    "Id": "{{ModID}}_Ghoulgill",
-                    "ItemId": "(O){{ModID}}_Ghoulgill",
+                "{{ModId}}_Ghoulgill": {
+                    "Id": "{{ModId}}_Ghoulgill",
+                    "ItemId": "(O){{ModId}}_Ghoulgill",
                     "Condition": "LOCATION_Season Here Fall"
                 },
-                "{{ModID}}_Broombell": {
-                    "Id": "{{ModID}}_Broombell",
-                    "ItemId": "(O){{ModID}}_Broombell",
+                "{{ModId}}_Broombell": {
+                    "Id": "{{ModId}}_Broombell",
+                    "ItemId": "(O){{ModId}}_Broombell",
                     "Condition": "LOCATION_Season Here Fall"
                 },
-                "{{ModID}}_JackOFish": {
-                    "Id": "{{ModID}}_JackOFish",
-                    "ItemId": "(O){{ModID}}_JackOFish",
+                "{{ModId}}_JackOFish": {
+                    "Id": "{{ModId}}_JackOFish",
+                    "ItemId": "(O){{ModId}}_JackOFish",
                     "Condition": "LOCATION_Season Here Fall, DAY_OF_MONTH 26 27 28"
                 },
-                "{{ModID}}_Sprucefin": {
-                    "Id": "{{ModID}}_Sprucefin",
-                    "ItemId": "(O){{ModID}}_Sprucefin",
+                "{{ModId}}_Sprucefin": {
+                    "Id": "{{ModId}}_Sprucefin",
+                    "ItemId": "(O){{ModId}}_Sprucefin",
                     "Condition": "LOCATION_Season Here Winter"
                 },
-                "{{ModID}}_Jollyfin": {
-                    "Id": "{{ModID}}_Jollyfin",
-                    "ItemId": "(O){{ModID}}_Jollyfin",
+                "{{ModId}}_Jollyfin": {
+                    "Id": "{{ModId}}_Jollyfin",
+                    "ItemId": "(O){{ModId}}_Jollyfin",
                     "Condition": "LOCATION_Season Here Winter"
                 },
-                "{{ModID}}_Redpuff": {
-                    "Id": "{{ModID}}_Redpuff",
-                    "ItemId": "(O){{ModID}}_Redpuff",
+                "{{ModId}}_Redpuff": {
+                    "Id": "{{ModId}}_Redpuff",
+                    "ItemId": "(O){{ModId}}_Redpuff",
                     "Condition": "LOCATION_Season Here Winter"
                 },
-                "{{ModID}}_Gingerfin": {
-                    "Id": "{{ModID}}_Gingerfin",
-                    "ItemId": "(O){{ModID}}_Gingerfin",
+                "{{ModId}}_Gingerfin": {
+                    "Id": "{{ModId}}_Gingerfin",
+                    "ItemId": "(O){{ModId}}_Gingerfin",
                     "Condition": "LOCATION_Season Here Winter, WEATHER Here Snow"
                 },
-                "{{ModID}}_Luckyfin": {
-                    "Id": "{{ModID}}_Luckyfin",
-                    "ItemId": "(O){{ModID}}_Luckyfin",
+                "{{ModId}}_Luckyfin": {
+                    "Id": "{{ModId}}_Luckyfin",
+                    "ItemId": "(O){{ModId}}_Luckyfin",
                     "Condition": "LOCATION_Season Here Spring, DAY_OF_MONTH 17, YEAR 2"
                 },
-                "{{ModID}}_Santafish": {
-                    "Id": "{{ModID}}_Santafish",
-                    "ItemId": "(O){{ModID}}_Santafish",
+                "{{ModId}}_Santafish": {
+                    "Id": "{{ModId}}_Santafish",
+                    "ItemId": "(O){{ModId}}_Santafish",
                     "Condition": "LOCATION_Season Here Winter, WEATHER Here Snow"
                 }
             }
@@ -121,64 +121,64 @@
                 "AreaId |contains=<null>": "false"
             },
             "Fields": {
-                "{{ModID}}_SeaTurtle": {
+                "{{ModId}}_SeaTurtle": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_BlueSpottedOctopus": {
+                "{{ModId}}_BlueSpottedOctopus": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Marlin": {
+                "{{ModId}}_Marlin": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_RedRockCrab": {
+                "{{ModId}}_RedRockCrab": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_AlaskanKingSalmon": {
+                "{{ModId}}_AlaskanKingSalmon": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Spooktopus": {
+                "{{ModId}}_Spooktopus": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_PinkJellyfish": {
+                "{{ModId}}_PinkJellyfish": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_BlueJellyfish": {
+                "{{ModId}}_BlueJellyfish": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_HammerheadShark": {
+                "{{ModId}}_HammerheadShark": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_BrownEel": {
+                "{{ModId}}_BrownEel": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_MossyEel": {
+                "{{ModId}}_MossyEel": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Ghoulgill": {
+                "{{ModId}}_Ghoulgill": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Broombell": {
+                "{{ModId}}_Broombell": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_JackOFish": {
+                "{{ModId}}_JackOFish": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Sprucefin": {
+                "{{ModId}}_Sprucefin": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Jollyfin": {
+                "{{ModId}}_Jollyfin": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Redpuff": {
+                "{{ModId}}_Redpuff": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Gingerfin": {
+                "{{ModId}}_Gingerfin": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Luckyfin": {
+                "{{ModId}}_Luckyfin": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Santafish": {
+                "{{ModId}}_Santafish": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

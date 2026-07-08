@@ -4,10 +4,10 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModID}}_Compat_RSV_QuestJericHeadTurner": "{{i18n:ASF_Compat_RSV_QuestJericHeadTurner}}",
-                "{{ModID}}_Compat_RSV_QuestBlairSalmonLegend": "{{i18n:ASF_Compat_RSV_QuestBlairSalmonLegend}}",
-                "{{ModID}}_Compat_RSV_QuestYsabelleShellDesign": "{{i18n:ASF_Compat_RSV_QuestYsabelleShellDesign}}",
-                "{{ModID}}_Compat_RSV_QuestPikaIslandDelicacy": "{{i18n:ASF_Compat_RSV_QuestPikaIslandDelicacy}}"
+                "{{ModId}}_Compat_RSV_QuestJericHeadTurner": "{{i18n:ASF_Compat_RSV_QuestJericHeadTurner}}",
+                "{{ModId}}_Compat_RSV_QuestBlairSalmonLegend": "{{i18n:ASF_Compat_RSV_QuestBlairSalmonLegend}}",
+                "{{ModId}}_Compat_RSV_QuestYsabelleShellDesign": "{{i18n:ASF_Compat_RSV_QuestYsabelleShellDesign}}",
+                "{{ModId}}_Compat_RSV_QuestPikaIslandDelicacy": "{{i18n:ASF_Compat_RSV_QuestPikaIslandDelicacy}}"
             }
         }
     ]

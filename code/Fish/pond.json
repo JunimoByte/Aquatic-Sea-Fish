@@ -4,10 +4,10 @@
             "Action": "EditData",
             "Target": "Data/FishPondData",
             "Entries": {
-                "{{ModID}}_SeaTurtle": {
-                    "Id": "id_(O){{ModID}}_SeaTurtle",
+                "{{ModId}}_SeaTurtle": {
+                    "Id": "id_(O){{ModId}}_SeaTurtle",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_SeaTurtle"
+                        "id_(O){{ModId}}_SeaTurtle"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -59,10 +59,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Marlin": {
-                    "Id": "id_(O){{ModID}}_Marlin",
+                "{{ModId}}_Marlin": {
+                    "Id": "id_(O){{ModId}}_Marlin",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Marlin"
+                        "id_(O){{ModId}}_Marlin"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -162,15 +162,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Marlin_WaterColor",
+                            "Id": "{{ModId}}_Marlin_WaterColor",
                             "Color": "#003080"
                         }
                     ]
                 },
-                "{{ModID}}_BlueSpottedOctopus": {
-                    "Id": "id_(O){{ModID}}_BlueSpottedOctopus",
+                "{{ModId}}_BlueSpottedOctopus": {
+                    "Id": "id_(O){{ModId}}_BlueSpottedOctopus",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_BlueSpottedOctopus"
+                        "id_(O){{ModId}}_BlueSpottedOctopus"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -223,15 +223,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_BlueSpottedOctopus_WaterColor",
+                            "Id": "{{ModId}}_BlueSpottedOctopus_WaterColor",
                             "Color": "#1464C8"
                         }
                     ]
                 },
-                "{{ModID}}_GardenSnail": {
-                    "Id": "id_(O){{ModID}}_GardenSnail",
+                "{{ModId}}_GardenSnail": {
+                    "Id": "id_(O){{ModId}}_GardenSnail",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_GardenSnail"
+                        "id_(O){{ModId}}_GardenSnail"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -266,10 +266,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_RedRockCrab": {
-                    "Id": "id_(O){{ModID}}_RedRockCrab",
+                "{{ModId}}_RedRockCrab": {
+                    "Id": "id_(O){{ModId}}_RedRockCrab",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_RedRockCrab"
+                        "id_(O){{ModId}}_RedRockCrab"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -304,10 +304,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_HermitCrab": {
-                    "Id": "id_(O){{ModID}}_HermitCrab",
+                "{{ModId}}_HermitCrab": {
+                    "Id": "id_(O){{ModId}}_HermitCrab",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_HermitCrab"
+                        "id_(O){{ModId}}_HermitCrab"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -335,10 +335,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_PinkHermitCrab": {
-                    "Id": "id_(O){{ModID}}_PinkHermitCrab",
+                "{{ModId}}_PinkHermitCrab": {
+                    "Id": "id_(O){{ModId}}_PinkHermitCrab",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_PinkHermitCrab"
+                        "id_(O){{ModId}}_PinkHermitCrab"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -366,10 +366,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_OrangeStarfish": {
-                    "Id": "id_(O){{ModID}}_OrangeStarfish",
+                "{{ModId}}_OrangeStarfish": {
+                    "Id": "id_(O){{ModId}}_OrangeStarfish",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_OrangeStarfish"
+                        "id_(O){{ModId}}_OrangeStarfish"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -404,10 +404,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Scallop": {
-                    "Id": "id_(O){{ModID}}_Scallop",
+                "{{ModId}}_Scallop": {
+                    "Id": "id_(O){{ModId}}_Scallop",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Scallop"
+                        "id_(O){{ModId}}_Scallop"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -435,10 +435,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_AlaskanKingSalmon": {
-                    "Id": "id_(O){{ModID}}_AlaskanKingSalmon",
+                "{{ModId}}_AlaskanKingSalmon": {
+                    "Id": "id_(O){{ModId}}_AlaskanKingSalmon",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_AlaskanKingSalmon"
+                        "id_(O){{ModId}}_AlaskanKingSalmon"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -497,10 +497,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Spooktopus": {
-                    "Id": "id_(O){{ModID}}_Spooktopus",
+                "{{ModId}}_Spooktopus": {
+                    "Id": "id_(O){{ModId}}_Spooktopus",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Spooktopus"
+                        "id_(O){{ModId}}_Spooktopus"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -560,15 +560,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Spooktopus_WaterColor",
+                            "Id": "{{ModId}}_Spooktopus_WaterColor",
                             "Color": "#1A1A1A"
                         }
                     ]
                 },
-                "{{ModID}}_PinkJellyfish": {
-                    "Id": "id_(O){{ModID}}_PinkJellyfish",
+                "{{ModId}}_PinkJellyfish": {
+                    "Id": "id_(O){{ModId}}_PinkJellyfish",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_PinkJellyfish"
+                        "id_(O){{ModId}}_PinkJellyfish"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -604,15 +604,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_PinkJellyfish_WaterColor",
+                            "Id": "{{ModId}}_PinkJellyfish_WaterColor",
                             "Color": "#FF69B4"
                         }
                     ]
                 },
-                "{{ModID}}_BlueJellyfish": {
-                    "Id": "id_(O){{ModID}}_BlueJellyfish",
+                "{{ModId}}_BlueJellyfish": {
+                    "Id": "id_(O){{ModId}}_BlueJellyfish",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_BlueJellyfish"
+                        "id_(O){{ModId}}_BlueJellyfish"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -641,15 +641,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_BlueJellyfish_WaterColor",
+                            "Id": "{{ModId}}_BlueJellyfish_WaterColor",
                             "Color": "#0022CC"
                         }
                     ]
                 },
-                "{{ModID}}_BrownEel": {
-                    "Id": "id_(O){{ModID}}_BrownEel",
+                "{{ModId}}_BrownEel": {
+                    "Id": "id_(O){{ModId}}_BrownEel",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_BrownEel"
+                        "id_(O){{ModId}}_BrownEel"
                     ],
                     "SpawnTime": 4,
                     "ProducedItems": [
@@ -677,10 +677,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_HammerheadShark": {
-                    "Id": "id_(O){{ModID}}_HammerheadShark",
+                "{{ModId}}_HammerheadShark": {
+                    "Id": "id_(O){{ModId}}_HammerheadShark",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_HammerheadShark"
+                        "id_(O){{ModId}}_HammerheadShark"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -747,15 +747,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_HammerheadShark_WaterColor",
+                            "Id": "{{ModId}}_HammerheadShark_WaterColor",
                             "Color": "#005858"
                         }
                     ]
                 },
-                "{{ModID}}_MahiMahi": {
-                    "Id": "id_(O){{ModID}}_MahiMahi",
+                "{{ModId}}_MahiMahi": {
+                    "Id": "id_(O){{ModId}}_MahiMahi",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_MahiMahi"
+                        "id_(O){{ModId}}_MahiMahi"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -829,15 +829,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_MahiMahi_WaterColor",
+                            "Id": "{{ModId}}_MahiMahi_WaterColor",
                             "Color": "#00A86B"
                         }
                     ]
                 },
-                "{{ModID}}_LeopardStingray": {
-                    "Id": "id_(O){{ModID}}_LeopardStingray",
+                "{{ModId}}_LeopardStingray": {
+                    "Id": "id_(O){{ModId}}_LeopardStingray",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_LeopardStingray"
+                        "id_(O){{ModId}}_LeopardStingray"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -914,10 +914,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_RibbonEel": {
-                    "Id": "id_(O){{ModID}}_RibbonEel",
+                "{{ModId}}_RibbonEel": {
+                    "Id": "id_(O){{ModId}}_RibbonEel",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_RibbonEel"
+                        "id_(O){{ModId}}_RibbonEel"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -953,15 +953,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_RibbonEel_WaterColor",
+                            "Id": "{{ModId}}_RibbonEel_WaterColor",
                             "Color": "#00B4D8"
                         }
                     ]
                 },
-                "{{ModID}}_GreenEel": {
-                    "Id": "id_(O){{ModID}}_GreenEel",
+                "{{ModId}}_GreenEel": {
+                    "Id": "id_(O){{ModId}}_GreenEel",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_GreenEel"
+                        "id_(O){{ModId}}_GreenEel"
                     ],
                     "SpawnTime": 4,
                     "ProducedItems": [
@@ -996,10 +996,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_OrangeEel": {
-                    "Id": "id_(O){{ModID}}_OrangeEel",
+                "{{ModId}}_OrangeEel": {
+                    "Id": "id_(O){{ModId}}_OrangeEel",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_OrangeEel"
+                        "id_(O){{ModId}}_OrangeEel"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1034,10 +1034,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Hookfin": {
-                    "Id": "id_(O){{ModID}}_Hookfin",
+                "{{ModId}}_Hookfin": {
+                    "Id": "id_(O){{ModId}}_Hookfin",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Hookfin"
+                        "id_(O){{ModId}}_Hookfin"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1087,15 +1087,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Hookfin_WaterColor",
+                            "Id": "{{ModId}}_Hookfin_WaterColor",
                             "Color": "#3D2B1F"
                         }
                     ]
                 },
-                "{{ModID}}_PacificJellyfish": {
-                    "Id": "id_(O){{ModID}}_PacificJellyfish",
+                "{{ModId}}_PacificJellyfish": {
+                    "Id": "id_(O){{ModId}}_PacificJellyfish",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_PacificJellyfish"
+                        "id_(O){{ModId}}_PacificJellyfish"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -1124,15 +1124,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_PacificJellyfish_WaterColor",
+                            "Id": "{{ModId}}_PacificJellyfish_WaterColor",
                             "Color": "#B20020"
                         }
                     ]
                 },
-                "{{ModID}}_FlameJellyfish": {
-                    "Id": "id_(O){{ModID}}_FlameJellyfish",
+                "{{ModId}}_FlameJellyfish": {
+                    "Id": "id_(O){{ModId}}_FlameJellyfish",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_FlameJellyfish"
+                        "id_(O){{ModId}}_FlameJellyfish"
                     ],
                     "SpawnTime": 3,
                     "ProducedItems": [
@@ -1161,15 +1161,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_FlameJellyfish_WaterColor",
+                            "Id": "{{ModId}}_FlameJellyfish_WaterColor",
                             "Color": "#FF4500"
                         }
                     ]
                 },
-                "{{ModID}}_Ghoulgill": {
-                    "Id": "id_(O){{ModID}}_Ghoulgill",
+                "{{ModId}}_Ghoulgill": {
+                    "Id": "id_(O){{ModId}}_Ghoulgill",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Ghoulgill"
+                        "id_(O){{ModId}}_Ghoulgill"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1215,15 +1215,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Ghoulgill_WaterColor",
+                            "Id": "{{ModId}}_Ghoulgill_WaterColor",
                             "Color": "#C0C0D0"
                         }
                     ]
                 },
-                "{{ModID}}_Broombell": {
-                    "Id": "id_(O){{ModID}}_Broombell",
+                "{{ModId}}_Broombell": {
+                    "Id": "id_(O){{ModId}}_Broombell",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Broombell"
+                        "id_(O){{ModId}}_Broombell"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1276,15 +1276,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Broombell_WaterColor",
+                            "Id": "{{ModId}}_Broombell_WaterColor",
                             "Color": "#6A0DAD"
                         }
                     ]
                 },
-                "{{ModID}}_JackOFish": {
-                    "Id": "id_(O){{ModID}}_JackOFish",
+                "{{ModId}}_JackOFish": {
+                    "Id": "id_(O){{ModId}}_JackOFish",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_JackOFish"
+                        "id_(O){{ModId}}_JackOFish"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -1351,15 +1351,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_JackOFish_WaterColor",
+                            "Id": "{{ModId}}_JackOFish_WaterColor",
                             "Color": "#C84B00"
                         }
                     ]
                 },
-                "{{ModID}}_Sprucefin": {
-                    "Id": "id_(O){{ModID}}_Sprucefin",
+                "{{ModId}}_Sprucefin": {
+                    "Id": "id_(O){{ModId}}_Sprucefin",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Sprucefin"
+                        "id_(O){{ModId}}_Sprucefin"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1411,10 +1411,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Jollyfin": {
-                    "Id": "id_(O){{ModID}}_Jollyfin",
+                "{{ModId}}_Jollyfin": {
+                    "Id": "id_(O){{ModId}}_Jollyfin",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Jollyfin"
+                        "id_(O){{ModId}}_Jollyfin"
                     ],
                     "SpawnTime": 4,
                     "ProducedItems": [
@@ -1459,10 +1459,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Redpuff": {
-                    "Id": "id_(O){{ModID}}_Redpuff",
+                "{{ModId}}_Redpuff": {
+                    "Id": "id_(O){{ModId}}_Redpuff",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Redpuff"
+                        "id_(O){{ModId}}_Redpuff"
                     ],
                     "SpawnTime": 4,
                     "ProducedItems": [
@@ -1500,10 +1500,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Gingerfin": {
-                    "Id": "id_(O){{ModID}}_Gingerfin",
+                "{{ModId}}_Gingerfin": {
+                    "Id": "id_(O){{ModId}}_Gingerfin",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Gingerfin"
+                        "id_(O){{ModId}}_Gingerfin"
                     ],
                     "SpawnTime": 4,
                     "ProducedItems": [
@@ -1541,10 +1541,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Pufferjelly": {
-                    "Id": "id_(O){{ModID}}_Pufferjelly",
+                "{{ModId}}_Pufferjelly": {
+                    "Id": "id_(O){{ModId}}_Pufferjelly",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Pufferjelly"
+                        "id_(O){{ModId}}_Pufferjelly"
                     ],
                     "SpawnTime": 6,
                     "ProducedItems": [
@@ -1635,15 +1635,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Pufferjelly_WaterColor",
+                            "Id": "{{ModId}}_Pufferjelly_WaterColor",
                             "Color": "#D86CFF"
                         }
                     ]
                 },
-                "{{ModID}}_AppleSnail": {
-                    "Id": "id_(O){{ModID}}_AppleSnail",
+                "{{ModId}}_AppleSnail": {
+                    "Id": "id_(O){{ModId}}_AppleSnail",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_AppleSnail"
+                        "id_(O){{ModId}}_AppleSnail"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1685,10 +1685,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_TreeSpiderCrab": {
-                    "Id": "id_(O){{ModID}}_TreeSpiderCrab",
+                "{{ModId}}_TreeSpiderCrab": {
+                    "Id": "id_(O){{ModId}}_TreeSpiderCrab",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_TreeSpiderCrab"
+                        "id_(O){{ModId}}_TreeSpiderCrab"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1730,10 +1730,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_Yellowtail": {
-                    "Id": "id_(O){{ModID}}_Yellowtail",
+                "{{ModId}}_Yellowtail": {
+                    "Id": "id_(O){{ModId}}_Yellowtail",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Yellowtail"
+                        "id_(O){{ModId}}_Yellowtail"
                     ],
                     "SpawnTime": 5,
                     "ProducedItems": [
@@ -1775,10 +1775,10 @@
                         ]
                     }
                 },
-                "{{ModID}}_MossyEel": {
-                    "Id": "id_(O){{ModID}}_MossyEel",
+                "{{ModId}}_MossyEel": {
+                    "Id": "id_(O){{ModId}}_MossyEel",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_MossyEel"
+                        "id_(O){{ModId}}_MossyEel"
                     ],
                     "SpawnTime": 4,
                     "ProducedItems": [
@@ -1814,15 +1814,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_MossyEel_WaterColor",
+                            "Id": "{{ModId}}_MossyEel_WaterColor",
                             "Color": "#2D5016"
                         }
                     ]
                 },
-                "{{ModID}}_HumpheadWrasse": {
-                    "Id": "id_(O){{ModID}}_HumpheadWrasse",
+                "{{ModId}}_HumpheadWrasse": {
+                    "Id": "id_(O){{ModId}}_HumpheadWrasse",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_HumpheadWrasse"
+                        "id_(O){{ModId}}_HumpheadWrasse"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -1868,15 +1868,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_HumpheadWrasse_WaterColor",
+                            "Id": "{{ModId}}_HumpheadWrasse_WaterColor",
                             "Color": "#007B8A"
                         }
                     ]
                 },
-                "{{ModID}}_Luckyfin": {
-                    "Id": "id_(O){{ModID}}_Luckyfin",
+                "{{ModId}}_Luckyfin": {
+                    "Id": "id_(O){{ModId}}_Luckyfin",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Luckyfin"
+                        "id_(O){{ModId}}_Luckyfin"
                     ],
                     "SpawnTime": 4,
                     "ProducedItems": [
@@ -1936,15 +1936,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Luckyfin_WaterColor",
+                            "Id": "{{ModId}}_Luckyfin_WaterColor",
                             "Color": "#228B22"
                         }
                     ]
                 },
-                "{{ModID}}_WhaleShark": {
-                    "Id": "id_(O){{ModID}}_WhaleShark",
+                "{{ModId}}_WhaleShark": {
+                    "Id": "id_(O){{ModId}}_WhaleShark",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_WhaleShark"
+                        "id_(O){{ModId}}_WhaleShark"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -2025,15 +2025,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_WhaleShark_WaterColor",
+                            "Id": "{{ModId}}_WhaleShark_WaterColor",
                             "Color": "#309ac9"
                         }
                     ]
                 },
-                "{{ModID}}_Santafish": {
-                    "Id": "id_(O){{ModID}}_Santafish",
+                "{{ModId}}_Santafish": {
+                    "Id": "id_(O){{ModId}}_Santafish",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_Santafish"
+                        "id_(O){{ModId}}_Santafish"
                     ],
                     "SpawnTime": 7,
                     "ProducedItems": [
@@ -2086,15 +2086,15 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_Santafish_WaterColor",
+                            "Id": "{{ModId}}_Santafish_WaterColor",
                             "Color": "#D21404"
                         }
                     ]
                 },
-                "{{ModID}}_LemonShark": {
-                    "Id": "id_(O){{ModID}}_LemonShark",
+                "{{ModId}}_LemonShark": {
+                    "Id": "id_(O){{ModId}}_LemonShark",
                     "RequiredTags": [
-                        "id_(O){{ModID}}_LemonShark"
+                        "id_(O){{ModId}}_LemonShark"
                     ],
                     "SpawnTime": 6,
                     "ProducedItems": [
@@ -2185,7 +2185,7 @@
                     },
                     "WaterColor": [
                         {
-                            "Id": "{{ModID}}_LemonShark_WaterColor",
+                            "Id": "{{ModId}}_LemonShark_WaterColor",
                             "Color": "#FFD84D"
                         }
                     ]

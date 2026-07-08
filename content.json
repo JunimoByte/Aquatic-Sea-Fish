@@ -13,22 +13,26 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Mods/{{ModID}}/FishSprite",
+            "Target": "Mods/{{ModId}}/FishSprite",
             "FromFile": "assets/FishSprite.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/{{ModID}}/ObjectSprite",
-            "FromFile": "assets/ObjectSprite.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Mods/{{ModID}}/AquariumSprite",
+            "Target": "Mods/{{ModId}}/AquariumSprite",
             "FromFile": "assets/AquariumSprite.png"
         },
         {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/ObjectSprite",
+            "FromFile": "assets/ObjectSprite.png"
+        },
+        {
             "Action": "Include",
-            "FromFile": "code/Fish/fish.json, code/Fish/objects.json, code/Fish/aquarium.json, code/Fish/behavior.json, code/Fish/locations.json, code/Fish/pond.json"
+            "FromFile": "code/Fish/fish.json, code/Fish/aquarium.json, code/Fish/behavior.json, code/Fish/locations.json, code/Fish/pond.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Objects/objects.json, code/Objects/artifacts.json, code/Objects/forage.json"
         },
         {
             "Action": "Include",
@@ -40,15 +44,11 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Other/config.json"
+            "FromFile": "code/Other/config.json, code/Other/tailoring.json"
         },
         {
             "Action": "Include",
             "FromFile": "code/Compat/index.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "code/Other/artifacts.json, code/Other/tailoring.json, code/Other/forage.json"
         }
     ]
 }

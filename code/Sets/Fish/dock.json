@@ -8,29 +8,29 @@
                 "Fish"
             ],
             "Entries": {
-                "{{ModID}}_OrangeStarfish": {
-                    "Id": "{{ModID}}_OrangeStarfish",
-                    "ItemId": "(O){{ModID}}_OrangeStarfish",
+                "{{ModId}}_OrangeStarfish": {
+                    "Id": "{{ModId}}_OrangeStarfish",
+                    "ItemId": "(O){{ModId}}_OrangeStarfish",
                     "Condition": "LOCATION_Season Here Spring Summer Fall"
                 },
-                "{{ModID}}_HermitCrab": {
-                    "Id": "{{ModID}}_HermitCrab",
-                    "ItemId": "(O){{ModID}}_HermitCrab",
+                "{{ModId}}_HermitCrab": {
+                    "Id": "{{ModId}}_HermitCrab",
+                    "ItemId": "(O){{ModId}}_HermitCrab",
                     "Condition": "LOCATION_Season Here Spring Summer Fall"
                 },
-                "{{ModID}}_PinkHermitCrab": {
-                    "Id": "{{ModID}}_PinkHermitCrab",
-                    "ItemId": "(O){{ModID}}_PinkHermitCrab",
+                "{{ModId}}_PinkHermitCrab": {
+                    "Id": "{{ModId}}_PinkHermitCrab",
+                    "ItemId": "(O){{ModId}}_PinkHermitCrab",
                     "Condition": "LOCATION_Season Here Spring"
                 },
-                "{{ModID}}_GardenSnail": {
-                    "Id": "{{ModID}}_GardenSnail",
-                    "ItemId": "(O){{ModID}}_GardenSnail",
+                "{{ModId}}_GardenSnail": {
+                    "Id": "{{ModId}}_GardenSnail",
+                    "ItemId": "(O){{ModId}}_GardenSnail",
                     "Condition": "LOCATION_Season Here Summer"
                 },
-                "{{ModID}}_Scallop": {
-                    "Id": "{{ModID}}_Scallop",
-                    "ItemId": "(O){{ModID}}_Scallop",
+                "{{ModId}}_Scallop": {
+                    "Id": "{{ModId}}_Scallop",
+                    "ItemId": "(O){{ModId}}_Scallop",
                     "Condition": "LOCATION_Season Here Spring Summer Fall"
                 }
             }
@@ -46,19 +46,19 @@
                 "AreaId |contains=<null>": "false"
             },
             "Fields": {
-                "{{ModID}}_OrangeStarfish": {
+                "{{ModId}}_OrangeStarfish": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_HermitCrab": {
+                "{{ModId}}_HermitCrab": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_PinkHermitCrab": {
+                "{{ModId}}_PinkHermitCrab": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_GardenSnail": {
+                "{{ModId}}_GardenSnail": {
                     "FishAreaId": "{{AreaId}}"
                 },
-                "{{ModID}}_Scallop": {
+                "{{ModId}}_Scallop": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }
