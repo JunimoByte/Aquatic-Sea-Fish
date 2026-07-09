@@ -40,7 +40,7 @@
                 "{{ModId}}_Yellowtail": "{{ModId}}_Yellowtail/45/dart/2/8/1100 1500/summer/sunny/685 .30/3/.25/.25/4/false",
                 "{{ModId}}_MossyEel": "{{ModId}}_MossyEel/70/floater/12/49/1200 1800/summer/rainy/685 .35/3/.18/2/4/false",
                 "{{ModId}}_HumpheadWrasse": "{{ModId}}_HumpheadWrasse/93/dart/50/85/600 1700/summer/sunny/685 .35/5/.05/.15/7/true",
-                "{{ModId}}_Luckyfin": "{{ModId}}_Luckyfin/75/floater/23/40/1000 2200/spring/both/685 .35/5/.1/.2/5/false",
+                "{{ModId}}_Luckyfin": "{{ModId}}_Luckyfin/75/floater/23/40/1000 2200/spring/both/685 .35/3/.1/.2/5/false",
                 "{{ModId}}_WhaleShark": "{{ModId}}_WhaleShark/91/sinker/81/192/1000 1700/summer/sunny/685 .35/5/.08/2/7/false",
                 "{{ModId}}_Santafish": "{{ModId}}_Santafish/84/mixed/34/50/1600 2400/winter/both/685 .35/5/.08/2/7/false",
                 "{{ModId}}_LemonShark": "{{ModId}}_LemonShark/90/mixed/65/90/1700 2400/summer/sunny/685 .35/5/.08/2/6/false"
