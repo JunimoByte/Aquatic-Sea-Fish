@@ -13,7 +13,15 @@
             "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
             "LocalTokens": {
                 "TargetName": "EastScarp_Orchard",
-                "AreaId": "OrchardOcean"
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Sets/Fish/beach.json, code/Sets/Fish/dock.json, code/Sets/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "EastScarp_LoresCove",
+                "AreaId": "LCOcean"
             }
         },
         {
