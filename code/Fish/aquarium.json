@@ -47,7 +47,8 @@
                 "{{ModId}}_Luckyfin": "43/fish/////Mods\\{{ModId}}\\AquariumSprite",
                 "{{ModId}}_WhaleShark": "44/fish/////Mods\\{{ModId}}\\AquariumSprite",
                 "{{ModId}}_Santafish": "45/fish/////Mods\\{{ModId}}\\AquariumSprite",
-                "{{ModId}}_LemonShark": "46/fish/////Mods\\{{ModId}}\\AquariumSprite"
+                "{{ModId}}_LemonShark": "46/fish/////Mods\\{{ModId}}\\AquariumSprite",
+                "{{ModId}}_BlueDolphin": "47/fish/////Mods\\{{ModId}}\\AquariumSprite"
             }
         }
     ]

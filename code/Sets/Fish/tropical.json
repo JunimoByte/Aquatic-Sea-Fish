@@ -84,6 +84,11 @@
                     "Id": "{{ModId}}_LemonShark",
                     "ItemId": "(O){{ModId}}_LemonShark",
                     "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModId}}_BlueDolphin": {
+                    "Id": "{{ModId}}_BlueDolphin",
+                    "ItemId": "(O){{ModId}}_BlueDolphin",
+                    "Condition": "LOCATION_Season Here Summer"
                 }
             }
         },
@@ -141,6 +146,9 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModId}}_LemonShark": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_BlueDolphin": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }
