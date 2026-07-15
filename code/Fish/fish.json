@@ -914,6 +914,28 @@
                         "season_summer",
                         "color_yellow"
                     ]
+                },
+                "{{ModId}}_BlueDolphin": {
+                    "Name": "{{ModId}}_BlueDolphin",
+                    "DisplayName": "{{i18n:{{ModId}}_BlueDolphin.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_BlueDolphin.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 650,
+                    "Texture": "Mods/{{ModId}}/FishSprite",
+                    "SpriteIndex": 40,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fish_tropical",
+                        "fish_asf_bluedolphin",
+                        "season_summer",
+                        "color_blue"
+                    ]
                 }
             }
         }

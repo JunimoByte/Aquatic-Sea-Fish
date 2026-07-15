@@ -88,7 +88,7 @@
                         "fish_skip_minigame",
                         "season_spring",
                         "season_summer",
-                        "color_white"
+                        "color_brown"
                     ]
                 },
                 "{{ModId}}_PiratesDoubloon": {
@@ -109,7 +109,7 @@
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_summer",
-                        "color_gold"
+                        "color_yellow"
                     ]
                 },
                 "{{ModId}}_LunarPearl": {

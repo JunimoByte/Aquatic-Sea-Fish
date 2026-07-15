@@ -1564,28 +1564,28 @@
                         },
                         {
                             "RequiredPopulation": 2,
-                            "Chance": 0.15,
+                            "Chance": 0.1,
                             "ItemID": "(O)787", // Battery Pack
-                            "MinQuantity": 2,
-                            "MaxQuantity": 4
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 4,
-                            "Chance": 0.1,
+                            "Chance": 0.15,
                             "ItemID": "(O)338", // Refined Quartz
-                            "MinQuantity": 2,
-                            "MaxQuantity": 4
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 5,
                             "Chance": 0.1,
                             "ItemID": "(O)814", // Squid Ink
                             "MinQuantity": 1,
-                            "MaxQuantity": 2
+                            "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 7,
-                            "Chance": 0.06,
+                            "Chance": 0.08,
                             "ItemID": "(O)791", // Golden Coconut
                             "MinQuantity": 1,
                             "MaxQuantity": 1
@@ -1613,18 +1613,18 @@
                         },
                         {
                             "RequiredPopulation": 10,
-                            "Chance": 0.04,
+                            "Chance": 0.02,
                             "ItemID": "(O)857", // Tiger Slime Egg
-                            "MinQuantity": 2,
-                            "MaxQuantity": 3
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
                         }
                     ],
                     "PopulationGates": {
                         "3": [
-                            "(O)787 2" // Battery Pack ×2
+                            "(O)787 3" // Battery Pack ×3
                         ],
                         "5": [
-                            "(O)338 2" // Refined Quartz ×2
+                            "(O)338 3" // Refined Quartz ×3
                         ],
                         "7": [
                             "(O)797 1" // Pearl ×1
@@ -1878,7 +1878,7 @@
                     "RequiredTags": [
                         "id_(O){{ModId}}_Luckyfin"
                     ],
-                    "SpawnTime": 4,
+                    "SpawnTime": 6,
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
@@ -1903,21 +1903,21 @@
                         },
                         {
                             "RequiredPopulation": 8,
-                            "Chance": 0.2,
+                            "Chance": 0.23,
                             "ItemID": "(O)815", // Tea Leaves
                             "MinQuantity": 1,
                             "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 9,
-                            "Chance": 0.03,
+                            "Chance": 0.01,
                             "ItemID": "(O)279", // Magic Rock Candy
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 10,
-                            "Chance": 0.02,
+                            "Chance": 0.01,
                             "ItemID": "(O)MysticTreeSeed", // Mystic Tree Seed
                             "MinQuantity": 1,
                             "MaxQuantity": 1
@@ -1992,14 +1992,14 @@
                         },
                         {
                             "RequiredPopulation": 6,
-                            "Chance": 0.07,
+                            "Chance": 0.1,
                             "ItemID": "(O)873", // Pina Colada
                             "MinQuantity": 1,
                             "MaxQuantity": 1
                         },
                         {
                             "RequiredPopulation": 8,
-                            "Chance": 0.05,
+                            "Chance": 0.03,
                             "ItemID": "(O)74", // Prismatic Shard
                             "MinQuantity": 1,
                             "MaxQuantity": 1
@@ -2100,14 +2100,14 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.20,
+                            "Chance": 0.25,
                             "ItemID": "(O)635", // Orange
                             "MinQuantity": 2,
                             "MaxQuantity": 3
                         },
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 0.15,
+                            "Chance": 0.20,
                             "ItemID": "(O)613", // Apple
                             "MinQuantity": 2,
                             "MaxQuantity": 3
@@ -2146,20 +2146,6 @@
                             "ItemID": "(O)791", // Golden Coconut
                             "MinQuantity": 1,
                             "MaxQuantity": 1
-                        },
-                        {
-                            "RequiredPopulation": 8,
-                            "Chance": 0.06,
-                            "ItemID": "(O)835", // Mango Sapling
-                            "MinQuantity": 1,
-                            "MaxQuantity": 2
-                        },
-                        {
-                            "RequiredPopulation": 9,
-                            "Chance": 0.04,
-                            "ItemID": "(O)69", // Banana Sapling
-                            "MinQuantity": 1,
-                            "MaxQuantity": 2
                         },
                         {
                             "RequiredPopulation": 10,

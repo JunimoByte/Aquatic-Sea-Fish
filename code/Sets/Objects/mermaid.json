@@ -32,7 +32,7 @@
                 "{{ModId}}_RubberDuck": {
                     "Id": "{{ModId}}_RubberDuck",
                     "ItemId": "(O){{ModId}}_RubberDuck",
-                    "Condition": "LOCATION_Season Here Spring, WEATHER Here Rain Storm, TIME 600 1800",
+                    "Condition": "LOCATION_Season Here Spring, WEATHER Here Rain Storm, TIME 600 1900",
                     "Chance": 0.3
                 }
             }

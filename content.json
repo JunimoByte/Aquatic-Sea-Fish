@@ -32,7 +32,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Objects/objects.json, code/Objects/artifacts.json, code/Objects/forage.json"
+            "FromFile": "code/Objects/objects.json"
         },
         {
             "Action": "Include",

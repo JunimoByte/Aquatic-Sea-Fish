@@ -64,7 +64,7 @@
                         "Willy",
                         1
                     ],
-                    "Value": "(O){{ModId}}_LemonShark (O){{ModId}}_Santafish (O){{ModId}}_WhaleShark (O){{ModId}}_Luckyfin (O){{ModId}}_WhaleShark (O){{ModId}}_Pufferjelly (O){{ModId}}_Gingerfin (O){{ModId}}_JackOFish (O){{ModId}}_Broombell (O){{ModId}}_SeaTurtle {{ModId}}_Marlin (O){{ModId}}_MahiMahi (O){{ModId}}_HammerheadShark (O){{ModId}}_AlaskanKingSalmon (O){{ModId}}_MermaidPearl (O){{ModId}}_MermaidTear (O){{ModId}}_LunarPearl (O){{ModId}}_PiratesDoubloon (O){{ModId}}_Hookfin (O){{ModId}}_HumpheadWrasse (O){{ModId}}_RubberDuck",
+                    "Value": "(O){{ModId}}_BlueDolphin (O){{ModId}}_LemonShark (O){{ModId}}_Santafish (O){{ModId}}_WhaleShark (O){{ModId}}_Luckyfin (O){{ModId}}_WhaleShark (O){{ModId}}_Pufferjelly (O){{ModId}}_Gingerfin (O){{ModId}}_JackOFish {{ModId}}_Marlin (O){{ModId}}_MahiMahi (O){{ModId}}_HammerheadShark (O){{ModId}}_AlaskanKingSalmon (O){{ModId}}_PiratesDoubloon (O){{ModId}}_Hookfin (O){{ModId}}_HumpheadWrasse (O){{ModId}}_RubberDuck",
                     "Delimiter": " "
                 },
                 {
@@ -74,7 +74,7 @@
                         "Willy",
                         3
                     ],
-                    "Value": "(O){{ModId}}_Yellowtail (O){{ModId}}_TreeSpiderCrab (O){{ModId}}_AppleSnail (O){{ModId}}_Redpuff (O){{ModId}}_Jollyfin (O){{ModId}}_Sprucefin (O){{ModId}}_Ghoulgill (O){{ModId}}_GardenSnail (O){{ModId}}_RedRockCrab (O){{ModId}}_HermitCrab (O){{ModId}}_PinkHermitCrab (O){{ModId}}_OrangeStarfish (O){{ModId}}_Scallop (O){{ModId}}_LeopardStingray (O){{ModId}}_AncientShell (O){{ModId}}_MossyEel",
+                    "Value": "(O){{ModId}}_Broombell (O){{ModId}}_SeaTurtle (O){{ModId}}_Yellowtail (O){{ModId}}_TreeSpiderCrab (O){{ModId}}_AppleSnail (O){{ModId}}_Redpuff (O){{ModId}}_Jollyfin (O){{ModId}}_Sprucefin (O){{ModId}}_Ghoulgill (O){{ModId}}_GardenSnail (O){{ModId}}_RedRockCrab (O){{ModId}}_HermitCrab (O){{ModId}}_PinkHermitCrab (O){{ModId}}_OrangeStarfish (O){{ModId}}_Scallop (O){{ModId}}_LeopardStingray (O){{ModId}}_AncientShell (O){{ModId}}_MossyEel",
                     "Delimiter": " "
                 },
                 {
