@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_JungleIsland",
                 "AreaId": "<null>"
@@ -10,7 +10,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_JungleIsland_E",
                 "AreaId": "<null>"
@@ -18,7 +18,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_JungleIsland_NE",
                 "AreaId": "<null>"
@@ -26,7 +26,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_JungleIsland_N",
                 "AreaId": "<null>"
@@ -34,7 +34,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_JungleIsland_N_Beach",
                 "AreaId": "<null>"
@@ -42,7 +42,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_JungleIsland_N_Beach2",
                 "AreaId": "<null>"
@@ -50,7 +50,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_Island_W_N",
                 "AreaId": "<null>"

@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_DTZ_ResortSouth",
                 "AreaId": "<null>"
@@ -10,7 +10,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_DTZ_ResortCentral",
                 "AreaId": "<null>"
@@ -18,7 +18,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "Custom_DTZ_ResortSouthWest",
                 "AreaId": "<null>"

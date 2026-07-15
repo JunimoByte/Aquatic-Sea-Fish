@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "GiEX_SunkenShip",
                 "AreaId": "<null>"
@@ -10,7 +10,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "GiEX_SouthWest",
                 "AreaId": "<null>"
@@ -18,7 +18,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "GiEX_Sea_West",
                 "AreaId": "<null>"
@@ -26,7 +26,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "GiEX_Sea_West2",
                 "AreaId": "<null>"
@@ -34,7 +34,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Sets/Fish/tropical.json, code/Sets/Fish/dock.json, code/Sets/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
             "LocalTokens": {
                 "TargetName": "GiEX_Aquarium",
                 "AreaId": "<null>"
