@@ -11,7 +11,7 @@ The mod is organized into the following directories:
     -   `Fish`: Definitions for new fish and their behaviors.
     -   `NPCs`: Dialogue and gift taste changes.
     -   `Events`: Quests, mail, and event triggers.
-    -   `Sets`: Grouped content like location specific fish or object sets.
+    -   `LocalTokens`: Grouped LocalTokens for fish/object placement.
     -   `Other`: Miscellaneous items like configuration or tailoring recipes.
     -   `Compat`: Compatibility patches for other mods.
 -   **docs**: Documentation files (you are here).
