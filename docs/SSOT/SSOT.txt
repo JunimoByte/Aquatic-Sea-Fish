@@ -42,3 +42,4 @@ Luckyfin – Spring 17, Year 2+, 10 AM – 5 PM, any weather, found at Beach
 Whale Shark – Summer, 10 AM – 5 PM, sunny, found at Ginger Island, fishing level 7+
 Santafish – Winter, 4 PM – 12 AM, only when snowing, found at Beach, fishing level 7+
 Lemon Shark – Summer, 5 PM – 12 AM, sunny, found at Ginger Island, fishing level 6+
+Blue Dolphin – Summer, 6 AM – 12 PM, any weawther, found at Ginger Island, fishing level 7+

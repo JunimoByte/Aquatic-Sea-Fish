@@ -16,9 +16,10 @@
 - **gainem**: Marlin, Hammerhead Shark, Mahi Mahi, Leopard Stingray
 - **cheshire/midnight.nymph**: Marlin, Broombell, Jack O' Fish, Sprucefin, Jollyfin, Yellowtail, Redpuff, Gingerfin, Luckyfin, Whale Shark, Santafish, Lemon Shark
 - **FallSpice**: Ghoulgill, Sprucefin, Gingerfin
+= **Calart**: Dolphin
 - **orcabaryonyx**: Alaskan King Salmon
-- **zaphhy**: Pufferjelly
 - **luminte**: Humphead Wrasse
+- **zaphhy**: Pufferjelly
 - **LucyTheDove**: Garden Snail, Red Rock Crab, Hermit Crab, Pink Hermit Crab, Orange Starfish, Scallop, Alaskan King Salmon (old sprite), Spooktopus, Pink Jellyfish, Brown Eel, Ribbon Eel, Green Eel, Orange Eel, Hookfin, Pacific Jellyfish, Flame Jellyfish, Apple Snail, Tree Spider Crab, Mossy Eel
 
 > *All have contributed towards this mod, and every single contribution means the world to me.*

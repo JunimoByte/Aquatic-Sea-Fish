@@ -44,6 +44,7 @@
                 "AcceptGift_(O){{ModId}}_WhaleShark": "{{i18n: {{ModId}}_GiftWillyWhaleShark}}",
                 "AcceptGift_(O){{ModId}}_Santafish": "{{i18n: {{ModId}}_GiftWillySantafish}}",
                 "AcceptGift_(O){{ModId}}_LemonShark": "{{i18n: {{ModId}}_GiftWillyLemonShark}}",
+                "AcceptGift_(O){{ModId}}_BlueDolphin": "{{i18n: {{ModId}}_GiftWillyBlueDolphin}}",
                 "AcceptGift_(O){{ModId}}_MermaidPearl": "{{i18n: {{ModId}}_GiftWillyMermaidPearl}}",
                 "AcceptGift_(O){{ModId}}_MermaidTear": "{{i18n: {{ModId}}_GiftWillyMermaidTear}}",
                 "AcceptGift_(O){{ModId}}_RedCoral": "{{i18n: {{ModId}}_GiftWillyRedCoral}}",

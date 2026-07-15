@@ -12,7 +12,7 @@ The mod is organized into the following directories:
     -   `NPCs`: Dialogue and gift taste changes.
     -   `Events`: Quests, mail, and event triggers.
     -   `Sets`: Grouped content like location specific fish or object sets.
-    -   `Other`: Miscellaneous items like artifacts, forage tables, and tailoring recipes.
+    -   `Other`: Miscellaneous items like configuration or tailoring recipes.
     -   `Compat`: Compatibility patches for other mods.
 -   **docs**: Documentation files (you are here).
 -   **i18n**: Translation files for localization.
