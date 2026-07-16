@@ -20,6 +20,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_tropical",
                         "fish_asf_seaturtle",
                         "season_spring",
                         "season_summer",
@@ -801,6 +802,7 @@
                         "fish_asf_mossyeel",
                         "season_summer",
                         "weather_rainy",
+                        "weather_green_rain",
                         "color_green"
                     ]
                 },
@@ -868,6 +870,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_whaleshark",
+                        "fish_upright",
                         "season_summer",
                         "color_blue"
                     ]
@@ -911,6 +914,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_lemonshark",
+                        "fish_upright",
                         "season_summer",
                         "color_yellow"
                     ]
@@ -933,6 +937,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_bluedolphin",
+                        "fish_upright",
                         "season_summer",
                         "color_blue"
                     ]
