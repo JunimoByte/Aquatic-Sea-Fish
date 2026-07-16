@@ -1,32 +1,32 @@
-Catch More Mahi Mahi – Ginger Island, fishing level 7+, delivered next day
-Gingerfin Gathering – Winter, Beach or Night Market, fishing level 4+, delivered next day
+Catch More Mahi Mahi – Ginger Island, fishing level 7+, odd days, Mon–Thu, delivered next day
+Gingerfin Gathering – Winter, Beach or Night Market, fishing level 4+, odd days of second week (9, 11, 13), delivered next day
 Red Rock Crabs – Spring–Fall, Beach, after catching Red Rock Crab, delivered next day
-Jack O' Fish Hunt – Fall, Beach, fishing level 7+, delivered next day
+Jack O' Fish Hunt – Fall, Beach, fishing level 7+, even days of fourth week (18, 20, 22, 24), delivered next day
 
-Marlin Catch – Spring–Summer, Willy's Fish Shop, fishing level 5+, delivered next day
-Tears of the Sea – Spring–Summer, Beach, fishing level 6+
-Tears of the Sea II – Ginger Island, fishing level 8+, after catching Mermaid Pearl
-Ghoul of the Deep – Fall, Wizard Tower, fishing level 3+
-Glow of the Deep – Willy's Fish Shop, after catching Pink Jellyfish, 10% chance
-Glow of the Deep II – Willy's Fish Shop, 2+ hearts with Willy, after catching Pink Jellyfish and Blue Jellyfish, 10% chance
-Glow of the Deep III – Ginger Island, 4+ hearts with Willy, after catching Pacific Jellyfish, 5% chance
-Glow of the Deep IV – Ginger Island, 5+ hearts with Willy, after catching Pacific Jellyfish and Flame Jellyfish, 5% chance
+Marlin Catch – Spring–Summer, Willy's Fish Shop, fishing level 5+, odd days on weekends (Fri–Sun), delivered next day
+Tears of the Sea – Spring–Summer, Beach, fishing level 6+, even days of second half of month (16–28), delivered next day
+Tears of the Sea II – Ginger Island, fishing level 8+, after catching Mermaid Pearl, delivered next day
+Ghoul of the Deep – Fall, Wizard Tower, fishing level 3+, delivered next day
+Glow of the Deep – Day started, after catching Pink Jellyfish, 4+ hearts with Willy, 10% chance, delivered same day
+Glow of the Deep II – Day started, 5+ hearts with Willy, after catching Pink Jellyfish and Blue Jellyfish, 10% chance, delivered same day
+Glow of the Deep III – Day started, 8+ hearts with Willy, after catching Pacific Jellyfish, 5% chance, delivered same day
+Glow of the Deep IV – Day started, 10+ hearts with Willy, after catching Pacific Jellyfish and Flame Jellyfish, 5% chance, delivered same day
 
-Hunter of the Tides – Spring–Summer, Beach, Sunny, 6 AM – 8 AM, 6+ hearts with Willy, fishing level 8+
-The Green Shadow – Ginger Island, 12 PM – 4 PM, fishing level 4+, 20% chance
-Search of the King – Fall, Beach, Sunny, 4+ hearts with Willy, fishing level 5+
-The Hookfin Tale – Pirate Cave, fishing level 4+, 25% chance, after receiving Pirate Captain's letter
+Hunter of the Tides – Spring–Summer, Beach, Sunny, 6 AM – 8 AM, 8+ hearts with Willy, fishing level 8+, delivered next day
+The Green Shadow – Ginger Island, 12 PM – 4 PM, fishing level 4+, Tue/Thu/Sat, 10% chance, delivered next day
+Search of the King – Fall, Beach, Sunny, 4+ hearts with Willy, fishing level 5+, second week (9, 11, 13), Mon–Thu, delivered next day
+The Hookfin Tale – Pirate Cave, fishing level 4+, 25% chance, after receiving Pirate Captain's letter, delivered next day
 
-Pufferfish Panic – Spring–Summer, Beach, Sunny, 10 AM – 12 PM, after catching Pufferfish, 20% chance (+ daily luck), delivered next day
+Pufferfish Panic – Day started, Spring–Summer, Sunny, after catching Pufferfish, 5% chance, delivered same day
 
-Twilight Tentacles – Beach Night Market, fishing level 6+, 25% chance (+ daily luck), delivered next day
-Discus Delight – Willy's Fish Shop, after visiting Ginger Island, fishing level 3+, delivered next day
-Whisper of the Rain – Ginger Island, Raining, fishing level 10+, delivered next day
-Golden Trail – Ginger Island, Sunny, after catching Yellowtail, fishing level 4+, delivered next day
+Twilight Tentacles – Day started check during Night Market (Winter 15–17), fishing level 6+, 25% chance, delivered same day
+Discus Delight – Day started, after visiting Ginger Island, fishing level 6+, 5% chance, delivered same day
+Whisper of the Rain – Ginger Island, Raining, fishing level 10+, 20% chance, delivered next day
+Golden Trail – Ginger Island, Sunny, after catching Yellowtail, fishing level 4+, even days, Tue/Thu, delivered next day
 
-Stormy Hunt – Ginger Island, Raining, 6 AM – 8 AM, 4+ hearts with Willy, fishing level 10+, delivered next day
+Stormy Hunt – Ginger Island, Raining, 6 AM – 8 AM, 8+ hearts with Willy, fishing level 10+, delivered next day
 Treasure Chest – Pirate Cave, 4+ hearts with Willy, after reading The Hookfin Tale letter, delivered same day
-Strange Colors – Spring or Fall, Willy's Fish Shop, 4+ hearts with Willy, 15% chance, delivered next day
+Strange Colors – Day started, Spring or Fall, 4+ hearts with Willy, 2% chance, delivered same day
 
 George's Favorite – Fall, George & Evelyn's House or Town, day 17, delivered next day
 Evelyn's Summer Recipe – Summer, George & Evelyn's House or Town, Year 3, day 15, delivered next day
@@ -41,8 +41,8 @@ Sea Turtle Lesson – Spring–Summer, Pam & Penny's Trailer, Raining, 4+ hearts
 
 A Gap in the Data – Mountain, after catching Blue Ribbon Eel, fishing level 6+, 30% chance, delivered next day
 Sam's Hookfin Dare – Summer, Beach, 6 PM – 2 AM, 2+ hearts with Sam, delivered next day
-The Perfect Shot – Summer, Beach, 8 PM – 12 AM, 2+ hearts with Haley, after catching Pink Jellyfish
-Ink and Tide – Fall/Winter, Elliott's Cabin, 6 PM – 10 PM, 2+ hearts with Elliott, after catching Mermaid Pearl
+The Perfect Shot – Summer, Beach, 8 PM – 12 AM, 2+ hearts with Haley, after catching Pink Jellyfish, delivered next day
+Ink and Tide – Fall/Winter, Elliott's Cabin, 6 PM – 10 PM, 2+ hearts with Elliott, after catching Mermaid Pearl, delivered next day
 Dressed in Holiday Colors – Winter, Haley & Emily's House, 9 AM – 6 PM, 2+ hearts with Emily, after catching Jollyfin, delivered next day
 Piece of the Ocean – Spring–Summer, Carpenter's Shop, 1+ heart with Robin, after catching Ancient Shell, 10% chance, delivered next day
 
@@ -62,7 +62,7 @@ Desert Tide – Summer, Sandy's Oasis or Calico Desert, 1+ heart with Sandy, aft
 Biotic Circuit – Spring–Fall, Carpenter's Shop or Harvey's Clinic, 2+ hearts with Maru, after catching Spooktopus, delivered next day
 Reference Material – Carpenter's Shop or Mountain, 2+ hearts with Sebastian, after catching Blue-Spotted Octopus, delivered next day
 Chef's Special – Fall–Winter, Stardrop Saloon, 1+ heart with Gus, after catching Pufferjelly, delivered next day
-65: Ghost Ship – after receiving Pirate Captain's letter, 5% chance, delivered same day
+Ghost Ship – after receiving Pirate Captain's letter, 5% chance, delivered same day
 
 --- Stardew Valley Expanded ---
 

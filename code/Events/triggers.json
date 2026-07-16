@@ -7,7 +7,7 @@
                 "{{ModId}}_GrandpaToWillyLetter_Trigger": {
                     "Id": "{{ModId}}_GrandpaToWillyLetter_Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 5, YEAR 2 2, !PLAYER_HAS_MAIL Current {{ModId}}_GrandpaToWillyLetter",
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 5, YEAR 2, !PLAYER_HAS_MAIL Current {{ModId}}_GrandpaToWillyLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_GrandpaToWillyLetter now"
                     ]
@@ -207,7 +207,7 @@
                 "{{ModId}}_WillyMarlinCatchLetter_Trigger": {
                     "Id": "{{ModId}}_WillyMarlinCatchLetter_Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Marlin, !PLAYER_HAS_MAIL Current {{ModId}}_WillyMarlinCatchLetter",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Marlin, RANDOM 0.1, !PLAYER_HAS_MAIL Current {{ModId}}_WillyMarlinCatchLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyMarlinCatchLetter now"
                     ]
@@ -287,7 +287,7 @@
                 "{{ModId}}_QuestWillyGoldenMahiMahiLetter_Trigger": {
                     "Id": "{{ModId}}_QuestWillyGoldenMahiMahiLetter_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, PLAYER_BASE_FISHING_LEVEL Current 7, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyGoldenMahiMahiLetter",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, PLAYER_BASE_FISHING_LEVEL Current 7, DAY_OF_MONTH 3 5 7 9 11 13 15 17 19 21 23 25 27, DAY_OF_WEEK Monday Tuesday Wednesday Thursday, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyGoldenMahiMahiLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyGoldenMahiMahiLetter tomorrow"
                     ]
@@ -295,7 +295,7 @@
                 "{{ModId}}_QuestWillySnowyGingerfinLetter_Trigger": {
                     "Id": "{{ModId}}_QuestWillySnowyGingerfinLetter_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "SEASON Winter, LOCATION_NAME Here Beach BeachNightMarket, PLAYER_BASE_FISHING_LEVEL Current 4, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillySnowyGingerfinLetter",
+                    "Condition": "SEASON Winter, LOCATION_NAME Here Beach BeachNightMarket, PLAYER_BASE_FISHING_LEVEL Current 4, DAY_OF_MONTH 9 11 13, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillySnowyGingerfinLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillySnowyGingerfinLetter tomorrow"
                     ]
@@ -311,7 +311,7 @@
                 "{{ModId}}_QuestWillyJackOFish_Trigger": {
                     "Id": "{{ModId}}_QuestWillyJackOFish_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "SEASON Fall, LOCATION_NAME Here Beach, PLAYER_BASE_FISHING_LEVEL Current 7, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyJackOFishLetter",
+                    "Condition": "SEASON Fall, LOCATION_NAME Here Beach, PLAYER_BASE_FISHING_LEVEL Current 7, DAY_OF_MONTH 18 20 22 24, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyJackOFishLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyJackOFishLetter tomorrow"
                     ]
@@ -319,7 +319,7 @@
                 "{{ModId}}_QuestWillyMarlin_Trigger": {
                     "Id": "{{ModId}}_QuestWillyMarlin_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here FishShop, SEASON Spring Summer, PLAYER_BASE_FISHING_LEVEL Current 5, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyMarlinLetter",
+                    "Condition": "LOCATION_NAME Here FishShop, SEASON Spring Summer, PLAYER_BASE_FISHING_LEVEL Current 5, DAY_OF_MONTH odd, DAY_OF_WEEK Friday Saturday Sunday, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyMarlinLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyMarlinLetter tomorrow"
                     ]
@@ -327,7 +327,7 @@
                 "{{ModId}}_QuestWillyTearsOfTheSea_Trigger": {
                     "Id": "{{ModId}}_QuestWillyTearsOfTheSea_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "SEASON Spring Summer, LOCATION_NAME Here Beach, PLAYER_BASE_FISHING_LEVEL Current 6, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyTearsOfTheSeaLetter",
+                    "Condition": "SEASON Spring Summer, LOCATION_NAME Here Beach, PLAYER_BASE_FISHING_LEVEL Current 6, DAY_OF_MONTH 16 18 20 22 24 26 28, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyTearsOfTheSeaLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyTearsOfTheSeaLetter tomorrow"
                     ]
@@ -350,40 +350,40 @@
                 },
                 "{{ModId}}_QuestWillyRadiantDeep_Trigger": {
                     "Id": "{{ModId}}_QuestWillyRadiantDeep_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here FishShop, RANDOM 0.1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PinkJellyfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "RANDOM 0.1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PinkJellyfish, PLAYER_HEARTS Current Willy 4, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepLetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepLetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepLetter now"
                     ]
                 },
                 "{{ModId}}_QuestWillyRadiantDeepII_Trigger": {
                     "Id": "{{ModId}}_QuestWillyRadiantDeepII_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here FishShop, RANDOM 0.1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PinkJellyfish, PLAYER_HEARTS Current Willy 2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_BlueJellyfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepIILetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "RANDOM 0.1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PinkJellyfish, PLAYER_HEARTS Current Willy 5, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_BlueJellyfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepIILetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepIILetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepIILetter now"
                     ]
                 },
                 "{{ModId}}_QuestWillyRadiantDeepIII_Trigger": {
                     "Id": "{{ModId}}_QuestWillyRadiantDeepIII_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, RANDOM 0.05, PLAYER_HEARTS Current Willy 4, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PacificJellyfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepIIILetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "RANDOM 0.05, PLAYER_HEARTS Current Willy 8, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PacificJellyfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepIIILetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepIIILetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepIIILetter now"
                     ]
                 },
                 "{{ModId}}_QuestWillyRadiantDeepIV_Trigger": {
                     "Id": "{{ModId}}_QuestWillyRadiantDeepIV_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, RANDOM 0.05, PLAYER_HEARTS Current Willy 5, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PacificJellyfish, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_FlameJellyfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepIVLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "RANDOM 0.05, PLAYER_HEARTS Current Willy 10, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PacificJellyfish, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_FlameJellyfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepIVLetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepIVLetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyRadiantDeepIVLetter now"
                     ]
                 },
                 "{{ModId}}_QuestWillyHunterOfTheTides_Trigger": {
                     "Id": "{{ModId}}_QuestWillyHunterOfTheTides_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here Beach, SEASON Spring Summer, PLAYER_HEARTS Current Willy 6, WEATHER Here Sun, TIME 600 800, PLAYER_BASE_FISHING_LEVEL Current 8, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyHunterOfTheTidesLetter",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Spring Summer, PLAYER_HEARTS Current Willy 8, WEATHER Here Sun, TIME 600 800, PLAYER_BASE_FISHING_LEVEL Current 8, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyHunterOfTheTidesLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyHunterOfTheTidesLetter tomorrow"
                     ]
@@ -391,7 +391,7 @@
                 "{{ModId}}_QuestWillyTheGreenShadow_Trigger": {
                     "Id": "{{ModId}}_QuestWillyTheGreenShadow_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, RANDOM 0.2, TIME 1200 1600, PLAYER_BASE_FISHING_LEVEL Current 4, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyTheGreenShadowLetter",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, RANDOM 0.1, TIME 1200 1600, PLAYER_BASE_FISHING_LEVEL Current 4, DAY_OF_WEEK Tuesday Thursday Saturday, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyTheGreenShadowLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyTheGreenShadowLetter tomorrow"
                     ]
@@ -399,7 +399,7 @@
                 "{{ModId}}_QuestWillySearchOfTheKing_Trigger": {
                     "Id": "{{ModId}}_QuestWillySearchOfTheKing_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here Beach, PLAYER_HEARTS Current Willy 4, SEASON Fall, WEATHER Here Sun, PLAYER_BASE_FISHING_LEVEL Current 5, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillySearchOfTheKingLetter",
+                    "Condition": "LOCATION_NAME Here Beach, PLAYER_HEARTS Current Willy 4, SEASON Fall, WEATHER Here Sun, PLAYER_BASE_FISHING_LEVEL Current 5, DAY_OF_MONTH 9 11 13, DAY_OF_WEEK Monday Tuesday Wednesday Thursday, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillySearchOfTheKingLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillySearchOfTheKingLetter tomorrow"
                     ]
@@ -414,32 +414,32 @@
                 },
                 "{{ModId}}_QuestWillyCuriousPufferfish_Trigger": {
                     "Id": "{{ModId}}_QuestWillyCuriousPufferfish_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here Beach, SEASON Spring Summer, WEATHER Here Sun, TIME 1000 1200, PLAYER_HAS_CAUGHT_FISH Current (O)128, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyCuriousPufferfishLetter, RANDOM 0.2 @addDailyLuck",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Spring Summer, WEATHER Here Sun, PLAYER_HAS_CAUGHT_FISH Current (O)128, RANDOM 0.05, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyCuriousPufferfishLetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyCuriousPufferfishLetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyCuriousPufferfishLetter now"
                     ]
                 },
                 "{{ModId}}_QuestWillyFestivalTentacles_Trigger": {
                     "Id": "{{ModId}}_QuestWillyFestivalTentacles_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here BeachNightMarket, PLAYER_BASE_FISHING_LEVEL Current 6, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyFestivalTentaclesLetter, RANDOM 0.25 @addDailyLuck",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 15 16 17, PLAYER_BASE_FISHING_LEVEL Current 6, RANDOM 0.25, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyFestivalTentaclesLetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyFestivalTentaclesLetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyFestivalTentaclesLetter now"
                     ]
                 },
                 "{{ModId}}_QuestWillyTropicalDiscus_Trigger": {
                     "Id": "{{ModId}}_QuestWillyTropicalDiscus_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here FishShop, PLAYER_VISITED_LOCATION Current IslandSouth, PLAYER_BASE_FISHING_LEVEL Current 3, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyTropicalDiscusLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_VISITED_LOCATION Current IslandSouth, PLAYER_BASE_FISHING_LEVEL Current 6, RANDOM 0.05, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyTropicalDiscusLetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyTropicalDiscusLetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyTropicalDiscusLetter now"
                     ]
                 },
                 "{{ModId}}_QuestWillyWhisperOfTheRain_Trigger": {
                     "Id": "{{ModId}}_QuestWillyWhisperOfTheRain_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here GreenRain Storm Rain, PLAYER_BASE_FISHING_LEVEL Current 10, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyWhisperOfTheRainLetter",
+                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here GreenRain Storm Rain, PLAYER_BASE_FISHING_LEVEL Current 10, RANDOM 0.2, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyWhisperOfTheRainLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyWhisperOfTheRainLetter tomorrow"
                     ]
@@ -447,7 +447,7 @@
                 "{{ModId}}_QuestWillyFlashOfGold_Trigger": {
                     "Id": "{{ModId}}_QuestWillyFlashOfGold_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here Sun, PLAYER_BASE_FISHING_LEVEL Current 4, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Yellowtail, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyFlashOfGoldLetter",
+                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here Sun, PLAYER_BASE_FISHING_LEVEL Current 4, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Yellowtail, DAY_OF_MONTH even, DAY_OF_WEEK Tuesday Thursday, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyFlashOfGoldLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyFlashOfGoldLetter tomorrow"
                     ]
@@ -455,7 +455,7 @@
                 "{{ModId}}_QuestWillyStormyHunt_Trigger": {
                     "Id": "{{ModId}}_QuestWillyStormyHunt_Trigger",
                     "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, WEATHER Here GreenRain Storm Rain, TIME 600 800, PLAYER_HEARTS Current Willy 4, PLAYER_BASE_FISHING_LEVEL Current 10, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyStormyHuntLetter",
+                    "Condition": "LOCATION_NAME Here IslandSouth IslandSouthEast IslandWest, WEATHER Here GreenRain Storm Rain, TIME 600 800, PLAYER_HEARTS Current Willy 8, PLAYER_BASE_FISHING_LEVEL Current 10, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyStormyHuntLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyStormyHuntLetter tomorrow"
                     ]
@@ -470,10 +470,10 @@
                 },
                 "{{ModId}}_QuestWillyDeepSeaCucumber_Trigger": {
                     "Id": "{{ModId}}_QuestWillyDeepSeaCucumber_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here FishShop, PLAYER_HEARTS Current Willy 4, SEASON Spring Fall, RANDOM 0.15, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyDeepSeaCucumberLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Spring Fall, PLAYER_HEARTS Current Willy 4, RANDOM 0.02, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyDeepSeaCucumberLetter",
                     "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyDeepSeaCucumberLetter tomorrow"
+                        "AddMail Current {{ModId}}_QuestWillyDeepSeaCucumberLetter now"
                     ]
                 },
                 "{{ModId}}_QuestEvelynGeorgeFavorite_Trigger": {
@@ -503,7 +503,7 @@
                 "{{ModId}}_EvelynChristmasYear2Letter_Trigger": {
                     "Id": "{{ModId}}_EvelynChristmasYear2Letter_Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 25, YEAR 2 2, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_VISITED_LOCATION Current IslandSouth, !PLAYER_HAS_MAIL Current {{ModId}}_EvelynChristmasYear2Letter",
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 25, YEAR 2, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_VISITED_LOCATION Current IslandSouth, !PLAYER_HAS_MAIL Current {{ModId}}_EvelynChristmasYear2Letter",
                     "Actions": [
                         "AddMail Current {{ModId}}_EvelynChristmasYear2Letter now"
                     ]
