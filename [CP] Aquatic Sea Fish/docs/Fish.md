@@ -40,3 +40,27 @@ To add fish to the aquarium, you need to add them to `code/Fish/aquarium.json`. 
 "{{ModId}}_BlueSpottedOctopus": "1/cephalopod/////Mods\\{{ModId}}\\AquariumSprite"
 ```
 This defines the Blue Spotted Octopus using frame 1, behaving like a cephalopod, using the mod's aquarium sprite sheet.
+
+
+# The Future
+
+The different changes between 1.6.16, and 1.7.
+
+## Stardew Valley 1.7
+
+While it's not out for some year(s), they may be making some changes to context tags during recipes. If you have a custom tag that isn't defined, you'd have to define it. Example:
+
+`{
+  "Action": "EditData",
+  "Target": "Data/ContextTags",
+  "Entries": {
+    "weather_rainy": {
+      "DisplayName": "Any Rainy Fish",
+      "RepresentativeItem": "(O){{ModId}}_BrownEel"
+    }
+  }
+}`
+
+For instance, if a modder used this context tag for a recipe, it would error. This would allow it to display the icon (RepresentativeItem), and the text (DisplayName). If two mods define the same context tag, then the last definer wins. It'll be a purely cosmetic change, so I wouldn't worry about that.
+
+There is more that will likely occur, with more dehardcoding on furniture.
