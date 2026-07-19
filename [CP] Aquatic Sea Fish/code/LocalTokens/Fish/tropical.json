@@ -71,9 +71,7 @@
                 "{{ModId}}_HumpheadWrasse": {
                     "Id": "{{ModId}}_HumpheadWrasse",
                     "ItemId": "(O){{ModId}}_HumpheadWrasse",
-                    "Condition": "LOCATION_Season Here Summer",
-                    "CatchLimit": 1,
-                    "IsBossFish": true
+                    "Condition": "LOCATION_Season Here Summer"
                 },
                 "{{ModId}}_WhaleShark": {
                     "Id": "{{ModId}}_WhaleShark",
