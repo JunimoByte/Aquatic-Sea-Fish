@@ -141,6 +141,13 @@
         },
         {
             "Action": "Include",
+            "FromFile": "code/Compat/Mods/IslandExpansion/compat.json",
+            "When": {
+                "HasMod": "ResoNight.IslandExpansion"
+            }
+        },
+        {
+            "Action": "Include",
             "FromFile": "code/Compat/Mods/TillyTea/Data/prune.json"
         },
         {

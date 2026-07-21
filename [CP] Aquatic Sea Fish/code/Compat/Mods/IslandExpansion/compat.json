@@ -1,0 +1,48 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "ResoNight.IslandExpansion_Moonscythe_Island",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_IE_MoonsyctheIsland_Fish": {
+                    "Id": "{{ModId}}_IE_MoonsyctheIsland_Fish",
+                    "ItemId": "LOCATION_FISH IslandSouth BOBBER_X BOBBER_Y WATER_DEPTH"
+                }
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "ResoNight.IslandExpansion_Moonscythe_Island",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "ResoNight.IslandExpansion_Farming_Island",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_IE_FarmingIsland_Fish": {
+                    "Id": "{{ModId}}_IE_FarmingIsland_Fish",
+                    "ItemId": "LOCATION_FISH IslandSouth BOBBER_X BOBBER_Y WATER_DEPTH"
+                }
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "ResoNight.IslandExpansion_Farming_Island",
+                "AreaId": "<null>"
+            }
+        }
+    ]
+}

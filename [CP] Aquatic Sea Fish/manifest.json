@@ -90,6 +90,10 @@
     {
       "UniqueId": "HC.WalkToGingerIsland",
       "IsRequired": false
+    },
+    {
+      "UniqueId": "ResoNight.IslandExpansion",
+      "IsRequired": false
     }
   ]
 }
