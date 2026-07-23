@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "otohime.AV_AxolotlTown",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "otohime.AV_AxolotlLake",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "otohime.AV_AxolotlTownSouth",
+                "AreaId": "<null>"
+            }
+        }
+    ]
+}

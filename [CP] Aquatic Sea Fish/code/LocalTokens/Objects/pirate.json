@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_AncientShell": {
+                    "Id": "{{ModId}}_AncientShell",
+                    "ItemId": "(O){{ModId}}_AncientShell",
+                    "Condition": "LOCATION_Season Here Summer, WEATHER Here Rain Storm, TIME 600 2600",
+                    "MinFishingLevel": 4,
+                    "Chance": 0.14
+                },
+                "{{ModId}}_PiratesDoubloon": {
+                    "Id": "{{ModId}}_PiratesDoubloon",
+                    "ItemId": "(O){{ModId}}_PiratesDoubloon",
+                    "Condition": "LOCATION_Season Here Summer, TIME 600 2600",
+                    "MinFishingLevel": 4,
+                    "Chance": 0.05
+                },
+                "{{ModId}}_LunarPearl": {
+                    "Id": "{{ModId}}_LunarPearl",
+                    "ItemId": "(O){{ModId}}_LunarPearl",
+                    "Condition": "LOCATION_Season Here Summer, TIME 1800 2600",
+                    "MinFishingLevel": 7,
+                    "Chance": 0.08
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModId}}_AncientShell": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_PiratesDoubloon": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_LunarPearl": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}

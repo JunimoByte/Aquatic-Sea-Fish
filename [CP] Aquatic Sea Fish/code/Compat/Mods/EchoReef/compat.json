@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/beach.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "MrMrRogers.EchoReef_Beach",
+                "AreaId": "<null>"
+            }
+        }
+    ]
+}

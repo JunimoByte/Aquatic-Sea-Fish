@@ -1,0 +1,187 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_SeaTurtle": {
+                    "Id": "{{ModId}}_SeaTurtle",
+                    "ItemId": "(O){{ModId}}_SeaTurtle",
+                    "Condition": "LOCATION_Season Here Spring Summer"
+                },
+                "{{ModId}}_BlueSpottedOctopus": {
+                    "Id": "{{ModId}}_BlueSpottedOctopus",
+                    "ItemId": "(O){{ModId}}_BlueSpottedOctopus",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+                },
+                "{{ModId}}_Marlin": {
+                    "Id": "{{ModId}}_Marlin",
+                    "ItemId": "(O){{ModId}}_Marlin",
+                    "Condition": "LOCATION_Season Here Spring Summer"
+                },
+                "{{ModId}}_RedRockCrab": {
+                    "Id": "{{ModId}}_RedRockCrab",
+                    "ItemId": "(O){{ModId}}_RedRockCrab",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall"
+                },
+                "{{ModId}}_AlaskanKingSalmon": {
+                    "Id": "{{ModId}}_AlaskanKingSalmon",
+                    "ItemId": "(O){{ModId}}_AlaskanKingSalmon",
+                    "Condition": "LOCATION_Season Here Fall"
+                },
+                "{{ModId}}_Spooktopus": {
+                    "Id": "{{ModId}}_Spooktopus",
+                    "ItemId": "(O){{ModId}}_Spooktopus",
+                    "Condition": "LOCATION_Season Here Fall"
+                },
+                "{{ModId}}_PinkJellyfish": {
+                    "Id": "{{ModId}}_PinkJellyfish",
+                    "ItemId": "(O){{ModId}}_PinkJellyfish",
+                    "Condition": "LOCATION_Season Here Spring Summer"
+                },
+                "{{ModId}}_BlueJellyfish": {
+                    "Id": "{{ModId}}_BlueJellyfish",
+                    "ItemId": "(O){{ModId}}_BlueJellyfish",
+                    "Condition": "LOCATION_Season Here Spring Summer"
+                },
+                "{{ModId}}_HammerheadShark": {
+                    "Id": "{{ModId}}_HammerheadShark",
+                    "ItemId": "(O){{ModId}}_HammerheadShark",
+                    "Condition": "LOCATION_Season Here Spring Summer"
+                },
+                "{{ModId}}_BrownEel": {
+                    "Id": "{{ModId}}_BrownEel",
+                    "ItemId": "(O){{ModId}}_BrownEel",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModId}}_MossyEel": {
+                    "Id": "{{ModId}}_MossyEel",
+                    "ItemId": "(O){{ModId}}_MossyEel",
+                    "Condition": "LOCATION_Season Here Summer, WEATHER Here GreenRain"
+                },
+                "{{ModId}}_Ghoulgill": {
+                    "Id": "{{ModId}}_Ghoulgill",
+                    "ItemId": "(O){{ModId}}_Ghoulgill",
+                    "Condition": "LOCATION_Season Here Fall"
+                },
+                "{{ModId}}_Broombell": {
+                    "Id": "{{ModId}}_Broombell",
+                    "ItemId": "(O){{ModId}}_Broombell",
+                    "Condition": "LOCATION_Season Here Fall"
+                },
+                "{{ModId}}_JackOFish": {
+                    "Id": "{{ModId}}_JackOFish",
+                    "ItemId": "(O){{ModId}}_JackOFish",
+                    "Condition": "LOCATION_Season Here Fall, DAY_OF_MONTH 26 27 28"
+                },
+                "{{ModId}}_Sprucefin": {
+                    "Id": "{{ModId}}_Sprucefin",
+                    "ItemId": "(O){{ModId}}_Sprucefin",
+                    "Condition": "LOCATION_Season Here Winter"
+                },
+                "{{ModId}}_Jollyfin": {
+                    "Id": "{{ModId}}_Jollyfin",
+                    "ItemId": "(O){{ModId}}_Jollyfin",
+                    "Condition": "LOCATION_Season Here Winter"
+                },
+                "{{ModId}}_Redpuff": {
+                    "Id": "{{ModId}}_Redpuff",
+                    "ItemId": "(O){{ModId}}_Redpuff",
+                    "Condition": "LOCATION_Season Here Winter"
+                },
+                "{{ModId}}_Gingerfin": {
+                    "Id": "{{ModId}}_Gingerfin",
+                    "ItemId": "(O){{ModId}}_Gingerfin",
+                    "Condition": "LOCATION_Season Here Winter, WEATHER Here Snow"
+                },
+                "{{ModId}}_Luckyfin": {
+                    "Id": "{{ModId}}_Luckyfin",
+                    "ItemId": "(O){{ModId}}_Luckyfin",
+                    "Condition": "LOCATION_Season Here Spring, DAY_OF_MONTH 17, YEAR 2"
+                },
+                "{{ModId}}_Santafish": {
+                    "Id": "{{ModId}}_Santafish",
+                    "ItemId": "(O){{ModId}}_Santafish",
+                    "Condition": "LOCATION_Season Here Winter, WEATHER Here Snow"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModId}}_SeaTurtle": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_BlueSpottedOctopus": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Marlin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_RedRockCrab": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_AlaskanKingSalmon": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Spooktopus": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_PinkJellyfish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_BlueJellyfish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_HammerheadShark": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_BrownEel": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_MossyEel": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Ghoulgill": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Broombell": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_JackOFish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Sprucefin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Jollyfin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Redpuff": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Gingerfin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Luckyfin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Santafish": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}

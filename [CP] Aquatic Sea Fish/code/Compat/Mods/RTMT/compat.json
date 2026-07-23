@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Rexstrife20.MineralTownCP_MineralBeach",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_RTMT_Fish": {
+                    "Id": "{{ModId}}_RTMT_Fish",
+                    "ItemId": "LOCATION_FISH IslandSouth BOBBER_X BOBBER_Y WATER_DEPTH"
+                }
+            }
+        }
+    ]
+}

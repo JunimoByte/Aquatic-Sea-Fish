@@ -1,0 +1,576 @@
+{
+    "Changes": [
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyMahiMahiLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyMahiMahiLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyMahiMahiLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyMahiMahiLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyMahiMahiLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyGoldenMahiMahiLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyMahiMahi",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyMahiMahi": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyMahiMahi": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyMahiMahi",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyMahiMahi",
+                        "AddQuest {{ModId}}_QuestWillyGoldenMahiMahi"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyGingerfinLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGingerfinLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGingerfinLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyGingerfinLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyGingerfinLetter received",
+                        "AddMail Current {{ModId}}_QuestWillySnowyGingerfinLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyGingerfin",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyGingerfin": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGingerfin": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGingerfin",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyGingerfin",
+                        "AddQuest {{ModId}}_QuestWillySnowyGingerfin"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyGingerfinThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGingerfinThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGingerfinThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyGingerfinThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyGingerfinThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillySnowyGingerfinThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyRedRockCrabsLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyRedRockCrabsLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyRedRockCrabsLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyRedRockCrabsLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyRedRockCrabsLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyCoastalRockCrabLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyRedRockCrabs",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyRedRockCrabs": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyRedRockCrabs": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyRedRockCrabs",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyRedRockCrabs",
+                        "AddQuest {{ModId}}_QuestWillyCoastalRockCrab"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWizardGhoulOfTheDeep",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWizardGhoulOfTheDeep": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWizardGhoulOfTheDeep": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWizardGhoulOfTheDeep",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWizardGhoulOfTheDeep",
+                        "AddQuest {{ModId}}_QuestWizardSpectralGhoulgill"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyGlowOfTheDeepII",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyGlowOfTheDeepII": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepII": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepII",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyGlowOfTheDeepII",
+                        "AddQuest {{ModId}}_QuestWillyRadiantDeepII"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyGlowOfTheDeepIII",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyGlowOfTheDeepIII": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIII": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIII",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyGlowOfTheDeepIII",
+                        "AddQuest {{ModId}}_QuestWillyRadiantDeepIII"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyGlowOfTheDeepIV",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyGlowOfTheDeepIV": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIV": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIV",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyGlowOfTheDeepIV",
+                        "AddQuest {{ModId}}_QuestWillyRadiantDeepIV"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyPufferfishPanicLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanicLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanicLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyPufferfishPanicLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyPufferfishPanicLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyCuriousPufferfishLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyPufferfishPanic",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyPufferfishPanic": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanic": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanic",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyPufferfishPanic",
+                        "AddQuest {{ModId}}_QuestWillyCuriousPufferfish"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyPufferfishPanicThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanicThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanicThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyPufferfishPanicThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyPufferfishPanicThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyCuriousPufferfishThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyTwilightTentaclesLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentaclesLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentaclesLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyTwilightTentaclesLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyTwilightTentaclesLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyFestivalTentaclesLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyTwilightTentacles",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyTwilightTentacles": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentacles": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentacles",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyTwilightTentacles",
+                        "AddQuest {{ModId}}_QuestWillyFestivalTentacles"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyTwilightTentaclesThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentaclesThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentaclesThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyTwilightTentaclesThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyTwilightTentaclesThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyFestivalTentaclesThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyDiscusDelightLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelightLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelightLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyDiscusDelightLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyDiscusDelightLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyTropicalDiscusLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyDiscusDelight",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyDiscusDelight": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelight": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelight",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyDiscusDelight",
+                        "AddQuest {{ModId}}_QuestWillyTropicalDiscus"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyDiscusDelightThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelightThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelightThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyDiscusDelightThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyDiscusDelightThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyTropicalDiscusThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyGoldenTrailLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrailLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrailLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyGoldenTrailLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyGoldenTrailLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyFlashOfGoldLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyGoldenTrail",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyGoldenTrail": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrail": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrail",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyGoldenTrail",
+                        "AddQuest {{ModId}}_QuestWillyFlashOfGold"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyGoldenTrailThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrailThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrailThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyGoldenTrailThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyGoldenTrailThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyFlashOfGoldThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyTreasureUnderTheWavesLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWavesLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWavesLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyTreasureUnderTheWavesLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyTreasureUnderTheWavesLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyTreasureChestLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyTreasureUnderTheWaves",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyTreasureUnderTheWaves": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWaves": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWaves",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyTreasureUnderTheWaves",
+                        "AddQuest {{ModId}}_QuestWillyTreasureChest"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyTreasureUnderTheWavesThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWavesThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWavesThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyTreasureUnderTheWavesThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyTreasureUnderTheWavesThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyTreasureChestThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyStrangeColorsLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyStrangeColorsLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyStrangeColorsLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyStrangeColorsLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyStrangeColorsLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyDeepSeaCucumberLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyStrangeColors",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyStrangeColors": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyStrangeColors": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyStrangeColors",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyStrangeColors",
+                        "AddQuest {{ModId}}_QuestWillyDeepSeaCucumber"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyStrangeColorsThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyStrangeColorsThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyStrangeColorsThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyStrangeColorsThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyStrangeColorsThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyDeepSeaCucumberThankYouLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyPirateCovePredatorLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredatorLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredatorLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyPirateCovePredatorLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyPirateCovePredatorLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyTreasureChestLetter received"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Quest: ASF_QuestWillyPirateCovePredator",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasActiveQuest:currentPlayer |contains=ASF_QuestWillyPirateCovePredator": "true"
+            },
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredator": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredator",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveQuest ASF_QuestWillyPirateCovePredator",
+                        "AddQuest {{ModId}}_QuestWillyTreasureChest"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Migrate Mail: ASF_QuestWillyPirateCovePredatorThankYouLetter",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredatorThankYouLetter": {
+                    "Id": "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredatorThankYouLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current ASF_QuestWillyPirateCovePredatorThankYouLetter",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "RemoveMail Current ASF_QuestWillyPirateCovePredatorThankYouLetter received",
+                        "AddMail Current {{ModId}}_QuestWillyTreasureChestThankYouLetter received"
+                    ]
+                }
+            }
+        }
+    ]
+}

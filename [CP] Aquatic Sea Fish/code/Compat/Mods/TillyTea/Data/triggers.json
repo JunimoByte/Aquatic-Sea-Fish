@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosity_Trigger": {
+                    "Id": "{{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosity_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Fall, PLAYER_HEARTS Current Wem.Bundle.Tilly 1, RANDOM 0.2, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosityLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosityLetter now"
+                    ]
+                },
+                "{{ModId}}_Compat_Tilly_QuestTillyMurkyWaters_Trigger": {
+                    "Id": "{{ModId}}_Compat_Tilly_QuestTillyMurkyWaters_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "WEATHER Here Rain, PLAYER_HEARTS Current Wem.Bundle.Tilly 3, RANDOM 0.25, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_Tilly_QuestTillyMurkyWatersLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_Tilly_QuestTillyMurkyWatersLetter tomorrow"
+                    ]
+                },
+                "{{ModId}}_Compat_Tilly_QuestTillyByTheBooks_Trigger": {
+                    "Id": "{{ModId}}_Compat_Tilly_QuestTillyByTheBooks_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Fall, PLAYER_HEARTS Current Wem.Bundle.Tilly 5, RANDOM 0.2, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_Tilly_QuestTillyByTheBooksLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_Tilly_QuestTillyByTheBooksLetter now"
+                    ]
+                }
+            }
+        }
+    ]
+}

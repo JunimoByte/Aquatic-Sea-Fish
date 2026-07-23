@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Cleanup_Arumi_QuestArumiPufferjelly": {
+                    "Id": "{{ModId}}_Cleanup_Arumi_QuestArumiPufferjelly",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_Arumi_QuestArumiPufferjelly}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_Arumi_QuestArumiPufferjelly",
+                        "RemoveMail Current {{ModId}}_Compat_Arumi_QuestArumiPufferjellyLetter"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=NassiLove.AikawaAsakaiCP": false
+            }
+        }
+    ]
+}

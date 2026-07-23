@@ -1,0 +1,81 @@
+﻿{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "When": {
+                "Fish Difficulty": "Relaxed"
+            },
+            "Entries": {
+                "{{ModId}}_SeaTurtle": "{{ModId}}_SeaTurtle/39/sinker/5/9/600 1800/spring summer/sunny/685 .35/2/.25/.1/0/false",
+                "{{ModId}}_BlueSpottedOctopus": "{{ModId}}_BlueSpottedOctopus/60/dart/5/8/1800 2600/spring summer fall winter/both/685 .35/5/.12/.15/5/false",
+                "{{ModId}}_Marlin": "{{ModId}}_Marlin/80/dart/34/68/1200 1800/spring summer/both/685 .35/5/.05/.15/5/false",
+                "{{ModId}}_GardenSnail": "{{ModId}}_GardenSnail/26/sinker/2/5/600 1500/summer/rainy/685 .35/2/.2/.1/0/false",
+                "{{ModId}}_RedRockCrab": "{{ModId}}_RedRockCrab/41/mixed/8/17/1000 1800/spring summer fall/sunny/685 .35/3/.15/.1/2/false",
+                "{{ModId}}_HermitCrab": "{{ModId}}_HermitCrab/41/dart/3/6/1900 2600/spring summer fall/both/685 .35/3/.2/.1/2/false",
+                "{{ModId}}_PinkHermitCrab": "{{ModId}}_PinkHermitCrab/30/mixed/2/4/600 1100/spring/both/685 .35/2/.15/.1/1/false",
+                "{{ModId}}_OrangeStarfish": "{{ModId}}_OrangeStarfish/37/mixed/1/3/600 2400/spring summer fall/both/685 .35/3/.18/.1/1/false",
+                "{{ModId}}_Scallop": "{{ModId}}_Scallop/26/sinker/2/5/800 2000/spring summer fall/sunny/685 .35/2/.2/.1/0/false",
+                "{{ModId}}_AlaskanKingSalmon": "{{ModId}}_AlaskanKingSalmon/63/dart/50/120/600 1900/fall/both/685 .35/5/.1/.2/5/false",
+                "{{ModId}}_Spooktopus": "{{ModId}}_Spooktopus/70/mixed/52/104/2200 2600/fall/both/685 .35/5/.08/.5/7/false",
+                "{{ModId}}_PinkJellyfish": "{{ModId}}_PinkJellyfish/37/floater/5/15/2000 2400/spring summer/both/685 .35/2/.25/.2/2/false",
+                "{{ModId}}_BlueJellyfish": "{{ModId}}_BlueJellyfish/37/floater/5/15/2000 2600/spring summer/both/685 .35/2/.25/.2/2/false",
+                "{{ModId}}_HammerheadShark": "{{ModId}}_HammerheadShark/70/mixed/65/90/600 1000 1700 2000/spring summer/sunny/685 .35/5/.08/.15/7/false",
+                "{{ModId}}_BrownEel": "{{ModId}}_BrownEel/52/floater/12/49/1600 2200/summer/rainy/685 .35/3/.18/2/4/false",
+                "{{ModId}}_MahiMahi": "{{ModId}}_MahiMahi/63/sinker/45/100/600 1700/summer/sunny/685 .35/5/.09/2/7/false",
+                "{{ModId}}_LeopardStingray": "{{ModId}}_LeopardStingray/45/smooth/35/65/600 2000/summer/sunny/685 .35/3/.3/1/6/false",
+                "{{ModId}}_RibbonEel": "{{ModId}}_RibbonEel/42/floater/15/38/600 1400/summer/both/685 .35/3/.18/2/4/false",
+                "{{ModId}}_GreenEel": "{{ModId}}_GreenEel/42/floater/12/29/1200 2200/summer/both/685 .35/3/.18/2/4/false",
+                "{{ModId}}_OrangeEel": "{{ModId}}_OrangeEel/42/floater/13/34/1700 2600/summer/both/685 .35/3/.15/2/4/false",
+                "{{ModId}}_Hookfin": "{{ModId}}_Hookfin/48/dart/25/65/1200 2600/summer/both/685 .35/2/.2/3/4/false",
+                "{{ModId}}_PacificJellyfish": "{{ModId}}_PacificJellyfish/37/floater/14/43/1800 2600/summer/both/685 .35/3/.22/.2/3/false",
+                "{{ModId}}_FlameJellyfish": "{{ModId}}_FlameJellyfish/37/floater/14/43/1800 2600/summer/both/685 .35/3/.22/.2/3/false",
+                "{{ModId}}_Ghoulgill": "{{ModId}}_Ghoulgill/46/dart/11/31/1800 2600/fall/both/685 .35/3/.15/.2/3/false",
+                "{{ModId}}_Broombell": "{{ModId}}_Broombell/52/mixed/8/20/1800 2600/fall/both/685 .35/3/.15/.25/4/false",
+                "{{ModId}}_JackOFish": "{{ModId}}_JackOFish/65/floater/72/110/2000 2600/fall/both/685 .35/5/.12/.25/7/false",
+                "{{ModId}}_Sprucefin": "{{ModId}}_Sprucefin/45/floater/9/16/600 1800/winter/both/685 .35/3/.2/.2/3/false",
+                "{{ModId}}_Jollyfin": "{{ModId}}_Jollyfin/45/mixed/5/12/600 1800/winter/both/685 .20/3/.2/.2/2/false",
+                "{{ModId}}_Redpuff": "{{ModId}}_Redpuff/37/sinker/7/18/1000 2000/winter/both/685 .35/3/.15/.15/3/false",
+                "{{ModId}}_Gingerfin": "{{ModId}}_Gingerfin/37/floater/6/14/1000 1800/winter/both/685 .30/3/.5/.25/4/false",
+                "{{ModId}}_Pufferjelly": "{{ModId}}_Pufferjelly/65/sinker/80/130/800 1200/summer/rainy/685 .30/3/.08/.25/10/false",
+                "{{ModId}}_AppleSnail": "{{ModId}}_AppleSnail/30/sinker/2/6/1600 2600/summer/both/685 .30/2/.5/.25/4/false",
+                "{{ModId}}_TreeSpiderCrab": "{{ModId}}_TreeSpiderCrab/37/mixed/6/13/2000 2600/summer/both/685 .30/3/.5/.25/4/false",
+                "{{ModId}}_Yellowtail": "{{ModId}}_Yellowtail/33/dart/2/8/1100 1500/summer/sunny/685 .30/3/.25/.25/4/false",
+                "{{ModId}}_MossyEel": "{{ModId}}_MossyEel/52/floater/12/49/1200 1800/summer/rainy/685 .35/3/.18/2/4/false",
+                "{{ModId}}_HumpheadWrasse": "{{ModId}}_HumpheadWrasse/69/dart/50/85/600 1700/summer/sunny/685 .35/5/.05/.15/7/true",
+                "{{ModId}}_Luckyfin": "{{ModId}}_Luckyfin/56/floater/23/40/1000 2200/spring/both/685 .35/3/.1/.2/5/false",
+                "{{ModId}}_WhaleShark": "{{ModId}}_WhaleShark/71/sinker/81/192/1000 1700/summer/sunny/685 .35/5/.08/2/7/false",
+                "{{ModId}}_Santafish": "{{ModId}}_Santafish/65/mixed/34/50/1600 2400/winter/both/685 .35/5/.08/2/7/false",
+                "{{ModId}}_LemonShark": "{{ModId}}_LemonShark/70/mixed/65/90/1700 2400/summer/sunny/685 .35/5/.08/2/6/false",
+                "{{ModId}}_BlueDolphin": "{{ModId}}_BlueDolphin/72/dart/59/127/600 1200/summer/both/685 .35/3/.08/2/7/false"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Protected Edibility": "Enabled"
+            },
+            "Fields": {
+                "ASF_SeaTurtle": {
+                    "Edibility": -300
+                },
+                "ASF_HumpheadWrasse": {
+                    "Edibility": -300
+                },
+                "ASF_Marlin": {
+                    "Edibility": -300
+                },
+                "ASF_HammerheadShark": {
+                    "Edibility": -300
+                },
+                "ASF_WhaleShark": {
+                    "Edibility": -300
+                },
+                "ASF_LemonShark": {
+                    "Edibility": -300
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Cleanup_Tilly_QuestTillyPinchOfCuriosity": {
+                    "Id": "{{ModId}}_Cleanup_Tilly_QuestTillyPinchOfCuriosity",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosity}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosity",
+                        "RemoveMail Current {{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosityLetter"
+                    ]
+                },
+                "{{ModId}}_Cleanup_Tilly_QuestTillyMurkyWaters": {
+                    "Id": "{{ModId}}_Cleanup_Tilly_QuestTillyMurkyWaters",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_Tilly_QuestTillyMurkyWaters}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_Tilly_QuestTillyMurkyWaters",
+                        "RemoveMail Current {{ModId}}_Compat_Tilly_QuestTillyMurkyWatersLetter"
+                    ]
+                },
+                "{{ModId}}_Cleanup_Tilly_QuestTillyByTheBooks": {
+                    "Id": "{{ModId}}_Cleanup_Tilly_QuestTillyByTheBooks",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_Tilly_QuestTillyByTheBooks}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_Tilly_QuestTillyByTheBooks",
+                        "RemoveMail Current {{ModId}}_Compat_Tilly_QuestTillyByTheBooksLetter"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=Wem.Bundle": false
+            }
+        }
+    ]
+}

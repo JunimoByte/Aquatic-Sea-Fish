@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/beach.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "Beach",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "IslandSouth",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "IslandSouthEast",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Objects/pirate.json",
+            "LocalTokens": {
+                "TargetName": "IslandWest",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/cave.json",
+            "LocalTokens": {
+                "TargetName": "IslandSouthEastCave",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/submarine.json",
+            "LocalTokens": {
+                "TargetName": "Submarine",
+                "AreaId": "<null>"
+            }
+        }
+    ]
+}

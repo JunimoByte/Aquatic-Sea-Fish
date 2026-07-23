@@ -1,0 +1,54 @@
+{
+    "Format": "2.8.0",
+    "ConfigSchema": {
+        "Fish Difficulty": {
+            "AllowValues": "Default, Relaxed",
+            "Default": "Default"
+        },
+        "Protected Edibility": {
+            "AllowValues": "Default, Enabled",
+            "Default": "Default"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/FishSprite",
+            "FromFile": "assets/FishSprite.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/AquariumSprite",
+            "FromFile": "assets/AquariumSprite.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/ObjectSprite",
+            "FromFile": "assets/ObjectSprite.png"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Fish/fish.json, code/Fish/aquarium.json, code/Fish/behavior.json, code/Fish/locations.json, code/Fish/pond.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Objects/objects.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Events/mail.json, code/Events/quests.json, code/Events/triggers.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/NPCs/dialogue.json, code/NPCs/gifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Other/config.json, code/Other/tailoring.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/index.json"
+        }
+    ]
+}

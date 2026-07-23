@@ -1,0 +1,51 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_JackOFish": {
+                    "Id": "{{ModId}}_JackOFish",
+                    "ItemId": "(O){{ModId}}_JackOFish",
+                    "Condition": "LOCATION_Season Here Winter"
+                },
+                "{{ModId}}_Redpuff": {
+                    "Id": "{{ModId}}_Redpuff",
+                    "ItemId": "(O){{ModId}}_Redpuff",
+                    "Condition": "LOCATION_Season Here Winter"
+                },
+                "{{ModId}}_Gingerfin": {
+                    "Id": "{{ModId}}_Gingerfin",
+                    "ItemId": "(O){{ModId}}_Gingerfin",
+                    "Condition": "LOCATION_Season Here Winter"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModId}}_JackOFish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Redpuff": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Gingerfin": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}

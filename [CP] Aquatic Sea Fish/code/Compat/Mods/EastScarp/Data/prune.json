@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Cleanup_ES_QuestJulietGhostFishThing": {
+                    "Id": "{{ModId}}_Cleanup_ES_QuestJulietGhostFishThing",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_ES_QuestJulietGhostFishThing}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_ES_QuestJulietGhostFishThing",
+                        "RemoveMail Current {{ModId}}_Compat_ES_QuestJulietGhostFishThingLetter"
+                    ]
+                },
+                "{{ModId}}_Cleanup_ES_QuestJasperCrystallineRecord": {
+                    "Id": "{{ModId}}_Cleanup_ES_QuestJasperCrystallineRecord",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_ES_QuestJasperCrystallineRecord}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_ES_QuestJasperCrystallineRecord",
+                        "RemoveMail Current {{ModId}}_Compat_ES_QuestJasperCrystallineRecordLetter"
+                    ]
+                },
+                "{{ModId}}_Cleanup_ES_QuestVictoriaHappyInWinter": {
+                    "Id": "{{ModId}}_Cleanup_ES_QuestVictoriaHappyInWinter",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_ES_QuestVictoriaHappyInWinter}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_ES_QuestVictoriaHappyInWinter",
+                        "RemoveMail Current {{ModId}}_Compat_ES_QuestVictoriaHappyInWinterLetter"
+                    ]
+                },
+                "{{ModId}}_Cleanup_ES_QuestKeanuSomethingFromHome": {
+                    "Id": "{{ModId}}_Cleanup_ES_QuestKeanuSomethingFromHome",
+                    "Trigger": "DayStarted",
+                    "Condition": "\"{{HasActiveQuest |contains={{ModId}}_Compat_ES_QuestKeanuSomethingFromHome}}\"",
+                    "Actions": [
+                        "RemoveQuest {{ModId}}_Compat_ES_QuestKeanuSomethingFromHome",
+                        "RemoveMail Current {{ModId}}_Compat_ES_QuestKeanuSomethingFromHomeLetter"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=Lemurkat.EastScarp": false
+            }
+        }
+    ]
+}

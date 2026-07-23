@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/beach.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "EastScarp_Village",
+                "AreaId": "ESBay"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/beach.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "EastScarp_Orchard",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/beach.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/mermaid.json",
+            "LocalTokens": {
+                "TargetName": "EastScarp_LoresCove",
+                "AreaId": "LCOcean"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/EastScarp/Data/mail.json, code/Compat/Mods/EastScarp/Data/quests.json, code/Compat/Mods/EastScarp/Data/triggers.json"
+        }
+    ]
+}

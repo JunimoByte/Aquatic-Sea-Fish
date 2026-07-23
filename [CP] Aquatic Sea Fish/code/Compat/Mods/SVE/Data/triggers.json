@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Compat_SVE_QuestSophiaCosplayInspiration_Trigger": {
+                    "Id": "{{ModId}}_Compat_SVE_QuestSophiaCosplayInspiration_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Spring, WEATHER Here Sun, DAY_OF_WEEK Tuesday Thursday, RANDOM 0.15, PLAYER_HEARTS Current Sophia 4, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_SVE_QuestSophiaCosplayInspirationLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_SVE_QuestSophiaCosplayInspirationLetter now"
+                    ]
+                },
+                "{{ModId}}_Compat_SVE_QuestMorganAssignment_Trigger": {
+                    "Id": "{{ModId}}_Compat_SVE_QuestMorganAssignment_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Fall, DAY_OF_WEEK Monday Tuesday, RANDOM 0.2, PLAYER_HEARTS Current Morgan 3, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_SVE_QuestMorganAssignmentLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_SVE_QuestMorganAssignmentLetter now"
+                    ]
+                },
+                "{{ModId}}_Compat_SVE_QuestOliviaPartyPreparations_Trigger": {
+                    "Id": "{{ModId}}_Compat_SVE_QuestOliviaPartyPreparations_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_WEEK Monday Wednesday Friday, RANDOM 0.1, PLAYER_HEARTS Current Olivia 3, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_SVE_QuestOliviaPartyPreparationsLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_SVE_QuestOliviaPartyPreparationsLetter now"
+                    ]
+                },
+                "{{ModId}}_Compat_SVE_QuestLanceArmorPlating_Trigger": {
+                    "Id": "{{ModId}}_Compat_SVE_QuestLanceArmorPlating_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Fall, DAY_OF_WEEK Friday Saturday, RANDOM 0.2, PLAYER_HEARTS Current Lance 4, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_SVE_QuestLanceArmorPlatingLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_SVE_QuestLanceArmorPlatingLetter now"
+                    ]
+                },
+                "{{ModId}}_Compat_SVE_QuestClaireFestiveFish_Trigger": {
+                    "Id": "{{ModId}}_Compat_SVE_QuestClaireFestiveFish_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, DAY_OF_WEEK Wednesday Saturday, RANDOM 0.1, PLAYER_HEARTS Current Claire 3, !PLAYER_HAS_MAIL Current {{ModId}}_Compat_SVE_QuestClaireFestiveFishLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Compat_SVE_QuestClaireFestiveFishLetter now"
+                    ]
+                }
+            }
+        }
+    ]
+}

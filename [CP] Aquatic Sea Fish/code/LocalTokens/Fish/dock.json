@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_OrangeStarfish": {
+                    "Id": "{{ModId}}_OrangeStarfish",
+                    "ItemId": "(O){{ModId}}_OrangeStarfish",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall"
+                },
+                "{{ModId}}_HermitCrab": {
+                    "Id": "{{ModId}}_HermitCrab",
+                    "ItemId": "(O){{ModId}}_HermitCrab",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall"
+                },
+                "{{ModId}}_PinkHermitCrab": {
+                    "Id": "{{ModId}}_PinkHermitCrab",
+                    "ItemId": "(O){{ModId}}_PinkHermitCrab",
+                    "Condition": "LOCATION_Season Here Spring"
+                },
+                "{{ModId}}_GardenSnail": {
+                    "Id": "{{ModId}}_GardenSnail",
+                    "ItemId": "(O){{ModId}}_GardenSnail",
+                    "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModId}}_Scallop": {
+                    "Id": "{{ModId}}_Scallop",
+                    "ItemId": "(O){{ModId}}_Scallop",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModId}}_OrangeStarfish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_HermitCrab": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_PinkHermitCrab": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_GardenSnail": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Scallop": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}
