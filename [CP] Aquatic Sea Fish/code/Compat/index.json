@@ -148,6 +148,13 @@
         },
         {
             "Action": "Include",
+            "FromFile": "code/Compat/Mods/TrolleyExpansion/compat.json",
+            "When": {
+                "HasMod": "cajcbell.TE"
+            }
+        },
+        {
+            "Action": "Include",
             "FromFile": "code/Compat/Mods/TillyTea/Data/prune.json"
         },
         {

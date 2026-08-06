@@ -1,7 +1,7 @@
 {
   "Name": "Aquatic Sea Fish",
   "Author": "LucyTheDove",
-  "Version": "1.4",
+  "Version": "1.4.1",
   "Description": "Adds many new fish, quests, and dialogue to Stardew Valley.",
   "UniqueId": "ASF",
   "UpdateKeys": [
@@ -93,6 +93,10 @@
     },
     {
       "UniqueId": "ResoNight.IslandExpansion",
+      "IsRequired": false
+    },
+    {
+      "UniqueId": "cajcbell.TE",
       "IsRequired": false
     }
   ]
