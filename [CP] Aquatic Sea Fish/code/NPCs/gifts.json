@@ -134,7 +134,7 @@
                         "Entries",
                         "Universal_Love"
                     ],
-                    "Value": "(O){{ModId}}_MermaidPearl (O){{ModId}}_MermaidTear (O){{ModId}}_LunarPearl",
+                    "Value": "{{ModId}}_MermaidPearl {{ModId}}_MermaidTear {{ModId}}_LunarPearl",
                     "Delimiter": " "
                 },
                 {
@@ -143,7 +143,7 @@
                         "Entries",
                         "Universal_Like"
                     ],
-                    "Value": "(O){{ModId}}_Gingerfin",
+                    "Value": "{{ModId}}_Gingerfin",
                     "Delimiter": " "
                 },
                 {
