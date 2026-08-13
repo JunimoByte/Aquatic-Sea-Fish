@@ -4,11 +4,11 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModId}}_Compat_SVE_QuestSophiaCosplayInspiration": "{{i18n:ASF_Compat_SVE_QuestSophiaCosplayInspiration}}",
-                "{{ModId}}_Compat_SVE_QuestMorganAssignment": "{{i18n:ASF_Compat_SVE_QuestMorganAssignment}}",
-                "{{ModId}}_Compat_SVE_QuestOliviaPartyPreparations": "{{i18n:ASF_Compat_SVE_QuestOliviaPartyPreparations}}",
-                "{{ModId}}_Compat_SVE_QuestLanceArmorPlating": "{{i18n:ASF_Compat_SVE_QuestLanceArmorPlating}}",
-                "{{ModId}}_Compat_SVE_QuestClaireFestiveFish": "{{i18n:ASF_Compat_SVE_QuestClaireFestiveFish}}"
+                "{{ModId}}_Compat_SVE_QuestSophiaCosplayInspiration": "{{i18n:{{ModId}}_Compat_SVE_QuestSophiaCosplayInspiration}}",
+                "{{ModId}}_Compat_SVE_QuestMorganAssignment": "{{i18n:{{ModId}}_Compat_SVE_QuestMorganAssignment}}",
+                "{{ModId}}_Compat_SVE_QuestOliviaPartyPreparations": "{{i18n:{{ModId}}_Compat_SVE_QuestOliviaPartyPreparations}}",
+                "{{ModId}}_Compat_SVE_QuestLanceArmorPlating": "{{i18n:{{ModId}}_Compat_SVE_QuestLanceArmorPlating}}",
+                "{{ModId}}_Compat_SVE_QuestClaireFestiveFish": "{{i18n:{{ModId}}_Compat_SVE_QuestClaireFestiveFish}}"
             }
         }
     ]

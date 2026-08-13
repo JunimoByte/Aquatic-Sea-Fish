@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModId}}_Compat_Arumi_QuestArumiPufferjelly": "{{i18n:ASF_Compat_Arumi_QuestArumiPufferjelly}}"
+                "{{ModId}}_Compat_Arumi_QuestArumiPufferjelly": "{{i18n:{{ModId}}_Compat_Arumi_QuestArumiPufferjelly}}"
             }
         }
     ]

@@ -4,10 +4,10 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "{{ModId}}_Compat_ES_QuestJulietGhostFishThingLetter": "{{i18n:ASF_Compat_ES_QuestJulietGhostFishThingLetter}}",
-                "{{ModId}}_Compat_ES_QuestJasperCrystallineRecordLetter": "{{i18n:ASF_Compat_ES_QuestJasperCrystallineRecordLetter}}",
-                "{{ModId}}_Compat_ES_QuestVictoriaHappyInWinterLetter": "{{i18n:ASF_Compat_ES_QuestVictoriaHappyInWinterLetter}}",
-                "{{ModId}}_Compat_ES_QuestKeanuSomethingFromHomeLetter": "{{i18n:ASF_Compat_ES_QuestKeanuSomethingFromHomeLetter}}"
+                "{{ModId}}_Compat_ES_QuestJulietGhostFishThingLetter": "{{i18n:{{ModId}}_Compat_ES_QuestJulietGhostFishThingLetter}}",
+                "{{ModId}}_Compat_ES_QuestJasperCrystallineRecordLetter": "{{i18n:{{ModId}}_Compat_ES_QuestJasperCrystallineRecordLetter}}",
+                "{{ModId}}_Compat_ES_QuestVictoriaHappyInWinterLetter": "{{i18n:{{ModId}}_Compat_ES_QuestVictoriaHappyInWinterLetter}}",
+                "{{ModId}}_Compat_ES_QuestKeanuSomethingFromHomeLetter": "{{i18n:{{ModId}}_Compat_ES_QuestKeanuSomethingFromHomeLetter}}"
             }
         }
     ]

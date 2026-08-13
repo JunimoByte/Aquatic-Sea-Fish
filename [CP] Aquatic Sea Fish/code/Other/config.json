@@ -57,22 +57,22 @@
                 "Protected Edibility": "Enabled"
             },
             "Fields": {
-                "ASF_SeaTurtle": {
+                "{{ModId}}_SeaTurtle": {
                     "Edibility": -300
                 },
-                "ASF_HumpheadWrasse": {
+                "{{ModId}}_HumpheadWrasse": {
                     "Edibility": -300
                 },
-                "ASF_Marlin": {
+                "{{ModId}}_Marlin": {
                     "Edibility": -300
                 },
-                "ASF_HammerheadShark": {
+                "{{ModId}}_HammerheadShark": {
                     "Edibility": -300
                 },
-                "ASF_WhaleShark": {
+                "{{ModId}}_WhaleShark": {
                     "Edibility": -300
                 },
-                "ASF_LemonShark": {
+                "{{ModId}}_LemonShark": {
                     "Edibility": -300
                 }
             }

@@ -1,0 +1,59 @@
+Modding:Quest data
+Jump to navigationJump to search
+← Index
+
+Axe.png
+Article Stub
+This article is a stub and is missing information. You can help Stardew Valley Wiki by expanding it!
+
+This page explains how the game stores and parses quests. This is an advanced guide for mod developers.
+
+
+Contents
+1	Raw data
+2	Format
+2.1	Completion Requirements
+3	See also
+Raw data
+Scripted quests are stored in Content\Data\Quests.xnb, which can be unpacked for editing. Here's the raw data as of 1.6.15 for reference:
+
+Data 
+Format
+The entry for each quest contains these slash-delimited quest fields:
+
+Index	Field	Example Value
+Key	A unique string ID for the quest.	MyQuestId
+0	The quest type.	Valid types are Basic, Crafting, Location, Building, ItemDelivery, Monster, ItemHarvest, LostItem, SecretLostItem*, and Social
+
+If a quest uses the Social type, the completion requirement will always be to speak to everyone in town (like the Introductions quest and Emily's Say Hello quest), regardless of what you write in field 4.
+1	The title that will be in the player's journal.	A Cool Quest
+2	Description that will appear in the quest log.	Abigail wants an amethyst. You should probably deliver one to her before she gets impatient.
+3	(Optional) Objective instructions that will appear in the quest log	Deliver an amethyst to Abigail.
+4	(Optional) Completion Requirements	The format of this field will vary depending on the quest Type. See completion requirements.
+5	(Optional) Next Quest Ids
+Upon completing this quest, each of these next quests will be added to the player's quest log. Leave blank or use 0 or -1 for none.
+If a quest Id is prefixed with h and the player is not the host, they will not receive the quest. The h will be removed automatically.	30 MySecondQuest hMyHostOnlyQuest
+6	The amount of money given upon completing the quest.	500
+7	(Unused) Reward description
+Leave this blank or less than 2 characters long or else it will show a blank reward when Money Reward is less than or equal to 0.	-1
+8	(Optional) Can be cancelled (default false)	true
+9	(Optional) Reaction dialogue
+Required for ItemDelivery, LostItem, and SecretLostItem quests, as well as Monster quests when an NPC is specified. Not used in other quest types.	Wow, thanks for the Amethyst!
+*A SecretLostItem quest will be hidden from the player's quest log.
+
+Completion Requirements
+The format of the completion requirements field will vary depending on what Type is listed in the first field:
+
+Type	Format	Additional Info
+Basic	N/A	A Basic quest is handled manually and it is up to you to complete it when appropriate.
+Crafting	<Item Id> [isBigCraftable]	<Item Id> can be a qualified or unqualified item id. If it is unqualified, it will create either an Object or a Big Craftable depending on [isBigCraftable] (default false).
+Location	<Location>	The player must warp to the location in order to complete the quest, even if they have already visited it before receiving the quest.
+Building	<Building Type>	If the player has already constructed at least one <Building Type>, the quest will be completed immediately.
+ItemDelivery	<NPC> <Item Id> [Count]	<Item Id> can be a qualified or unqualified item id. [Count] defaults to 1.
+Monster	<Monster Name> <Count> [NPC] [ignoreFarmMonsters]	If the monster name has spaces in it, they must be replaced with underscores (e.g. Green Slime becomes Green_Slime). If you specify an [NPC], the player must talk to them after killing enough monsters in order to complete the quest. [ignoreFarmMonsters] defaults to true.
+ItemHarvest	<Item Id> [Count]	<Item Id> can be a qualified or unqualified item id. [Count] defaults to 1.
+LostItem	<NPC> <Item Id> <Location> <x> <y>	<NPC> is who the player must deliver the item to. <Item Id> can be a qualified or unqualified item id, however it must be an Object. <x> and <y> are the X and Y tile coordinates to place the item at inside the given <Location>. If provided, the NPC will use the Reaction Text field in the quest data, otherwise they will use default dialogue.
+SecretLostItem	<NPC> <Item Id> <Friendship> [Quest Id]	<NPC> is who the player must deliver the item to. <Item Id> can be a qualified or unqualified item id. <Friendship> determines how many friendship points (not hearts) the player will receive upon delivering the item. If [Quest Id] is provided, then upon completing this quest, the game will remove the quest whose Id matches the given [Quest Id] from the player's active quest log without completing it.
+Here is the string in an easy to edit format:
+
+ID: Type/Title/Description/Hint/Requirement/Next Quests/Money Reward/-1/Cancellable/Reaction Text

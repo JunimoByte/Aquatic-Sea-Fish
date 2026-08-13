@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "LogName": "Migrate non-fish item IDs from ASF",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_MigrateItemIds": {
+                    "Id": "{{ModId}}_MigrateItemIds",
+                    "Trigger": "DayStarted",
+                    "HostOnly": true,
+                    "Actions": [
+                        "Pathoschild.ContentPatcher_MigrateIds Items (O)ASF_MermaidPearl (O){{ModId}}_MermaidPearl (O)ASF_MermaidTear (O){{ModId}}_MermaidTear (O)ASF_RedCoral (O){{ModId}}_RedCoral (O)ASF_AncientShell (O){{ModId}}_AncientShell (O)ASF_PiratesDoubloon (O){{ModId}}_PiratesDoubloon (O)ASF_LunarPearl (O){{ModId}}_LunarPearl (O)ASF_RubberDuck (O){{ModId}}_RubberDuck"
+                    ]
+                }
+            }
+        }
+    ]
+}
