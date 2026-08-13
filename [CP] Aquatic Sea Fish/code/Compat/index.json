@@ -2,7 +2,23 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Migration/migrate.json"
+            "FromFile": "code/Compat/Migration/Legacy/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Fish/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Items/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Mail/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Quests/migrate.json"
         },
         {
             "Action": "Include",
