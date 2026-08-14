@@ -8,9 +8,11 @@
                 "{{ModId}}_MigrateItemIds": {
                     "Id": "{{ModId}}_MigrateItemIds",
                     "Trigger": "DayStarted",
+                    "Condition": "!PLAYER_HAS_RUN_TRIGGER_ACTION Host {{ModId}}_MigrateItemIds",
+                    "MarkActionApplied": true,
                     "HostOnly": true,
                     "Actions": [
-                        "Pathoschild.ContentPatcher_MigrateIds Items (O)ASF_MermaidPearl (O){{ModId}}_MermaidPearl (O)ASF_MermaidTear (O){{ModId}}_MermaidTear (O)ASF_RedCoral (O){{ModId}}_RedCoral (O)ASF_AncientShell (O){{ModId}}_AncientShell (O)ASF_PiratesDoubloon (O){{ModId}}_PiratesDoubloon (O)ASF_LunarPearl (O){{ModId}}_LunarPearl (O)ASF_RubberDuck (O){{ModId}}_RubberDuck"
+                        "Pathoschild.ContentPatcher_MigrateIds Items (O)ASF_MermaidPearl {{ModId}}_MermaidPearl (O)ASF_MermaidTear {{ModId}}_MermaidTear (O)ASF_RedCoral {{ModId}}_RedCoral (O)ASF_AncientShell {{ModId}}_AncientShell (O)ASF_PiratesDoubloon {{ModId}}_PiratesDoubloon (O)ASF_LunarPearl {{ModId}}_LunarPearl (O)ASF_RubberDuck {{ModId}}_RubberDuck"
                     ]
                 }
             }

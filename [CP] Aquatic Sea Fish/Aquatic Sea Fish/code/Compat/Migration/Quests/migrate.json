@@ -1,4 +1,4 @@
-{
+﻿{
     "Changes": [
         {
             "Action": "EditData",
@@ -10,7 +10,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyGoldenMahiMahi": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyGoldenMahiMahi",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyGoldenMahiMahi",
                         "AddQuest {{ModId}}_QuestWillyGoldenMahiMahi"
@@ -28,7 +28,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillySnowyGingerfin": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillySnowyGingerfin",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillySnowyGingerfin",
                         "AddQuest {{ModId}}_QuestWillySnowyGingerfin"
@@ -46,7 +46,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyCoastalRockCrab": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyCoastalRockCrab",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyCoastalRockCrab",
                         "AddQuest {{ModId}}_QuestWillyCoastalRockCrab"
@@ -64,7 +64,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyJackOFish": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyJackOFish",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyJackOFish",
                         "AddQuest {{ModId}}_QuestWillyJackOFish"
@@ -82,7 +82,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyMarlin": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyMarlin",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyMarlin",
                         "AddQuest {{ModId}}_QuestWillyMarlin"
@@ -100,7 +100,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTearsOfTheSea": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTearsOfTheSea",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTearsOfTheSea",
                         "AddQuest {{ModId}}_QuestWillyTearsOfTheSea"
@@ -118,7 +118,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTearsOfTheSeaII": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTearsOfTheSeaII",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTearsOfTheSeaII",
                         "AddQuest {{ModId}}_QuestWillyTearsOfTheSeaII"
@@ -136,7 +136,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWizardSpectralGhoulgill": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWizardSpectralGhoulgill",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWizardSpectralGhoulgill",
                         "AddQuest {{ModId}}_QuestWizardSpectralGhoulgill"
@@ -154,7 +154,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeep": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeep",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyRadiantDeep",
                         "AddQuest {{ModId}}_QuestWillyRadiantDeep"
@@ -172,7 +172,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeepII": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeepII",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyRadiantDeepII",
                         "AddQuest {{ModId}}_QuestWillyRadiantDeepII"
@@ -190,7 +190,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeepIII": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeepIII",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyRadiantDeepIII",
                         "AddQuest {{ModId}}_QuestWillyRadiantDeepIII"
@@ -208,7 +208,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeepIV": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyRadiantDeepIV",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyRadiantDeepIV",
                         "AddQuest {{ModId}}_QuestWillyRadiantDeepIV"
@@ -226,7 +226,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyHunterOfTheTides": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyHunterOfTheTides",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyHunterOfTheTides",
                         "AddQuest {{ModId}}_QuestWillyHunterOfTheTides"
@@ -244,7 +244,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTheGreenShadow": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTheGreenShadow",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTheGreenShadow",
                         "AddQuest {{ModId}}_QuestWillyTheGreenShadow"
@@ -262,7 +262,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillySearchOfTheKing": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillySearchOfTheKing",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillySearchOfTheKing",
                         "AddQuest {{ModId}}_QuestWillySearchOfTheKing"
@@ -280,7 +280,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTheHookfinTale": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTheHookfinTale",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTheHookfinTale",
                         "AddQuest {{ModId}}_QuestWillyTheHookfinTale"
@@ -298,7 +298,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyCuriousPufferfish": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyCuriousPufferfish",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyCuriousPufferfish",
                         "AddQuest {{ModId}}_QuestWillyCuriousPufferfish"
@@ -316,7 +316,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyFestivalTentacles": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyFestivalTentacles",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyFestivalTentacles",
                         "AddQuest {{ModId}}_QuestWillyFestivalTentacles"
@@ -334,7 +334,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTropicalDiscus": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTropicalDiscus",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTropicalDiscus",
                         "AddQuest {{ModId}}_QuestWillyTropicalDiscus"
@@ -352,7 +352,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyWhisperOfTheRain": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyWhisperOfTheRain",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyWhisperOfTheRain",
                         "AddQuest {{ModId}}_QuestWillyWhisperOfTheRain"
@@ -370,7 +370,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyFlashOfGold": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyFlashOfGold",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyFlashOfGold",
                         "AddQuest {{ModId}}_QuestWillyFlashOfGold"
@@ -388,7 +388,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyStormyHunt": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyStormyHunt",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyStormyHunt",
                         "AddQuest {{ModId}}_QuestWillyStormyHunt"
@@ -406,7 +406,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTreasureChest": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTreasureChest",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTreasureChest",
                         "AddQuest {{ModId}}_QuestWillyTreasureChest"
@@ -424,7 +424,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyDeepSeaCucumber": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyDeepSeaCucumber",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyDeepSeaCucumber",
                         "AddQuest {{ModId}}_QuestWillyDeepSeaCucumber"
@@ -442,7 +442,7 @@
                 "{{ModId}}_Migrate_ASF_QuestEvelynGeorgeFavorite": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestEvelynGeorgeFavorite",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestEvelynGeorgeFavorite",
                         "AddQuest {{ModId}}_QuestEvelynGeorgeFavorite"
@@ -460,7 +460,7 @@
                 "{{ModId}}_Migrate_ASF_QuestEvelynMahiMahi": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestEvelynMahiMahi",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestEvelynMahiMahi",
                         "AddQuest {{ModId}}_QuestEvelynMahiMahi"
@@ -478,7 +478,7 @@
                 "{{ModId}}_Migrate_ASF_QuestEvelynHoney": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestEvelynHoney",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestEvelynHoney",
                         "AddQuest {{ModId}}_QuestEvelynHoney"
@@ -496,7 +496,7 @@
                 "{{ModId}}_Migrate_ASF_QuestLinusSalmon": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestLinusSalmon",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestLinusSalmon",
                         "AddQuest {{ModId}}_QuestLinusSalmon"
@@ -514,7 +514,7 @@
                 "{{ModId}}_Migrate_ASF_QuestGeorgeEvelynOrders": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestGeorgeEvelynOrders",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestGeorgeEvelynOrders",
                         "AddQuest {{ModId}}_QuestGeorgeEvelynOrders"
@@ -532,7 +532,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWizardMidnightSpecter": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWizardMidnightSpecter",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWizardMidnightSpecter",
                         "AddQuest {{ModId}}_QuestWizardMidnightSpecter"
@@ -550,7 +550,7 @@
                 "{{ModId}}_Migrate_ASF_QuestLinusShorelineVisitor": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestLinusShorelineVisitor",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestLinusShorelineVisitor",
                         "AddQuest {{ModId}}_QuestLinusShorelineVisitor"
@@ -568,7 +568,7 @@
                 "{{ModId}}_Migrate_ASF_QuestGeorgeWinterRemedy": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestGeorgeWinterRemedy",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestGeorgeWinterRemedy",
                         "AddQuest {{ModId}}_QuestGeorgeWinterRemedy"
@@ -586,7 +586,7 @@
                 "{{ModId}}_Migrate_ASF_QuestPennySeaTurtle": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestPennySeaTurtle",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestPennySeaTurtle",
                         "AddQuest {{ModId}}_QuestPennySeaTurtle"
@@ -604,7 +604,7 @@
                 "{{ModId}}_Migrate_ASF_QuestDemetriusGapInTheData": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestDemetriusGapInTheData",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestDemetriusGapInTheData",
                         "AddQuest {{ModId}}_QuestDemetriusGapInTheData"
@@ -622,7 +622,7 @@
                 "{{ModId}}_Migrate_ASF_QuestSamHookfinDare": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestSamHookfinDare",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestSamHookfinDare",
                         "AddQuest {{ModId}}_QuestSamHookfinDare"
@@ -640,7 +640,7 @@
                 "{{ModId}}_Migrate_ASF_QuestHaleyPinkJellyfish": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestHaleyPinkJellyfish",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestHaleyPinkJellyfish",
                         "AddQuest {{ModId}}_QuestHaleyPinkJellyfish"
@@ -658,7 +658,7 @@
                 "{{ModId}}_Migrate_ASF_QuestElliottMermaidPearl": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestElliottMermaidPearl",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestElliottMermaidPearl",
                         "AddQuest {{ModId}}_QuestElliottMermaidPearl"
@@ -676,7 +676,7 @@
                 "{{ModId}}_Migrate_ASF_QuestEmilyJollyfin": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestEmilyJollyfin",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestEmilyJollyfin",
                         "AddQuest {{ModId}}_QuestEmilyJollyfin"
@@ -694,7 +694,7 @@
                 "{{ModId}}_Migrate_ASF_QuestRobinAncientShell": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestRobinAncientShell",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestRobinAncientShell",
                         "AddQuest {{ModId}}_QuestRobinAncientShell"
@@ -712,7 +712,7 @@
                 "{{ModId}}_Migrate_ASF_QuestHarveyRainySeason": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestHarveyRainySeason",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestHarveyRainySeason",
                         "AddQuest {{ModId}}_QuestHarveyRainySeason"
@@ -730,7 +730,7 @@
                 "{{ModId}}_Migrate_ASF_QuestJasPinkFairyCrab": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestJasPinkFairyCrab",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestJasPinkFairyCrab",
                         "AddQuest {{ModId}}_QuestJasPinkFairyCrab"
@@ -748,7 +748,7 @@
                 "{{ModId}}_Migrate_ASF_QuestJodiSprucefin": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestJodiSprucefin",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestJodiSprucefin",
                         "AddQuest {{ModId}}_QuestJodiSprucefin"
@@ -766,7 +766,7 @@
                 "{{ModId}}_Migrate_ASF_QuestShaneJustThisOnce": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestShaneJustThisOnce",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestShaneJustThisOnce",
                         "AddQuest {{ModId}}_QuestShaneJustThisOnce"
@@ -784,7 +784,7 @@
                 "{{ModId}}_Migrate_ASF_QuestKrobusBlueJellyfish": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestKrobusBlueJellyfish",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestKrobusBlueJellyfish",
                         "AddQuest {{ModId}}_QuestKrobusBlueJellyfish"
@@ -802,7 +802,7 @@
                 "{{ModId}}_Migrate_ASF_QuestLeahOrangeEel": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestLeahOrangeEel",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestLeahOrangeEel",
                         "AddQuest {{ModId}}_QuestLeahOrangeEel"
@@ -820,7 +820,7 @@
                 "{{ModId}}_Migrate_ASF_QuestPamGardenSnail": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestPamGardenSnail",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestPamGardenSnail",
                         "AddQuest {{ModId}}_QuestPamGardenSnail"
@@ -838,7 +838,7 @@
                 "{{ModId}}_Migrate_ASF_QuestClintPiratesDoubloon": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestClintPiratesDoubloon",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestClintPiratesDoubloon",
                         "AddQuest {{ModId}}_QuestClintPiratesDoubloon"
@@ -856,7 +856,7 @@
                 "{{ModId}}_Migrate_ASF_QuestAlexChampionsDiet": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestAlexChampionsDiet",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestAlexChampionsDiet",
                         "AddQuest {{ModId}}_QuestAlexChampionsDiet"
@@ -874,7 +874,7 @@
                 "{{ModId}}_Migrate_ASF_QuestCarolineADashOfTheSea": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestCarolineADashOfTheSea",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestCarolineADashOfTheSea",
                         "AddQuest {{ModId}}_QuestCarolineADashOfTheSea"
@@ -892,7 +892,7 @@
                 "{{ModId}}_Migrate_ASF_QuestSandyDesertTide": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestSandyDesertTide",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestSandyDesertTide",
                         "AddQuest {{ModId}}_QuestSandyDesertTide"
@@ -910,7 +910,7 @@
                 "{{ModId}}_Migrate_ASF_QuestMaruBioticCircuit": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestMaruBioticCircuit",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestMaruBioticCircuit",
                         "AddQuest {{ModId}}_QuestMaruBioticCircuit"
@@ -928,7 +928,7 @@
                 "{{ModId}}_Migrate_ASF_QuestSebastianReferenceMaterial": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestSebastianReferenceMaterial",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestSebastianReferenceMaterial",
                         "AddQuest {{ModId}}_QuestSebastianReferenceMaterial"
@@ -946,7 +946,7 @@
                 "{{ModId}}_Migrate_ASF_QuestGusChefSpecial": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestGusChefSpecial",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestGusChefSpecial",
                         "AddQuest {{ModId}}_QuestGusChefSpecial"
@@ -964,7 +964,7 @@
                 "{{ModId}}_Migrate_ASF_QuestKrobusGhostShip": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestKrobusGhostShip",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestKrobusGhostShip",
                         "AddQuest {{ModId}}_QuestKrobusGhostShip"
@@ -982,7 +982,7 @@
                 "{{ModId}}_Migrate_ASF_QuestKrobusGhostShipII": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestKrobusGhostShipII",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestKrobusGhostShipII",
                         "AddQuest {{ModId}}_QuestKrobusGhostShipII"
@@ -1000,7 +1000,7 @@
                 "{{ModId}}_Migrate_ASF_QuestKrobusGhostShipIII": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestKrobusGhostShipIII",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestKrobusGhostShipIII",
                         "AddQuest {{ModId}}_QuestKrobusGhostShipIII"
@@ -1019,7 +1019,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_Tilly_QuestTillyPinchOfCuriosity": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_Tilly_QuestTillyPinchOfCuriosity",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_Tilly_QuestTillyPinchOfCuriosity",
                         "AddQuest {{ModId}}_Compat_Tilly_QuestTillyPinchOfCuriosity"
@@ -1038,7 +1038,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_Tilly_QuestTillyMurkyWaters": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_Tilly_QuestTillyMurkyWaters",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_Tilly_QuestTillyMurkyWaters",
                         "AddQuest {{ModId}}_Compat_Tilly_QuestTillyMurkyWaters"
@@ -1057,7 +1057,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_Tilly_QuestTillyByTheBooks": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_Tilly_QuestTillyByTheBooks",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_Tilly_QuestTillyByTheBooks",
                         "AddQuest {{ModId}}_Compat_Tilly_QuestTillyByTheBooks"
@@ -1076,7 +1076,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_SVE_QuestSophiaCosplayInspiration": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_SVE_QuestSophiaCosplayInspiration",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_SVE_QuestSophiaCosplayInspiration",
                         "AddQuest {{ModId}}_Compat_SVE_QuestSophiaCosplayInspiration"
@@ -1095,7 +1095,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_SVE_QuestMorganAssignment": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_SVE_QuestMorganAssignment",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_SVE_QuestMorganAssignment",
                         "AddQuest {{ModId}}_Compat_SVE_QuestMorganAssignment"
@@ -1114,7 +1114,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_SVE_QuestOliviaPartyPreparations": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_SVE_QuestOliviaPartyPreparations",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_SVE_QuestOliviaPartyPreparations",
                         "AddQuest {{ModId}}_Compat_SVE_QuestOliviaPartyPreparations"
@@ -1133,7 +1133,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_SVE_QuestLanceArmorPlating": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_SVE_QuestLanceArmorPlating",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_SVE_QuestLanceArmorPlating",
                         "AddQuest {{ModId}}_Compat_SVE_QuestLanceArmorPlating"
@@ -1152,7 +1152,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_SVE_QuestClaireFestiveFish": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_SVE_QuestClaireFestiveFish",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_SVE_QuestClaireFestiveFish",
                         "AddQuest {{ModId}}_Compat_SVE_QuestClaireFestiveFish"
@@ -1171,7 +1171,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_Arumi_QuestArumiPufferjelly": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_Arumi_QuestArumiPufferjelly",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_Arumi_QuestArumiPufferjelly",
                         "AddQuest {{ModId}}_Compat_Arumi_QuestArumiPufferjelly"
@@ -1190,7 +1190,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_ES_QuestJulietGhostFishThing": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_ES_QuestJulietGhostFishThing",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_ES_QuestJulietGhostFishThing",
                         "AddQuest {{ModId}}_Compat_ES_QuestJulietGhostFishThing"
@@ -1209,7 +1209,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_ES_QuestJasperCrystallineRecord": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_ES_QuestJasperCrystallineRecord",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_ES_QuestJasperCrystallineRecord",
                         "AddQuest {{ModId}}_Compat_ES_QuestJasperCrystallineRecord"
@@ -1228,7 +1228,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_ES_QuestVictoriaHappyInWinter": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_ES_QuestVictoriaHappyInWinter",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_ES_QuestVictoriaHappyInWinter",
                         "AddQuest {{ModId}}_Compat_ES_QuestVictoriaHappyInWinter"
@@ -1247,7 +1247,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_ES_QuestKeanuSomethingFromHome": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_ES_QuestKeanuSomethingFromHome",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_ES_QuestKeanuSomethingFromHome",
                         "AddQuest {{ModId}}_Compat_ES_QuestKeanuSomethingFromHome"
@@ -1266,7 +1266,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_RSV_QuestJericHeadTurner": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_RSV_QuestJericHeadTurner",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_RSV_QuestJericHeadTurner",
                         "AddQuest {{ModId}}_Compat_RSV_QuestJericHeadTurner"
@@ -1285,7 +1285,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_RSV_QuestBlairSalmonLegend": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_RSV_QuestBlairSalmonLegend",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_RSV_QuestBlairSalmonLegend",
                         "AddQuest {{ModId}}_Compat_RSV_QuestBlairSalmonLegend"
@@ -1304,7 +1304,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_RSV_QuestYsabelleShellDesign": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_RSV_QuestYsabelleShellDesign",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_RSV_QuestYsabelleShellDesign",
                         "AddQuest {{ModId}}_Compat_RSV_QuestYsabelleShellDesign"
@@ -1323,7 +1323,7 @@
                 "{{ModId}}_Migrate_ASF_Compat_RSV_QuestPikaIslandDelicacy": {
                     "Id": "{{ModId}}_Migrate_ASF_Compat_RSV_QuestPikaIslandDelicacy",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_Compat_RSV_QuestPikaIslandDelicacy",
                         "AddQuest {{ModId}}_Compat_RSV_QuestPikaIslandDelicacy"
