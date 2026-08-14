@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_Compat_RSV_QuestJericHeadTurnerLetter": "{{i18n:{{ModId}}_Compat_RSV_QuestJericHeadTurnerLetter}}",
+                "{{ModId}}_Compat_RSV_QuestBlairSalmonLegendLetter": "{{i18n:{{ModId}}_Compat_RSV_QuestBlairSalmonLegendLetter}}",
+                "{{ModId}}_Compat_RSV_QuestYsabelleShellDesignLetter": "{{i18n:{{ModId}}_Compat_RSV_QuestYsabelleShellDesignLetter}}",
+                "{{ModId}}_Compat_RSV_QuestPikaIslandDelicacyLetter": "{{i18n:{{ModId}}_Compat_RSV_QuestPikaIslandDelicacyLetter}}"
+            }
+        }
+    ]
+}

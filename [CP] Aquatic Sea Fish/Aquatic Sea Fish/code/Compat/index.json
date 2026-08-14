@@ -1,0 +1,193 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Legacy/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Fish/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Items/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Mail/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Migration/Quests/migrate.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/SVE/compat.json",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/GrampletonFields/compat.json",
+            "When": {
+                "HasMod": "flashshifter.GrampletonFields"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/NorthwestCoast/compat.json",
+            "When": {
+                "HasMod": "MK215.NorthwestCoast"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/AxolotlVillage/compat.json",
+            "When": {
+                "HasMod": "otohime.AV"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/ESE/compat.json",
+            "When": {
+                "HasMod": "cajcbell.ESE"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/EchoReef/compat.json",
+            "When": {
+                "HasMod": "MrMrRogers.EchoReef_CP"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/CapeSDV/compat.json",
+            "When": {
+                "HasMod": "dreamy.kickitspot"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/RTMT/compat.json",
+            "When": {
+                "HasMod": "Rexstrife20.MineralTownCP"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/Lilybrook/compat.json",
+            "When": {
+                "HasMod": "8BitAlien.Lilybrook"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/EastScarp/compat.json",
+            "When": {
+                "HasMod": "Lemurkat.EastScarp"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/DowntownZuZu/compat.json",
+            "When": {
+                "HasMod": "DTZ.DowntownZuzuCP"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/BASSA/compat.json",
+            "When": {
+                "HasMod": "Tikamin557.BeachAdditionalStorageSpaceArea"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/SVAA/compat.json",
+            "When": {
+                "HasMod": "Lnh.CustomMpas"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/SunriseApartments/compat.json",
+            "When": {
+                "HasMod": "Sivarior.SunriseApartments"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/TillyTea/compat.json",
+            "When": {
+                "HasMod": "Wem.Bundle"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/RSV/compat.json",
+            "When": {
+                "HasMod": "Rafseazz.RidgesideVillage"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/AikawaAsakai/compat.json",
+            "When": {
+                "HasMod": "NassiLove.AikawaAsakaiCP"
+            }
+        },
+        {
+            "Priority": "Late",
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/GiEX/compat.json",
+            "When": {
+                "HasMod": "mistyspring.GiEXredux"
+            }
+        },
+        {
+            "Priority": "Late",
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/WalkToGingerIsland/compat.json",
+            "When": {
+                "HasMod": "HC.WalkToGingerIsland"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/IslandExpansion/compat.json",
+            "When": {
+                "HasMod": "ResoNight.IslandExpansion"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/TrolleyExpansion/compat.json",
+            "When": {
+                "HasMod": "cajcbell.TE"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/TillyTea/Data/prune.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/RSV/Data/prune.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/SVE/Data/prune.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/EastScarp/Data/prune.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/AikawaAsakai/Data/prune.json"
+        }
+    ]
+}

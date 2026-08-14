@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_Compat_Arumi_QuestArumiPufferjellyLetter": "{{i18n:{{ModId}}_Compat_Arumi_QuestArumiPufferjellyLetter}}",
+                "{{ModId}}_Compat_Arumi_QuestArumiPufferjellyThankYouLetter": "{{i18n:{{ModId}}_Compat_Arumi_QuestArumiPufferjellyThankYouLetter}}"
+            }
+        }
+    ]
+}

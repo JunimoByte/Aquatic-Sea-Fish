@@ -1,0 +1,227 @@
+Modding:Mail data
+Jump to navigationJump to search
+← Index
+
+This page explains how the game stores and parses mail data. This is an advanced guide for mod developers.
+
+
+Contents
+1	Raw data
+2	Format
+2.1	Key
+2.2	Value
+2.3	Examples
+2.3.1	Deprecated mail commands
+3	Mail flags
+3.1	Overview
+3.2	List
+4	Custom mail formatting
+Raw data
+Object data is stored in Content\Data\Mail.xnb, which can be unpacked for editing. Here's the raw data as of 1.5.1 for reference:
+
+Data 
+Format
+Key
+Each mail entry has a unique key which identifies the message (e.g., to track whether the player already received it). For example, Robin at the start of this entry is the mail key:
+
+"Robin": "Hey there!^I had some extra wood lying around... I thought maybe you could use it. Take care!  ^   -Robin %item object 388 50 %%[#]A Gift From Robin"
+The key can be one of these formats:
+
+syntax	description
+<season>_<day of month>_<year>	Sent on the given date.
+Example: spring_15_3 applies on spring 15 in year 3.
+<season>_<day of month>	Sent on the given date in any year. This is ignored if mail was sent for the previous format.
+Example: spring_15 applies on spring 15.
+arbitrary key	Anything else is just a unique letter ID, which can be sent in code or via an event script.
+It's not recommended to use the date-based format for compatibility reasons, because if multiple mods add mail with the same key only one will get sent. If you need your mail to be sent on a specific date, see trigger actions.
+
+Careful! Any keys which contain the words 'Cooking' or 'passOut', case sensitive, will never be "received" when sent through the mailbox (i.e. have a Letter attached). This impacts their ability to be used in game state queries or other conditions, consider adjusting the key if you need to check for it later.
+
+Value
+The value for each letter entry has this format: <letter text>[#]<letter name>.
+
+The <letter name> field is just a unique human-readable name for the letter, shown in the mail collections tab.
+
+The <letter text> field is the text to show when the player opens the letter. This recognizes some special tokens:
+
+token	description
+^	Replaced with a line break. Can be repeated to insert multiple line breaks.
+@	Replaced with the player name.
+Example: Hello @!
+¦	Switches between gendered versions of the letter. Male players see the text before ¦, and others see the text after it. Only the first instance is recognized. If the text doesn't contain it, all players see the same version.
+%secretsanta	Replaced with a random town NPC name if the date is winter 18–25 inclusively, else replaced with ???.
+Some special commands are also supported in the letter's text:
+
+command	description
+%action <action> %%	Run a trigger action string, like %action AddMoney 500%% to add Gold.png500g to the current player.
+%item id [<item id> [count]]+ %%	Accepts a qualified or unqualified item ID. If multiple items are listed (e.g., %item id (BC)12 3 (O)34 5 %%) one set will be picked randomly.
+%item money <amount> %%
+%item money <min> <max> %%	Attach the given amount of money, or a random amount between an inclusive <min> and exclusive <max> value. In either case, the value is rounded down to the nearest 10 (e.g., 156→150).
+%item conversationTopic <key> <days> %%	Start an active dialogue event for the given number of days.
+%item cookingRecipe [key]%%	If key is provided, the player will learn a specific cooking recipe with that ID. Otherwise, teaches the player the cooking recipe whose requirement field starts with f <npc name>, where <npc name> is the mail key with 'Cooking' removed. For example, if the mail key is RobinCooking, this command would find a cooking recipe with a requirement starting with f Robin that the player doesn't already know.
+%item craftingRecipe <key> %%	Teach the player the crafting recipe with the given ID. The key is the item name. The command first checks for an exact match for the key. Otherwise, it tries using underscores in place of spaces, (e.g. "Mayonnaise Machine" becomes "Mayonnaise_Machine").
+%item itemRecovery <key> %%	Attach the item that the player asked Marlon to find in the mines, if any.
+%item quest <quest ID> %%	Attach the given quest ID to the letter, so the player can choose to accept it.
+%item quest <quest ID> true %%	Attach the given quest ID to the letter and add it automatically. (If the player has the NOQUEST_<quest ID> mail flag set, it won't be added automatically.)
+%item specialOrder <order ID> [immediately] %%	Attach a special order with the given ID to the letter. If [immediately] is true, the order is accepted automatically. (If the player has the NOSPECIALORDER_<order ID> mail flag set, it won't be added automatically.)
+Examples
+You can add mail that the player can view once they receive it from their mailbox. For example, this content pack adds a letter that includes a pufferchick object, as well as starting a conversation topic using a trigger action:
+
+{
+    "Format": "2.8.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ModId}}_PufferchickMail": "Hi there @!^Here's a pufferchick just for you!^^Sincerely, your best friend.%item id (O){{ModId}}_Pufferchick 1 %% %action AddConversationTopic ReceivedPufferchick%%[#]A Pufferchick From A Friend",
+                }
+            },
+        }
+    ]
+}
+This letter will have to be sent in a separate patch, such as by using trigger actions or event commands.
+
+
+
+Deprecated mail commands
+These are deprecated and should no longer be used in newer letters.
+
+Deprecated commands 
+Mail flags
+Overview
+The game tracks mail flags for each player. This is used for two purposes:
+
+Tracking received letters. The key for each letter in Data\Mail is a mail flag; if the player has the flag for a letter, the game considers it to be received.
+Tracking non-mail changes in the world. For example, artifactFound means the player has found at least one artifact, jojaMember means the player has a Joja membership, etc. These have no letter associated with them.
+Letter IDs can be used as mail flags once they are received by the player. Alternatively, you can define and send a letter ID in the mail send command itself (such as by using trigger actions or event commands) without including a corresponding Data/Mail entry. Doing so will lead to the player receiving the mail flag, which can be checked using the methods below, without the player receiving an actual letter in their mailbox.
+
+In other words, if the letter has a Data/Mail entry, the player will receive both the mail flag and the visible mail in their mailbox. If the letter does not have a Data/Mail entry, the player will only receive the mail flag, which is invisible to them.
+
+You can check the mail flags in-game:
+
+mod type	info
+Content Patcher packs	You can check mail flags using the HasFlag condition. For example:
+{
+    "Action": "EditImage",
+    "Target": "Portraits/Abigail",
+    "FromFile": "assets/abigail-bow.png",
+    "When": {
+        "HasFlag": "Beat_PK" // player beat the Prairie King game
+    }
+}
+C# mods	Mail flags are tracked in three main fields:
+field	description
+Game1.player.mailForTomorrow	Letters to add to the player's mailbox at the start of the next day.
+Game1.player.mailbox	Letters currently in the player's mailbox.
+Game1.player.mailReceived	All mail flags set for the player. That includes both letters and non-mail flags.
+You can either check the fields individually, or use the game's Game1.player.hasOrWillReceiveMail(string id) method to check all three.
+
+List
+There are far too many flags to list, but here are some useful ones:
+
+Community Center and JojaMart:
+flag	meaning
+abandonedJojaMartAccessible	The abandoned JojaMart is accessible.
+canReadJunimoText	The player can read the language of Junimos (i.e., the plaques in the Community Center).
+ccIsComplete	The player has completed the community center. Note that this isn't set reliably; if using Content Patcher, use the IsCommunityCenterComplete and IsJojaMartComplete tokens instead.
+These flags are set when completing each bundle (in both community center and Joja paths):
+
+ccBoilerRoom (repairs minecarts);
+ccBulletin (friendship bonus with many villagers);
+ccCraftsRoom (repairs bridge to the quarry);
+ccFishTank (unlocks the copper pan);
+ccPantry (unlocks the greenhouse);
+ccVault (repairs the bus and unlocks access to the desert).
+You can also check for Joja specifically using jojaBoilerRoom, jojaCraftsRoom, jojaFishTank, jojaPantry, and jojaVault.
+
+ccMovieTheater
+ccMovieTheaterJoja	The movie theater has been constructed, either through the community path (only ccMovieTheater is set) or through Joja (both are set).
+jojaMember	The player bought a JojaMart membership.
+Found items:
+flag	meaning
+artifactFound	The player has found at least one artifact.
+galaxySword	The player has acquired the Galaxy Sword.
+geodeFound	The player has found at least one geode.
+Unlocked areas & upgrades:
+area	flag	meaning
+Secret Woods	beenToWoods	The player has entered the Secret Woods at least once.
+Town	doorUnlock*	The player has unlocked access to a given NPC's room. See the flag for each NPC: doorUnlockAbigail, doorUnlockAlex, doorUnlockCaroline, doorUnlockEmily, doorUnlockHaley, doorUnlockHarvey, doorUnlockJas, doorUnlockJodi, doorUnlockMarnie, doorUnlockMaru, doorUnlockPenny, doorUnlockPierre, doorUnlockRobin, doorUnlockSam, doorUnlockSebastian, doorUnlockVincent.
+Mountain	landslideDone	The landside blocking access to the mines has been cleared.
+Sewers	openedSewer	The player has unlocked the sewers.
+Beach	beachBridgeFixed	The player repaired the bridge to the East Pier.
+Fish Shop	willyBoatFixed	The player fixed Willy's boat, so they can now access Ginger Island.
+Island farm	Island_UpgradeParrotPlatform	The player unlocked the Parrot Express.
+Island farm	Island_UpgradeHouse	The player unlocked the island house.
+Island farm	Island_UpgradeHouse_Mailbox	The player unlocked the island mailbox.
+Island farm	Island_W_Obelisk	The player unlocked the island Farm Obelisk.
+Island north	Island_FirstParrot	The player unlocked access to the norther section of the island.
+Island north	Island_UpgradeBridge	The player repaired the bridge to the island dig site.
+Island north	Island_UpgradeTrader	The player unlocked the Island Trader.
+Island south	Island_Resort	The player built the island resort.
+Island south	Island_Turtle	The player unlocked access to the island farm.
+Skull Cavern	HasUnlockedSkullDoor	Whether the player has used the Skull Key to unlock the door in Skull Cavern.
+Volcano	Island_VolcanoBridge	The player unlocked the bridge at the Volcano Dungeon entrance.
+Volcano	Island_VolcanoShortcutOut	The player unlocked the shortcut exit from the volcano shop.
+Completed Adventurer's guild monster eradication goals:
+flag	goal	reward
+Gil_Arcane Hat	Kill 100 mummies	
+Arcane Hat.png Arcane Hat
+Gil_Burglar's Ring	Kill 500 dust sprites	
+Burglar's Ring.png Burglar's Ring
+Gil_Crabshell Ring	Kill 60 crabs	
+Crabshell Ring.png Crabshell Ring
+Gil_Hard Hat	Kill 30 duggies	
+Hard Hat.png Hard Hat
+Gil_Insect Head	Kill 125 cave insects	
+Insect Head.png Insect Head
+Gil_Knight's Helmet	Kill 50 pepper rexes	
+Knight's Helmet.png Knight's Helmet
+Gil_Napalm Ring	Kill 250 serpents	
+Napalm Ring.png Napalm Ring
+Gil_Savage Ring	Kill 150 void spirits	
+Savage Ring.png Savage Ring
+Gil_Skeleton Mask	Kill 50 skeletons	
+Skeleton Mask.png Skeleton Mask
+Gil_Slime Charmer Ring	Kill 1000 slimes	
+Slime Charmer Ring.png Slime Charmer Ring
+Gil_Telephone	Kill 150 magma sprites	Telephone number for adventurer's guild
+Gil_Vampire Ring	Kill 200 bats	
+Vampire Ring.png Vampire Ring
+Special Items & Powers:
+flag	special item/power
+HasClubCard	
+Club Card.png Club Card
+HasDarkTalisman	
+Dark Talisman.png Dark Talisman
+HasDwarvishTranslationGuide	
+Dwarvish Translation Guide.png Dwarvish Translation Guide
+HasMagicInk	
+Magic Ink.png Magic Ink
+HasMagnifyingGlass	
+Magnifying Glass.png Magnifying Glass
+HasRustyKey	
+Rusty Key.png Rusty Key
+HasSkullKey	
+Skull Key.png Skull Key
+HasSpecialCharm	
+Special Charm.png Special Charm
+HasTownKey	
+Key To The Town.png Key To The Town
+Other:
+flag	meaning
+Beat_PK	The player has beaten the Prairie King arcade game.
+Farm_Eternal	The player has reached a 100% perfection score.
+guildMember	The player is a member of the Adventurer's Guild.
+JunimoKart	The player has beaten the Junimo Kart arcade game.
+museumComplete	The player has completed the Museum artifact collection.
+qiChallengeComplete	The player completed the Qi's Challenge quest by reaching level 25 in the Skull Cavern.
+Custom mail formatting
+You can customize mail and secret notes by including three custom commands in the letter text (including the [] characters). This needs to be added before the [#]<letter_name> tag:
+
+command	effect
+[letterbg <index>]	Changes the default letter background to a vanilla background from LooseSprites/letterBG. The index can be 0 (default letter), 1 (Sandy's lined paper), 2 (Wizard style), 3 (Krobus style) or 4 (JojaMart style). This will also set the default text color for that style, unless overridden by textcolor.
+[letterbg <asset name> <index>]	Changes the default letter background to the given texture. The asset name should match a texture containing two rows: one with 320x180 pixel letter background images, and one with 24x24 pixel button backgrounds shown behind attached items. The index is the sprite to use from those rows, starting at 0 for the first one.
+Only the first 4 letter background images of a row will be properly displayed. Only one row of button may exist. See image below
+
+[textcolor <color>]	Changes the letter text color. The valid colors are black, blue, cyan, gray, green, orange, purple, red, and white.
