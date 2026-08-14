@@ -1,4 +1,4 @@
-{
+﻿{
     "Changes": [
         {
             "LogName": "Migrate Quest: ASF_QuestWillyMahiMahi",
@@ -11,7 +11,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyMahiMahi": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyMahiMahi",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyMahiMahi",
                         "AddQuest {{ModId}}_QuestWillyGoldenMahiMahi"
@@ -30,7 +30,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyGingerfin": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyGingerfin",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyGingerfin",
                         "AddQuest {{ModId}}_QuestWillySnowyGingerfin"
@@ -49,7 +49,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyRedRockCrabs": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyRedRockCrabs",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyRedRockCrabs",
                         "AddQuest {{ModId}}_QuestWillyCoastalRockCrab"
@@ -68,7 +68,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWizardGhoulOfTheDeep": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWizardGhoulOfTheDeep",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWizardGhoulOfTheDeep",
                         "AddQuest {{ModId}}_QuestWizardSpectralGhoulgill"
@@ -87,7 +87,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepII": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepII",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyGlowOfTheDeepII",
                         "AddQuest {{ModId}}_QuestWillyRadiantDeepII"
@@ -106,7 +106,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIII": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIII",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyGlowOfTheDeepIII",
                         "AddQuest {{ModId}}_QuestWillyRadiantDeepIII"
@@ -125,7 +125,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIV": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyGlowOfTheDeepIV",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyGlowOfTheDeepIV",
                         "AddQuest {{ModId}}_QuestWillyRadiantDeepIV"
@@ -144,7 +144,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanic": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyPufferfishPanic",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyPufferfishPanic",
                         "AddQuest {{ModId}}_QuestWillyCuriousPufferfish"
@@ -163,7 +163,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentacles": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTwilightTentacles",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTwilightTentacles",
                         "AddQuest {{ModId}}_QuestWillyFestivalTentacles"
@@ -182,7 +182,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelight": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyDiscusDelight",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyDiscusDelight",
                         "AddQuest {{ModId}}_QuestWillyTropicalDiscus"
@@ -201,7 +201,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrail": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyGoldenTrail",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyGoldenTrail",
                         "AddQuest {{ModId}}_QuestWillyFlashOfGold"
@@ -220,7 +220,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWaves": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyTreasureUnderTheWaves",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyTreasureUnderTheWaves",
                         "AddQuest {{ModId}}_QuestWillyTreasureChest"
@@ -239,7 +239,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyStrangeColors": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyStrangeColors",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyStrangeColors",
                         "AddQuest {{ModId}}_QuestWillyDeepSeaCucumber"
@@ -258,7 +258,7 @@
                 "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredator": {
                     "Id": "{{ModId}}_Migrate_ASF_QuestWillyPirateCovePredator",
                     "Trigger": "DayStarted",
-                    "MarkActionApplied": false,
+                    "MarkActionApplied": true,
                     "Actions": [
                         "RemoveQuest ASF_QuestWillyPirateCovePredator",
                         "AddQuest {{ModId}}_QuestWillyTreasureChest"
