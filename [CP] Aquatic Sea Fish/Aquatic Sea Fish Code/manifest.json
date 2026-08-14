@@ -1,0 +1,18 @@
+{
+  "Name": "Aquatic Sea Fish Code",
+  "Author": "LucyTheDove",
+  "Version": "1.4.2",
+  "Description": "Migrates targeted bait and smoked fish from old saves.",
+  "UniqueId": "LucyTheDove.ASF.Code",
+  "EntryDll": "AquaticSeaFishCode.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [
+    "Nexus:38752"
+  ],
+  "Dependencies": [
+    {
+      "UniqueId": "LucyTheDove.ASF",
+      "IsRequired": true
+    }
+  ]
+}
