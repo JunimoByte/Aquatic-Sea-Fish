@@ -65,7 +65,7 @@
                         "Willy",
                         1
                     ],
-                    "Value": "(O){{ModId}}_BlueDolphin (O){{ModId}}_LemonShark (O){{ModId}}_Santafish (O){{ModId}}_WhaleShark (O){{ModId}}_WhaleShark (O){{ModId}}_Pufferjelly (O){{ModId}}_JackOFish {{ModId}}_Marlin (O){{ModId}}_MahiMahi (O){{ModId}}_HammerheadShark (O){{ModId}}_PiratesDoubloon (O){{ModId}}_HumpheadWrasse (O){{ModId}}_RubberDuck",
+                    "Value": "{{ModId}}_BlueDolphin {{ModId}}_LemonShark {{ModId}}_Santafish {{ModId}}_WhaleShark {{ModId}}_Pufferjelly {{ModId}}_JackOFish {{ModId}}_Marlin {{ModId}}_MahiMahi {{ModId}}_HammerheadShark {{ModId}}_PiratesDoubloon {{ModId}}_HumpheadWrasse {{ModId}}_RubberDuck",
                     "Delimiter": " "
                 },
                 {
@@ -75,7 +75,7 @@
                         "Willy",
                         3
                     ],
-                    "Value": "(O){{ModId}}_Hookfin (O){{ModId}}_AlaskanKingSalmon (O){{ModId}}_Luckyfin (O){{ModId}}_Redpuff (O){{ModId}}_Jollyfin (O){{ModId}}_Sprucefin (O){{ModId}}_RedRockCrab (O){{ModId}}_LeopardStingray (O){{ModId}}_AncientShell (O){{ModId}}_MossyEel",
+                    "Value": "{{ModId}}_Hookfin {{ModId}}_AlaskanKingSalmon {{ModId}}_Luckyfin {{ModId}}_Redpuff {{ModId}}_Jollyfin {{ModId}}_Sprucefin {{ModId}}_RedRockCrab {{ModId}}_LeopardStingray {{ModId}}_AncientShell {{ModId}}_MossyEel",
                     "Delimiter": " "
                 },
                 {
@@ -85,7 +85,7 @@
                         "Willy",
                         5
                     ],
-                    "Value": "(O){{ModId}}_PacificJellyfish (O){{ModId}}_PinkJellyfish (O){{ModId}}_BlueJellyfish (O){{ModId}}_FlameJellyfish (O){{ModId}}_Broombell (O){{ModId}}_SeaTurtle (O){{ModId}}_Yellowtail (O){{ModId}}_TreeSpiderCrab (O){{ModId}}_AppleSnail (O){{ModId}}_Ghoulgill (O){{ModId}}_GardenSnail (O){{ModId}}_HermitCrab (O){{ModId}}_PinkHermitCrab (O){{ModId}}_OrangeStarfish (O){{ModId}}_Scallop",
+                    "Value": "{{ModId}}_PacificJellyfish {{ModId}}_PinkJellyfish {{ModId}}_BlueJellyfish {{ModId}}_FlameJellyfish {{ModId}}_Broombell {{ModId}}_SeaTurtle {{ModId}}_Yellowtail {{ModId}}_TreeSpiderCrab {{ModId}}_AppleSnail {{ModId}}_Ghoulgill {{ModId}}_GardenSnail {{ModId}}_HermitCrab {{ModId}}_PinkHermitCrab {{ModId}}_OrangeStarfish {{ModId}}_Scallop",
                     "Delimiter": " "
                 },
                 {
@@ -95,7 +95,7 @@
                         "Willy",
                         7
                     ],
-                    "Value": "(O){{ModId}}_BlueSpottedOctopus (O){{ModId}}_RibbonEel (O){{ModId}}_GreenEel (O){{ModId}}_OrangeEel",
+                    "Value": "{{ModId}}_BlueSpottedOctopus {{ModId}}_RibbonEel {{ModId}}_GreenEel {{ModId}}_OrangeEel",
                     "Delimiter": " "
                 },
                 {
@@ -105,7 +105,7 @@
                         "Willy",
                         9
                     ],
-                    "Value": "(O){{ModId}}_RedCoral",
+                    "Value": "{{ModId}}_RedCoral",
                     "Delimiter": " "
                 },
                 {
@@ -115,7 +115,7 @@
                         "Wizard",
                         1
                     ],
-                    "Value": "(O){{ModId}}_Spooktopus",
+                    "Value": "{{ModId}}_Spooktopus",
                     "Delimiter": " "
                 },
                 {
@@ -125,7 +125,7 @@
                         "Sandy",
                         1
                     ],
-                    "Value": "(O){{ModId}}_PiratesDoubloon",
+                    "Value": "{{ModId}}_PiratesDoubloon",
                     "Delimiter": " "
                 },
                 {
@@ -152,7 +152,7 @@
                         "Entries",
                         "Universal_Hate"
                     ],
-                    "Value": "(O){{ModId}}_Spooktopus",
+                    "Value": "{{ModId}}_Spooktopus",
                     "Delimiter": " "
                 }
             ]
