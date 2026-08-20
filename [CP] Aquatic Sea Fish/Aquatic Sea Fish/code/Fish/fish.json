@@ -22,6 +22,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_seaturtle",
+                        "fish_has_roe",
                         "season_spring",
                         "season_summer",
                         "color_green"
@@ -44,6 +45,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_bluespottedoctopus",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "season_spring",
                         "season_summer",
@@ -69,6 +71,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_marlin",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "fish_upright",
                         "season_spring",
@@ -93,6 +96,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_gardensnail",
+                        "fish_has_roe",
                         "season_summer",
                         "weather_rainy",
                         "color_brown"
@@ -115,6 +119,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_redrockcrab",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "season_spring",
                         "season_summer",
@@ -139,6 +144,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_hermitcrab",
+                        "fish_has_roe",
                         "season_spring",
                         "season_summer",
                         "season_fall",
@@ -163,6 +169,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_pinkhermitcrab",
+                        "fish_has_roe",
                         "season_spring",
                         "color_pink"
                     ]
@@ -184,6 +191,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_orangestarfish",
+                        "fish_has_roe",
                         "season_spring",
                         "season_summer",
                         "season_fall",
@@ -207,6 +215,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_scallop",
+                        "fish_has_roe",
                         "season_spring",
                         "season_summer",
                         "season_fall",
@@ -251,7 +260,9 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_swamp",
                         "fish_asf_spooktopus",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "season_fall",
                         "time_night",
@@ -274,8 +285,8 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
-                        "fish_has_roe",
                         "fish_asf_pinkjellyfish",
+                        "fish_has_roe",
                         "season_spring",
                         "season_summer",
                         "time_night",
@@ -298,8 +309,8 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
-                        "fish_has_roe",
                         "fish_asf_bluejellyfish",
+                        "fish_has_roe",
                         "season_spring",
                         "season_summer",
                         "time_night",
@@ -323,6 +334,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_hammerheadshark",
+                        "fish_has_roe",
                         "season_spring",
                         "season_summer",
                         "color_brown"
@@ -344,8 +356,8 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
-                        "fish_has_roe",
                         "fish_asf_browneel",
+                        "fish_has_roe",
                         "season_summer",
                         "weather_rainy",
                         "color_brown"
@@ -369,6 +381,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_mahimahi",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "fish_upright",
                         "season_summer",
@@ -393,6 +406,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_leopardstingray",
+                        "fish_has_roe",
                         "season_summer",
                         "color_yellow"
                     ]
@@ -414,8 +428,8 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_tropical",
-                        "fish_has_roe",
                         "fish_asf_ribboneel",
+                        "fish_has_roe",
                         "season_summer",
                         "color_blue"
                     ]
@@ -437,8 +451,8 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_tropical",
-                        "fish_has_roe",
                         "fish_asf_greeneel",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "season_summer",
                         "color_green"
@@ -461,8 +475,8 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_tropical",
-                        "fish_has_roe",
                         "fish_asf_orangeeel",
+                        "fish_has_roe",
                         "season_summer",
                         "color_orange"
                     ]
@@ -484,8 +498,8 @@
                     "ContextTags": [
                         "fish_piratecove",
                         "fish_tropical",
-                        "fish_has_roe",
                         "fish_asf_hookfin",
+                        "fish_has_roe",
                         "season_summer",
                         "color_red"
                     ]
@@ -507,8 +521,8 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_tropical",
-                        "fish_has_roe",
                         "fish_asf_pacificjellyfish",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "season_summer",
                         "time_night",
@@ -532,8 +546,8 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_tropical",
-                        "fish_has_roe",
                         "fish_asf_flamejellyfish",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "season_summer",
                         "time_night",
@@ -556,8 +570,9 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
-                        "fish_has_roe",
+                        "fish_swamp",
                         "fish_asf_ghoulgill",
+                        "fish_has_roe",
                         "season_fall",
                         "time_night",
                         "color_green"
@@ -579,8 +594,8 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
-                        "fish_has_roe",
                         "fish_asf_broombell",
+                        "fish_has_roe",
                         "season_fall",
                         "time_night",
                         "color_purple"
@@ -603,6 +618,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_jackofish",
+                        "fish_has_roe",
                         "season_fall",
                         "time_night",
                         "color_orange"
@@ -625,6 +641,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_sprucefin",
+                        "fish_has_roe",
                         "season_winter",
                         "color_green"
                     ]
@@ -646,6 +663,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_jollyfin",
+                        "fish_has_roe",
                         "season_winter",
                         "color_red"
                     ]
@@ -667,6 +685,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_redpuff",
+                        "fish_has_roe",
                         "season_winter",
                         "color_red"
                     ]
@@ -688,6 +707,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_gingerfin",
+                        "fish_has_roe",
                         "season_winter",
                         "color_brown"
                     ]
@@ -710,6 +730,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_pufferjelly",
+                        "fish_has_roe",
                         "season_summer",
                         "weather_rainy",
                         "color_pink"
@@ -733,6 +754,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_applesnail",
+                        "fish_has_roe",
                         "season_summer",
                         "time_night",
                         "color_yellow"
@@ -756,6 +778,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_treespidercrab",
+                        "fish_has_roe",
                         "season_summer",
                         "time_night",
                         "color_red"
@@ -779,6 +802,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_yellowtail",
+                        "fish_has_roe",
                         "season_summer",
                         "color_yellow"
                     ]
@@ -799,7 +823,9 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_swamp",
                         "fish_asf_mossyeel",
+                        "fish_has_roe",
                         "season_summer",
                         "weather_rainy",
                         "weather_green_rain",
@@ -824,6 +850,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_humpheadwrasse",
+                        "fish_has_roe",
                         "fish_talk_demanding",
                         "season_summer",
                         "color_blue"
@@ -846,6 +873,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_luckyfin",
+                        "fish_has_roe",
                         "season_spring",
                         "color_green"
                     ]
@@ -868,6 +896,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_whaleshark",
+                        "fish_has_roe",
                         "fish_upright",
                         "season_summer",
                         "color_blue"
@@ -890,6 +919,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_asf_santafish",
+                        "fish_has_roe",
                         "season_winter",
                         "color_red"
                     ]
@@ -912,6 +942,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_lemonshark",
+                        "fish_has_roe",
                         "fish_upright",
                         "season_summer",
                         "color_yellow"
@@ -935,6 +966,7 @@
                         "fish_ocean",
                         "fish_tropical",
                         "fish_asf_bluedolphin",
+                        "fish_has_roe",
                         "fish_upright",
                         "season_summer",
                         "color_blue"

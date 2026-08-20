@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Objects/duck.json",
+            "LocalTokens": {
+                "TargetName": "otohime.AV_AxolotlTown",
+                "AreaId": "DuckPond"
+            }
+        }
+    ]
+}

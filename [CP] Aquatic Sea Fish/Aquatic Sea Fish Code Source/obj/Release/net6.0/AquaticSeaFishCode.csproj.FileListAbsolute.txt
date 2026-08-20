@@ -1,9 +1,0 @@
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\bin\Release\net6.0\AquaticSeaFishCode.deps.json
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\bin\Release\net6.0\AquaticSeaFishCode.dll
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\obj\Release\net6.0\AquaticSeaFishCode.csproj.AssemblyReference.cache
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\obj\Release\net6.0\AquaticSeaFishCode.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\obj\Release\net6.0\AquaticSeaFishCode.AssemblyInfoInputs.cache
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\obj\Release\net6.0\AquaticSeaFishCode.AssemblyInfo.cs
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\obj\Release\net6.0\AquaticSeaFishCode.csproj.CoreCompileInputs.cache
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\obj\Release\net6.0\AquaticSeaFishCode.sourcelink.json
-c:\Users\Michael\Documents\GitHub\Aquatic-Sea-Fish\[CP] Aquatic Sea Fish\Aquatic Sea Fish Code\obj\Release\net6.0\AquaticSeaFishCode.dll

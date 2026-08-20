@@ -1,7 +1,7 @@
 {
   "Name": "Aquatic Sea Fish Code",
   "Author": "LucyTheDove",
-  "Version": "1.4.3",
+  "Version": "2.0.0",
   "Description": "Migrates targeted bait, smoked fish, and fish ponds from old saves.",
   "UniqueId": "LucyTheDove.ASF.Code",
   "EntryDll": "AquaticSeaFishCode.dll",

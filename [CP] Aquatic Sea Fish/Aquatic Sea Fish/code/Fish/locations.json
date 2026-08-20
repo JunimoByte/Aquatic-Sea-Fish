@@ -47,6 +47,14 @@
                 "TargetName": "Submarine",
                 "AreaId": "<null>"
             }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/swamp.json",
+            "LocalTokens": {
+                "TargetName": "WitchSwamp",
+                "AreaId": "Ponds"
+            }
         }
     ]
 }

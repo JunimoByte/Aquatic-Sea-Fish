@@ -156,6 +156,58 @@
                     "Delimiter": " "
                 }
             ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_MermaidPearl": "{{i18n: {{ModId}}_GiftElliottMermaidPearl}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_OrangeEel": "{{i18n: {{ModId}}_GiftLeahOrangeEel}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_RibbonEel": "{{i18n: {{ModId}}_GiftDemetriusRibbonEel}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_BrownEel": "{{i18n: {{ModId}}_GiftHarveyBrownEel}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 3],
+                    "Value": "{{ModId}}_OrangeEel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Demetrius", 3],
+                    "Value": "{{ModId}}_RibbonEel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 3],
+                    "Value": "{{ModId}}_BrownEel",
+                    "Delimiter": " "
+                }
+            ]
         }
     ]
 }

@@ -171,6 +171,20 @@
         },
         {
             "Action": "Include",
+            "FromFile": "code/Compat/Mods/NeonZuzu/compat.json",
+            "When": {
+                "HasMod": "neonzuzu"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Compat/Mods/CottonCloud/compat.json",
+            "When": {
+                "HasMod": "otohime.CT"
+            }
+        },
+        {
+            "Action": "Include",
             "FromFile": "code/Compat/Mods/TillyTea/Data/prune.json"
         },
         {

@@ -1,8 +1,8 @@
 {
   "Name": "Aquatic Sea Fish",
   "Author": "LucyTheDove",
-  "Version": "1.4.3",
-  "Description": "Adds many new fish, quests, and dialogue to Stardew Valley.",
+  "Version": "2.0.0",
+  "Description": "Adds many new fish, quests, and letters to Stardew Valley.",
   "UniqueId": "LucyTheDove.ASF",
   "UpdateKeys": [
     "Nexus:38752"
@@ -97,6 +97,14 @@
     },
     {
       "UniqueId": "cajcbell.TE",
+      "IsRequired": false
+    },
+    {
+      "UniqueId": "neonzuzu",
+      "IsRequired": false
+    },
+    {
+      "UniqueId": "otohime.CT",
       "IsRequired": false
     }
   ]

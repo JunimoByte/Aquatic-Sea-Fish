@@ -10,6 +10,7 @@
                 "{{ModId}}_SummerWillyRainLetter": "{{i18n:{{ModId}}_SummerWillyRainLetter}}",
                 "{{ModId}}_FallWillyLetter": "{{i18n:{{ModId}}_FallWillyLetter}}",
                 "{{ModId}}_WinterWillyLetter": "{{i18n:{{ModId}}_WinterWillyLetter}}",
+                "{{ModId}}_GingerIslandWillyLetter": "{{i18n:{{ModId}}_GingerIslandWillyLetter}}",
                 "{{ModId}}_WillyBelatedGiftYear1": "{{i18n:{{ModId}}_WillyBelatedGiftYear1}}",
                 "{{ModId}}_WillyBelatedGiftYear2": "{{i18n:{{ModId}}_WillyBelatedGiftYear2}}",
                 "{{ModId}}_WillyBelatedGiftYear3": "{{i18n:{{ModId}}_WillyBelatedGiftYear3}}",
@@ -117,7 +118,17 @@
                 "{{ModId}}_QuestGusChefSpecialLetter": "{{i18n:{{ModId}}_QuestGusChefSpecialLetter}}",
                 "{{ModId}}_QuestGusChefSpecialThankYouLetter": "{{i18n:{{ModId}}_QuestGusChefSpecialThankYouLetter}}",
                 "{{ModId}}_QuestKrobusGhostShipLetter": "{{i18n:{{ModId}}_QuestKrobusGhostShipLetter}}",
-                "{{ModId}}_QuestKrobusGhostShipThankYouLetter": "{{i18n:{{ModId}}_QuestKrobusGhostShipThankYouLetter}}"
+                "{{ModId}}_QuestKrobusGhostShipThankYouLetter": "{{i18n:{{ModId}}_QuestKrobusGhostShipThankYouLetter}}",
+                "{{ModId}}_WillyMasterAnglerLetter": "{{i18n:{{ModId}}_WillyMasterAnglerLetter}}",
+                "{{ModId}}_WillyLegendaryAnglerLetter": "{{i18n:{{ModId}}_WillyLegendaryAnglerLetter}}",
+                "{{ModId}}_PappyLegendLetter": "{{i18n:{{ModId}}_PappyLegendLetter}}",
+                "{{ModId}}_WillyLateGameNoteQuietMorning": "{{i18n:{{ModId}}_WillyLateGameNoteQuietMorning}}",
+                "{{ModId}}_WillyLateGameNoteOldBoat": "{{i18n:{{ModId}}_WillyLateGameNoteOldBoat}}",
+                "{{ModId}}_WillyLateGameNoteGoodTide": "{{i18n:{{ModId}}_WillyLateGameNoteGoodTide}}",
+                "{{ModId}}_WillyNightMarketDepthsLetter": "{{i18n:{{ModId}}_WillyNightMarketDepthsLetter}}",
+                "{{ModId}}_WillyGingerIslandRuinsLetter": "{{i18n:{{ModId}}_WillyGingerIslandRuinsLetter}}",
+                "{{ModId}}_WillyPirateCoveLetter": "{{i18n:{{ModId}}_WillyPirateCoveLetter}}",
+                "{{ModId}}_WillyPirateCoveWinterLetter": "{{i18n:{{ModId}}_WillyPirateCoveWinterLetter}}"
             }
         }
     ]

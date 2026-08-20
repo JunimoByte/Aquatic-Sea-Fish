@@ -4,12 +4,12 @@
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [
-                "Koda_Cove",
+                "neonzuzu_beach",
                 "Fish"
             ],
             "Entries": {
-                "{{ModId}}_ESE_Fish": {
-                    "Id": "{{ModId}}_ESE_Fish",
+                "{{ModId}}_NeonZuzuBeach_Fish": {
+                    "Id": "{{ModId}}_NeonZuzuBeach_Fish",
                     "ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH"
                 }
             }

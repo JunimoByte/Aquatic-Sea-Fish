@@ -22,6 +22,7 @@
                 "fishCaught_{{ModId}}_FlameJellyfish": "{{i18n: {{ModId}}_WillyFishCaught_FlameJellyfish}}",
                 "fishCaught_{{ModId}}_OrangeEel": "{{i18n: {{ModId}}_WillyFishCaught_OrangeEel}}",
                 "fishCaught_{{ModId}}_Luckyfin": "{{i18n: {{ModId}}_WillyFishCaught_Luckyfin}}",
+                "fishCaught_{{ModId}}_WhaleShark": "{{i18n: {{ModId}}_WillyFishCaught_WhaleShark}}",
                 "fishCaught_{{ModId}}_LemonShark": "{{i18n: {{ModId}}_WillyFishCaught_LemonShark}}"
             }
         }

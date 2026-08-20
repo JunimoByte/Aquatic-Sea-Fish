@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/LocalTokens/Fish/tropical.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/pirate.json",
+            "FromFile": "code/LocalTokens/Fish/beach.json, code/LocalTokens/Fish/dock.json, code/LocalTokens/Objects/mermaid.json",
             "LocalTokens": {
                 "TargetName": "Koda_Cove",
                 "AreaId": "<null>"

@@ -1,0 +1,51 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_Ghoulgill": {
+                    "Id": "{{ModId}}_Ghoulgill",
+                    "ItemId": "(O){{ModId}}_Ghoulgill",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+                },
+                "{{ModId}}_MossyEel": {
+                    "Id": "{{ModId}}_MossyEel",
+                    "ItemId": "(O){{ModId}}_MossyEel",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+                },
+                "{{ModId}}_Spooktopus": {
+                    "Id": "{{ModId}}_Spooktopus",
+                    "ItemId": "(O){{ModId}}_Spooktopus",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModId}}_Ghoulgill": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_MossyEel": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Spooktopus": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}

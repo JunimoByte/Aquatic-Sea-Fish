@@ -52,6 +52,14 @@
                         "AddMail Current {{ModId}}_WinterWillyLetter now"
                     ]
                 },
+                "{{ModId}}_GingerIslandWillyLetter_Trigger": {
+                    "Id": "{{ModId}}_GingerIslandWillyLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_VISITED_LOCATION Current IslandSouth, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_SeaTurtle, !PLAYER_HAS_MAIL Current {{ModId}}_GingerIslandWillyLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GingerIslandWillyLetter now"
+                    ]
+                },
                 "{{ModId}}_WillyBelatedGiftYear1_Trigger": {
                     "Id": "{{ModId}}_WillyBelatedGiftYear1_Trigger",
                     "Trigger": "DayStarted",
@@ -722,6 +730,86 @@
                     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_PirateCaptainLetter, !PLAYER_HAS_MAIL Current {{ModId}}_QuestKrobusGhostShipLetter, RANDOM 0.05",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestKrobusGhostShipLetter now"
+                    ]
+                },
+                "{{ModId}}_WillyMasterAnglerLetter_Trigger": {
+                    "Id": "{{ModId}}_WillyMasterAnglerLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_SeaTurtle, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_BlueSpottedOctopus, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Marlin, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Spooktopus, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_HammerheadShark, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_MahiMahi, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_LeopardStingray, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_FlameJellyfish, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_HumpheadWrasse, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_WhaleShark, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Pufferjelly, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PacificJellyfish, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Hookfin, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_JackOFish, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_BlueDolphin, !PLAYER_HAS_MAIL Current {{ModId}}_WillyMasterAnglerLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyMasterAnglerLetter now"
+                    ]
+                },
+                "{{ModId}}_WillyLegendaryAnglerLetter_Trigger": {
+                    "Id": "{{ModId}}_WillyLegendaryAnglerLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_HAS_CAUGHT_FISH Current (O)159, PLAYER_HAS_CAUGHT_FISH Current (O)160, PLAYER_HAS_CAUGHT_FISH Current (O)161, PLAYER_HAS_CAUGHT_FISH Current (O)162, PLAYER_HAS_CAUGHT_FISH Current (O)163, !PLAYER_HAS_MAIL Current {{ModId}}_WillyLegendaryAnglerLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyLegendaryAnglerLetter now"
+                    ]
+                },
+                "{{ModId}}_PappyLegendLetter_Trigger": {
+                    "Id": "{{ModId}}_PappyLegendLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_WillyLegendaryAnglerLetter Received, !PLAYER_HAS_MAIL Current {{ModId}}_PappyLegendLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PappyLegendLetter now"
+                    ]
+                },
+                "{{ModId}}_WillyLateGameNoteQuietMorning_Trigger": {
+                    "Id": "{{ModId}}_WillyLateGameNoteQuietMorning_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, RANDOM 0.01, !PLAYER_HAS_MAIL Current {{ModId}}_WillyLateGameNoteQuietMorning",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyLateGameNoteQuietMorning now"
+                    ]
+                },
+                "{{ModId}}_WillyLateGameNoteOldBoat_Trigger": {
+                    "Id": "{{ModId}}_WillyLateGameNoteOldBoat_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 9, RANDOM 0.01, !PLAYER_HAS_MAIL Current {{ModId}}_WillyLateGameNoteOldBoat",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyLateGameNoteOldBoat now"
+                    ]
+                },
+                "{{ModId}}_WillyLateGameNoteGoodTide_Trigger": {
+                    "Id": "{{ModId}}_WillyLateGameNoteGoodTide_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 10, RANDOM 0.01, !PLAYER_HAS_MAIL Current {{ModId}}_WillyLateGameNoteGoodTide",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyLateGameNoteGoodTide now"
+                    ]
+                },
+                "{{ModId}}_WillyNightMarketDepthsLetter_Trigger": {
+                    "Id": "{{ModId}}_WillyNightMarketDepthsLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_HAS_CAUGHT_FISH Current (O)798, PLAYER_HAS_CAUGHT_FISH Current (O)799, PLAYER_HAS_CAUGHT_FISH Current (O)800, RANDOM 0.05, !PLAYER_HAS_MAIL Current {{ModId}}_WillyNightMarketDepthsLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyNightMarketDepthsLetter now"
+                    ]
+                },
+                "{{ModId}}_WillyGingerIslandRuinsLetter_Trigger": {
+                    "Id": "{{ModId}}_WillyGingerIslandRuinsLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_VISITED_LOCATION Current IslandNorth, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_MahiMahi, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Pufferjelly, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_WhaleShark, RANDOM 0.05, !PLAYER_HAS_MAIL Current {{ModId}}_WillyGingerIslandRuinsLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyGingerIslandRuinsLetter now"
+                    ]
+                },
+                "{{ModId}}_WillyPirateCoveLetter_Trigger": {
+                    "Id": "{{ModId}}_WillyPirateCoveLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_VISITED_LOCATION Current IslandSouthEastCave, PLAYER_HAS_CAUGHT_FISH Current (O)836, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Hookfin, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PiratesDoubloon, RANDOM 0.05, !PLAYER_HAS_MAIL Current {{ModId}}_WillyPirateCoveLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyPirateCoveLetter now"
+                    ]
+                },
+                "{{ModId}}_WillyPirateCoveWinterLetter_Trigger": {
+                    "Id": "{{ModId}}_WillyPirateCoveWinterLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON Winter, YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_VISITED_LOCATION Current IslandSouthEastCave, PLAYER_HAS_MAIL Current {{ModId}}_WillyPirateCoveLetter Received, RANDOM 0.05, !PLAYER_HAS_MAIL Current {{ModId}}_WillyPirateCoveWinterLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyPirateCoveWinterLetter now"
                     ]
                 }
             }

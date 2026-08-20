@@ -18,6 +18,14 @@
         },
         {
             "Action": "Include",
+            "FromFile": "code/LocalTokens/Fish/swamp.json",
+            "LocalTokens": {
+                "TargetName": "Custom_ForbiddenMaze",
+                "AreaId": "<null>"
+            }
+        },
+        {
+            "Action": "Include",
             "FromFile": "code/Compat/Mods/SVE/Data/mail.json, code/Compat/Mods/SVE/Data/quests.json, code/Compat/Mods/SVE/Data/triggers.json"
         }
     ]

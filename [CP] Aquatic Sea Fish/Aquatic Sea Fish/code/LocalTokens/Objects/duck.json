@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_RubberDuck": {
+                    "Id": "{{ModId}}_RubberDuck",
+                    "ItemId": "(O){{ModId}}_RubberDuck",
+                    "Condition": "LOCATION_Season Here Spring Summer Fall Winter, TIME 600 1900",
+                    "Chance": 0.3
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "{{TargetName}}",
+                "Fish"
+            ],
+            "When": {
+                "AreaId |contains=<null>": "false"
+            },
+            "Fields": {
+                "{{ModId}}_RubberDuck": {
+                    "FishAreaId": "{{AreaId}}"
+                }
+            }
+        }
+    ]
+}
