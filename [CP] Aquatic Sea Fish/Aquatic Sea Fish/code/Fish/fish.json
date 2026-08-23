@@ -95,6 +95,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_bottom_feeder",
                         "fish_asf_gardensnail",
                         "fish_has_roe",
                         "season_summer",
@@ -118,6 +119,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_bottom_feeder",
                         "fish_asf_redrockcrab",
                         "fish_has_roe",
                         "fish_talk_demanding",
@@ -143,6 +145,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_bottom_feeder",
                         "fish_asf_hermitcrab",
                         "fish_has_roe",
                         "season_spring",
@@ -168,6 +171,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_bottom_feeder",
                         "fish_asf_pinkhermitcrab",
                         "fish_has_roe",
                         "season_spring",
@@ -190,6 +194,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_bottom_feeder",
                         "fish_asf_orangestarfish",
                         "fish_has_roe",
                         "season_spring",
@@ -214,6 +219,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_ocean",
+                        "fish_bottom_feeder",
                         "fish_asf_scallop",
                         "fish_has_roe",
                         "season_spring",
@@ -241,7 +247,7 @@
                         "fish_asf_alaskankingsalmon",
                         "fish_has_roe",
                         "season_fall",
-                        "color_silver"
+                        "color_white"
                     ]
                 },
                 "{{ModId}}_Spooktopus": {
@@ -753,6 +759,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_tropical",
+                        "fish_bottom_feeder",
                         "fish_asf_applesnail",
                         "fish_has_roe",
                         "season_summer",
@@ -777,6 +784,7 @@
                     "ContextTags": [
                         "fish_ocean",
                         "fish_tropical",
+                        "fish_bottom_feeder",
                         "fish_asf_treespidercrab",
                         "fish_has_roe",
                         "season_summer",
