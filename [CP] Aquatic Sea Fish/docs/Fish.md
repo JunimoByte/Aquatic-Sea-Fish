@@ -1,66 +1,104 @@
 # Fish Technical Documentation
 
-This document outlines the data structures used for defining fish in ASF and how to add Aquarium compatibility.
+Reference guide for defining fish data, behavior, pond output, location spawns, and aquarium animations in Aquatic Sea Fish (ASF).
 
-## Fish Data Format
+---
 
-Fish are defined in `code/Fish/fish.json` using the standard Stardew Valley object format, but their behavior and spawning logic are controlled via custom properties and context tags.
+## 1. Object Definition (`code/Fish/fish.json`)
 
-### Difficulty String Format
-When defining custom fish difficulty and behavior, uses the following pipe-separated format:
-`"FishID/Difficulty/Type/MinSize/MaxSize/MinAndMaxTime/Season/Weather/Null/MaxDepth/Chance/DepthMulti/FishingLevel/FirstCatchAllowed"`
+Fish are registered in `Data/Objects` using Stardew Valley 1.6 object data schema:
 
--   **FishID**: The unique ID of the fish (e.g., `{{ModId}}_SeaTurtle`).
--   **Difficulty**: Integer (e.g., `85`). Higher is harder.
--   **Type**: Movement pattern (`mixed`, `smooth`, `floater`, `sinker`, `dart`).
-    -   `floater`: Tends to move up.
-    -   `sinker`: Tends to move down.
-    -   `dart`: Rapid movement changes.
--   **Conditions**: `sunny`, `rainy`, `both`.
--   **Fishing Level**: Required level to catch.
--   **FirstCatchAllowed**: Whether the fish can be the player's first ever catch.
+```json
+"{{ModId}}_SeaTurtle": {
+  "Name": "{{ModId}}_SeaTurtle",
+  "DisplayName": "{{i18n:{{ModId}}_SeaTurtle.displayname}}",
+  "Description": "{{i18n:{{ModId}}_SeaTurtle.description}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 90,
+  "Texture": "Mods/{{ModId}}/FishSprite",
+  "SpriteIndex": 0,
+  "Edibility": -20,
+  "ContextTags": [
+    "season_spring",
+    "season_summer",
+    "fish_ocean",
+    "fish_carnivorous"
+  ]
+}
+```
 
-## Aquarium Support
+---
 
-To add fish to the aquarium, you need to add them to `code/Fish/aquarium.json`. This file maps modded fish to their aquarium animations.
+## 2. Minigame & Fishing Behavior (`code/Fish/behavior.json`)
 
-### Data Format
--   **FishID**: The unique ID of the fish (e.g., `{{ModId}}_SeaTurtle`).
--   **Type**: The animation behavior:
-    -   `fish`: Standard swimming.
-    -   `cephalopod`: Pulsing movement (octopus/jellyfish).
-    -   `crawl`: Walking on the bottom (crabs/snails).
-    -   `ground`: Stationary on ground (starfish).
-    -   `static`: No animation (shells).
-    -   `eel`: Serpentine movement.
--   **SpritePath**: Path to the texture (e.g., `Mods\\{{ModId}}\\AquariumSprite`).
+Fishing minigame difficulty and basic spawn rules are added to `Data/Fish` using the slash-separated vanilla string format:
+
+`FishID/Difficulty/Type/MinSize/MaxSize/TimeRange/Seasons/Weather/Unused/MaxDepth/SpawnChance/DepthMultiplier/FishingLevel/FirstCatchAllowed`
+
+### Field Breakdown
+
+| Field | Example | Notes |
+| :--- | :--- | :--- |
+| **FishID** | `{{ModId}}_SeaTurtle` | Matches the object key. |
+| **Difficulty** | `49` | Minigame bar difficulty (higher = faster/harder). |
+| **Type** | `sinker` | Movement pattern: `mixed`, `smooth`, `floater`, `sinker`, `dart`. |
+| **MinSize / MaxSize** | `5/9` | Size range in inches. |
+| **TimeRange** | `600 1800` | Start and end time in military format (can have multiple pairs, e.g. `600 1000 1700 2000`). |
+| **Seasons** | `spring summer` | Space-separated seasons: `spring`, `summer`, `fall`, `winter`. |
+| **Weather** | `sunny` | `sunny`, `rainy`, or `both`. |
+| **Unused** | `685 .35` | Legacy bait/trap field placeholder. |
+| **MaxDepth** | `2` | Minimum water depth to start spawning. |
+| **SpawnChance** | `.25` | Base chance to hook when water depth criteria are met. |
+| **DepthMultiplier** | `.1` | Chance increase per unit of depth. |
+| **FishingLevel** | `0` | Minimum required fishing level. |
+| **FirstCatchAllowed** | `false` | Whether this fish can be caught during the tutorial/first catch. |
+
+---
+
+## 3. Location Spawning (`code/Fish/locations.json`)
+
+ASF hooks into `Data/Locations` using 1.6 location data queries:
+
+```json
+{
+  "Id": "{{ModId}}_SeaTurtle_Beach",
+  "ItemId": "(O){{ModId}}_SeaTurtle",
+  "Chance": 0.08,
+  "Season": "Spring, Summer",
+  "Condition": "!IS_EVENT_FESTIVAL",
+  "Precedence": -10
+}
+```
+
+---
+
+## 4. Fish Pond Production (`code/Fish/pond.json`)
+
+Pond data is added to `Data/FishPondData` keyed by item ID:
+
+- `SpawnTime`: Days between fish population growth.
+- `ProducedItems`: Array of drops with `RequiredPopulation`, `Chance`, `ItemID`, `MinStack`, `MaxStack`.
+- `PopulationGates`: Dictionary mapping population thresholds (`"3"`, `"5"`, `"8"`) to required unlock items.
+- `WaterColor`: Hex color for tinted pond water (e.g., `"#003080"` for Marlin).
+
+---
+
+## 5. Aquarium Support (`code/Fish/aquarium.json`)
+
+Tank animations are registered in `Data/AquariumFish` using the vanilla aquarium format:
+
+`SpriteFrame/AnimationType/Velocity/TankType/IdleBehavior/TexturePath`
 
 ### Example
 ```json
 "{{ModId}}_BlueSpottedOctopus": "1/cephalopod/////Mods\\{{ModId}}\\AquariumSprite"
 ```
-This defines the Blue Spotted Octopus using frame 1, behaving like a cephalopod, using the mod's aquarium sprite sheet.
 
-
-# The Future
-
-The different changes between 1.6.16, and 1.7.
-
-## Stardew Valley 1.7
-
-While it's not out for some year(s), they may be making some changes to context tags during recipes. If you have a custom tag that isn't defined, you'd have to define it. Example:
-
-`{
-  "Action": "EditData",
-  "Target": "Data/ContextTags",
-  "Entries": {
-    "weather_rainy": {
-      "DisplayName": "Any Rainy Fish",
-      "RepresentativeItem": "(O){{ModId}}_BrownEel"
-    }
-  }
-}`
-
-For instance, if a modder used this context tag for a recipe, it would error. This would allow it to display the icon (RepresentativeItem), and the text (DisplayName). If two mods define the same context tag, then the last definer wins. It'll be a purely cosmetic change, so I wouldn't worry about that.
-
-There is more that will likely occur, with more dehardcoding on furniture.
+### Supported Animation Types
+- `fish` — Normal directional swimming.
+- `cephalopod` — Pulsing up/down motion (octopuses, jellies).
+- `crawl` — Walks along the aquarium floor (crabs, snails).
+- `ground` — Sits stationary on the substrate (starfish).
+- `eel` — Serpentine undulating swim path.
+- `static` — Stationary non-animated object (shells, pearls).

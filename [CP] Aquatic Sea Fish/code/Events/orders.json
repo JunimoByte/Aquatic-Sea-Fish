@@ -1,0 +1,526 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModId}}_SpecialOrder_SpringOceanSurvey": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_SpringOceanSurvey_Name}}",
+                    "Requester": "Willy",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "True",
+                    "RequiredTags": "season_spring",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_SpringOceanSurvey_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "SpringFish",
+                            "Values": [
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "PICK_ITEM {{ModId}}_Marlin, {{ModId}}_HammerheadShark, {{ModId}}_SeaTurtle, {{ModId}}_PinkJellyfish, {{ModId}}_BlueJellyfish, {{ModId}}_OrangeStarfish"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_SpringOceanSurvey_Objective}}",
+                            "RequiredCount": "4",
+                            "Data": {
+                                "AcceptedContextTags": "{SpringFish:Tags}"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1500"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "Willy"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_SummerCoastalCatch": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_SummerCoastalCatch_Name}}",
+                    "Requester": "Gus",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "True",
+                    "RequiredTags": "season_summer",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_SummerCoastalCatch_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "SummerFish",
+                            "Values": [
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "PICK_ITEM {{ModId}}_PinkJellyfish, {{ModId}}_BlueJellyfish, {{ModId}}_SeaTurtle, {{ModId}}_OrangeStarfish, {{ModId}}_BrownEel, {{ModId}}_RedRockCrab"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_SummerCoastalCatch_Objective}}",
+                            "RequiredCount": "4",
+                            "Data": {
+                                "AcceptedContextTags": "{SummerFish:Tags}"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1500"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "Gus"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_FallNocturnalSurvey": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_FallNocturnalSurvey_Name}}",
+                    "Requester": "Demetrius",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "True",
+                    "RequiredTags": "season_fall",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_FallNocturnalSurvey_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "FallFish",
+                            "Values": [
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "PICK_ITEM {{ModId}}_AlaskanKingSalmon, {{ModId}}_Spooktopus, {{ModId}}_Ghoulgill, {{ModId}}_Broombell"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_FallNocturnalSurvey_Objective}}",
+                            "RequiredCount": "4",
+                            "Data": {
+                                "AcceptedContextTags": "{FallFish:Tags}"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1500"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "Demetrius"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_WinterStarCatch": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_WinterStarCatch_Name}}",
+                    "Requester": "Willy",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "True",
+                    "RequiredTags": "season_winter",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_WinterStarCatch_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "WinterFish",
+                            "Values": [
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "PICK_ITEM {{ModId}}_Santafish, {{ModId}}_Jollyfin, {{ModId}}_Sprucefin, {{ModId}}_Gingerfin, {{ModId}}_Redpuff"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_WinterStarCatch_Objective}}",
+                            "RequiredCount": "4",
+                            "Data": {
+                                "AcceptedContextTags": "{WinterFish:Tags}"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1500"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "Willy"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_PrismaticTears": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_PrismaticTears_Name}}",
+                    "Requester": "Willy",
+                    "Duration": "Month",
+                    "Repeatable": "False",
+                    "RequiredTags": "",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_PrismaticTears_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_PrismaticTears_Objective_0}}",
+                            "RequiredCount": "3",
+                            "Data": {
+                                "DropBox": "WillyBarrel",
+                                "DropBoxGameLocation": "Beach",
+                                "DropBoxIndicatorLocation": "37 32",
+                                "MinimumCapacity": "9",
+                                "AcceptedContextTags": "item_asf_mermaidpearl"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_PrismaticTears_Objective_1}}",
+                            "RequiredCount": "3",
+                            "Data": {
+                                "DropBox": "WillyBarrel",
+                                "DropBoxGameLocation": "Beach",
+                                "DropBoxIndicatorLocation": "37 32",
+                                "MinimumCapacity": "9",
+                                "AcceptedContextTags": "item_asf_mermaidtear"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_PrismaticTears_Objective_2}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "WillyBarrel",
+                                "DropBoxGameLocation": "Beach",
+                                "DropBoxIndicatorLocation": "37 32",
+                                "MinimumCapacity": "9",
+                                "AcceptedContextTags": "item_pearl"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "(O){{ModId}}_PrismaticMermaidTear",
+                                "Amount": "1"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "500",
+                                "TargetName": "Willy"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_ForbiddenPredators": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_ForbiddenPredators_Name}}",
+                    "Requester": "Qi",
+                    "Duration": "Week",
+                    "Repeatable": "True",
+                    "RequiredTags": "",
+                    "OrderType": "Qi",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_ForbiddenPredators_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_ForbiddenPredators_Objective_0}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_whaleshark"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_ForbiddenPredators_Objective_1}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_humpheadwrasse"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_ForbiddenPredators_Objective_2}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_lemonshark"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_ForbiddenPredators_Objective_3}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_bluedolphin"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Gems",
+                            "Data": {
+                                "Amount": "25"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_GingerIslandResearch": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_GingerIslandResearch_Name}}",
+                    "Requester": "Demetrius",
+                    "Duration": "Week",
+                    "Repeatable": "True",
+                    "RequiredTags": "island",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_GingerIslandResearch_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_GingerIslandResearch_Objective_0}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_humpheadwrasse"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_GingerIslandResearch_Objective_1}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_applesnail"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_GingerIslandResearch_Objective_2}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_treespidercrab"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "2000"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "Demetrius"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_LinusCoastalCritters": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_LinusCoastalCritters_Name}}",
+                    "Requester": "Linus",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "False",
+                    "RequiredTags": "",
+                    "Condition": "SEASON spring, PLAYER_BASE_FISHING_LEVEL Current 8",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_LinusCoastalCritters_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_LinusCoastalCritters_Objective_0}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_redrockcrab"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_LinusCoastalCritters_Objective_1}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_hermitcrab"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_LinusCoastalCritters_Objective_2}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_pinkhermitcrab"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_LinusCoastalCritters_Objective_3}}",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_scallop"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "(O)454",
+                                "Amount": "1"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "500",
+                                "TargetName": "Linus"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_WillySmokehouse": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_WillySmokehouse_Name}}",
+                    "Requester": "Willy",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "True",
+                    "RequiredTags": "",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_WillySmokehouse_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Ship",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_WillySmokehouse_Objective}}",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "smoked_fish, fish_ocean"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "2000"
+                            }
+                        },
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "(O)DeluxeBait",
+                                "Amount": "15"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "Willy"
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpecialOrder_QiPopulationControl": {
+                    "Name": "{{i18n:{{ModId}}_SpecialOrder_QiPopulationControl_Name}}",
+                    "Requester": "Qi",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "True",
+                    "RequiredTags": "",
+                    "OrderType": "Qi",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:{{ModId}}_SpecialOrder_QiPopulationControl_Text}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_QiPopulationControl_Objective_0}}",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_applesnail"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "{{i18n:{{ModId}}_SpecialOrder_QiPopulationControl_Objective_1}}",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "fish_asf_treespidercrab"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Gems",
+                            "Data": {
+                                "Amount": "20"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

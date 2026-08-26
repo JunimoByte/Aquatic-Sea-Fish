@@ -128,7 +128,10 @@
                 "{{ModId}}_WillyNightMarketDepthsLetter": "{{i18n:{{ModId}}_WillyNightMarketDepthsLetter}}",
                 "{{ModId}}_WillyGingerIslandRuinsLetter": "{{i18n:{{ModId}}_WillyGingerIslandRuinsLetter}}",
                 "{{ModId}}_WillyPirateCoveLetter": "{{i18n:{{ModId}}_WillyPirateCoveLetter}}",
-                "{{ModId}}_WillyPirateCoveWinterLetter": "{{i18n:{{ModId}}_WillyPirateCoveWinterLetter}}"
+                "{{ModId}}_WillyPirateCoveWinterLetter": "{{i18n:{{ModId}}_WillyPirateCoveWinterLetter}}",
+                "{{ModId}}_RubberDuckWitness1": "{{i18n:{{ModId}}_RubberDuckWitness1}}",
+                "{{ModId}}_RubberDuckWitness2": "{{i18n:{{ModId}}_RubberDuckWitness2}}",
+                "{{ModId}}_GoldenDuckReward": "{{i18n:{{ModId}}_GoldenDuckReward}}"
             }
         }
     ]

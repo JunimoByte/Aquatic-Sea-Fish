@@ -4,54 +4,161 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Willy",
             "Entries": {
-                "AcceptGift_(O){{ModId}}_HammerheadShark": "{{i18n: {{ModId}}_GiftWillyHammerheadShark}}",
-                "AcceptGift_(O){{ModId}}_MahiMahi": "{{i18n: {{ModId}}_GiftWillyMahiMahi}}",
-                "AcceptGift_(O){{ModId}}_Marlin": "{{i18n: {{ModId}}_GiftWillyMarlin}}",
-                "AcceptGift_(O){{ModId}}_AlaskanKingSalmon": "{{i18n: {{ModId}}_GiftWillyAlaskanKingSalmon}}",
-                "AcceptGift_(O){{ModId}}_BlueSpottedOctopus": "{{i18n: {{ModId}}_GiftWillyBlueSpottedOctopus}}",
-                "AcceptGift_(O){{ModId}}_SeaTurtle": "{{i18n: {{ModId}}_GiftWillySeaTurtle}}",
-                "AcceptGift_(O){{ModId}}_RedRockCrab": "{{i18n: {{ModId}}_GiftWillyRedRockCrab}}",
-                "AcceptGift_(O){{ModId}}_HermitCrab": "{{i18n: {{ModId}}_GiftWillyHermitCrab}}",
-                "AcceptGift_(O){{ModId}}_PinkHermitCrab": "{{i18n: {{ModId}}_GiftWillyPinkHermitCrab}}",
-                "AcceptGift_(O){{ModId}}_OrangeStarfish": "{{i18n: {{ModId}}_GiftWillyOrangeStarfish}}",
-                "AcceptGift_(O){{ModId}}_Scallop": "{{i18n: {{ModId}}_GiftWillyScallop}}",
-                "AcceptGift_(O){{ModId}}_Spooktopus": "{{i18n: {{ModId}}_GiftWillySpooktopus}}",
-                "AcceptGift_(O){{ModId}}_PinkJellyfish": "{{i18n: {{ModId}}_GiftWillyPinkJellyfish}}",
-                "AcceptGift_(O){{ModId}}_BlueJellyfish": "{{i18n: {{ModId}}_GiftWillyBlueJellyfish}}",
-                "AcceptGift_(O){{ModId}}_BrownEel": "{{i18n: {{ModId}}_GiftWillyBrownEel}}",
-                "AcceptGift_(O){{ModId}}_LeopardStingray": "{{i18n: {{ModId}}_GiftWillyLeopardStingray}}",
-                "AcceptGift_(O){{ModId}}_RibbonEel": "{{i18n: {{ModId}}_GiftWillyRibbonEel}}",
-                "AcceptGift_(O){{ModId}}_GreenEel": "{{i18n: {{ModId}}_GiftWillyGreenEel}}",
-                "AcceptGift_(O){{ModId}}_OrangeEel": "{{i18n: {{ModId}}_GiftWillyOrangeEel}}",
-                "AcceptGift_(O){{ModId}}_Hookfin": "{{i18n: {{ModId}}_GiftWillyHookfin}}",
-                "AcceptGift_(O){{ModId}}_PacificJellyfish": "{{i18n: {{ModId}}_GiftWillyPacificJellyfish}}",
-                "AcceptGift_(O){{ModId}}_FlameJellyfish": "{{i18n: {{ModId}}_GiftWillyFlameJellyfish}}",
-                "AcceptGift_(O){{ModId}}_GardenSnail": "{{i18n: {{ModId}}_GiftWillyGardenSnail}}",
-                "AcceptGift_(O){{ModId}}_Ghoulgill": "{{i18n: {{ModId}}_GiftWillyGhoulgill}}",
-                "AcceptGift_(O){{ModId}}_Broombell": "{{i18n: {{ModId}}_GiftWillyBroombell}}",
-                "AcceptGift_(O){{ModId}}_JackOFish": "{{i18n: {{ModId}}_GiftWillyJackOFish}}",
-                "AcceptGift_(O){{ModId}}_Sprucefin": "{{i18n: {{ModId}}_GiftWillySprucefin}}",
-                "AcceptGift_(O){{ModId}}_Jollyfin": "{{i18n: {{ModId}}_GiftWillyJollyfin}}",
-                "AcceptGift_(O){{ModId}}_Redpuff": "{{i18n: {{ModId}}_GiftWillyRedpuff}}",
-                "AcceptGift_(O){{ModId}}_Gingerfin": "{{i18n: {{ModId}}_GiftWillyGingerfin}}",
-                "AcceptGift_(O){{ModId}}_Pufferjelly": "{{i18n: {{ModId}}_GiftWillyPufferjelly}}",
-                "AcceptGift_(O){{ModId}}_AppleSnail": "{{i18n: {{ModId}}_GiftWillyAppleSnail}}",
-                "AcceptGift_(O){{ModId}}_TreeSpiderCrab": "{{i18n: {{ModId}}_GiftWillyTreeSpiderCrab}}",
-                "AcceptGift_(O){{ModId}}_Yellowtail": "{{i18n: {{ModId}}_GiftWillyYellowtail}}",
-                "AcceptGift_(O){{ModId}}_MossyEel": "{{i18n: {{ModId}}_GiftWillyMossyEel}}",
-                "AcceptGift_(O){{ModId}}_HumpheadWrasse": "{{i18n: {{ModId}}_GiftWillyHumpheadWrasse}}",
-                "AcceptGift_(O){{ModId}}_Luckyfin": "{{i18n: {{ModId}}_GiftWillyLuckyfin}}",
-                "AcceptGift_(O){{ModId}}_WhaleShark": "{{i18n: {{ModId}}_GiftWillyWhaleShark}}",
-                "AcceptGift_(O){{ModId}}_Santafish": "{{i18n: {{ModId}}_GiftWillySantafish}}",
-                "AcceptGift_(O){{ModId}}_LemonShark": "{{i18n: {{ModId}}_GiftWillyLemonShark}}",
-                "AcceptGift_(O){{ModId}}_BlueDolphin": "{{i18n: {{ModId}}_GiftWillyBlueDolphin}}",
-                "AcceptGift_(O){{ModId}}_MermaidPearl": "{{i18n: {{ModId}}_GiftWillyMermaidPearl}}",
-                "AcceptGift_(O){{ModId}}_MermaidTear": "{{i18n: {{ModId}}_GiftWillyMermaidTear}}",
-                "AcceptGift_(O){{ModId}}_RedCoral": "{{i18n: {{ModId}}_GiftWillyRedCoral}}",
-                "AcceptGift_(O){{ModId}}_AncientShell": "{{i18n: {{ModId}}_GiftWillyAncientShell}}",
-                "AcceptGift_(O){{ModId}}_PiratesDoubloon": "{{i18n: {{ModId}}_GiftWillyPiratesDoubloon}}",
-                "AcceptGift_(O){{ModId}}_LunarPearl": "{{i18n: {{ModId}}_GiftWillyLunarPearl}}",
-                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n: {{ModId}}_GiftWillyRubberDuck}}"
+                "AcceptGift_(O){{ModId}}_HammerheadShark": "{{i18n:{{ModId}}_GiftWillyHammerheadShark}}",
+                "AcceptGift_(O){{ModId}}_MahiMahi": "{{i18n:{{ModId}}_GiftWillyMahiMahi}}",
+                "AcceptGift_(O){{ModId}}_Marlin": "{{i18n:{{ModId}}_GiftWillyMarlin}}",
+                "AcceptGift_(O){{ModId}}_AlaskanKingSalmon": "{{i18n:{{ModId}}_GiftWillyAlaskanKingSalmon}}",
+                "AcceptGift_(O){{ModId}}_BlueSpottedOctopus": "{{i18n:{{ModId}}_GiftWillyBlueSpottedOctopus}}",
+                "AcceptGift_(O){{ModId}}_SeaTurtle": "{{i18n:{{ModId}}_GiftWillySeaTurtle}}",
+                "AcceptGift_(O){{ModId}}_RedRockCrab": "{{i18n:{{ModId}}_GiftWillyRedRockCrab}}",
+                "AcceptGift_(O){{ModId}}_HermitCrab": "{{i18n:{{ModId}}_GiftWillyHermitCrab}}",
+                "AcceptGift_(O){{ModId}}_PinkHermitCrab": "{{i18n:{{ModId}}_GiftWillyPinkHermitCrab}}",
+                "AcceptGift_(O){{ModId}}_OrangeStarfish": "{{i18n:{{ModId}}_GiftWillyOrangeStarfish}}",
+                "AcceptGift_(O){{ModId}}_Scallop": "{{i18n:{{ModId}}_GiftWillyScallop}}",
+                "AcceptGift_(O){{ModId}}_Spooktopus": "{{i18n:{{ModId}}_GiftWillySpooktopus}}",
+                "AcceptGift_(O){{ModId}}_PinkJellyfish": "{{i18n:{{ModId}}_GiftWillyPinkJellyfish}}",
+                "AcceptGift_(O){{ModId}}_BlueJellyfish": "{{i18n:{{ModId}}_GiftWillyBlueJellyfish}}",
+                "AcceptGift_(O){{ModId}}_BrownEel": "{{i18n:{{ModId}}_GiftWillyBrownEel}}",
+                "AcceptGift_(O){{ModId}}_LeopardStingray": "{{i18n:{{ModId}}_GiftWillyLeopardStingray}}",
+                "AcceptGift_(O){{ModId}}_RibbonEel": "{{i18n:{{ModId}}_GiftWillyRibbonEel}}",
+                "AcceptGift_(O){{ModId}}_GreenEel": "{{i18n:{{ModId}}_GiftWillyGreenEel}}",
+                "AcceptGift_(O){{ModId}}_OrangeEel": "{{i18n:{{ModId}}_GiftWillyOrangeEel}}",
+                "AcceptGift_(O){{ModId}}_Hookfin": "{{i18n:{{ModId}}_GiftWillyHookfin}}",
+                "AcceptGift_(O){{ModId}}_PacificJellyfish": "{{i18n:{{ModId}}_GiftWillyPacificJellyfish}}",
+                "AcceptGift_(O){{ModId}}_FlameJellyfish": "{{i18n:{{ModId}}_GiftWillyFlameJellyfish}}",
+                "AcceptGift_(O){{ModId}}_GardenSnail": "{{i18n:{{ModId}}_GiftWillyGardenSnail}}",
+                "AcceptGift_(O){{ModId}}_Ghoulgill": "{{i18n:{{ModId}}_GiftWillyGhoulgill}}",
+                "AcceptGift_(O){{ModId}}_Broombell": "{{i18n:{{ModId}}_GiftWillyBroombell}}",
+                "AcceptGift_(O){{ModId}}_JackOFish": "{{i18n:{{ModId}}_GiftWillyJackOFish}}",
+                "AcceptGift_(O){{ModId}}_Sprucefin": "{{i18n:{{ModId}}_GiftWillySprucefin}}",
+                "AcceptGift_(O){{ModId}}_Jollyfin": "{{i18n:{{ModId}}_GiftWillyJollyfin}}",
+                "AcceptGift_(O){{ModId}}_Redpuff": "{{i18n:{{ModId}}_GiftWillyRedpuff}}",
+                "AcceptGift_(O){{ModId}}_Gingerfin": "{{i18n:{{ModId}}_GiftWillyGingerfin}}",
+                "AcceptGift_(O){{ModId}}_Pufferjelly": "{{i18n:{{ModId}}_GiftWillyPufferjelly}}",
+                "AcceptGift_(O){{ModId}}_AppleSnail": "{{i18n:{{ModId}}_GiftWillyAppleSnail}}",
+                "AcceptGift_(O){{ModId}}_TreeSpiderCrab": "{{i18n:{{ModId}}_GiftWillyTreeSpiderCrab}}",
+                "AcceptGift_(O){{ModId}}_Yellowtail": "{{i18n:{{ModId}}_GiftWillyYellowtail}}",
+                "AcceptGift_(O){{ModId}}_MossyEel": "{{i18n:{{ModId}}_GiftWillyMossyEel}}",
+                "AcceptGift_(O){{ModId}}_HumpheadWrasse": "{{i18n:{{ModId}}_GiftWillyHumpheadWrasse}}",
+                "AcceptGift_(O){{ModId}}_Luckyfin": "{{i18n:{{ModId}}_GiftWillyLuckyfin}}",
+                "AcceptGift_(O){{ModId}}_WhaleShark": "{{i18n:{{ModId}}_GiftWillyWhaleShark}}",
+                "AcceptGift_(O){{ModId}}_Santafish": "{{i18n:{{ModId}}_GiftWillySantafish}}",
+                "AcceptGift_(O){{ModId}}_LemonShark": "{{i18n:{{ModId}}_GiftWillyLemonShark}}",
+                "AcceptGift_(O){{ModId}}_BlueDolphin": "{{i18n:{{ModId}}_GiftWillyBlueDolphin}}",
+                "AcceptGift_(O){{ModId}}_MermaidPearl": "{{i18n:{{ModId}}_GiftWillyMermaidPearl}}",
+                "AcceptGift_(O){{ModId}}_MermaidTear": "{{i18n:{{ModId}}_GiftWillyMermaidTear}}",
+                "AcceptGift_(O){{ModId}}_RedCoral": "{{i18n:{{ModId}}_GiftWillyRedCoral}}",
+                "AcceptGift_(O){{ModId}}_AncientShell": "{{i18n:{{ModId}}_GiftWillyAncientShell}}",
+                "AcceptGift_(O){{ModId}}_PiratesDoubloon": "{{i18n:{{ModId}}_GiftWillyPiratesDoubloon}}",
+                "AcceptGift_(O){{ModId}}_LunarPearl": "{{i18n:{{ModId}}_GiftWillyLunarPearl}}",
+                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n:{{ModId}}_GiftWillyRubberDuck}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leo",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n:{{ModId}}_GiftLeoRubberDuck}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_Spooktopus": "{{i18n:{{ModId}}_GiftSebastianSpooktopus}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_PiratesDoubloon": "{{i18n:{{ModId}}_GiftAbigailPiratesDoubloon}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_AncientShell": "{{i18n:{{ModId}}_GiftPennyAncientShell}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_RedCoral": "{{i18n:{{ModId}}_GiftEmilyRedCoral}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_MermaidPearl": "{{i18n:{{ModId}}_GiftElliottMermaidPearl}}",
+                "AcceptGift_(O){{ModId}}_AncientShell": "{{i18n:{{ModId}}_GiftElliottAncientShell}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n:{{ModId}}_GiftVincentRubberDuck}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n:{{ModId}}_GiftJasRubberDuck}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_Spooktopus": "{{i18n:{{ModId}}_GiftKrobusSpooktopus}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_PiratesDoubloon": "{{i18n:{{ModId}}_GiftClintPiratesDoubloon}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_Spooktopus": "{{i18n:{{ModId}}_GiftWizardSpooktopus}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sandy",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_PiratesDoubloon": "{{i18n:{{ModId}}_GiftSandyPiratesDoubloon}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_OrangeEel": "{{i18n:{{ModId}}_GiftLeahOrangeEel}}",
+                "AcceptGift_(O){{ModId}}_RedCoral": "{{i18n:{{ModId}}_GiftLeahRedCoral}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_RibbonEel": "{{i18n:{{ModId}}_GiftDemetriusRibbonEel}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_BrownEel": "{{i18n:{{ModId}}_GiftHarveyBrownEel}}"
             }
         },
         {
@@ -112,6 +219,256 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
+                        "Leo",
+                        1
+                    ],
+                    "Value": "{{ModId}}_RubberDuck",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leo",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Pufferjelly {{ModId}}_MahiMahi {{ModId}}_WhaleShark {{ModId}}_BlueDolphin {{ModId}}_SeaTurtle {{ModId}}_AppleSnail {{ModId}}_RibbonEel {{ModId}}_TreeSpiderCrab {{ModId}}_LeopardStingray {{ModId}}_Yellowtail",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Spooktopus",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Ghoulgill {{ModId}}_AncientShell {{ModId}}_BrownEel {{ModId}}_OrangeEel {{ModId}}_GreenEel {{ModId}}_MossyEel {{ModId}}_AlaskanKingSalmon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Abigail",
+                        1
+                    ],
+                    "Value": "{{ModId}}_PiratesDoubloon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Abigail",
+                        3
+                    ],
+                    "Value": "{{ModId}}_HammerheadShark {{ModId}}_Spooktopus {{ModId}}_JackOFish {{ModId}}_AncientShell {{ModId}}_Broombell",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Penny",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AncientShell",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Penny",
+                        3
+                    ],
+                    "Value": "{{ModId}}_SeaTurtle {{ModId}}_RedCoral {{ModId}}_PinkHermitCrab {{ModId}}_OrangeStarfish",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Emily",
+                        1
+                    ],
+                    "Value": "{{ModId}}_RedCoral",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Emily",
+                        3
+                    ],
+                    "Value": "{{ModId}}_PinkJellyfish {{ModId}}_FlameJellyfish {{ModId}}_Luckyfin {{ModId}}_Jollyfin {{ModId}}_BlueJellyfish",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Elliott",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AncientShell",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Elliott",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Marlin {{ModId}}_MahiMahi {{ModId}}_RedCoral {{ModId}}_Scallop {{ModId}}_AlaskanKingSalmon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        1
+                    ],
+                    "Value": "{{ModId}}_RubberDuck",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        3
+                    ],
+                    "Value": "{{ModId}}_GardenSnail {{ModId}}_AppleSnail {{ModId}}_PinkHermitCrab {{ModId}}_HermitCrab {{ModId}}_OrangeStarfish {{ModId}}_RedRockCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        1
+                    ],
+                    "Value": "{{ModId}}_RubberDuck",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        3
+                    ],
+                    "Value": "{{ModId}}_PinkHermitCrab {{ModId}}_PinkJellyfish {{ModId}}_GardenSnail {{ModId}}_AppleSnail {{ModId}}_OrangeStarfish",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AlaskanKingSalmon {{ModId}}_Scallop {{ModId}}_RedRockCrab {{ModId}}_GardenSnail",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Spooktopus",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_BlueJellyfish {{ModId}}_Ghoulgill {{ModId}}_AncientShell {{ModId}}_MossyEel {{ModId}}_PiratesDoubloon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Clint",
+                        1
+                    ],
+                    "Value": "{{ModId}}_PiratesDoubloon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Clint",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AncientShell {{ModId}}_RedRockCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Demetrius",
+                        3
+                    ],
+                    "Value": "{{ModId}}_BlueSpottedOctopus {{ModId}}_HumpheadWrasse {{ModId}}_RibbonEel {{ModId}}_PacificJellyfish {{ModId}}_TreeSpiderCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leah",
+                        1
+                    ],
+                    "Value": "{{ModId}}_RedCoral",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leah",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AncientShell {{ModId}}_OrangeEel {{ModId}}_Scallop {{ModId}}_OrangeStarfish",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Harvey",
+                        3
+                    ],
+                    "Value": "{{ModId}}_BrownEel {{ModId}}_AlaskanKingSalmon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
                         "Wizard",
                         1
                     ],
@@ -122,10 +479,170 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
+                        "Wizard",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Broombell {{ModId}}_Ghoulgill {{ModId}}_FlameJellyfish {{ModId}}_BlueJellyfish",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
                         "Sandy",
                         1
                     ],
                     "Value": "{{ModId}}_PiratesDoubloon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sandy",
+                        3
+                    ],
+                    "Value": "{{ModId}}_PinkJellyfish {{ModId}}_FlameJellyfish",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Alex",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AlaskanKingSalmon {{ModId}}_MahiMahi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sam",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Hookfin {{ModId}}_JackOFish",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jodi",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AlaskanKingSalmon {{ModId}}_Sprucefin {{ModId}}_Jollyfin",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Evelyn",
+                        3
+                    ],
+                    "Value": "{{ModId}}_MahiMahi {{ModId}}_GardenSnail {{ModId}}_PinkHermitCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Caroline",
+                        3
+                    ],
+                    "Value": "{{ModId}}_RedCoral {{ModId}}_GreenEel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AncientShell {{ModId}}_BlueSpottedOctopus",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shane",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AlaskanKingSalmon {{ModId}}_RedRockCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Gus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AlaskanKingSalmon {{ModId}}_MahiMahi {{ModId}}_Scallop",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pam",
+                        3
+                    ],
+                    "Value": "{{ModId}}_GardenSnail {{ModId}}_RedRockCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pierre",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AlaskanKingSalmon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Marnie",
+                        3
+                    ],
+                    "Value": "{{ModId}}_SeaTurtle {{ModId}}_PinkHermitCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Robin",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AncientShell {{ModId}}_RedRockCrab",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "George",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AlaskanKingSalmon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        3
+                    ],
+                    "Value": "{{ModId}}_PinkJellyfish {{ModId}}_PinkHermitCrab",
                     "Delimiter": " "
                 },
                 {
@@ -153,58 +670,6 @@
                         "Universal_Hate"
                     ],
                     "Value": "{{ModId}}_Spooktopus",
-                    "Delimiter": " "
-                }
-            ]
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Elliott",
-            "Entries": {
-                "AcceptGift_(O){{ModId}}_MermaidPearl": "{{i18n: {{ModId}}_GiftElliottMermaidPearl}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Leah",
-            "Entries": {
-                "AcceptGift_(O){{ModId}}_OrangeEel": "{{i18n: {{ModId}}_GiftLeahOrangeEel}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "AcceptGift_(O){{ModId}}_RibbonEel": "{{i18n: {{ModId}}_GiftDemetriusRibbonEel}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Harvey",
-            "Entries": {
-                "AcceptGift_(O){{ModId}}_BrownEel": "{{i18n: {{ModId}}_GiftHarveyBrownEel}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": ["Fields", "Leah", 3],
-                    "Value": "{{ModId}}_OrangeEel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": ["Fields", "Demetrius", 3],
-                    "Value": "{{ModId}}_RibbonEel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": ["Fields", "Harvey", 3],
-                    "Value": "{{ModId}}_BrownEel",
                     "Delimiter": " "
                 }
             ]

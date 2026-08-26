@@ -19,6 +19,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
+                        "item_asf_mermaidpearl",
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_spring",
@@ -41,6 +42,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
+                        "item_asf_mermaidtear",
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_spring",
@@ -61,8 +63,9 @@
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromRandomSale": false,
                     "ContextTags": [
+                        "item_asf_redcoral",
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_summer",
@@ -84,6 +87,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
+                        "item_asf_ancientshell",
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_spring",
@@ -106,6 +110,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
+                        "item_asf_piratesdoubloon",
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_summer",
@@ -127,6 +132,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
+                        "item_asf_lunarpearl",
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_spring",
@@ -149,10 +155,51 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
+                        "item_asf_rubberduck",
                         "fish_nonfish",
                         "fish_skip_minigame",
                         "season_spring",
                         "color_yellow"
+                    ]
+                },
+                "{{ModId}}_GoldenRubberDuck": {
+                    "Name": "{{ModId}}_GoldenRubberDuck",
+                    "DisplayName": "{{i18n:{{ModId}}_GoldenRubberDuck.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_GoldenRubberDuck.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 10000,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 7,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "item_asf_goldenrubberduck",
+                        "fish_nonfish",
+                        "color_yellow"
+                    ]
+                },
+                "{{ModId}}_PrismaticMermaidTear": {
+                    "Name": "{{ModId}}_PrismaticMermaidTear",
+                    "DisplayName": "{{i18n:{{ModId}}_PrismaticMermaidTear.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_PrismaticMermaidTear.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 25000,
+                    "Texture": "Mods/{{ModId}}/ObjectSprite",
+                    "SpriteIndex": 8,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "item_asf_prismaticmermaidtear",
+                        "fish_nonfish",
+                        "color_prismatic"
                     ]
                 }
             }

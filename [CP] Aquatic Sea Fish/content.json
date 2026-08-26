@@ -36,7 +36,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Events/mail.json, code/Events/quests.json, code/Events/triggers.json"
+            "FromFile": "code/Events/mail.json, code/Events/quests.json, code/Events/triggers.json, code/Events/orders.json"
         },
         {
             "Action": "Include",

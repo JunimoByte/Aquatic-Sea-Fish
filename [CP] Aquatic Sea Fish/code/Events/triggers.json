@@ -811,6 +811,30 @@
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyPirateCoveWinterLetter now"
                     ]
+                },
+                "{{ModId}}_RubberDuckWitness1_Trigger": {
+                    "Id": "{{ModId}}_RubberDuckWitness1_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_ITEM Current (O){{ModId}}_RubberDuck 3, !PLAYER_HAS_MAIL Current {{ModId}}_RubberDuckWitness1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_RubberDuckWitness1 now"
+                    ]
+                },
+                "{{ModId}}_RubberDuckWitness2_Trigger": {
+                    "Id": "{{ModId}}_RubberDuckWitness2_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_ITEM Current (O){{ModId}}_RubberDuck 10, PLAYER_HAS_MAIL Current {{ModId}}_RubberDuckWitness1, !PLAYER_HAS_MAIL Current {{ModId}}_RubberDuckWitness2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_RubberDuckWitness2 now"
+                    ]
+                },
+                "{{ModId}}_GoldenDuckReward_Trigger": {
+                    "Id": "{{ModId}}_GoldenDuckReward_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_RubberDuckWitness2, RANDOM 0.2, !PLAYER_HAS_MAIL Current {{ModId}}_GoldenDuckReward",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GoldenDuckReward now"
+                    ]
                 }
             }
         }

@@ -1,33 +1,31 @@
-# Aquatic Sea Fish - Developer Guide
+# Developer Guide
 
-Welcome to the development documentation for Aquatic Sea Fish (ASF). This guide is intended for modders who want to understand the project structure, contribute, add compatibility, or maintain my mod if I left one day.
+A quick reference for navigating the codebase, adding compatibility patches, and contributing to Aquatic Sea Fish (ASF).
 
 ## Project Structure
 
-The mod is organized into the following directories:
-
--   **assets**: Contains all graphical assets (spritesheets, portraits, etc.).
--   **code**: The core logic, split into submodules:
-    -   `Fish`: Definitions for new fish and their behaviors.
-    -   `NPCs`: Dialogue and gift taste changes.
-    -   `Events`: Quests, mail, and event triggers.
-    -   `LocalTokens`: Grouped LocalTokens for fish/object placement.
-    -   `Other`: Miscellaneous items like configuration or tailoring recipes.
-    -   `Compat`: Compatibility patches for other mods.
--   **docs**: Documentation files (you are here).
--   **i18n**: Translation files for localization.
+- `assets/` — Texture files and spritesheets (`FishSprite.png`, `AquariumSprite.png`, `ObjectSprite.png`).
+- `code/`
+  - `Fish/` — Core fish definitions (`fish.json`, `behavior.json`, `pond.json`, `aquarium.json`, `locations.json`).
+  - `Events/` — Mail, quests, and trigger actions (`mail.json`, `quests.json`, `triggers.json`).
+  - `NPCs/` — Gift tastes and catch dialogue (`dialogue.json`, `gifts.json`).
+  - `LocalTokens/` — Reusable local token presets for modular location spawning.
+  - `Other/` — Config schemas and tailoring recipes (`config.json`, `tailoring.json`).
+  - `Compat/` — Compatibility patches and save migration data.
+- `i18n/` — Translation files (`default.json`).
+- `docs/` — Developer documentation and reference material.
 
 ## Adding Compatibility
 
-To add compatibility with another mod:
-1.  Check `code/Compat` for existing examples.
-2.  Use Content Patcher's `EditData` or `Include` actions based on the `HasMod` condition.
-3.  Ensure any new assets are placed in `assets` and referenced correctly.
+When adding support for new locations or custom NPCs from other mods:
+1. Create a dedicated subfolder under `code/Compat/Mods/<ModName>/`.
+2. Register the include in `code/Compat/index.json` guarded by a `"HasMod": "<ModUniqueID>"` condition.
+3. Reuse the presets in `code/LocalTokens/` to keep location spawns modular and consistent.
+4. Place any new dialogue or quest text into `i18n/default.json`.
 
-## Contribution
+## Contributing
 
-If you wish to contribute:
--   Ensure JSON is valid.
--   Add localization strings to `i18n/default.json`.
--   Read the other documentation files to understand the project structure.
--   Send me a message for me to verify your changes and accept the request, otherwise, I will not accept the request.
+- Keep JSON formatting clean and valid.
+- Route all user-facing text (item names, descriptions, letters, dialogue, quests) through `i18n/default.json`.
+- Follow the established `{{ModId}}_<Name>` ID naming conventions.
+- Test changes with SMAPI to ensure no missing assets, broken tokens, or patch errors.
