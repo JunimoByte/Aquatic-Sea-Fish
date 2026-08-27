@@ -44,7 +44,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Other/config.json, code/Other/tailoring.json"
+            "FromFile": "code/Other/config.json, code/Other/tailoring.json, code/Other/garbage.json"
         },
         {
             "Action": "Include",

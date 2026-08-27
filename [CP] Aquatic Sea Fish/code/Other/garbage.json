@@ -1,0 +1,146 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [
+                "GarbageCans",
+                "Saloon",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Saloon_Scallop": {
+                    "Id": "{{ModId}}_Saloon_Scallop",
+                    "Condition": "RANDOM 0.06",
+                    "ItemId": "(O){{ModId}}_Scallop"
+                },
+                "{{ModId}}_Saloon_RedRockCrab": {
+                    "Id": "{{ModId}}_Saloon_RedRockCrab",
+                    "Condition": "RANDOM 0.04",
+                    "ItemId": "(O){{ModId}}_RedRockCrab"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [
+                "GarbageCans",
+                "Evelyn",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Evelyn_GardenSnail": {
+                    "Id": "{{ModId}}_Evelyn_GardenSnail",
+                    "Condition": "RANDOM 0.05",
+                    "ItemId": "(O){{ModId}}_GardenSnail"
+                },
+                "{{ModId}}_Evelyn_Scallop": {
+                    "Id": "{{ModId}}_Evelyn_Scallop",
+                    "Condition": "RANDOM 0.04",
+                    "ItemId": "(O){{ModId}}_Scallop"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [
+                "GarbageCans",
+                "JodiAndKent",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Jodi_HermitCrab": {
+                    "Id": "{{ModId}}_Jodi_HermitCrab",
+                    "Condition": "RANDOM 0.05",
+                    "ItemId": "(O){{ModId}}_HermitCrab"
+                },
+                "{{ModId}}_Jodi_OrangeStarfish": {
+                    "Id": "{{ModId}}_Jodi_OrangeStarfish",
+                    "Condition": "RANDOM 0.04",
+                    "ItemId": "(O){{ModId}}_OrangeStarfish"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [
+                "GarbageCans",
+                "EmilyAndHaley",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Emily_OrangeStarfish": {
+                    "Id": "{{ModId}}_Emily_OrangeStarfish",
+                    "Condition": "RANDOM 0.05",
+                    "ItemId": "(O){{ModId}}_OrangeStarfish"
+                },
+                "{{ModId}}_Emily_AncientShell": {
+                    "Id": "{{ModId}}_Emily_AncientShell",
+                    "Condition": "RANDOM 0.04",
+                    "ItemId": "(O){{ModId}}_AncientShell"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [
+                "GarbageCans",
+                "Museum",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Museum_AncientShell": {
+                    "Id": "{{ModId}}_Museum_AncientShell",
+                    "Condition": "RANDOM 0.05",
+                    "ItemId": "(O){{ModId}}_AncientShell"
+                },
+                "{{ModId}}_Museum_PiratesDoubloon": {
+                    "Id": "{{ModId}}_Museum_PiratesDoubloon",
+                    "Condition": "RANDOM 0.03",
+                    "ItemId": "(O){{ModId}}_PiratesDoubloon"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [
+                "GarbageCans",
+                "Blacksmith",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Blacksmith_PiratesDoubloon": {
+                    "Id": "{{ModId}}_Blacksmith_PiratesDoubloon",
+                    "Condition": "RANDOM 0.04",
+                    "ItemId": "(O){{ModId}}_PiratesDoubloon"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [
+                "GarbageCans",
+                "JojaMart",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Joja_Scallop": {
+                    "Id": "{{ModId}}_Joja_Scallop",
+                    "Condition": "RANDOM 0.05",
+                    "ItemId": "(O){{ModId}}_Scallop"
+                },
+                "{{ModId}}_Joja_BrownEel": {
+                    "Id": "{{ModId}}_Joja_BrownEel",
+                    "Condition": "RANDOM 0.03",
+                    "ItemId": "(O){{ModId}}_BrownEel"
+                }
+            }
+        }
+    ]
+}

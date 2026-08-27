@@ -9,17 +9,17 @@
 - **LucyTheDove**
   - Apple Snail, Brown Eel, Flame Jellyfish, Garden Snail, Green Eel, Hermit Crab, Mossy Eel, Orange Eel, Orange Starfish, Pacific Jellyfish, Pink Hermit Crab, Pink Jellyfish, Red Rock Crab, Ribbon Eel, Scallop, Spooktopus, Tree Spider Crab
 - **flor3nce2456**
-  - Blue Jellyfish, Blue-Spotted Octopus, Sea Turtle
+  - Blue Jellyfish, Blue-Spotted Octopus, Sea Turtle, Mahi Mahi (base)
 - **gainem**
-  - Hammerhead Shark, Leopard Stingray, Mahi Mahi, Marlin *(refinement & polish)*
+  - Hammerhead Shark, Leopard Stingray, Mahi Mahi (refining), Marlin (refining)
 - **cheshire (midnight.nymph)**
-  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Jollyfin, Lemon Shark, Luckyfin, Marlin *(base shape & detailing)*, Redpuff, Santafish, Sprucefin [16x16], Whale Shark, Yellowtail
+  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Mahi Mahi (detailing), Jollyfin, Lemon Shark, Luckyfin, Marlin (base shape), Redpuff, Santafish, Sprucefin [16x16], Whale Shark
 - **FallSpice**
   - Ghoulgill [24x24], Gingerfin [24x24], Sprucefin [24x24]
 - **Calart**
-  - Blue Dolphin, Hookfin, Humphead Wrasse
+  - Blue Dolphin, Hookfin (2026), Humphead Wrasse (July 2026), Lemon Shark (minor refinement), Yellowtail (Scheduled: October 2026)
 - **orcabaryonyx**
-  - Alaskan King Salmon
+  - Alaskan King Salmon (2026)
 - **zaphhy**
   - Pufferjelly
 
@@ -28,8 +28,9 @@
 ### Past Art Contributions
 *(Sprites from earlier iterations of the mod)*
 
-- **luminte** — Humphead Wrasse (March 2026)
-- **LucyTheDove** — Alaskan King Salmon (2025), Hookfin (2025)
+- **luminte**: Humphead Wrasse (May 2026)
+- **cackling.caracal**: Yellowtail (February 2026)
+- **LucyTheDove**: Alaskan King Salmon (2025), Hookfin (2025)
 
 ---
 
