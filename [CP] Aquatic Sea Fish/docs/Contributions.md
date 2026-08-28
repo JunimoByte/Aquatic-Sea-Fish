@@ -11,13 +11,13 @@
 - **flor3nce2456**
   - Blue Jellyfish, Blue-Spotted Octopus, Sea Turtle
 - **gainem**
-  - Hammerhead Shark, Leopard Stingray, Mahi Mahi (refining), Marlin (refining)
+  - Hammerhead Shark, Leopard Stingray, Mahi Mahi (edit), Marlin (edit)
 - **cheshire (midnight.nymph)**
-  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Mahi Mahi (base), Jollyfin, Lemon Shark, Luckyfin, Marlin (base shape), Redpuff, Santafish, Sprucefin [16x16], Whale Shark
+  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Mahi Mahi, Jollyfin, Lemon Shark, Luckyfin, Marlin, Redpuff, Santafish, Sprucefin [16x16], Whale Shark
 - **FallSpice**
   - Ghoulgill [24x24], Gingerfin [24x24], Sprucefin [24x24]
 - **Calart**
-  - Blue Dolphin, Hookfin (2026), Humphead Wrasse (July 2026), Lemon Shark (minor refinement), Yellowtail (Scheduled: October 2026)
+  - Blue Dolphin, Hookfin (2026), Humphead Wrasse (July 2026), Lemon Shark (edit), Yellowtail (Scheduled: October 2026)
 - **orcabaryonyx**
   - Alaskan King Salmon (2026)
 - **zaphhy**
