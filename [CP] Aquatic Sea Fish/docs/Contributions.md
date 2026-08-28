@@ -9,11 +9,11 @@
 - **LucyTheDove**
   - Apple Snail, Brown Eel, Flame Jellyfish, Garden Snail, Green Eel, Hermit Crab, Mossy Eel, Orange Eel, Orange Starfish, Pacific Jellyfish, Pink Hermit Crab, Pink Jellyfish, Red Rock Crab, Ribbon Eel, Scallop, Spooktopus, Tree Spider Crab
 - **flor3nce2456**
-  - Blue Jellyfish, Blue-Spotted Octopus, Sea Turtle, Mahi Mahi (base)
+  - Blue Jellyfish, Blue-Spotted Octopus, Sea Turtle
 - **gainem**
   - Hammerhead Shark, Leopard Stingray, Mahi Mahi (refining), Marlin (refining)
 - **cheshire (midnight.nymph)**
-  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Mahi Mahi (detailing), Jollyfin, Lemon Shark, Luckyfin, Marlin (base shape), Redpuff, Santafish, Sprucefin [16x16], Whale Shark
+  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Mahi Mahi (base), Jollyfin, Lemon Shark, Luckyfin, Marlin (base shape), Redpuff, Santafish, Sprucefin [16x16], Whale Shark
 - **FallSpice**
   - Ghoulgill [24x24], Gingerfin [24x24], Sprucefin [24x24]
 - **Calart**
