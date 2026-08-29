@@ -2,7 +2,10 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Mods/TillyTea/Data/mail.json, code/Compat/Mods/TillyTea/Data/quests.json, code/Compat/Mods/TillyTea/Data/triggers.json"
+            "FromFile": "code/Compat/Mods/TillyTea/Data/mail.json, code/Compat/Mods/TillyTea/Data/quests.json, code/Compat/Mods/TillyTea/Data/triggers.json",
+            "When": {
+                "Quests": "Default"
+            }
         }
     ]
 }

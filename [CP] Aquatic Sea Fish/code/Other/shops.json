@@ -1,0 +1,78 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Traveler",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Traveler_PiratesDoubloon": {
+                    "Id": "{{ModId}}_Traveler_PiratesDoubloon",
+                    "ItemId": "(O){{ModId}}_PiratesDoubloon",
+                    "Price": 5000,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.20"
+                },
+                "{{ModId}}_Traveler_MermaidPearl": {
+                    "Id": "{{ModId}}_Traveler_MermaidPearl",
+                    "ItemId": "(O){{ModId}}_MermaidPearl",
+                    "Price": 10000,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.10"
+                },
+                "{{ModId}}_Traveler_Gingerfin": {
+                    "Id": "{{ModId}}_Traveler_Gingerfin",
+                    "ItemId": "(O){{ModId}}_Gingerfin",
+                    "Price": 1800,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.20"
+                },
+                "{{ModId}}_Traveler_Jollyfin": {
+                    "Id": "{{ModId}}_Traveler_Jollyfin",
+                    "ItemId": "(O){{ModId}}_Jollyfin",
+                    "Price": 1500,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.10"
+                },
+                "{{ModId}}_Traveler_Redpuff": {
+                    "Id": "{{ModId}}_Traveler_Redpuff",
+                    "ItemId": "(O){{ModId}}_Redpuff",
+                    "Price": 3000,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.10"
+                },
+                "{{ModId}}_Traveler_Sprucefin": {
+                    "Id": "{{ModId}}_Traveler_Sprucefin",
+                    "ItemId": "(O){{ModId}}_Sprucefin",
+                    "Price": 1500,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.10"
+                },
+                "{{ModId}}_Traveler_Santafish": {
+                    "Id": "{{ModId}}_Traveler_Santafish",
+                    "ItemId": "(O){{ModId}}_Santafish",
+                    "Price": 6000,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.05"
+                },
+                "{{ModId}}_Traveler_Hookfin": {
+                    "Id": "{{ModId}}_Traveler_Hookfin",
+                    "ItemId": "(O){{ModId}}_Hookfin",
+                    "Price": 4500,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.02"
+                }
+            }
+        }
+    ]
+}

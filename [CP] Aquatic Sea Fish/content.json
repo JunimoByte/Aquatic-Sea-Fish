@@ -2,11 +2,19 @@
     "Format": "2.8.0",
     "ConfigSchema": {
         "Fish Difficulty": {
-            "AllowValues": "Default, Relaxed",
+            "AllowValues": "Default, Relaxed, Hardcore",
             "Default": "Default"
         },
         "Protected Edibility": {
-            "AllowValues": "Default, Enabled",
+            "AllowValues": "Default, Wildlife Protection, Maximum Protection",
+            "Default": "Default"
+        },
+        "Quests": {
+            "AllowValues": "Default, Reduced",
+            "Default": "Default"
+        },
+        "Mail": {
+            "AllowValues": "Default, Reduced",
             "Default": "Default"
         }
     },
@@ -36,7 +44,11 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Events/mail.json, code/Events/quests.json, code/Events/triggers.json, code/Events/orders.json"
+            "FromFile": "code/Events/orders.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/Events/mail.json, code/Events/quests.json, code/Events/triggers.json"
         },
         {
             "Action": "Include",
@@ -44,7 +56,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Other/config.json, code/Other/tailoring.json, code/Other/garbage.json"
+            "FromFile": "code/Other/config.json, code/Other/tailoring.json, code/Other/garbage.json, code/Other/shops.json"
         },
         {
             "Action": "Include",

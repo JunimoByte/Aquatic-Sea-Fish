@@ -2,7 +2,10 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Mods/AikawaAsakai/Data/mail.json, code/Compat/Mods/AikawaAsakai/Data/quests.json, code/Compat/Mods/AikawaAsakai/Data/triggers.json"
+            "FromFile": "code/Compat/Mods/AikawaAsakai/Data/mail.json, code/Compat/Mods/AikawaAsakai/Data/quests.json, code/Compat/Mods/AikawaAsakai/Data/triggers.json",
+            "When": {
+                "Quests": "Default"
+            }
         }
     ]
 }

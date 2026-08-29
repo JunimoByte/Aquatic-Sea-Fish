@@ -11,9 +11,9 @@
 - **flor3nce2456**
   - Blue Jellyfish, Blue-Spotted Octopus, Sea Turtle
 - **gainem**
-  - Hammerhead Shark, Leopard Stingray, Mahi Mahi (edit), Marlin (edit)
+  - Hammerhead Shark, Leopard Stingray, Mahi Mahi, Marlin (edit)
 - **cheshire (midnight.nymph)**
-  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Mahi Mahi, Jollyfin, Lemon Shark, Luckyfin, Marlin, Redpuff, Santafish, Sprucefin [16x16], Whale Shark
+  - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Jollyfin, Lemon Shark, Luckyfin, Marlin, Redpuff, Santafish, Sprucefin [16x16], Whale Shark
 - **FallSpice**
   - Ghoulgill [24x24], Gingerfin [24x24], Sprucefin [24x24]
 - **Calart**

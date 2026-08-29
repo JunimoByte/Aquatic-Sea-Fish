@@ -2,15 +2,24 @@
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Mods/RSV/Data/quests.json"
+            "FromFile": "code/Compat/Mods/RSV/Data/quests.json",
+            "When": {
+                "Quests": "Default"
+            }
         },
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Mods/RSV/Data/mail.json"
+            "FromFile": "code/Compat/Mods/RSV/Data/mail.json",
+            "When": {
+                "Quests": "Default"
+            }
         },
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Mods/RSV/Data/triggers.json"
+            "FromFile": "code/Compat/Mods/RSV/Data/triggers.json",
+            "When": {
+                "Quests": "Default"
+            }
         }
     ]
 }

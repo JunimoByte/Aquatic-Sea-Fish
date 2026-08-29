@@ -26,7 +26,10 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Mods/EastScarp/Data/mail.json, code/Compat/Mods/EastScarp/Data/quests.json, code/Compat/Mods/EastScarp/Data/triggers.json"
+            "FromFile": "code/Compat/Mods/EastScarp/Data/mail.json, code/Compat/Mods/EastScarp/Data/quests.json, code/Compat/Mods/EastScarp/Data/triggers.json",
+            "When": {
+                "Quests": "Default"
+            }
         }
     ]
 }

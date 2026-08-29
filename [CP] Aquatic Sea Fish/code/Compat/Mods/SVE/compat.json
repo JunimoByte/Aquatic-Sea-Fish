@@ -26,7 +26,10 @@
         },
         {
             "Action": "Include",
-            "FromFile": "code/Compat/Mods/SVE/Data/mail.json, code/Compat/Mods/SVE/Data/quests.json, code/Compat/Mods/SVE/Data/triggers.json"
+            "FromFile": "code/Compat/Mods/SVE/Data/mail.json, code/Compat/Mods/SVE/Data/quests.json, code/Compat/Mods/SVE/Data/triggers.json",
+            "When": {
+                "Quests": "Default"
+            }
         }
     ]
 }

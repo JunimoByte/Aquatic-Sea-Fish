@@ -4,7 +4,7 @@
             "Action": "Include",
             "FromFile": "code/LocalTokens/Objects/duck.json",
             "LocalTokens": {
-                "TargetName": "otohime.AV_AxolotlTown",
+                "TargetName": "otohime.CT_CottoncloudPark",
                 "AreaId": "DuckPond"
             }
         }
