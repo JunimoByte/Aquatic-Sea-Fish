@@ -22,8 +22,7 @@ Fish are registered in `Data/Objects` using Stardew Valley 1.6 object data schem
   "ContextTags": [
     "season_spring",
     "season_summer",
-    "fish_ocean",
-    "fish_carnivorous"
+    "fish_ocean"
   ]
 }
 ```
