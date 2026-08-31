@@ -452,9 +452,9 @@
                         {
                             "Type": "Ship",
                             "Text": "{{i18n:{{ModId}}_SpecialOrder_WillySmokehouse_Objective}}",
-                            "RequiredCount": "5",
+                            "RequiredCount": "20",
                             "Data": {
-                                "AcceptedContextTags": "smoked_fish, fish_ocean"
+                                "AcceptedContextTags": "fish_ocean"
                             }
                         }
                     ],
