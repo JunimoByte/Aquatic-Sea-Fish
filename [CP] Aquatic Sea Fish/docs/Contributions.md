@@ -15,9 +15,9 @@
 - **cheshire (midnight.nymph)**
   - Broombell, Ghoulgill [16x16], Gingerfin [16x16], Jack O' Fish, Jollyfin, Lemon Shark [16x16], Luckyfin, Marlin [16x16], Redpuff, Santafish [16x16], Sprucefin [16x16], Whale Shark
 - **FallSpice**
-  - Ghoulgill [24x24], Gingerfin [24x24], Sprucefin [24x24]
+  - Ghoulgill [24x24], Gingerfin [24x24], Sprucefin [24x24], Yellowtail [16x16] (edit, october 2026), Yellowtail [24x24]
 - **Calart**
-  - Blue Dolphin, Hookfin (2026), Humphead Wrasse (July 2026), Lemon Shark [16x16] (edit), Santafish [24x24], Yellowtail (Scheduled: October 2026)
+  - Blue Dolphin, Hookfin (2026), Humphead Wrasse (July 2026), Lemon Shark [16x16] (edit), Lemon Shark [24x24], Santafish [24x24], Yellowtail [16x16] (October 2026)
 - **orcabaryonyx**
   - Alaskan King Salmon [16x16] (2026)
 - **nassilove**
