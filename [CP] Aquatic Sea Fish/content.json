@@ -10,7 +10,7 @@
             "Default": "Default"
         },
         "Quests": {
-            "AllowValues": "Default, Reduced",
+            "AllowValues": "Default, Reduced, Minimal",
             "Default": "Default"
         },
         "Mail": {

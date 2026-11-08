@@ -4,6 +4,71 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
+                "{{ModId}}_QuestPennySeaTurtle_Trigger": {
+                    "Id": "{{ModId}}_QuestPennySeaTurtle_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Trailer Trailer_Big, SEASON Spring Summer, WEATHER Here GreenRain Storm Rain, PLAYER_HEARTS Current Penny 4, !PLAYER_HAS_MAIL Current {{ModId}}_QuestPennySeaTurtleLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_QuestPennySeaTurtleLetter tomorrow"
+                    ]
+                },
+                "{{ModId}}_QuestWillyMarlin_Trigger": {
+                    "Id": "{{ModId}}_QuestWillyMarlin_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here FishShop, SEASON Spring Summer, PLAYER_BASE_FISHING_LEVEL Current 5, DAY_OF_MONTH odd, DAY_OF_WEEK Friday Saturday Sunday, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyMarlinLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_QuestWillyMarlinLetter tomorrow"
+                    ]
+                },
+                "{{ModId}}_QuestWillyHunterOfTheTides_Trigger": {
+                    "Id": "{{ModId}}_QuestWillyHunterOfTheTides_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Spring Summer, PLAYER_HEARTS Current Willy 8, WEATHER Here Sun, TIME 600 800, PLAYER_BASE_FISHING_LEVEL Current 8, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyHunterOfTheTidesLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_QuestWillyHunterOfTheTidesLetter tomorrow"
+                    ]
+                },
+                "{{ModId}}_QuestWizardSpectralGhoulgill_Trigger": {
+                    "Id": "{{ModId}}_QuestWizardSpectralGhoulgill_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "SEASON Fall, LOCATION_NAME Here WizardHouse, PLAYER_BASE_FISHING_LEVEL Current 3, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWizardSpectralGhoulgillLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_QuestWizardSpectralGhoulgillLetter tomorrow"
+                    ]
+                },
+                "{{ModId}}_QuestJasPinkFairyCrab_Trigger": {
+                    "Id": "{{ModId}}_QuestJasPinkFairyCrab_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here AnimalShop Forest, PLAYER_HEARTS Current Jas 2, SEASON Spring, WEATHER Here Sun, !PLAYER_HAS_MAIL Current {{ModId}}_QuestJasPinkFairyCrabLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_QuestJasPinkFairyCrabLetter tomorrow"
+                    ]
+                },
+                "{{ModId}}_QuestLinusShorelineVisitor_Trigger": {
+                    "Id": "{{ModId}}_QuestLinusShorelineVisitor_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Beach, SEASON Fall, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_OrangeStarfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestLinusShorelineVisitorLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_QuestLinusShorelineVisitorLetter tomorrow"
+                    ]
+                },
+                "{{ModId}}_QuestClintPiratesDoubloon_Trigger": {
+                    "Id": "{{ModId}}_QuestClintPiratesDoubloon_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "LOCATION_NAME Here Blacksmith, PLAYER_HEARTS Current Clint 2, RANDOM 0.2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PiratesDoubloon, !PLAYER_HAS_MAIL Current {{ModId}}_QuestClintPiratesDoubloonLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_QuestClintPiratesDoubloonLetter tomorrow"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "Quests": "Default, Reduced"
+            },
+            "Entries": {
                 "{{ModId}}_QuestWillyGoldenMahiMahiLetter_Trigger": {
                     "Id": "{{ModId}}_QuestWillyGoldenMahiMahiLetter_Trigger",
                     "Trigger": "LocationChanged",
@@ -18,14 +83,6 @@
                     "Condition": "SEASON Fall, LOCATION_NAME Here Beach, PLAYER_BASE_FISHING_LEVEL Current 7, DAY_OF_MONTH 18 20 22 24, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyJackOFishLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyJackOFishLetter tomorrow"
-                    ]
-                },
-                "{{ModId}}_QuestWillyMarlin_Trigger": {
-                    "Id": "{{ModId}}_QuestWillyMarlin_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here FishShop, SEASON Spring Summer, PLAYER_BASE_FISHING_LEVEL Current 5, DAY_OF_MONTH odd, DAY_OF_WEEK Friday Saturday Sunday, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyMarlinLetter",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyMarlinLetter tomorrow"
                     ]
                 },
                 "{{ModId}}_QuestWillyTearsOfTheSea_Trigger": {
@@ -44,28 +101,12 @@
                         "AddMail Current {{ModId}}_QuestWillyTearsOfTheSeaIILetter tomorrow"
                     ]
                 },
-                "{{ModId}}_QuestWizardSpectralGhoulgill_Trigger": {
-                    "Id": "{{ModId}}_QuestWizardSpectralGhoulgill_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "SEASON Fall, LOCATION_NAME Here WizardHouse, PLAYER_BASE_FISHING_LEVEL Current 3, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWizardSpectralGhoulgillLetter",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_QuestWizardSpectralGhoulgillLetter tomorrow"
-                    ]
-                },
                 "{{ModId}}_QuestWillyRadiantDeep_Trigger": {
                     "Id": "{{ModId}}_QuestWillyRadiantDeep_Trigger",
                     "Trigger": "DayStarted",
                     "Condition": "RANDOM 0.1, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PinkJellyfish, PLAYER_HEARTS Current Willy 4, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyRadiantDeepLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestWillyRadiantDeepLetter now"
-                    ]
-                },
-                "{{ModId}}_QuestWillyHunterOfTheTides_Trigger": {
-                    "Id": "{{ModId}}_QuestWillyHunterOfTheTides_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here Beach, SEASON Spring Summer, PLAYER_HEARTS Current Willy 8, WEATHER Here Sun, TIME 600 800, PLAYER_BASE_FISHING_LEVEL Current 8, !PLAYER_HAS_MAIL Current {{ModId}}_QuestWillyHunterOfTheTidesLetter",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_QuestWillyHunterOfTheTidesLetter tomorrow"
                     ]
                 },
                 "{{ModId}}_QuestWillyTheGreenShadow_Trigger": {
@@ -124,22 +165,6 @@
                         "AddMail Current {{ModId}}_QuestWizardMidnightSpecterLetter tomorrow"
                     ]
                 },
-                "{{ModId}}_QuestLinusShorelineVisitor_Trigger": {
-                    "Id": "{{ModId}}_QuestLinusShorelineVisitor_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here Beach, SEASON Fall, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_OrangeStarfish, !PLAYER_HAS_MAIL Current {{ModId}}_QuestLinusShorelineVisitorLetter",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_QuestLinusShorelineVisitorLetter tomorrow"
-                    ]
-                },
-                "{{ModId}}_QuestPennySeaTurtle_Trigger": {
-                    "Id": "{{ModId}}_QuestPennySeaTurtle_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here Trailer Trailer_Big, SEASON Spring Summer, WEATHER Here GreenRain Storm Rain, PLAYER_HEARTS Current Penny 4, !PLAYER_HAS_MAIL Current {{ModId}}_QuestPennySeaTurtleLetter",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_QuestPennySeaTurtleLetter tomorrow"
-                    ]
-                },
                 "{{ModId}}_QuestDemetriusGapInTheData_Trigger": {
                     "Id": "{{ModId}}_QuestDemetriusGapInTheData_Trigger",
                     "Trigger": "LocationChanged",
@@ -164,28 +189,12 @@
                         "AddMail Current {{ModId}}_QuestRobinAncientShellLetter tomorrow"
                     ]
                 },
-                "{{ModId}}_QuestJasPinkFairyCrab_Trigger": {
-                    "Id": "{{ModId}}_QuestJasPinkFairyCrab_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here AnimalShop Forest, PLAYER_HEARTS Current Jas 2, SEASON Spring, WEATHER Here Sun, !PLAYER_HAS_MAIL Current {{ModId}}_QuestJasPinkFairyCrabLetter",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_QuestJasPinkFairyCrabLetter tomorrow"
-                    ]
-                },
                 "{{ModId}}_QuestKrobusBlueJellyfish_Trigger": {
                     "Id": "{{ModId}}_QuestKrobusBlueJellyfish_Trigger",
                     "Trigger": "LocationChanged",
                     "Condition": "LOCATION_NAME Here Sewer, PLAYER_HEARTS Current Krobus 2, RANDOM 0.25, !PLAYER_HAS_MAIL Current {{ModId}}_QuestKrobusBlueJellyfishLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_QuestKrobusBlueJellyfishLetter tomorrow"
-                    ]
-                },
-                "{{ModId}}_QuestClintPiratesDoubloon_Trigger": {
-                    "Id": "{{ModId}}_QuestClintPiratesDoubloon_Trigger",
-                    "Trigger": "LocationChanged",
-                    "Condition": "LOCATION_NAME Here Blacksmith, PLAYER_HEARTS Current Clint 2, RANDOM 0.2, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PiratesDoubloon, !PLAYER_HAS_MAIL Current {{ModId}}_QuestClintPiratesDoubloonLetter",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_QuestClintPiratesDoubloonLetter tomorrow"
                     ]
                 },
                 "{{ModId}}_QuestKrobusGhostShipLetter_Trigger": {
