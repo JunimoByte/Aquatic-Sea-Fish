@@ -16,6 +16,10 @@
         "Mail": {
             "AllowValues": "Default, Reduced",
             "Default": "Default"
+        },
+        "Perfection": {
+            "AllowValues": "Default, Disabled",
+            "Default": "Default"
         }
     },
     "Changes": [

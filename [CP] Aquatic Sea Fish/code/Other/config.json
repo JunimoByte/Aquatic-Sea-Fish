@@ -219,6 +219,216 @@
                     "Edibility": -300
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Perfection": "Disabled"
+            },
+            "Fields": {
+                "{{ModId}}_SeaTurtle": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_BlueSpottedOctopus": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Marlin": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_GardenSnail": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_RedRockCrab": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_HermitCrab": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_PinkHermitCrab": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_OrangeStarfish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Scallop": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_AlaskanKingSalmon": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Spooktopus": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_PinkJellyfish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_BlueJellyfish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_HammerheadShark": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_BrownEel": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_MahiMahi": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_LeopardStingray": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_RibbonEel": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_GreenEel": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_OrangeEel": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Hookfin": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_PacificJellyfish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_FlameJellyfish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Ghoulgill": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Broombell": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_JackOFish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Sprucefin": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Jollyfin": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Redpuff": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Gingerfin": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Pufferjelly": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_AppleSnail": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_TreeSpiderCrab": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Yellowtail": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_MossyEel": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_HumpheadWrasse": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Luckyfin": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_WhaleShark": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Santafish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_LemonShark": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_BlueDolphin": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_MermaidPearl": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_MermaidTear": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_RedCoral": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_AncientShell": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_PiratesDoubloon": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_LunarPearl": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_RubberDuck": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_GoldenRubberDuck": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_PrismaticMermaidTear": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                }
+            }
         }
     ]
 }
+
