@@ -87,6 +87,11 @@
                     "Id": "{{ModId}}_BlueDolphin",
                     "ItemId": "(O){{ModId}}_BlueDolphin",
                     "Condition": "LOCATION_Season Here Summer"
+                },
+                "{{ModId}}_MagmaSunburst": {
+                    "Id": "{{ModId}}_MagmaSunburst",
+                    "ItemId": "(O){{ModId}}_MagmaSunburst",
+                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here Sun"
                 }
             }
         },
@@ -147,6 +152,9 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModId}}_BlueDolphin": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_MagmaSunburst": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

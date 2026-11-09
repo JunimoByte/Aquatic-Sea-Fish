@@ -51,7 +51,9 @@
                 "AcceptGift_(O){{ModId}}_AncientShell": "{{i18n:{{ModId}}_GiftWillyAncientShell}}",
                 "AcceptGift_(O){{ModId}}_PiratesDoubloon": "{{i18n:{{ModId}}_GiftWillyPiratesDoubloon}}",
                 "AcceptGift_(O){{ModId}}_LunarPearl": "{{i18n:{{ModId}}_GiftWillyLunarPearl}}",
-                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n:{{ModId}}_GiftWillyRubberDuck}}"
+                "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n:{{ModId}}_GiftWillyRubberDuck}}",
+                "AcceptGift_(O){{ModId}}_MagmaSunburst": "{{i18n:{{ModId}}_GiftWillyMagmaSunburst}}",
+                "AcceptGift_(O){{ModId}}_HauntedDollfish": "{{i18n:{{ModId}}_GiftWillyHauntedDollfish}}"
             }
         },
         {
@@ -172,7 +174,7 @@
                         "Willy",
                         1
                     ],
-                    "Value": "{{ModId}}_BlueDolphin {{ModId}}_LemonShark {{ModId}}_Santafish {{ModId}}_WhaleShark {{ModId}}_Pufferjelly {{ModId}}_JackOFish {{ModId}}_Marlin {{ModId}}_MahiMahi {{ModId}}_HammerheadShark {{ModId}}_PiratesDoubloon {{ModId}}_HumpheadWrasse {{ModId}}_RubberDuck",
+                    "Value": "{{ModId}}_BlueDolphin {{ModId}}_LemonShark {{ModId}}_Santafish {{ModId}}_WhaleShark {{ModId}}_Pufferjelly {{ModId}}_JackOFish {{ModId}}_Marlin {{ModId}}_MahiMahi {{ModId}}_HammerheadShark {{ModId}}_PiratesDoubloon {{ModId}}_HumpheadWrasse {{ModId}}_RubberDuck {{ModId}}_MagmaSunburst {{ModId}}_HauntedDollfish",
                     "Delimiter": " "
                 },
                 {

@@ -447,5 +447,13 @@
     "LucyTheDove.ASF_SpecialOrder_QiPopulationControl_Name": "Island Pest Control",
     "LucyTheDove.ASF_SpecialOrder_QiPopulationControl_Text": "The Apple Snails and Tree Spider Crabs are multiplying a bit too fast on the island. Think you can handle a little pest control, kid? Catch 15 of each over the next two weeks, and you'll find some Qi Gems in your pocket.^^- Mr. Qi",
     "LucyTheDove.ASF_SpecialOrder_QiPopulationControl_Objective_0": "Catch 15 Apple Snails.",
-    "LucyTheDove.ASF_SpecialOrder_QiPopulationControl_Objective_1": "Catch 15 Tree Spider Crabs."
+    "LucyTheDove.ASF_SpecialOrder_QiPopulationControl_Objective_1": "Catch 15 Tree Spider Crabs.",
+    "LucyTheDove.ASF_MagmaSunburst.displayname": "Magma Sunburst",
+    "LucyTheDove.ASF_MagmaSunburst.description": "A fish from the volcanic shallows that only surfaces for a few hours before nightfall. Its scales glow like hot coals.",
+    "LucyTheDove.ASF_HauntedDollfish.displayname": "Haunted Dollfish",
+    "LucyTheDove.ASF_HauntedDollfish.description": "An eerie fish that looks just like a porcelain doll. It seems to stare back at you.",
+    "LucyTheDove.ASF_WillyFishCaught_MagmaSunburst": "By Neptune's beard! A Magma Sunburst! I thought the stories about that fiery beauty were just sailor's talk.$h#$b#You've got some incredible patience to land that one, @.",
+    "LucyTheDove.ASF_WillyFishCaught_HauntedDollfish": "By the tides... that's the Haunted Dollfish! Those glass eyes look right through a man's soul.$u#$b#A chilling catch, but a fine one nonetheless.",
+    "LucyTheDove.ASF_GiftWillyMagmaSunburst": "A Magma Sunburst?! By Neptune, her scales are still warm to the touch!$h#$b#I'll treasure this, thank ye kindly, @!",
+    "LucyTheDove.ASF_GiftWillyHauntedDollfish": "A Haunted Dollfish... honestly, those porcelain eyes give me the shivers, but it's a mighty fine catch! Thank ye, @."
 }

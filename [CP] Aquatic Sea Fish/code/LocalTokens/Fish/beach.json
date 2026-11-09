@@ -107,6 +107,11 @@
                     "Id": "{{ModId}}_Santafish",
                     "ItemId": "(O){{ModId}}_Santafish",
                     "Condition": "LOCATION_Season Here Winter, WEATHER Here Snow"
+                },
+                "{{ModId}}_HauntedDollfish": {
+                    "Id": "{{ModId}}_HauntedDollfish",
+                    "ItemId": "(O){{ModId}}_HauntedDollfish",
+                    "Condition": "LOCATION_Season Here Fall"
                 }
             }
         },
@@ -179,6 +184,9 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModId}}_Santafish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_HauntedDollfish": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

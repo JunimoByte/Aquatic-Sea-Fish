@@ -979,6 +979,58 @@
                         "season_summer",
                         "color_blue"
                     ]
+                },
+                "{{ModId}}_MagmaSunburst": {
+                    "Name": "{{ModId}}_MagmaSunburst",
+                    "DisplayName": "{{i18n:{{ModId}}_MagmaSunburst.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_MagmaSunburst.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 1000,
+                    "Texture": "Mods/{{ModId}}/FishSprite",
+                    "SpriteIndex": 41,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fish_tropical",
+                        "fish_legendary",
+                        "fish_asf_magmasunburst",
+                        "fish_has_roe",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall",
+                        "season_winter",
+                        "color_red",
+                        "color_orange"
+                    ]
+                },
+                "{{ModId}}_HauntedDollfish": {
+                    "Name": "{{ModId}}_HauntedDollfish",
+                    "DisplayName": "{{i18n:{{ModId}}_HauntedDollfish.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_HauntedDollfish.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 800,
+                    "Texture": "Mods/{{ModId}}/FishSprite",
+                    "SpriteIndex": 42,
+                    "Edibility": -20,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fish_asf_haunteddollfish",
+                        "fish_has_roe",
+                        "season_fall",
+                        "time_night",
+                        "color_purple",
+                        "color_white"
+                    ]
                 }
             }
         }

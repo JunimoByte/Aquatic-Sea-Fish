@@ -2432,6 +2432,134 @@
                             "Color": "#3B8EDB"
                         }
                     ]
+                },
+                "{{ModId}}_MagmaSunburst": {
+                    "Id": "id_(O){{ModId}}_MagmaSunburst",
+                    "RequiredTags": [
+                        "id_(O){{ModId}}_MagmaSunburst"
+                    ],
+                    "SpawnTime": 5,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.70,
+                            "ItemID": "(O)812", // Roe
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.30,
+                            "ItemID": "(O)768", // Solar Essence
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.20,
+                            "ItemID": "(O)537", // Magma Geode
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.15,
+                            "ItemID": "(O)848", // Cinder Shard
+                            "MinStack": 1,
+                            "MaxStack": 3
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.05,
+                            "ItemID": "(O)852", // Dragon Tooth
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "3": [
+                            "(O)848 3" // Cinder Shard x3
+                        ],
+                        "5": [
+                            "(O)851 2" // Magma Cap x2
+                        ],
+                        "7": [
+                            "(O)768 5" // Solar Essence x5
+                        ],
+                        "9": [
+                            "(O)852 1" // Dragon Tooth x1
+                        ]
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModId}}_MagmaSunburst_WaterColor",
+                            "Color": "#E63900"
+                        }
+                    ]
+                },
+                "{{ModId}}_HauntedDollfish": {
+                    "Id": "id_(O){{ModId}}_HauntedDollfish",
+                    "RequiredTags": [
+                        "id_(O){{ModId}}_HauntedDollfish"
+                    ],
+                    "SpawnTime": 4,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.35,
+                            "ItemID": "(O)812", // Roe
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.25,
+                            "ItemID": "(O)428", // Cloth
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.25,
+                            "ItemID": "(O)814", // Squid Ink
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.15,
+                            "ItemID": "(O)769", // Void Essence
+                            "MinStack": 1,
+                            "MaxStack": 3
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.02,
+                            "ItemID": "(O)103", // Ancient Doll
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "3": [
+                            "(O)66 2" // Amethyst x2
+                        ],
+                        "5": [
+                            "(O)428 1" // Cloth x1
+                        ],
+                        "7": [
+                            "(O)769 3" // Void Essence x3
+                        ],
+                        "9": [
+                            "(O)797 1" // Pearl x1
+                        ]
+                    },
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModId}}_HauntedDollfish_WaterColor",
+                            "Color": "#8A7B9D"
+                        }
+                    ]
                 }
             }
         }
