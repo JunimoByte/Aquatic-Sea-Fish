@@ -53,7 +53,8 @@
                 "AcceptGift_(O){{ModId}}_LunarPearl": "{{i18n:{{ModId}}_GiftWillyLunarPearl}}",
                 "AcceptGift_(O){{ModId}}_RubberDuck": "{{i18n:{{ModId}}_GiftWillyRubberDuck}}",
                 "AcceptGift_(O){{ModId}}_MagmaSunburst": "{{i18n:{{ModId}}_GiftWillyMagmaSunburst}}",
-                "AcceptGift_(O){{ModId}}_HauntedDollfish": "{{i18n:{{ModId}}_GiftWillyHauntedDollfish}}"
+                "AcceptGift_(O){{ModId}}_HauntedDollfish": "{{i18n:{{ModId}}_GiftWillyHauntedDollfish}}",
+                "AcceptGift_(O){{ModId}}_Beardfish": "{{i18n:{{ModId}}_GiftWillyBeardfish}}"
             }
         },
         {
@@ -174,7 +175,7 @@
                         "Willy",
                         1
                     ],
-                    "Value": "{{ModId}}_BlueDolphin {{ModId}}_LemonShark {{ModId}}_Santafish {{ModId}}_WhaleShark {{ModId}}_Pufferjelly {{ModId}}_JackOFish {{ModId}}_Marlin {{ModId}}_MahiMahi {{ModId}}_HammerheadShark {{ModId}}_PiratesDoubloon {{ModId}}_HumpheadWrasse {{ModId}}_RubberDuck {{ModId}}_MagmaSunburst {{ModId}}_HauntedDollfish",
+                    "Value": "{{ModId}}_BlueDolphin {{ModId}}_LemonShark {{ModId}}_Santafish {{ModId}}_WhaleShark {{ModId}}_Pufferjelly {{ModId}}_JackOFish {{ModId}}_Marlin {{ModId}}_MahiMahi {{ModId}}_HammerheadShark {{ModId}}_PiratesDoubloon {{ModId}}_HumpheadWrasse {{ModId}}_RubberDuck {{ModId}}_MagmaSunburst {{ModId}}_Beardfish",
                     "Delimiter": " "
                 },
                 {
@@ -194,7 +195,7 @@
                         "Willy",
                         5
                     ],
-                    "Value": "{{ModId}}_PacificJellyfish {{ModId}}_PinkJellyfish {{ModId}}_BlueJellyfish {{ModId}}_FlameJellyfish {{ModId}}_Broombell {{ModId}}_SeaTurtle {{ModId}}_Yellowtail {{ModId}}_TreeSpiderCrab {{ModId}}_AppleSnail {{ModId}}_Ghoulgill {{ModId}}_GardenSnail {{ModId}}_HermitCrab {{ModId}}_PinkHermitCrab {{ModId}}_OrangeStarfish {{ModId}}_Scallop",
+                    "Value": "{{ModId}}_HauntedDollfish {{ModId}}_PacificJellyfish {{ModId}}_PinkJellyfish {{ModId}}_BlueJellyfish {{ModId}}_FlameJellyfish {{ModId}}_Broombell {{ModId}}_SeaTurtle {{ModId}}_Yellowtail {{ModId}}_TreeSpiderCrab {{ModId}}_AppleSnail {{ModId}}_Ghoulgill {{ModId}}_GardenSnail {{ModId}}_HermitCrab {{ModId}}_PinkHermitCrab {{ModId}}_OrangeStarfish {{ModId}}_Scallop",
                     "Delimiter": " "
                 },
                 {

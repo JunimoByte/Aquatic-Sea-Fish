@@ -91,7 +91,9 @@
                 "{{ModId}}_MagmaSunburst": {
                     "Id": "{{ModId}}_MagmaSunburst",
                     "ItemId": "(O){{ModId}}_MagmaSunburst",
-                    "Condition": "LOCATION_NAME Here IslandSouth, WEATHER Here Sun"
+                    "Condition": "LOCATION_Season Here Summer",
+                    "CatchLimit": 1,
+                    "IsBossFish": true
                 }
             }
         },

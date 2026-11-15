@@ -986,7 +986,7 @@
                     "Description": "{{i18n:{{ModId}}_MagmaSunburst.description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 1000,
+                    "Price": 950,
                     "Texture": "Mods/{{ModId}}/FishSprite",
                     "SpriteIndex": 41,
                     "Edibility": 30,
@@ -1004,7 +1004,6 @@
                         "season_summer",
                         "season_fall",
                         "season_winter",
-                        "color_red",
                         "color_orange"
                     ]
                 },
@@ -1028,8 +1027,30 @@
                         "fish_has_roe",
                         "season_fall",
                         "time_night",
-                        "color_purple",
-                        "color_white"
+                        "color_purple"
+                    ]
+                },
+                "{{ModId}}_Beardfish": {
+                    "Name": "{{ModId}}_Beardfish",
+                    "DisplayName": "{{i18n:{{ModId}}_Beardfish.displayname}}",
+                    "Description": "{{i18n:{{ModId}}_Beardfish.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 950,
+                    "Texture": "Mods/{{ModId}}/FishSprite",
+                    "SpriteIndex": 43,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fish_asf_beardfish",
+                        "fish_legendary",
+                        "fish_has_roe",
+                        "season_summer",
+                        "color_orange"
                     ]
                 }
             }

@@ -43,5 +43,6 @@ Whale Shark – Summer, 10 AM – 5 PM, sunny, found at Ginger Island, fishing l
 Santafish – Winter, 4 PM – 12 AM, only when snowing, found at Beach, fishing level 7+
 Lemon Shark – Summer, 5 PM – 12 AM, sunny, found at Ginger Island, fishing level 6+
 Blue Dolphin – Summer, 6 AM – 12 PM, any weather, found at Ginger Island, fishing level 7+
-Magma Sunburst – All Seasons, 6 PM – 8 PM, sunny, found at Ginger Island South (Legendary), fishing level 10
+Magma Sunburst – All Seasons, 6 PM – 8 PM, sunny, found at Ginger Island (Legendary), fishing level 10
 Haunted Dollfish – Fall, 10 PM – 2 AM, any weather, found at Beach, fishing level 7+
+Beardfish – Summer, 6 AM – 10 AM, sunny, found at Beach (Legendary), fishing level 5+

@@ -112,6 +112,13 @@
                     "Id": "{{ModId}}_HauntedDollfish",
                     "ItemId": "(O){{ModId}}_HauntedDollfish",
                     "Condition": "LOCATION_Season Here Fall"
+                },
+                "{{ModId}}_Beardfish": {
+                    "Id": "{{ModId}}_Beardfish",
+                    "ItemId": "(O){{ModId}}_Beardfish",
+                    "Condition": "LOCATION_Season Here Summer",
+                    "CatchLimit": 1,
+                    "IsBossFish": true
                 }
             }
         },
@@ -187,6 +194,9 @@
                     "FishAreaId": "{{AreaId}}"
                 },
                 "{{ModId}}_HauntedDollfish": {
+                    "FishAreaId": "{{AreaId}}"
+                },
+                "{{ModId}}_Beardfish": {
                     "FishAreaId": "{{AreaId}}"
                 }
             }

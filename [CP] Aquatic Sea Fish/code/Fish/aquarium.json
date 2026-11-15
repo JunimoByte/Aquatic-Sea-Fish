@@ -49,8 +49,9 @@
                 "{{ModId}}_Santafish": "45/fish/////Mods\\{{ModId}}\\AquariumSprite",
                 "{{ModId}}_LemonShark": "46/fish/////Mods\\{{ModId}}\\AquariumSprite",
                 "{{ModId}}_BlueDolphin": "47/fish/////Mods\\{{ModId}}\\AquariumSprite",
-                "{{ModId}}_MagmaSunburst": "108/fish/////Mods\\{{ModId}}\\AquariumSprite",
-                "{{ModId}}_HauntedDollfish": "109/fish/////Mods\\{{ModId}}\\AquariumSprite"
+                "{{ModId}}_MagmaSunburst": "48/fish/////Mods\\{{ModId}}\\AquariumSprite",
+                "{{ModId}}_HauntedDollfish": "49/fish/////Mods\\{{ModId}}\\AquariumSprite",
+                "{{ModId}}_Beardfish": "50/fish/////Mods\\{{ModId}}\\AquariumSprite"
             }
         }
     ]

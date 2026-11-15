@@ -25,7 +25,8 @@
                 "fishCaught_{{ModId}}_WhaleShark": "{{i18n:{{ModId}}_WillyFishCaught_WhaleShark}}",
                 "fishCaught_{{ModId}}_LemonShark": "{{i18n:{{ModId}}_WillyFishCaught_LemonShark}}",
                 "fishCaught_{{ModId}}_MagmaSunburst": "{{i18n:{{ModId}}_WillyFishCaught_MagmaSunburst}}",
-                "fishCaught_{{ModId}}_HauntedDollfish": "{{i18n:{{ModId}}_WillyFishCaught_HauntedDollfish}}"
+                "fishCaught_{{ModId}}_HauntedDollfish": "{{i18n:{{ModId}}_WillyFishCaught_HauntedDollfish}}",
+                "fishCaught_{{ModId}}_Beardfish": "{{i18n:{{ModId}}_WillyFishCaught_Beardfish}}"
             }
         }
     ]

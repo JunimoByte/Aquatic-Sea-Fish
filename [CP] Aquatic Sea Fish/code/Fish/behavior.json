@@ -46,7 +46,8 @@
                 "{{ModId}}_LemonShark": "{{ModId}}_LemonShark/90/mixed/65/90/1700 2400/summer/both/685 .35/5/.08/2/6/false",
                 "{{ModId}}_BlueDolphin": "{{ModId}}_BlueDolphin/90/dart/59/127/600 1200/summer/both/685 .35/3/.08/2/7/false",
                 "{{ModId}}_MagmaSunburst": "{{ModId}}_MagmaSunburst/93/dart/24/48/1800 2000/spring summer fall winter/sunny/685 .35/5/.08/.15/10/false",
-                "{{ModId}}_HauntedDollfish": "{{ModId}}_HauntedDollfish/87/mixed/8/16/2200 2600/fall/both/685 .355/5/.08/.25/7/false"
+                "{{ModId}}_HauntedDollfish": "{{ModId}}_HauntedDollfish/87/mixed/8/16/2200 2600/fall/both/685 .355/5/.08/.25/7/false",
+                "{{ModId}}_Beardfish": "{{ModId}}_Beardfish/93/dart/13/21/600 1000/summer/sunny/685 .35/5/.05/.15/5/false"
             }
         }
     ]

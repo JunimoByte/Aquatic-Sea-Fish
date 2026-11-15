@@ -24,6 +24,8 @@
   - Rubber Duck, Golden Rubber Duck (edit by duck_base)
 - **zaphhy**
   - Pufferjelly
+- **JennaJuffuffles**
+  - Beardfish
 
 ---
 

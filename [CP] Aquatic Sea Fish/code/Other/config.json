@@ -49,7 +49,8 @@
                 "{{ModId}}_LemonShark": "{{ModId}}_LemonShark/70/mixed/65/90/1700 2400/summer/sunny/685 .35/5/.08/2/6/false",
                 "{{ModId}}_BlueDolphin": "{{ModId}}_BlueDolphin/72/dart/59/127/600 1200/summer/both/685 .35/3/.08/2/7/false",
                 "{{ModId}}_MagmaSunburst": "{{ModId}}_MagmaSunburst/70/dart/24/48/1800 2000/spring summer fall winter/sunny/685 .35/5/.08/.15/10/false",
-                "{{ModId}}_HauntedDollfish": "{{ModId}}_HauntedDollfish/65/mixed/8/16/2200 2600/fall/both/685 .355/5/.08/.25/7/false"
+                "{{ModId}}_HauntedDollfish": "{{ModId}}_HauntedDollfish/65/mixed/8/16/2200 2600/fall/both/685 .355/5/.08/.25/7/false",
+                "{{ModId}}_Beardfish": "{{ModId}}_Beardfish/70/dart/13/21/600 1000/summer/sunny/685 .35/5/.05/.15/5/false"
             }
         },
         {
@@ -101,7 +102,8 @@
                 "{{ModId}}_LemonShark": "{{ModId}}_LemonShark/95/mixed/65/90/1700 2400/summer/both/685 .35/5/.08/2/6/false",
                 "{{ModId}}_BlueDolphin": "{{ModId}}_BlueDolphin/95/dart/59/127/600 1200/summer/both/685 .35/3/.08/2/7/false",
                 "{{ModId}}_MagmaSunburst": "{{ModId}}_MagmaSunburst/98/dart/24/48/1800 2000/spring summer fall winter/sunny/685 .35/5/.08/.15/10/false",
-                "{{ModId}}_HauntedDollfish": "{{ModId}}_HauntedDollfish/92/mixed/8/16/2200 2600/fall/both/685 .355/5/.08/.25/7/false"
+                "{{ModId}}_HauntedDollfish": "{{ModId}}_HauntedDollfish/92/mixed/8/16/2200 2600/fall/both/685 .355/5/.08/.25/7/false",
+                "{{ModId}}_Beardfish": "{{ModId}}_Beardfish/98/dart/13/21/600 1000/summer/sunny/685 .35/5/.05/.15/5/false"
             }
         },
         {
@@ -133,6 +135,9 @@
                     "Edibility": -300
                 },
                 "{{ModId}}_MagmaSunburst": {
+                    "Edibility": -300
+                },
+                "{{ModId}}_Beardfish": {
                     "Edibility": -300
                 }
             }
@@ -229,6 +234,9 @@
                     "Edibility": -300
                 },
                 "{{ModId}}_HauntedDollfish": {
+                    "Edibility": -300
+                },
+                "{{ModId}}_Beardfish": {
                     "Edibility": -300
                 }
             }
@@ -445,6 +453,10 @@
                     "ExcludeFromShippingCollection": true
                 },
                 "{{ModId}}_HauntedDollfish": {
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_Beardfish": {
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": true
                 }

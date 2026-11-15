@@ -2560,6 +2560,36 @@
                             "Color": "#8A7B9D"
                         }
                     ]
+                },
+                "{{ModId}}_Beardfish": {
+                    "Id": "id_(O){{ModId}}_Beardfish",
+                    "RequiredTags": [
+                        "id_(O){{ModId}}_Beardfish"
+                    ],
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.80,
+                            "ItemID": "(O)812", // Roe
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.15,
+                            "ItemID": "(O)336", // Gold Bar
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "PopulationGates": {},
+                    "WaterColor": [
+                        {
+                            "Id": "{{ModId}}_Beardfish_WaterColor",
+                            "Color": "#E68A26"
+                        }
+                    ]
                 }
             }
         }
