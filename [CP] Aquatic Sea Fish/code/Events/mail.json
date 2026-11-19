@@ -131,7 +131,8 @@
                 "{{ModId}}_WillyPirateCoveWinterLetter": "{{i18n:{{ModId}}_WillyPirateCoveWinterLetter}}",
                 "{{ModId}}_RubberDuckWitness1": "{{i18n:{{ModId}}_RubberDuckWitness1}}",
                 "{{ModId}}_RubberDuckWitness2": "{{i18n:{{ModId}}_RubberDuckWitness2}}",
-                "{{ModId}}_GoldenDuckReward": "{{i18n:{{ModId}}_GoldenDuckReward}}"
+                "{{ModId}}_GoldenDuckReward": "{{i18n:{{ModId}}_GoldenDuckReward}}",
+                "{{ModId}}_GusSeafoodDishLetter": "{{i18n:{{ModId}}_GusSeafoodDishLetter}}"
             }
         }
     ]

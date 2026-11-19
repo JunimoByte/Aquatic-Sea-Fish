@@ -543,7 +543,7 @@
                 "{{ModId}}_WillyMarlinCatchLetter_Trigger": {
                     "Id": "{{ModId}}_WillyMarlinCatchLetter_Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Marlin, RANDOM 0.1, !PLAYER_HAS_MAIL Current {{ModId}}_WillyMarlinCatchLetter",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Marlin, !PLAYER_HAS_MAIL Current {{ModId}}_WillyMarlinCatchLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyMarlinCatchLetter now"
                     ]
@@ -607,7 +607,7 @@
                 "{{ModId}}_WillyLegendaryAnglerLetter_Trigger": {
                     "Id": "{{ModId}}_WillyLegendaryAnglerLetter_Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_HAS_CAUGHT_FISH Current (O)159, PLAYER_HAS_CAUGHT_FISH Current (O)160, PLAYER_HAS_CAUGHT_FISH Current (O)161, PLAYER_HAS_CAUGHT_FISH Current (O)162, PLAYER_HAS_CAUGHT_FISH Current (O)163, !PLAYER_HAS_MAIL Current {{ModId}}_WillyLegendaryAnglerLetter",
+                    "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_HAS_CAUGHT_FISH Current (O)159, PLAYER_HAS_CAUGHT_FISH Current (O)160, PLAYER_HAS_CAUGHT_FISH Current (O)161, PLAYER_HAS_CAUGHT_FISH Current (O)775, PLAYER_HAS_CAUGHT_FISH Current (O)163, !PLAYER_HAS_MAIL Current {{ModId}}_WillyLegendaryAnglerLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyLegendaryAnglerLetter now"
                     ]
@@ -867,6 +867,14 @@
                     "Condition": "YEAR 3, PLAYER_BASE_FISHING_LEVEL Current 10, PLAYER_HEARTS Current Willy 8, PLAYER_VISITED_LOCATION Current IslandNorth, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_MahiMahi, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Pufferjelly, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_WhaleShark, RANDOM 0.05, !PLAYER_HAS_MAIL Current {{ModId}}_WillyGingerIslandRuinsLetter",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyGingerIslandRuinsLetter now"
+                    ]
+                },
+                "{{ModId}}_GusSeafoodDishLetter_Trigger": {
+                    "Id": "{{ModId}}_GusSeafoodDishLetter_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_PinkHermitCrab, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_GardenSnail, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_BrownEel, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_AlaskanKingSalmon, !PLAYER_HAS_MAIL Current {{ModId}}_GusSeafoodDishLetter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusSeafoodDishLetter now"
                     ]
                 }
             }

@@ -73,6 +73,124 @@
                     "Condition": "LOCATION_NAME Here BeachNightMarket, RANDOM 0.02"
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "FishShop",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_FishShop_CuriosityLure": {
+                    "Id": "{{ModId}}_FishShop_CuriosityLure",
+                    "ItemId": "(O)856",
+                    "Price": 5000,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_WillyMarlinCatchLetter, WEATHER Here GreenRain Storm Rain, RANDOM 0.35"
+                },
+                "{{ModId}}_FishShop_QualityBobber": {
+                    "Id": "{{ModId}}_FishShop_QualityBobber",
+                    "ItemId": "(O)877",
+                    "Price": 3500,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_WillyMahiMahiCatchLetter, WEATHER Here GreenRain Storm Rain, RANDOM 0.35"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Saloon",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Saloon_DishOTheSea": {
+                    "Id": "{{ModId}}_Saloon_DishOTheSea",
+                    "ItemId": "(O)242",
+                    "Price": 450,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_GusSeafoodDishLetter, DAY_OF_WEEK Friday Saturday, RANDOM 0.5"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_NightMarket_MagicBoat_Day1",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_NightMarket_SeafoamPudding_Day1": {
+                    "Id": "{{ModId}}_NightMarket_SeafoamPudding_Day1",
+                    "ItemId": "(O)265",
+                    "Price": 7500,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Spooktopus"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_NightMarket_MagicBoat_Day2",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_NightMarket_SeafoamPudding_Day2": {
+                    "Id": "{{ModId}}_NightMarket_SeafoamPudding_Day2",
+                    "ItemId": "(O)265",
+                    "Price": 7500,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Spooktopus"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_NightMarket_MagicBoat_Day3",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_NightMarket_SeafoamPudding_Day3": {
+                    "Id": "{{ModId}}_NightMarket_SeafoamPudding_Day3",
+                    "ItemId": "(O)265",
+                    "Price": 7500,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_Spooktopus"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "IslandTrade",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_IslandTrade_HumpheadWrasse": {
+                    "Id": "{{ModId}}_IslandTrade_HumpheadWrasse",
+                    "ItemId": "(O){{ModId}}_HumpheadWrasse",
+                    "Price": 0,
+                    "TradeItemId": "(O)848",
+                    "TradeItemAmount": 5,
+                    "MaxStack": 1,
+                    "IsLimitedToStock": true,
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}_HumpheadWrasse"
+                }
+            }
         }
     ]
 }

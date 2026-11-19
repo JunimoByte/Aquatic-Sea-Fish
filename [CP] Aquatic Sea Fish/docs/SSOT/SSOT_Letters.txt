@@ -6,7 +6,7 @@ Willy's Fall Fishing Letter – first day of Fall
 Willy's Winter Fishing Letter – first day of Winter
 Willy's Spring Rain Letter – Spring, first Green Rain, storm, or rainy day
 Willy's Night Market Tips Letter – Winter 15, Year 1
-Santa's Christmas Letter – Winter 25, Year 3
+Santa's Christmas Letter – Winter 24, Year 3
 Willy's Flower Dance Letter – Spring 22, Year 3
 Leprechaun's Crumpled Letter – Spring 17, Year 2
 Evelyn's Christmas Letter – Winter 25, Year 2, fishing level 10+, after visiting Ginger Island
@@ -29,11 +29,16 @@ Willy's Year 80 Letter – Winter 26
 Willy's Year 90 Letter – Winter 26
 Willy's Year 100 Letter – Winter 26
 
-Marlin Catch Letter – after catching Marlin, 10% chance
-Mahi Mahi Catch Letter – after catching Mahi Mahi
+Marlin Catch Letter – after catching Marlin (unlocks 35% chance for 1x Curiosity Lure at Willy's shop on rainy days)
+Mahi Mahi Catch Letter – after catching Mahi Mahi (unlocks 35% chance for 1x Quality Bobber at Willy's shop on rainy days)
 Hammerhead Shark Catch Letter – after catching Hammerhead Shark
 Spooktopus Catch Letter – after catching Spooktopus
 Pirate Captain's Letter – after catching Pirate's Doubloon, 10% chance
+Gus's Seafood Special Letter – after catching Pink Hermit Crab, Garden Snail, Brown Eel, and Alaskan King Salmon (unlocks 50% chance for 1x Dish o' The Sea at Saloon on Fri/Sat)
+
+Rubber Duck Witness Letter 1 – after having 3 Rubber Ducks in inventory
+Rubber Duck Witness Letter 2 – after having 10 Rubber Ducks in inventory, and receiving Rubber Duck Witness Letter 1
+Golden Rubber Duck Letter – after receiving Rubber Duck Witness Letter 2, 20% chance
 
 Ginger Island Fishing Letter – after visiting Island South, fishing level 10+, and catching Sea Turtle
 
@@ -50,7 +55,7 @@ Good Tide Letter – Year 3+, fishing level 10+, 10+ hearts with Willy, 1% chanc
 Night Market Depths Letter – Year 3+, fishing level 10+, 8+ hearts with Willy, after catching Midnight Squid, Spook Fish, and Blobfish, 5% chance
 Ginger Island Ruins Letter – Year 3+, fishing level 10+, 8+ hearts with Willy, after visiting Island North and catching Mahi Mahi, Pufferjelly, and Whale Shark, 5% chance
 Pirate Cove Letter – Year 3+, fishing level 10+, 8+ hearts with Willy, after visiting Pirate Cove and catching Stingray, Hookfin, and Pirate's Doubloon, 5% chance
-Pirate Cove Winter Letter – Winter, Year 3+, fishing level 10+, 8+ hearts with Willy, after receiving Pirate Cove Letter, 5% chance
+Pirate Cove Winter Letter – Winter, Year 3+, fishing level 10+, 8+ hearts with Willy, after visiting Pirate Cove and receiving Pirate Cove Letter, 5% chance
 
 Dish o' The Sea Gift Letter – Fall 8, Year 1
 Barbed Hook Gift Letter – Fall 6, Year 2
